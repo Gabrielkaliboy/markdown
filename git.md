@@ -43,8 +43,11 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
 Gabri@DESKTOP-6RMRO2P MINGW64 /e/markdown (master)
 ```
 
-git本地仓库同步到github远程仓库
+
+
+设置SSH将git本地仓库同步到github远程仓库
 ---
+这部分详细图文内容请到这里：http://www.cnblogs.com/Gabriel-Wei/p/6564060.html
 1. 新建一个文件夹，打开git bash 切入这个文件夹（可以命令行操作，也可以直接进入这个文件夹然后git bash）,以命令行操作为例
 ```
 $ cd e
@@ -112,4 +115,27 @@ Enter file in which to save the key (/c/Users/Gabri/.ssh/id_rsa):
 /c/Users/Gabri/.ssh/id_rsa already exists.
 Overwrite (y/n)? y
 ```
-5. 
+5. 登录GitHub，将我们生成的秘钥链接到GitHub
+找到秘钥存放的地址
+```
+我得路径是这个
+C:\Users\Administrator\.ssh
+```
+里面有两个文件，一个id_rsa,一个id_rsa.pub,后面这个就是我们连接GitHub的ssh,用记事本打开复制粘贴就行。
+
+6. 测试一下是否可以链接到GitHub
+
+```
+输入
+$ ssh git@github.com
+
+正常情况下面会这么回复
+The authenticity of host 'github.com (192.30.253.113)' can't be established.
+RSA key fingerprint is SHA256:nThbg6kXUpJWGl7E1IGdafdpRomTxdCARLviKw6E5SY8.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added 'github.com,192.30.253.113' (RSA) to the list of known hosts.
+PTY allocation request failed on channel 0
+Hi Gabrielkaliboy! You've successfully authenticated, but GitHub does not provide shell access.
+Connection to github.com closed.
+```
+自此，我们成功新建了一个SSH，并且链接到了GitHub。
