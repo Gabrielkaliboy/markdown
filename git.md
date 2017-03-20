@@ -140,8 +140,74 @@ Connection to github.com closed.
 ```
 自此，我们成功新建了一个SSH，并且链接到了GitHub。
 
-在本地新建一个文件，并将其提交到远程
+在本地修改一个文件，并将其提交到远程
 ---
+1.查看一下状态
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   git.md
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+```
+2.提交到暂存区
+```
+$ git add .
+```
+3.查看一下状态
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   git.md
+```
+4.提交
+```
+$ git commit -m"更新git"
+[master bc60de2] 更新git
+ 1 file changed, 55 insertions(+)
+
+```
+
+5.查看一下状态
+```
+$ git status
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+nothing to commit, working tree clean
+
+```
+6.推送到远程
+```
+$ git push origin master
+Counting objects: 3, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.23 KiB | 0 bytes/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To github.com:Gabrielkaliboy/markdown.git
+   e20ca49..bc60de2  master -> master
+
+```
+7.查看一下状态
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+
+```
 
 更新远程代码到本地
 ---
