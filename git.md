@@ -142,3 +142,58 @@ Connection to github.com closed.
 
 在本地新建一个文件，并将其提交到远程
 ---
+
+更新远程代码到本地
+---
+1.查看远程仓库
+```
+$ git remote -v
+origin  git@github.com:Gabrielkaliboy/markdown.git (fetch)
+origin  git@github.com:Gabrielkaliboy/markdown.git (push)
+从上面可以看出，我的远程仓库只有一个 origin
+```
+2.从远程获取最新版本到本地
+```
+$ git fetch origin master
+remote: Counting objects: 13, done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 13 (delta 4), reused 13 (delta 4), pack-reused 0
+Unpacking objects: 100% (13/13), done.
+From github.com:Gabrielkaliboy/markdown
+ * branch            master     -> FETCH_HEAD
+   b6f84da..e20ca49  master     -> origin/master
+```
+$ git fetch origin master 这句的意思是：从远程的origin仓库的master分支下载代码到本地的origin master
+
+3.比较本地的仓库和远程参考的区别
+```
+$ git log -p master.. origin/master
+```
+如果没有图像操作工具，只用git，会返回一大摞修改过的东西
+
+4.把远程下载下来的代码合并到本地仓库，远程的和本地的合并
+```
+$ git merge origin/master
+Updating b6f84da..e20ca49
+Fast-forward
+ images/webDaily/hr1.png                            | Bin 0 -> 467 bytes
+ images/webDaily/hr2.png                            | Bin 0 -> 893 bytes
+ images/webDaily/hr3.png                            | Bin 0 -> 260 bytes
+ jquery.md                                          |   2 ++
+ ...227\245\345\270\270\350\256\260\345\275\225.md" |  37 ++++++++++++++++++++-
+ ...275\221\345\235\200\345\257\274\350\210\252.md" |   3 ++
+ 6 files changed, 41 insertions(+), 1 deletion(-)
+ create mode 100644 images/webDaily/hr1.png
+ create mode 100644 images/webDaily/hr2.png
+ create mode 100644 images/webDaily/hr3.png
+ create mode 100644 jquery.md
+ create mode 100644 "\347\275\221\345\235\200\345\257\274\350\210\252.md"
+```
+
+5.再次查看一下状态
+```
+$ git status
+On branch master
+Your branch is up-to-date with 'origin/master'.
+nothing to commit, working tree clean
+```
