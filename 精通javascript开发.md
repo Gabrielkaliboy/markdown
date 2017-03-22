@@ -393,3 +393,159 @@ apartment.unlock();
 **要实现链式调用，只需要“类”中的每个方法最后通过this关键字返回对象实例的引用即可**
 
 代码1-12通过this关键字实现方法的链式调用
+```
+	function Accommodation(){};
+	Accommodation.prototype.isLocked = false;
+	Accommodation.prototype.lock=function(){
+		this.isLocked = true;
+		alert("调用了lock");
+		
+		//通过返回上下文，我们实际上返回了调用这个函数的那个实例对象，因为这个对象包含了所有方法
+		//所以我们可以在本方法调用结束后马上调用其他方法
+		return this;
+	};
+	
+	Accommodation.prototype.unlock=function(){
+		this.isLocked = false;
+		alert("调用了unlock");
+		return this;
+	};
+	
+	Accommodation.prototype.alarm = function(){
+		alert("sounding alerm");
+		return this;
+	};
+	
+	//创建一个对象实例
+	var house = new Accommodation();
+	//因为每个方法都返回其执行的上下文（在本例中就是包含这些方法的对象实例），
+	//我们得以将这些方法调用一个接一个的连接在一起。
+	house.lock().alarm().unlock();
+```
+
+1.1.2.6继承
+创建一些新的类，来继承或者扩展某个父类的属性和方法。JavaScript是原型继承，通过原型链实现
+
+代码1-13:**通过原型继承创建一个子类**
+```
+		//定义一个有两个方法的类
+		function Accommodation(){};
+		
+		Accommodation.prototype.lock=function(){
+			alert("调用了lock方法");
+		};
+		Accommodation.prototype.unlock=function(){
+			alert("调用了unlock方法");
+		};
+		
+		//定义一个构造函数，将他成为我们子类
+		function House(defaults){
+			defaults = defaults ||{};
+			
+			//将本类所有市里的floors属性初始化为“2”
+			this.floors=2;
+			
+			//如果构造函数的对象直接量参数包含rooms属性，则使用传进来的值，否则默认设置为7
+			this.rooms = defaults.rooms || 7;
+		};
+		
+		//将House类的原型设为Accommodation类的一个实例
+		//使用关键字new来调用Accommodation的构造函数，这样就能创建并返回一个包含其所有属性和方法的对象
+		//这个对象被传递给House“类”的原型，这样House“类”就得以继承Accommodation的所有内容
+		//还记得这句话否：构造函数有一个属性叫做prototype，这个属性指向一个对象，所有通过new关键字创建出来的新实例
+		//里面的方法和属性都指向prototype指向的那个对象
+		House.prototype = new Accommodation();
+		
+		//对象实例的constructor属性指向创建该对象的那个构造函数。然而，由于House继承了Accommodation的所有内容，
+		//constructor的值也被复制了，所以我们现在需要重设constructor的值，使其指向新的子类
+		//如果没有这一步，通过House“类”创建的对象就会报告说他们是通过Accommodation“类”创建的
+		House.prototype.constructor = House;
+		
+		//创建House的一个实例，继承Accommodation的属性和方法
+		var myHouse=new House();
+		
+		//传入rooms的值从而在对象实例化时对rooms进行赋值
+		var myNeighborsHouse = new House({
+			rooms:8
+		});
+		
+		alert(myHouse.rooms); //7,House构造函数中的默认值
+		alert(myNeighborsHouse.rooms);//8
+		
+		//Accommodation的方法对House对象也可用
+		myHouse.lock();
+		myNeighborsHouse.unlock();
+		
+		
+		//由于我们之前修改了constructor的值，所以由House创建的对象能如实的报告这一点
+		alert(myHouse.constructor === House);//true
+		alert(myHouse.constructor === Accommodation); //false，因为我们把constructor指向了House
+		
+		//instanceof关键字会沿着原型链进行查询，所以可以用于检测一个对象实例是不是某个父类的子类
+		alert(myNeighborsHouse instanceof House);//true
+		alert(myNeighborsHouse instanceof Accommodation);//true 因为House继承自Accommodation
+```
+
+**JavaScript中原型链可以一直向上追溯到内奸的Object类型，因为JavaScript中的所有变量最终都是继承自该类型，接着上面的代码**
+```
+alert(myHouse instanceof House);//true
+alert(myHouse instanceof Accommodation);//true,因为House继承自Accommodation
+alert(myHouse instanceof Object);//true,因为所有对象都继承自JavaScript内置类型Object
+```
+1.1.2.6封装
+定义：当通过继承对已有的类进行改变或者特殊化时，父类的所有的属性和方法对子类嗾使可用的，在子类中不需要额外声明或者定义任何东西就能够使用父类的属性和方法。
+
+1.1.2.6多态
+在构造一个新的子类来继承并扩展一个“类”的时候，你可能需要将某个方法替换为一个同名的新方法，新方法和原有功能相似，但对子类做了针对性的改变。这就是多态。
+
+JavaScript多态实现：重写一个函数并给他一个和原方法相同的方法名即可。
+
+代码1-14多态
+```
+	//定义父类Accommodation
+	function Accommodation(){
+		this.isLocked=false;
+		this.isAlarmed=false;
+	};
+	
+	//为所有的Accommodation添加方法，执行一些常见动作
+	Accommodation.prototype.lock=function(){
+		this.isLocked=true;
+	};
+	Accommodation.prototype.unlock=function(){
+		this.isLocked=false;
+	};
+	Accommodation.prototype.alarm=function(){
+		this.isAlarmed = true;
+		alert("Alarm activated");
+	};
+	Accommodation.prototype.deactivateAlarm=function(){
+		this.isAlarmed = false;
+		alert("Alarm deactivated");
+	};
+	
+	//为House定义一个子类
+	function House(){
+		
+	};
+	//继承自Accommodation
+	House.prototype=new Accommodation();
+	
+	//针对House“类”重定义lock方法，即多态
+	House.prototype.lock=function(){
+		//执行父类Accommodation的lock方法。可以通过“类”的原型直接访问这个方法。我们通过函数的call
+		//方法将上下文传递给该方法，从而确保在lock方法中任何对this的引用都指向当前这个House的对象实例
+		Accommodation.prototype.lock.call(this);
+		
+		alert(this.isLocked);//true,说明上卖弄对lock方法的调用时正确的
+		
+		//调用继承自Accommodation的alarm方法
+		this.alarm();
+	};
+	House.prototype.lock();
+	//以同样的方式重新定义unlock的方法
+	House.prototype.unlock=function(){
+		Accommodation.prototype.unlock.call(this);
+		this.deactivateAlarm();
+	};
+```
