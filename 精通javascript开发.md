@@ -173,7 +173,7 @@ apartment.unlock();
 
 **根据作用域原则，在所有嵌套函数中都可以访问定义在其父函数中变量。**
 
-代码1-5变量作用域
+代码1-5变量作用域    *不是很懂*
 ```
 			//定义在任何函数之外的变量在全局作用域内可以再任何位置访问到
 			var myLibrary={
@@ -207,4 +207,30 @@ apartment.unlock();
 			alert(inner2);
 			//在一个函数外部访问其内部定义的变量将导致错误
 			alert(innerVariable);//error
+```
+1.1.2.4上下文和this关键字
+- this关键字代表的是一个函数的上下文环境，这个上下文环境大多数情况下指向的是函数运行时封装这个函数的那个对象。**当不通过任何对象单独的调用一个函数的时候，上下文环境指的就是全聚德window对象。**
+
+代码1-6使用this关键字和点标记法
+```
+	//所有函数之外，this表示的是全局的window对象
+	alert(this === window);//true
+	
+	//因为doSomething函数在外部被调用，this指向的是浏览器的window对象
+	function doSomething(){
+		alert(this===window);//true
+	};
+	doSomething();
+	var house={
+		floors:2,
+		isLocked:false,
+		lock:function(){
+			alert(this===house);//true，因为this
+			
+			//我们可以把this当做house的替身，可以使用点标记法
+			this.isLocked=true;
+		},
+	};
+	house.lock();
+	alert(house.isLocked);//true
 ```
