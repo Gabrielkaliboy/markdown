@@ -546,6 +546,6 @@ JavaScript多态实现：重写一个函数并给他一个和原方法相同的�
 	//以同样的方式重新定义unlock的方法
 	House.prototype.unlock=function(){
 		Accommodation.prototype.unlock.call(this);
-		this.deactivateAlarm();
+		this.deactivateAlarm();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 	};
 ```
