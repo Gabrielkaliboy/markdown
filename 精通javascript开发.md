@@ -549,3 +549,36 @@ JavaScript多态实现：重写一个函数并给他一个和原方法相同的�
 		this.deactivateAlarm();                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
 	};
 ```
+如何在重写的新方法里面访问正在进行的多态化的原方法：只需要通过“父类”定义中的prototype属性直接访问这个方法就行。
+
+- call和apply：改变我们的this指向
+**二者的区别：**
+call和apply的区别在于，使用apply时，所有的参数都应该放在单独的数组参数中，而使用call的时候，参数应该依次列出并用逗号隔开
+```
+			//定义一个简单的类
+			function Accommodation(){
+				this.isAlarmed= false;
+			};
+			
+			//创建一个对象，其方法可以被代码中的其他对象所使用，该对象被称为“mixin”（混入）
+			var AlarmSystem={
+				arm:function(message){
+					this.isAlarmed= true;
+					alert(message);
+				},
+				disarm:function(message){
+					this.isAlarmed = false;
+					alert(message);
+				}
+			};
+			var myHouse = new Accommodation();
+			//通过call将对象上下文函数传入arm函数
+			AlarmSystem.arm.call(myHouse,"Alarm Activate");
+			
+			//arm函数中this的值指向通过call传入的对象实例，所以myHouse对象的isAlarmed属性被修改了
+			alert(myHouse.isAlarmed); //true
+			
+			//通过apply也能达到同样的效果，只不过参数是通过数组来进行传递的
+			AlarmSystem.disarm.apply(myHouse,["Alarm dectivated"]);
+			alert(myHouse.isAlarmed);//false
+```
