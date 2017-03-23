@@ -1,0 +1,99 @@
+1.左侧menu菜单对应的文件名称
+	   产品概述：productOverview             
+	   设备台账管理：deviceManagement
+	       二级编辑页面表单。
+		       设备编号  id=eqNumber
+			   设备名称  id=eqName
+	   样品管理：sampleManagement        
+            	   
+	   在线测量：onlineMeasurement
+	   历史测量数据:historyMeasurement
+	   测量数据分析:dateAnalysis
+	   运行状态:runState
+	   实时数据:liveDate
+	   地图查看:mapWatch
+    1.1plantform里面的二级页面放在plantform文件夹 
+    
+ 2.使用$.load()函数说明
+    2.1在2页面内style里面直接书写控制2页面的样式，生效。把控制2页面的css生成独立文件，然后link引入2页面，失效。
+	2.2将控制2页面的js文件引入进去，生效。写在2页面script标签里面也生效---注意如果引入的话，需要的域名里面写上项目名，否则找不到文件
+
+3.基础文档目录
+    3.1文件夹 css  html   js  plugIn（专门用来放插件的,里面放二级插件css,js等）  images
+	
+4.H-ui开发记录
+    4.1用到了
+	   index.html-登陆进去以后就是展示这个页面
+	   
+5.Hui-插件集合	   
+
+6.系统文件说明
+   平台概述；summary---->index
+   设备管理；device
+             设备台账管理：ClientDevice
+			     编辑按钮：ClientDeviceEdit
+			 样品管理：clientSample
+					编辑按钮：ClientSampleEdit
+	设备管理：device
+	         在线测量：ClientMeasure
+			     js放在了：Script--->customer--->js_clientmeasure
+				 测试按钮跳转页面：Views---->Measure---->src.cshtml
+			 历史测量数据：ClientHisMeasure
+	设备监控：device
+	         运行状态：ClientDeviceState
+			 实时数据：ClientDeviceRealData
+			 地图查看；DeviceMap
+   view目录说明ij
+   
+   6.1 Customer --->index
+      登录以后的首页：这个文件会嵌入_layoutClientIframe（拥有头部和导航信息以及各种引入），自带一个id为iframe的div,并且默认嵌入
+	  Summary---->index:产品概述，
+	  js脚本
+	       给当前的id="iframe“里面嵌入 Summary--->index页面
+	       会获取_layoutClientIframe里面的导航里面的target（注意这个属性），并且会在iframe里面获取对应的页面的数据，这就完成了部分加载
+		   
+   6.2Shared--->_layoutClientIframe:每个页面都会有的头部和导航信息
+   
+   6.3Summary---->index:产品概述，也是登录以后的首页展示内容 
+   
+   
+7 登录页面，注册页面以及展示主页文档说明说明
+    7.1登录页面  Views---->User--->login
+	7.2注册页面  Views---->User--->Register
+	               注册错误信息提示为
+				   个人：personalTips
+				   企业：enterpriseTips
+	7.3展示性的主页  Views---->Home---->Index
+	                 页面分为两部分。Shared---->_layout   和    Home----Index
+					 备注：
+					     7.3.1合作企业是在入职培训的PPT上面弄下来的，剪切的时候基于内网电脑的全屏显示，大小为201*88 px
+						 这部分的图片放在了image--->images---->productShow
+						 亮度计：stilbMeter
+						 照度计：illuminometer
+						 电量测量仪：batteryM
+						 光谱仪：spectrograph
+						 
+						 
+						 
+						 
+
+						 
+						 
+						 
+						 
+						 
+2017.3.18
+     注册界面临时改为Register1
+	 
+8.关于修改个人/企业信息User
+			公共部分放在了 Shared--->_LayoutClientInfo
+			
+            企业信息：enterpriseInfo
+			
+			个人信息：personInfo
+			
+			
+			
+9.数据库连接
+	永志：192.168.3.131:1883
+	杨斌：192.168.3.155
