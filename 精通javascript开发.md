@@ -582,3 +582,284 @@ call和apply的区别在于，使用apply时，所有的参数都应该放在单
 			AlarmSystem.disarm.apply(myHouse,["Alarm dectivated"]);
 			alert(myHouse.isAlarmed);//false
 ```
+- arguments对象:函数中所有传入的参数都放在了arguments里面，我们可以读取他。
+代码1-16
+```
+			//创建一个函数，对传入函数的所有参数进行加和
+			var add=function(){
+				//创建一个变量来保存总和
+				var total=0;
+				
+				//arguments这个伪数组包含所有传入该函数的参数，遍历每个参数将其加入总和汇总
+				for(var index=0,length=arguments.length;index<length;index++){
+					total=total+arguments[index];
+				}
+				return total;
+			};
+			
+			//传入不同参数
+			alert(add(1,2,3));
+			alert(10,10,10);
+```
+加一个：弹出我们传入的参数
+```
+			var parm=function(){
+				var index=0;
+				for(var i=arguments.length;index<i;index++){
+					
+					alert(arguments[index]);
+				};
+			};
+			parm(1,2,3);
+```
+argrument和apply一起使用
+代码1-17
+```
+			//定义父类
+			function Accommodation(){
+				this.isAlarmed = false;
+			};
+			Accommodation.prototype.alarm=function(note,time){
+				var message="Alarm activated at"+time+"with the note:"+note;
+				this.isAlarmed=true;
+				alert(message);
+			};
+			
+			//定义一个子类House
+			function House(){
+				this.isLocked = false;
+				
+			};
+			
+			//继承Accommodation
+			House.prototype=new Accommodation();
+			//为House子类重新定义alarm方法。方法定义中没有列出参数，因为我们会把所有的参数直接传递给父类中的同名方法
+			House.prototype.alarm = function(){
+				//将对象实例的isLocked属性设置为true
+				this.isLocked=true;
+				
+				//调用父类Accommodation的alarm方法，将当前函数的所有参数传递给父类方法--无需将他们一一列出
+				Accommodation.prototype.alarm.apply(this,arguments)
+			};
+			
+			//创建子类的一个方法实例进行测试
+			var myHouse=new House();
+			myHouse.alarm("该起床了",new Date());
+			alert(myHouse.isLocked);//true
+```
+
+- 共有私有以及受保护的属性和方法
+限制某些属性和方法的暴露程度。
+要想通过共有的方法来访问私有的变量，我们需要创建一个同时包含两个作用域的新作用域，为此我们可以创建一个自我执行的函数，称为闭包。
+对所有私有变量或者函数加一个下划线"_",作为前缀，以标识他们是私有的。
+
+代码1-18
+```
+			//我们将类的定义包含在一个自我执行的函数里，这个函数返回我们所创建的类，并将其保存在变量
+			//中，以方便我们在以的代码中使用
+			var Accommodation=(function(){
+				//定义类的构造函数，因为处在一个新的函数内，我们也切换到一个新的作用域中，我们可以使用
+				//与保存函数返回值的那个变量相同的名字。
+				function Accommodation(){};
+				
+				//此处定义所有的变量都是私有的，这些变量在当前作用域外不可用，可以给变量添加下划线前缀来标识这一点
+				var _isLocked=false,
+				_isAlarmed = false,
+				_alarmMessage = "Alarm activated";
+				
+				//仅在当前作用域中定义的函数（而未在构造函数的原型上定义），也都是私有的
+				function _alarm(){
+					_isAlarmed=true;
+					alert(_alarmMessage);
+				};
+				
+				function _disableAlarm(){
+					_isAlarmed=false;
+				};
+				
+				//所有定义在原型上的方法都是公有的，当我们在此处创建类，在闭包结束处被返回后，就可以在当前作用域之外访问到
+				//这些方法
+				Accommodation.prototype.lock=function(){
+					_isLocked = true;
+					_alarm();
+				};
+				
+				Accommodation.prototype.unlock=function(){
+					_isLocked = false;
+					_disableAlarm();
+				};
+				
+				//定义一个getter函数来对私有变量_isLocked的值进行只读访问——相当于把改变量定义为"受保护的"
+				Accommodation.prototype.getIsLocked = function(){
+					return _isLocked;
+				};
+				
+				//定义一个setter函数来对私有变量_alarmMessage进行只写访问--相当于将其定义为“受保护的”
+				Accommodation.prototype.setAlarmMessage = function(message){
+					_alarmMessage = message;
+				};
+				
+				//返回这个作用域中创建的类，使之在外层作用域中即后面代码的所有位置都可用。只有公有的属性和方法是可用的
+				return Accommodation;
+			}());
+			
+			//创建一个对象实例
+			var house= new Accommodation();
+			house.lock();//弹出警告消息"Alarm activated"
+			//house._alarm();//错误_alarm函数从未被公开暴露，所以无法直接通过类的对象实例进行访问
+			alert(house._isLocked);//undefined,_isLocked是私有的，在闭包外面访问不到
+			house.getIsLocked();//true,返回_isLocked的值，但不允许对其进行直接访问，所以该变量是只读的
+			
+			house.setAlarmMessage("The alarm is now activated!");
+			house.lock();//弹出警告"the alarm is now activated"
+```
+
+1.2代码规范
+变量和函数命名，名字的开头必须是下面这些字符之一
+- a-z，A-Z中的一个字母；
+- 下划线_
+- 美元符号$
+
+第一个字符之后，除了以上符号之外还可以使用0-9
+
+1.2.1使用描述性的名字
+
+1.2.2以小写字母开头
+- 将Dom元素保存在变量中以免对其进行重复查找，变量前面加一个$符号作为前缀
+```
+var $body=$(document.body);
+```
+- 所有的构造函数的首字母都应该大写
+```
+function MyType(){};
+var myTypeInstance=new MyType();
+```
+- 构造函数里面的私有函数和变量应该在名字前面加一个下划线"_"作为前缀，用来区别共有的变量和方法
+
+```
+function myType(){
+	var _myPrivateVariable;
+};
+var myTypeInstance = new MyType();
+```
+1.2.3用驼峰命名法来分割单词
+
+1.2.4全局常量使用大写的名字
+
+1.2.5集中在一个语句中声明函数体的所有的变量，并将其置于函数体的顶部
+- 使用var关键字用简写的方式在一个语句中同时定义多个变量，具体是用逗号隔开每个变量声明，为了保证可读性，我们将变量名首字母对齐。
+
+```
+			var myString="Hello,world",
+				allStrongTags=/<strong>(.*?)</strong>/g,
+				tagContents="&1",
+				outputString;
+				outputString = myString.replace(allStrongTags,tagContents);
+
+```
+
+- 变量和函数名的提升*是不是函数的执行流程*
+代码1-21：代码块和作用域
+```
+	function myFunction(){
+		var myArray=['January','February','March','April','May'],
+			myArrayLength=myArray.length,
+			counter=0;
+			for(var index=0;index<myArrayLength;index++){
+				//每循环一次，counter的值加一
+				counter=index+1;
+			};
+			
+			//这些变量的值应该是符合期望的
+			alert(counter);//5
+			alert(index);//5,因为在判定循环条件之前循环递进了一步
+			alert(myArrayLength);//5
+			
+			if(myArrayLength>0){
+				//在很多语言中，这样一个代码块中定义的变量其作用域也局限于改代码块中
+				//但是在javascript中不是，所以在代码块中定义变量要注意
+				var counter,
+					index=0,
+					//myArrayLength=10,尼玛比你这么写他也会改变，智障
+					myArrayLength,
+					counter=0;
+			};
+			
+			//即使在代码块中使用var来进行了定义，counter和index的值还是在if语句中被改变了
+			alert(counter);//0
+			alert(index);//0
+			
+			//注意虽然在代码块中用var对myArrayLength进行了重定义，但其值并未发生改变
+			//这是因为javascript在函数执行之前就把变量名提升到了函数的顶部
+			alert(myArrayLength);//5
+	};
+	//执行上面的函数
+	myFunction();
+```
+
+代码1-22在函数开头处对函数中用到的所有变量进行定义
+```
+	function myFunction(){
+		//为了防止变量提升引起的错误，我们在函数顶部对所有的变量进行定义
+		var myArray=['January','February','March','April','May'],
+		    myArrayLength=myArray.length,
+			counter=0,
+			index=0;
+			
+			//for循环的第一部分通常是用来定义循环变量的，现在由于我们将变量定义都放在了函数体顶部了
+			//所以可以省略这一部分
+			for(;index<myArrayLength;index++){
+				counter = index+1;
+			}
+			//变量的值应该不出所料
+			alert(counter);//5
+			alert(index);//5
+			alert(myArrayLength);//5
+	};
+	//执行函数
+	myFunction();
+```
+代码1-23：函数的提升
+```
+	function myFunction(){
+		//因为javascript的提升，在函数定义之前执行一个函数是可行的
+		doSomething();//下面的函数被执行了
+		function doSomething(){
+			alert("Doing something");
+		};
+	};
+	myFunction();
+```
+
+1.3ECMAScript5
+1.3.1JSON数据格式解析
+json格式的数据结构：
+
+```
+{
+	"success":false,
+	"error_message":"The wrong parameters were passed to this web service"
+			}
+```
+JSON.parse()用法
+```
+<html>
+	<head>
+		<title></title>
+		<meta charset="UTF-8"/>
+	</head>
+	<body>
+		<div id="div1"></div>
+	</body>
+	<script>
+		var str='{"name":"李明","age":21}';
+		//parse用于从一个字符串中解析出json对象
+		var x=JSON.parse(str);
+		console.log(x);
+		var div1=document.getElementById("div1");
+		div1.innerHTML="名字"+x.name+"年龄"+x.age;
+	</script>
+
+</html>
+```
+JSON.stringify
