@@ -12,7 +12,7 @@
 - 标记法：用圆点（.）将对象名和其属性或者方法分割开来。
 
 eg1:使用对象直接量标记法来创建一个对象
-```
+```javascript
 	var house={
 		rooms:7,
 		sharedEntrance:false,
@@ -49,28 +49,28 @@ eg1和eg2很像，如果弄很多这个，就很麻烦，我们想弄个模板�
 - 类：是对象的模板，用于创建共享一系列属性和方法的类似对象。javascript中只要定义一个普通函数，就能获得与其他语言中类一样的功能。javascript中所有函数的定义方式都是相同的，不同之处就是如何通过这些函数创建出来。
 
 eg:创建一个构造函数用作房子和公寓对象的模板。然后在添加属性和方法。
-```
+```javascript
 function Accommodation(){};
 ```
 用这个函数来创建对象，只需使用new 关键字
-```
+```javascript
 var house=new Accommodation();
 var apartment=new Accommodation();
 ```
 用关键字new创建的所有对象被称为这个函数所示的结构的对象实例，创建对象的过程就是这个模板实例化的过程。
 
 1.1.2.1找出对象的构造器:用模板创建的对象还有一个额外自带属性，叫做constructor,这个属性指向创建该对象时所用的javascript构造函数。
-```
+```javascript
 house.constructor === Accommodation;//true
 apartment.constructor === Accommodation;//true
 ```
 也可以使用instanceof,这个关键字的作用就是检查对象是否是某个构造函数的实例。
-```
+```javascript
 house instanceof Accommodation; //true
 apartment instanceof Accommodation;//true
 ```
 理论上，因为一个实例的constructor指向的是创建该实例的构造函数，理论上我们可以使用该属性加上new关键字来创建新的实例。
-```
+```javascript
 var apartment=new house.constructor();
 apartment installof Accommodation; //true
 ```
@@ -79,7 +79,7 @@ apartment installof Accommodation; //true
 每个构造器都有一个prototype属性，这个属性指向一个对象，我们用new关键字来创建一个“类”的实例的时候，实例中所包含的属性和方法都来自prototype所指向的这个对象。
 
 代码1-2使用prototype关键字和点标记法为构造器添加属性和方法
-```
+```javascript
 //定义一个名为Accommodation的构造函数
 function Accommodation(){}
 
@@ -112,7 +112,7 @@ house.unlock();
 apartment.unlock();
 ```
 代码1-3：通过对象直接量为构造函数添加属性和方法
-```
+```javascript
 	//定义一个名为Accommodation的构造函数
 	function Accommodation(){};
 	
@@ -145,7 +145,7 @@ apartment.unlock();
 ```
 
 代码清单1-4：prototype这个关键字允许用户在实例创建完成以后，继续添加属性和方法，而这些新添加的属性和方法会自动的添加到所有对象的实例中去，不管是已创建的还是将要创建的。
-```
+```javascript
 			//定义一个名为Accommodation的构造函数
 			function Accommodation(){};
 			
@@ -174,7 +174,7 @@ apartment.unlock();
 **根据作用域原则，在所有嵌套函数中都可以访问定义在其父函数中变量。**
 
 代码1-5变量作用域    *不是很懂*
-```
+```javascript
 			//定义在任何函数之外的变量在全局作用域内可以再任何位置访问到
 			var myLibrary={
 				myName:"李明"
@@ -212,7 +212,7 @@ apartment.unlock();
 - this关键字代表的是一个函数的上下文环境，这个上下文环境大多数情况下指向的是函数运行时封装这个函数的那个对象。**当不通过任何对象单独的调用一个函数的时候，上下文环境指的就是全聚德window对象。**	
 
 代码1-6使用this关键字和点标记法
-```
+```javascript
 	//所有函数之外，this表示的是全局的window对象
 	alert(this === window);//true
 	
@@ -237,7 +237,7 @@ apartment.unlock();
 
 代码1-7将this关键字的值保存在变量中,注意第一个弹出false
 **对象中嵌套的函数其上下文环境是全局的window对象，而不是包含他的那个对象**
-```
+```javascript
 			var apartment={
 				isLocked:false,
 				lock:function(){
@@ -263,7 +263,7 @@ apartment.unlock();
 
 代码1-8
 
-```
+```javascript
 	//定义一个新的构造函数来表示一种住宅
 	function Accommnodation(){
 		
@@ -294,7 +294,7 @@ apartment.unlock();
 ```
 结合使用prototype和this关键字来定义对象实例的属性和方法，this写属性，prototype写方法
 代码1-9组合使用this和prototype关键字来编写高效的构造函数
-```
+```javascript
 	//通过一个构造函数来表示各种类型的住宅
 	function Accommodation(){
 		//利用this关键字来设置实例对象的属性
@@ -322,7 +322,7 @@ apartment.unlock();
 ```
 在构造函数使用this可以给构造函数传递参数
 代码1-10在构造函数中通过this关键字初始化属性
-```
+```javascript
 	//定义一个带有三个参数的构造函数，这些参数的值用于初始化实例对象的属性
 	function Accommodation(floors,rooms,sharedEntrance){
 		//当该类的一个对象呗实例化的时，用传进来的三个值初始化该对象的三个属性
@@ -355,7 +355,7 @@ apartment.unlock();
 如果类的规模特别大，给对象实例的属性设置初始值的时候，当有多个层参数需要传递得时候，像上面那么多就会变得困难且容易出错。这时候我们采用对象直接量。
 
 代码1-11用对象直接量作为构造函数的参数
-```
+```javascript
 	function Accommodation(defaults){
 		//如果没有传入值，默认为空的对象直接量
 		defaults = defaults ||{};
@@ -393,7 +393,7 @@ apartment.unlock();
 **要实现链式调用，只需要“类”中的每个方法最后通过this关键字返回对象实例的引用即可**
 
 代码1-12通过this关键字实现方法的链式调用
-```
+```javascript
 	function Accommodation(){};
 	Accommodation.prototype.isLocked = false;
 	Accommodation.prototype.lock=function(){
@@ -427,7 +427,7 @@ apartment.unlock();
 创建一些新的类，来继承或者扩展某个父类的属性和方法。JavaScript是原型继承，通过原型链实现
 
 代码1-13:**通过原型继承创建一个子类**
-```
+```javascript
 		//定义一个有两个方法的类
 		function Accommodation(){};
 		
@@ -487,7 +487,7 @@ apartment.unlock();
 ```
 
 **JavaScript中原型链可以一直向上追溯到内奸的Object类型，因为JavaScript中的所有变量最终都是继承自该类型，接着上面的代码**
-```
+```javascript
 alert(myHouse instanceof House);//true
 alert(myHouse instanceof Accommodation);//true,因为House继承自Accommodation
 alert(myHouse instanceof Object);//true,因为所有对象都继承自JavaScript内置类型Object
@@ -501,7 +501,7 @@ alert(myHouse instanceof Object);//true,因为所有对象都继承自JavaScript
 JavaScript多态实现：重写一个函数并给他一个和原方法相同的方法名即可。
 
 代码1-14多态
-```
+```javascript
 	//定义父类Accommodation
 	function Accommodation(){
 		this.isLocked=false;
@@ -554,7 +554,7 @@ JavaScript多态实现：重写一个函数并给他一个和原方法相同的�
 - call和apply：改变我们的this指向
 **二者的区别：**
 call和apply的区别在于，使用apply时，所有的参数都应该放在单独的数组参数中，而使用call的时候，参数应该依次列出并用逗号隔开
-```
+```javascript
 			//定义一个简单的类
 			function Accommodation(){
 				this.isAlarmed= false;
@@ -584,7 +584,7 @@ call和apply的区别在于，使用apply时，所有的参数都应该放在单
 ```
 - arguments对象:函数中所有传入的参数都放在了arguments里面，我们可以读取他。
 代码1-16
-```
+```javascript
 			//创建一个函数，对传入函数的所有参数进行加和
 			var add=function(){
 				//创建一个变量来保存总和
@@ -602,7 +602,7 @@ call和apply的区别在于，使用apply时，所有的参数都应该放在单
 			alert(10,10,10);
 ```
 加一个：弹出我们传入的参数
-```
+```javascript
 			var parm=function(){
 				var index=0;
 				for(var i=arguments.length;index<i;index++){
@@ -614,7 +614,7 @@ call和apply的区别在于，使用apply时，所有的参数都应该放在单
 ```
 argrument和apply一起使用
 代码1-17
-```
+```javascript
 			//定义父类
 			function Accommodation(){
 				this.isAlarmed = false;
@@ -654,7 +654,7 @@ argrument和apply一起使用
 对所有私有变量或者函数加一个下划线"_",作为前缀，以标识他们是私有的。
 
 代码1-18
-```
+```javascript
 			//我们将类的定义包含在一个自我执行的函数里，这个函数返回我们所创建的类，并将其保存在变量
 			//中，以方便我们在以的代码中使用
 			var Accommodation=(function(){
@@ -726,17 +726,17 @@ argrument和apply一起使用
 
 1.2.2以小写字母开头
 - 将Dom元素保存在变量中以免对其进行重复查找，变量前面加一个$符号作为前缀
-```
+```javascript
 var $body=$(document.body);
 ```
 - 所有的构造函数的首字母都应该大写
-```
+```javascript
 function MyType(){};
 var myTypeInstance=new MyType();
 ```
 - 构造函数里面的私有函数和变量应该在名字前面加一个下划线"_"作为前缀，用来区别共有的变量和方法
 
-```
+```javascript
 function myType(){
 	var _myPrivateVariable;
 };
@@ -749,7 +749,7 @@ var myTypeInstance = new MyType();
 1.2.5集中在一个语句中声明函数体的所有的变量，并将其置于函数体的顶部
 - 使用var关键字用简写的方式在一个语句中同时定义多个变量，具体是用逗号隔开每个变量声明，为了保证可读性，我们将变量名首字母对齐。
 
-```
+```javascript
 			var myString="Hello,world",
 				allStrongTags=/<strong>(.*?)</strong>/g,
 				tagContents="&1",
@@ -760,7 +760,7 @@ var myTypeInstance = new MyType();
 
 - 变量和函数名的提升*是不是函数的执行流程*
 代码1-21：代码块和作用域
-```
+```javascript
 	function myFunction(){
 		var myArray=['January','February','March','April','May'],
 			myArrayLength=myArray.length,
@@ -798,7 +798,7 @@ var myTypeInstance = new MyType();
 ```
 
 代码1-22在函数开头处对函数中用到的所有变量进行定义
-```
+```javascript
 	function myFunction(){
 		//为了防止变量提升引起的错误，我们在函数顶部对所有的变量进行定义
 		var myArray=['January','February','March','April','May'],
@@ -820,7 +820,7 @@ var myTypeInstance = new MyType();
 	myFunction();
 ```
 代码1-23：函数的提升
-```
+```javascript
 	function myFunction(){
 		//因为javascript的提升，在函数定义之前执行一个函数是可行的
 		doSomething();//下面的函数被执行了
@@ -833,16 +833,15 @@ var myTypeInstance = new MyType();
 
 1.3ECMAScript5
 1.3.1JSON数据格式解析
-json格式的数据结构：
-
-```
+- json格式的数据结构：
+```json
 {
 	"success":false,
 	"error_message":"The wrong parameters were passed to this web service"
 			}
 ```
-JSON.parse()用法
-```
+- JSON.parse()用法:用于从一个字符串中解析出json 对象
+```html
 <html>
 	<head>
 		<title></title>
@@ -852,6 +851,7 @@ JSON.parse()用法
 		<div id="div1"></div>
 	</body>
 	<script>
+		//单引号写在{}外，每个属性都必须双引号，否则会抛出异常
 		var str='{"name":"李明","age":21}';
 		//parse用于从一个字符串中解析出json对象
 		var x=JSON.parse(str);
@@ -862,4 +862,365 @@ JSON.parse()用法
 
 </html>
 ```
-JSON.stringify
+- eval:用于在一个字符串中解析出json对象的时候，注意写法
+```html
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div id="div1"></div>
+    </body>
+    <script>
+        var str='{"name":"李明","age":21}';
+        //注意用eval解析的时候的写法
+        var x=eval("("+str+")");
+        console.log(x); 
+        var div1=document.getElementById("div1");
+        div1.innerHTML="名字"+x.name+"年龄"+x.age;
+    </script>
+
+</html>
+```
+eval的其他用法
+```javascript
+<script type="text/javascript">
+
+eval("x=10;y=20;document.write(x*y)")
+
+document.write(eval("2+2"))
+
+var x=10
+document.write(eval(x+17))
+
+</script>
+```
+- 为什么不推荐使用eval？
+	- eval不容易调试。用chromeDev等调试工具无法打断点调试
+	- 说到性能问题，在旧的浏览器中如果你使用了eval，性能会下降10倍。在现代浏览器中有两种编译模式：fast path和slow path。fast path是编译那些稳定和可预测（stable and predictable）的代码。而明显的，eval不可预测，所以将会使用slow path ，所以会慢。还有一个是，在使用类似于Closure Compiler等压缩（混淆）代码时，使用eval会报错。（又慢又报错，我还推荐吗？）
+	- 关于安全性，我们经常听到eval是魔鬼，他会引起XSS攻击，实际上，如果我们对信息源有足够的把握时，eval并不会引起很大的安全问题。而且不光是eval，其他方式也可能引起安全问题。
+
+附上几篇文章：
+JavaScript探秘：eval()是“魔鬼” -- 简明现代魔法 eval是魔鬼：http://www.nowamagic.net/librarys/veda/detail/1627
+eval不是魔鬼：https://www.nczonline.net/blog/2013/06/25/eval-isnt-evil-just-misunderstood/
+哦，看到一些说json.parse内部是用eval的，再附上几个链接供大家参考：http://stackoverflow.com/questions/17024136/does-json-parse-use-eval-internally
+这是json.parse 源码：https://code.google.com/p/v8/source/browse/trunk/src/json-parser.h
+
+- JSON.stringify:用于从一个对象解析出字符串
+```html
+<html>
+    <head>
+        <title></title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <div id="div1"></div>
+    </body>
+    <script>
+        var str={"name":"李明","age":21};
+        //JSON.stringify用于将Json对象解析为Json字符串
+        var x=JSON.stringify(str);
+        console.log(x); //{"name":"李明","age":21}
+        console.log(typeof x);//在输出里面看不出来是字符串，我们用typeof测试一遍，返回string
+        var div1=document.getElementById("div1");
+        div1.innerHTML=x;
+    </script>
+
+</html>
+```
+
+1.3.2严格模式
+ECMAScript5中可以将一个函数或整个javascript文件置于一个新的严格模式，只需要将下面的字符串放在该文件或函数中就可以
+```
+"use strict";
+```
+- 严格模式下，使用了未定义的变量，javascript会报错
+- delete关键字本应该用在对象的属性上，如果你将其用在变量或者函数身上，javascript也会报错
+- 严格模式禁止使用eval来执行包含javascript代码的字符串
+
+代码1-24未使用严格模式
+```javascript
+    <script>
+    //点一个一个函数
+    function myFunction(){
+        //使用一个之前未定义的变量，隐式的将其创建为全局变量
+        counter=1;
+        //用eval来执行包含javascript代码的字符串不会报错
+        eval("alert(counter)");//弹出1
+        //delete关键字的作用是移除对象的属性和方法，但是将其作用在变量身上不会报错
+        delete counter;
+    };
+    myFunction();
+    </script>
+```
+代码1-24使用严格模式
+```javascript
+    <script>
+    //点一个一个函数
+    function myFunction(){
+        "use strict";
+        //执行这条语句会报错，因为counter变量未定义
+        counter=1;
+        //eval由于安全原因应该避免使用，所以这里会报错
+        eval("alert(counter)");//弹出1
+        //delete关键字只应该被用于移除对象直接量的属性和方法，所以这里会报错
+        delete counter;
+    };
+    myFunction();
+    </script>
+```
+
+1.3.3函数绑定
+除了call与apply以外的另一个方法。bind,他不会直接执行函数，而是会返回一个新的函数。**这个新的函数的上下文被设定为在调用bind的方法的时候，作为第一个参数传入的任意对象。**
+代码1-25*没看懂*
+```javascript
+    <script>
+    var header= document.createElement('header');
+        mouseState="up",
+
+        //定义一个包含三个方法的对象
+        eventHandlers={
+            onClick:function(){
+                //如果onClick函数被调用的时候执行上下文是错误的，一下两个调用将失败
+                this.onMouseDown();
+                this.onMouseUp();
+            },
+            onMouseDown:function(){
+                mouseState="down";
+            },
+            onMouseUp:function(){
+                mouseState="up";
+            }
+        };
+        //强制eventHandlers.onClick使用正确的上下文，为此我们通过bind方法返回一个新的函数。
+        //该函数就会根据我们的要求绑定了相应的上下文
+        header.addEventListener("click",eventHandlers.onClick.bind(eventHandlers),false);
+        //将header元素添加到页面
+        document.body.appendChild(header);
+    </script>
+```
+1.3.4数组的方法
+- 判断一个变量是否包含数组数据--->Array.isArray
+代码1-26
+```javascript
+    <script>
+        var months=["january","February","March","April","May"],
+            items={
+                "0":"january",
+                "1":"February",
+                "2":"March",
+                "3":"April",
+                "4":"May"
+            };
+            myItems=[
+                {
+                "0":"january",
+                "1":"February",
+                "2":"March",
+                "3":"April",
+                "4":"May"
+            },
+            {
+                "5":"June",
+                "6":"July",
+                "7":"August",
+                "8":"September",
+                "9":"October"
+            }
+            ]
+            alert(Array.isArray(months)); //true
+            alert(Array.isArray(items));//false
+            alert(Array.isArray(myItems));//true
+    </script>
+```
+- 遍历一个数组--->forEach，只需要给该方法传递一个函数，他就会对数组中的每个函数调用一次该函数，同时将当前遍历的值，数据索引以及对整个数据的引用传递给这个函数。
+代码1-27
+```javascript
+    <script>
+    var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+    //通过forEarch方法我们可以遍历数组的每一个元素，同时每次执行一个函数
+    months.forEach(function(value,index,fullArray){
+        //这里的value是他的值，index是他的索引，fullArray是months整个数组
+        alert(value+"月份" +(index+1)+"of"+fullArray.length);
+    });
+    </script>
+```
+- 判断数组中每个元素是否满足由某个函数所定义的特定的条件，用every（），与之相似的还有一个some方法，该方法会在数组中至少有一个元素满足给定的条件的时候返回true。
+```
+    <script type="text/javascript">
+        var months=["January","February","March","April","May","June","July","August","September","October","November","December"];
+        //every方法遍历数组中的每一个元素，将每一个元素和一个条件进行比较
+        //如果数组中每一个元素都满足整个条件，则every返回true，否则返回false
+        everyItemContainsR=months.every(function(value,index,fullArray){
+            //根据当前遍历到的元素是否满足你指定的条件来返回true或者false，这里的条件就是判断value是否包含字母r
+            return value.indexOf("r")>=0;
+        });
+
+        //some方法遍历数组中的每个元素并将其和某个条件对比，如果数组中的任意一个元素满足这个条件，则some返回true，否则返回false
+        someItmeContainsR=months.some(function(value,index,fullArray){
+            return value.indexOf("r")>=0;
+        });
+
+        //不是所有元素包含字母r
+        alert(everyItemContainsR);//false
+
+        //但是某些元素包含
+        alert(someItmeContainsR);//true
+    </script>
+```
+- map方法可以根据一个已有的数组来创建一个新的数组，他会在创建新的数组的过程中，每生成一个元素都执行一个函数
+代码1-29
+注意：
+indexOf() 方法可返回某个指定的字符串值在字符串中首次出现的位置。
+注释：indexOf() 方法对大小写敏感！
+注释：如果要检索的字符串值没有出现，则该方法返回 -1。
+```javascript
+    <script type="text/javascript">
+        var daysOfTheWeek = ['Monday','Tuesday','wednesday'],
+        //map方法通过遍历一个已有的数组来生成一个全新的数组，他会在遍历每个元素的时候执行一个函数
+        //并通过该函数来生成新数组中的对应元素
+            daysFirstLetters=daysOfTheWeek.map(function(value,index,fullArray){
+                return value + "starts with" + value.charAt(0);
+            });
+            console.log(daysFirstLetters);//返回了一个新的数组
+            alert(daysFirstLetters.join(","));//“Monday starts with M,Tuesday starts with T.
+    </script>
+```
+
+- filter方法根据原有的数组创建一个削减版的数组，该数组值包含哪些满足某个特定条件的元素
+```javascript
+    <script type="text/javascript">
+        var months=["january","february","march","april","may"],
+            monthsContainingR=months.filter(function(value,index,fullArray){
+                //返回true或者false来指示当前数组元素是否应该包含在过滤中的数组中，这里的判断条件是看元素值是否包含字母r
+                return value.indexOf("r")>=0;
+            });
+            //唯一不包含字母r的月份是五月
+            console.log(monthsContainingR);
+            alert(monthsContainingR.join(","));
+    </script>
+```
+
+1.3.5对象的方法
+- 将一个对象进行锁定，这样在代码中的某个点之后，就不嗯能够向该对象添加新的属性或者方法。用的是Object.preventExtensions,以及一个Object.isExtensible.
+```javascript
+    <script type="text/javascript">
+        //定义一个包含两个属性的简单对象
+        var personalDetails={
+            name:"李明",
+            email:"liming@qq.com"
+        };
+        alert(Object.isExtensible(personalDetails));//true,因为默认所有的对象都是可以扩展的
+
+        //阻止personalDetails对象进行扩展
+        Object.preventExtensions(personalDetails);
+        alert(Object.isExtensible(personalDetails));//false,因为该对象现在被锁定了
+
+        //尝试为personalDetails对象添加一个新的属性
+        personalDetails.age=35;
+        //如果使用严格模式的话会抛出错误，因为对象现在被锁定了
+    </script>
+```
+- 如果想进一步锁定一个对象，使其已有的属性值也无法被改变，可以用Object.freeze
+代码1-32
+```javascript
+    <script type="text/javascript">
+        //定义一个有两个属性的简单对象
+        var personalDetials={
+            name:"李明",
+            email:"liming@qq.com"
+        };
+
+        //锁定期对象，使其已有的属性也无法改变
+        Object.freeze(personalDetials);
+        alert(Object.isFrozen(personalDetials));//true
+        personalDetials.name="小红";//如果在严格模式下回报错，因为一旦对象呗冻住，就无法更改期属性值
+    </script>
+```
+- 属性描述符是一个有四个属性的对象直接量，如果想读取某个属性的属性描述符号，可以使用Object.getOwnPropertyDescriptor,除了value属性之外，默认值都是true。
+代码：1-33
+```javascript
+    <script type="text/javascript">
+        //定义包含两个属性的简单对象
+        var personalDetails={
+            name:"李明",
+            email:"adf@qq.com"
+        };
+
+        var x=Object.getOwnPropertyDescriptor(personalDetails,"name");
+        //返回代表name属性的如下对象直接量
+        // configurable:true
+        // enumerable:true
+        // value:"李明"
+        // writable:true
+        console.log(x);
+    </script>
+```
+
+- 可以在创建属性的同时，定义期属性描述符*有错误*
+
+1-34
+```javascript
+    <script type="text/javascript">
+        //定义有两个属性的简单对象
+        var personalDetails={
+            name:"李明",
+            email:"fdaskf@aa.com"
+        };
+
+        //为该对象单独定义一个新的属性
+        Object.defineProperty(personalDetails,"age",{
+            value:34,
+            writable:false,
+            enumerable:true,
+            configurable:true
+        });
+
+        //同时定义多个属性
+        Object.defineProperty(personalDetails,{
+            age:{
+                value:23,
+                writable:false,
+                enumerable:true,
+                configurable:true
+            },
+            town:{
+                value:'London',
+                writable:true
+            }
+        });
+    </script>
+```
+- 得到一个包含某个对象所有属性名的数组，用Object.keys
+
+```javascript
+    <script type="text/javascript">
+        //定义有两个属性的简单对象
+        var personalDetails={
+            name:"李明",
+            email:"adf@ww.com"
+        },
+        keys=Object.keys(personalDetails);
+
+        alert(keys.join(","));//"name,email"
+    </script>
+```
+- **Object.create方法,根据某个已有的对象的属性来创建一个新的对象，多用来创建一个已有对象的副本**用来做继承
+
+```
+    <script type="text/javascript">
+        //定义有两个属性的简单对象
+        var personalDetails={
+            firstName:"李明",
+            lastName:"李伟"
+        },
+        fathersDetails=Object.create(personalDetails);
+
+        //定制这个副本对象
+        fathersDetails.firstName="Jhon";
+
+        //通过原有对象所设置的属性值未改变
+        alert(fathersDetails.lastName);//李伟
+    </script>
+```
