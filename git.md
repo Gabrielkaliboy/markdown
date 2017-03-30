@@ -271,3 +271,9 @@ Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
 
+解决冲突
+---
+1. git stash 入栈
+2. git pull
+3. git stash pop出栈
+4. 然后去解决冲突就可以啦，在提交 
