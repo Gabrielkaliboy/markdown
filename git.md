@@ -41,6 +41,13 @@ Initialized empty Git repository in /Users/michael/learngit/.git/
 
 //并且当前的文件夹会显示（master）
 Gabri@DESKTOP-6RMRO2P MINGW64 /e/markdown (master)
+
+//我们修改了某个文件，想看一下文件的哪里被修改了
+//这个命令会返回所有的被修改
+$ git diff
+
+//想查看单个文件,后面跟着文件名字就行了
+$ git diff filename
 ```
 
 
@@ -263,3 +270,4 @@ On branch master
 Your branch is up-to-date with 'origin/master'.
 nothing to commit, working tree clean
 ```
+
