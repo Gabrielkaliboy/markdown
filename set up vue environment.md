@@ -147,3 +147,8 @@ $ npm run dev
 ``` 
 $ npm run dev
 ```
+
+14. vue高仿饿了么代码
+
+GitHub：https://github.com/ustbhuangyi/vue-sell
+将代码下载到本地以后，记得执行npm install 安装依赖，然后使用npm run dev执行跑起来。
