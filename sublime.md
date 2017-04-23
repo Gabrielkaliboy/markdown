@@ -285,3 +285,13 @@ Ctrl+K+B 开启/关闭侧边栏。
 F11：全屏模式
 
 Shift+F11 免打扰模式
+
+4.使用注意（说明）
+---
+#### 4.1查看我们安装了什么插件
+在sublime页面里面，点击首选项---->浏览插件目录，这时候打开的不全，我们在当前目录的上级目录面Installed Packages文件夹找到我们安装过的插件
+或者
+如果安装过package control,我们直接Ctrl+shift+p,输入list packages,就可以看到我们的安装了哪些插件了
+
+#### 4.2卸载插件
+利用package control，直接快捷键ctrl+shift+p，然后输入remove，选择Remove Package
