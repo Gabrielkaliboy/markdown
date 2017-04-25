@@ -66,3 +66,50 @@ node 1.js
 
 - 为所有的js文件都是用严格模式（这个是在命令行模式下面）
 node --use_strict
+
+### 搭建node开发环境
+- lauch.json文件内容
+```json
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Run hello.js",
+            "type": "node",
+            "request": "launch",
+            "program": "${workspaceRoot}/hello.js",
+            "stopOnEntry": false,
+            "args": [],
+            "cwd": "${workspaceRoot}",
+            "preLaunchTask": null,
+            "runtimeExecutable": null,
+            "runtimeArgs": [
+                "--nolazy"
+            ],
+            "env": {
+                "NODE_ENV": "development"
+            },
+            "externalConsole": false,
+            "sourceMaps": false,
+            "outDir": null
+        }
+    ]
+}
+```
+
+- hello.js内容
+```javascript
+var name='world';
+
+//注意这里的写法，是ES6里面的，${},``是英文状态下的table键上面的东东
+var s=`hello,${name}!`;
+
+console.log(s);
+```
+
+### 模块
+- 在Node环境中，一个.js文件就称之为一个模块（module）。
+- 使用模块有什么好处？
+  - 提高了代码的可维护性
+  - 编写代码不必从零开始。当一个模块编写完毕，就可以被其他地方引用
+  - 使用模块还可以避免函数名和变量名冲突
