@@ -237,3 +237,67 @@ module.exports=function(){
 
 ### 基本模块
 ---
+
+#### fs
+- 异步读取一个文本文件,注意需要simple.text文件
+  - fs是nodee.js内置的文件系统模块，负责读写文件
+  - simple.text必须在当前目录下面，并且编码格式是uft-8
+  - fs.readFile第一个参数是要读取的文件名称，第二个参数是文件的编码格式，第三个是我们的回调函数，回调函数包含两个参数，当正常读取的时候，err参数为null，data参数读取到的是string。当读取发生错误的时候，err参数代表一个错误对象，data为undefined。这也是node.js标准的回调函数：第一个参数代表错误信息，第二个参数代表结果。
+```javascript
+'use strict';
+var fs=require('fs');
+fs.readFile('simple.text','utf-8',function(err,data){
+    if(err){
+        console.log(err);
+    }else{
+        console.log(data);
+    }
+})
+```
+
+- 如果读取的文件不是文本，而是二进制文件，比如图片。我们本地放置一个1.jpg
+```javascript
+'use strict';
+const fs=require('fs');
+fs.readFile('1.jpg',function(err,data){
+    if(err){
+        console.log(err);
+    }else{
+        //输出数据
+        console.log(data);
+        //输出数据的大小
+        console.log(data.length+'bytes');
+    }
+})
+```
+当读取二进制文件时，不传入文件编码时，回调函数的data参数将返回一个Buffer对象。在Node.js中，Buffer对象就是一个包含零个或任意个字节的数组（注意和Array不同）。二者可以相互转换
+  - String与Buffer互转
+
+```javascript
+'use strict';
+const fs=require('fs');
+fs.readFile('simple.text','utf-8',function(err,data){
+    if(err){
+        console.log(err);
+    }else{
+        //输出数据
+        console.log(data);
+        //输出数据的大小
+        console.log(data.length+'bytes');
+    }
+    //String->Buffer
+    const text1=data;
+    const buf=new Buffer(text1,'utf-8');
+    console.log(buf);
+    //Buffer->String
+    const text2=buf.toString ('utf-8');
+    console.log(text2);
+})
+```
+控制台输出为
+```
+hello jarry
+11bytes
+<Buffer 68 65 6c 6c 6f 20 6a 61 72 72 79>
+hello jarry
+```	
