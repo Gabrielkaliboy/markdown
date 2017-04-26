@@ -68,6 +68,7 @@ node 1.js
 node --use_strict
 
 ### 搭建node开发环境
+---
 - lauch.json文件内容
 ```json
 {
@@ -108,8 +109,131 @@ console.log(s);
 ```
 
 ### 模块
+---
 - 在Node环境中，一个.js文件就称之为一个模块（module）。
 - 使用模块有什么好处？
   - 提高了代码的可维护性
   - 编写代码不必从零开始。当一个模块编写完毕，就可以被其他地方引用
   - 使用模块还可以避免函数名和变量名冲突
+
+- hello.js
+```javascript
+'use strict';
+
+var s = 'Hello';
+
+function greet(name) {
+    console.log(s + ', ' + name + '!');
+}
+
+//把函数greet作为模块的输出暴露出去，这样其他模块就可以使用greet函数了
+module.exports = greet;
+```
+
+- main.js文件，调用hello模块的greet函数
+```javascript
+'use strict';
+
+// 引入hello模块:
+//变量greet就是在hello.js中我们用module.exports = greet;输出的greet函数
+//在使用require()引入模块的时候，请注意模块的相对路径
+var greet = require('./hello');//// 不要忘了写相对目录!
+
+//如果只写模块名：
+//var greet = require('hello');
+//则Node会依次在内置模块、全局模块和当前模块下查找hello.js，你很可能会得到一个错误：
+
+var s = 'Michael';
+
+greet(s); // Hello, Michael!
+```
+如果只写模块名字，会报错
+```
+Error: Cannot find module 'hello'
+    at Function.Module._resolveFilename (module.js:470:15)
+    at Function.Module._load (module.js:418:25)
+    at Module.require (module.js:498:17)
+    at require (internal/module.js:20:19)
+    at Object.<anonymous> (E:\hello\main.js:9:13)
+    at Module._compile (module.js:571:32)
+    at Object.Module._extensions..js (module.js:580:10)
+    at Module.load (module.js:488:32)
+    at tryModuleLoad (module.js:447:12)
+    at Function.Module._load (module.js:439:3)
+
+```
+遇到这个错误，你要检查：
+- 模块名是否写对了；
+- 模块文件是否存在；
+- 相对路径是否写对了。
+
+#### Common.js规范*机制没看懂*
+这种模块加载机制被称为CommonJS规范。在这个规范下，每个.js文件都是一个模块，它们内部各自使用的变量名和函数名都互不冲突，例如，hello.js和main.js都申明了全局变量var s = 'xxx'，但互不影响。
+
+- 要在模块中对外输出变量，用：
+
+```
+module.exports=variable
+```
+输出的变量可以是任意对象、函数、数组等等。
+
+- 要引入其他模块输出的对象，用：
+
+```
+var foo = require('other_module');
+```
+引入的对象具体是什么，取决于引入模块输出的对象。
+
+#### module.exports vs exports(暴露或者输出模块中变量的方法)
+
+- module.exports
+```javascript
+function hello(){
+    console.log('Hello,world');
+};
+
+function greet(name){
+    console.log("Hello,"+name+"!");
+}
+
+
+//把函数greet作为模块的输出暴露出去，这样其他模块就可以使用greet函数了
+module.exports = {
+    hello:hello,
+    greet:greet
+};
+```
+- export
+```javascript
+function hello(){
+    console.log('Hello,world');
+};
+
+function greet(name){
+    console.log("Hello,"+name+"!");
+}
+
+
+//把函数greet作为模块的输出暴露出去，这样其他模块就可以使用greet函数了
+exports.hello=hello;
+exports.greet=greet;
+```
+但是不可以这么写
+```javascript
+exports={
+    hello:hello,
+    greet:greet
+}
+```
+我们建议这么写
+```
+module.exports={
+    foo:function(){return "foo"}
+};
+或者
+module.exports=function(){
+    return "foo"
+```
+
+### 基本模块
+---
