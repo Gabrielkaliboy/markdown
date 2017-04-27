@@ -301,3 +301,58 @@ hello jarry
 <Buffer 68 65 6c 6c 6f 20 6a 61 72 72 79>
 hello jarry
 ```	
+- 同步读取数据--->readFileSync("textname","coldForm"),注意这个函数没有回调函数，同步读取文件如下
+
+```javascript
+//同步读取文件
+"use strict";
+var fs=require('fs');
+
+var data=fs.readFileSync("simple.text","utf-8");
+console.log(data);
+```
+
+- 捕获错误类型
+
+如果同步读取文件出错了，我们用try...catch...来捕获错误，我诚心把要读取的文件名字写错
+```javascript
+//同步读取文件
+"use strict";
+var fs=require('fs');
+
+try{
+    var data=fs.readFileSync("simfple.text","utf-8");
+    console.log(data);
+}catch(err){
+    console.log("出错了");
+    console.log("错误是"+err);
+}
+```
+
+#### 写入文件
+---
+- 用writFile()这个函数来实现,接受三个参数，第一个，要把数据写入哪个文件；第二个，被写入的数据；第三个，回调函数，由于只关心成功与否，所以，只需要只有一个err参数。代码如下
+
+```javascript
+"use strict";
+var fs=require("fs");
+var data="你好啊，哈哈哈哈";
+fs.writeFile("output.text",data,function(err){
+    if(err){
+        console.log(err);
+    }else{
+        console.log("成功");
+    }
+})
+```
+这时候可以打开我们的output文件查看一下，是否写入了“你好啊，哈哈哈哈”
+
+- 和readFile类似，writeFile也只有一个同步方法，叫做writFilesync()，没有回调函数，其余两个参数和readFile一样
+
+```
+"use strict";
+var fs=require("fs");
+var data="hello jarry";
+fs.writeFileSync("output.text",data);
+```
+注意，如果你的output文件里面原来就有内容，他会直接被替换掉，里面只有你写入的内容
