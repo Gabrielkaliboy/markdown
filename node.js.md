@@ -569,3 +569,45 @@ console.log(filePath);
 使用path模块可以正确处理操作系统相关的文件路径。在Windows系统下，返回的路径类似于C:\Users\michael\static\index.html，这样，我们就不关心怎么拼接路径了。
 
 最后，我们实现一个文件服务器file_server.js：
+```javascript
+"use strict";
+var 
+    fs=require("fs"),
+    http=require("http"),
+    path=require('path'),
+    url=require('url');
+
+    //从命令行参数获取root目录，默认是当前目录
+    var root=path.resolve(process.argv[2] || '.');
+    console.log("文档的根目录是:"+root);
+
+    //创建服务器
+    var server = http.createServer(function(request,response){
+        //获取URL的path，类似'/ser/www/css/bootstrap.css';
+        var pathname=url.parse(request.url).pathname
+        var filepath=path.join(root,pathname);
+        //获取文件状态
+        fs.stat(filepath,function(err,stats){
+            if(!err && stats.isFile()){
+                //没有出错并且文件存在
+                console.log('200'+request.url);
+                
+                //发送200响应；
+                response.writeHead(200);
+                //将文件流导向response
+                fs.createReadStream(filepath).pipe(response);
+            }else{
+                //出错了或者文件不存在
+                console.log('404'+request.url);
+
+                //发送404响应
+                response.writeHead(404);
+                response.end('404 not found');
+            }
+        });
+    });
+
+    server.listen(8080);
+    console.log('Server is running at http://127.0.0.1:8080');
+```
+使用命令行，node file_server.js直接运行它，然后打开127.0.0.1:8080,这时候命令行输出404，我们在当前file_server.js文件所在目录，新建一个index.html，随意写点东西，然后在浏览器窗口输入127.0.0.1:8080/index.html就能访问的到我们的文件了，此时再去观察一下cmd命令行，会返回状态200
