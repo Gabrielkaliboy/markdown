@@ -331,7 +331,7 @@ try{
 
 #### 写入文件
 ---
-- 用writFile()这个函数来实现,接受三个参数，第一个，要把数据写入哪个文件；第二个，被写入的数据；第三个，回调函数，由于只关心成功与否，所以，只需要只有一个err参数。代码如下
+- 用writFile()这个函数来实现,接受三个参数，第一个，要把数据写入哪个文件；第二个，被写入的数据，如果传入的数据是String，默认按UTF-8编码写入文本文件，如果传入的参数是Buffer，则写入的是二进制文件。；第三个，回调函数，由于只关心成功与否，所以，只需要只有一个err参数。代码如下
 
 ```javascript
 "use strict";
@@ -356,3 +356,216 @@ var data="hello jarry";
 fs.writeFileSync("output.text",data);
 ```
 注意，如果你的output文件里面原来就有内容，他会直接被替换掉，里面只有你写入的内容
+
+#### stat 获取文件的大小，创建时间等信息
+fs.stat()函数可以获取文件的大小，创建时间等信息，他返回一个stat对象，能告诉我们文件或者目录的详细信息
+```javascript
+"use strict";
+var fs=require("fs");
+fs.stat("simple.text",function(err,stat){
+    if(err){
+        console.log(err);
+    }else{
+        //是否是文件
+        console.log("是文件"+stat.isFile());
+        //是否是文件夹
+        console.log("是文件夹"+stat.isDirectory());
+        if(stat.isFile()){
+            console.log("文件大小"+stat.size);
+            console.log("创建时间"+stat.birthtime);
+            console.log("修改时间"+stat.mtime);
+        }
+    }
+})
+```
+返回的结果是
+```
+是文件true
+是文件夹false
+文件大小15
+创建时间Thu Apr 27 2017 19:20:06 GMT+0800 (中国标准时间)
+修改时间Thu Apr 27 2017 19:20:14 GMT+0800 (中国标准时间)
+```
+
+- stat还有一个同步函数statSycn()
+
+
+#### 同步还是异步
+由于Node环境执行的JavaScript代码是服务器端代码，所以，绝大部分需要在服务器运行期反复执行业务逻辑的代码，必须使用异步代码，否则，同步代码在执行时期，服务器将停止响应，因为JavaScript只有一个执行线程。
+
+服务器启动时如果需要读取配置文件，或者结束时需要写入到状态文件时，可以使用同步代码，因为这些代码只在启动和结束时执行一次，不影响服务器正常运行时的异步执行。
+
+#### stream
+是node提供的一个只在服务端使用的模块，用来支持“流”这种数据结构
+- data：表示数据已经可以读取了
+- end表示这个流已经到末尾了，没有数据可以读取了
+- error表示出错了
+
+```javascript
+"use strict";
+var fs=require("fs");
+//打开一个流文件
+var rs=fs.createReadStream("simple.text","utf-8");
+rs.on("data",function(chunk){
+    console.log("开始");
+    //这里的参数chunk是我们的文件里面的内容，也就是数据
+    console.log(chunk);
+});
+rs.on("end",function(){
+    console.log("结束");
+});
+rs.on("error",function(){
+    console.log("错误"+Error);
+})
+
+```
+
+要注意data事件可能会有多次，每次传递truck是流的一部分。所以要想以流的形式写入文件，只需要不断的调用write方法，最后以end（）结束就行
+```javascript
+"use strict";
+var fs=require("fs");
+var ws1=fs.createWriteStream("output1.text","utf-8");
+ws1.write("使用stream写入文本数据...\n");
+ws1.write("End");
+ws1.end();
+
+var ws2=fs.createWriteStream("output2.text");
+ws2.write(new Buffer("使用stream写入二进制的数据...\n","utf-8"));
+ws2.write(new Buffer("End","utf-8"));
+ws2.end()
+```
+可以打开output1与output2文件查看一下。
+所有可以读取数据的流都继承自stream.Readable，所有可以写入的流都继承自stream.Writable。
+#### pie
+就像可以把两个水管串成一个更长的水管一样，两个流也可以串起来。一个Readable流和一个Writable流串起来后，所有的数据自动从Readable流进入Writable流，这种操作叫pipe。
+
+在Node.js中，Readable流有一个pipe()方法，就是用来干这件事的。
+
+pipe()把一个文件流和另一个文件流串起来，这样源文件的所有数据就自动写入到目标文件里了，所以，这实际上是一个复制文件的程序：
+```javascript
+"use strict";
+var fs=require("fs");
+//要读取的文件
+var rs=fs.createReadStream("simple.text");
+//要写入的文件
+var ws=fs. createWriteStream("copied.text");
+//执行写入动作
+rs.pipe(ws);
+```
+
+默认情况下，当Readable流的数据读取完毕，end事件触发后，将自动关闭Writable流。如果我们不希望自动关闭Writable流，需要传入参数：
+```
+readable.pipe(writable, { end: false });
+```
+
+#### http
+开发http服务器程序，使用的是node里面提供的http模块的response和request对象
+- request对象封装了HTTP请求，我们调用request对象的属性和方法就可以拿到所有的http请求信息
+- response对象封装了HTTP响应，我们操作response对象的方法，就可以把HTTP响应返回给浏览器。
+
+一个简单的请求
+```
+"use strict";
+//导入http模块
+var http=require("http");
+//创建http service，并返回回调函数
+var service=http.createServer(function(request,response){
+    //回调函数接收request和response对象
+    //获得http请求的method和URL
+    console.log(request.method+":"+request.url);
+    //将http响应200写入response，同时设置Content-Type：text/html
+    response.writeHead(200,{'Content-Type':'text/html'})
+    //将http响应的HTML内容写入response
+    response.end('<h1>hello world</h1>');
+});
+//让服务器监听8080端口
+service.listen(8080);
+console.log("service is running at http://127.0.0.1:8080/");
+```
+在调试界面启动hello.js，此时控制台会输出
+```
+service is running at http://127.0.0.1:8080/
+```
+不要中断调试，此时用浏览器打开127.0.0.1:8080窗口，我们可以看到页面输出了hello world
+打开页面以后，控制台输出
+```
+service is running at http://127.0.0.1:8080/
+GET:/
+GET:/favicon.ico
+```
+
+#### 文件服务器
+让我们继续扩展一下上面的Web程序。我们可以设定一个目录，然后让Web程序变成一个文件服务器。要实现这一点，我们只需要解析request.url中的路径，然后在本地找到对应的文件，把文件内容发送出去就可以了。
+解析URL需要用到Node.js提供的url模块，它使用起来非常简单，通过parse()将一个字符串解析为一个Url对象：
+```
+"use strict";
+//导入http模块
+var http=require("http");
+//创建http service，并返回回调函数
+var service=http.createServer(function(request,response){
+    //回调函数接收request和response对象
+    //获得http请求的method和URL
+    console.log(request.method+":"+request.url);
+    //将http响应200写入response，同时设置Content-Type：text/html
+    response.writeHead(200,{'Content-Type':'text/html'})
+    //将http响应的HTML内容写入response
+    response.end('<h1>hello world</h1>');
+});
+//让服务器监听8080端口
+service.listen(8080);
+console.log("service is running at http://127.0.0.1:8080/");
+
+var url=require('url');
+console.log(url.parse('http://user:pass@host.com:8080/path/to/file?query=string#hash'));
+console.log(url.parse('www.baidu.com'));
+```
+控制台返回
+```
+service is running at http://127.0.0.1:8080/
+service is running at http://127.0.0.1:8080/
+Url {
+  protocol: 'http:',
+  slashes: true,
+  auth: 'user:pass',
+  host: 'host.com:8080',
+  port: '8080',
+  hostname: 'host.com',
+  hash: '#hash',
+  search: '?query=string',
+  query: 'query=string',
+  pathname: '/path/to/file',
+  path: '/path/to/file?query=string',
+  href: 'http://user:pass@host.com:8080/path/to/file?query=string#hash' }
+Url {
+  protocol: null,
+  slashes: null,
+  auth: null,
+  host: null,
+  port: null,
+  hostname: null,
+  hash: null,
+  search: null,
+  query: null,
+  pathname: 'www.baidu.com',
+  path: 'www.baidu.com',
+  href: 'www.baidu.com' }
+
+```
+处理本地文件目录需要使用Node.js提供的path模块，它可以方便地构造目录：
+```
+"use strict";
+var path=require('path');
+//解析当前目录,我现在文件 处于e盘下的hello文件夹
+var workDir=path.resolve('.');
+console.log(workDir);
+//e:\hello
+
+
+//组合完整的文件路径：当前路径+“pub”+“index.html”
+var filePath=path.join(workDir,'pub','index.html');
+console.log(filePath);
+//e:\hello\pub\index.html
+```
+使用path模块可以正确处理操作系统相关的文件路径。在Windows系统下，返回的路径类似于C:\Users\michael\static\index.html，这样，我们就不关心怎么拼接路径了。
+
+最后，我们实现一个文件服务器file_server.js：
