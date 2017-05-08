@@ -47,3 +47,8 @@ markdownPad2快捷键
 · 撤销 Ctrl + Z
 
 · 重做 Ctrl + Y
+
+插入引用链接
+---
+英文状态下的大于号，如下所示
+>www.baidu.com
