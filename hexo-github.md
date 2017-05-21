@@ -426,3 +426,119 @@ scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo 
 - 可以下载别的主题放在这个目录下。链接：https://github.com/hexojs/hexo/wiki/Themes
 
 - 主题目录下我们可以进行很多自定义的操作，诸如，给网站添加微博秀、添加评论组件、添加分享组件、添加统计等等，让自己的博客网站更丰富、有趣、实用。
+
+
+# hexo绑定别的域名
+### 1. 初衷
+本来不想在绑定一个别的域名的，结果想给博客开启一个留言评论系统，看了一下yilia作者的介绍。附上链接：https://github.com/litten/hexo-theme-yilia/wiki
+看了一下，网易云跟帖最符合我的要求。但是我在申请网易云跟帖的时候，他只认根域名。也就是我的GabrielKaliboy.github.io显示已被注册。所以我只好弄个别的域名
+
+### 2.绑定别的域名，在阿里云申请了一个www.zhuhongwei.online
+- 阿里云解析
+点击添加解析，记录类型选A或CNAME，A记录的记录值就是ip地址，github(官方文档)提供了两个IP地址，192.30.252.153和192.30.252.154，这两个IP地址为github的服务器地址，两个都要填上，解析记录设置两个www和@，线路就默认就行了，CNAME记录值填你的github博客网址。如我的是也就是我的GabrielKaliboy.github.io。
+
+- hexo新建一个CNAME
+这些全部设置完成后，此时你并不能要申请的域名访问你的博客。接着你需要做的是在hexo根目录的source文件夹里创建CNAME文件，不带任何后缀，里面添加你的域名信息，如：zhuhongwei.com。实践证明如果此时你填写的是www.zhuhongwei.online那么以后你只能用www.zhuhongwei.online访问，而如果你填写的是penglei.online。那么用www.zhuhongwei.online和zhuhongwei.online访问都是可以的。重新清理hexo,并发布即可用新的域名访问。
+
+- updata.sh重新生成一下，并上传到GitHub
+
+# 一些常用的Hexo命令
+- ### hexo
+npm install hexo -g #安装  
+npm update hexo -g #升级  
+hexo init #初始化
+
+- ### 简写
+hexo n "我的博客" == hexo new "我的博客" #新建文章
+hexo p == hexo publish
+hexo g == hexo generate#生成
+hexo s == hexo server #启动服务预览
+hexo d == hexo deploy#部署
+
+- ### 服务器
+
+hexo server #Hexo 会监视文件变动并自动更新，您无须重启服务器。
+hexo server -s #静态模式
+hexo server -p 5000 #更改端口
+hexo server -i 192.168.1.1 #自定义 IP
+
+hexo clean #清除缓存 网页正常情况下可以忽略此条命令
+hexo g #生成静态网页
+hexo d #开始部署
+
+- ### 监视文件变动
+
+hexo generate 使用 Hexo 生成静态文件快速而且简单
+hexo generate --watch 监视文件变动
+
+- ### 完成后部署
+两个命令的作用是相同的
+hexo generate --deploy
+hexo deploy --generate
+
+hexo deploy -g
+hexo server -g
+
+- ### 草稿
+
+hexo publish [layout] <title>
+
+- ### 模版
+
+hexo new "postName" #新建文章
+hexo new page "pageName" #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭server）
+hexo deploy #将.deploy目录部署到GitHub
+
+hexo new [layout] <title>
+hexo new photo "My Gallery"
+hexo new "Hello World" --lang tw
+```
+title: 使用Hexo搭建个人博客
+layout: post
+date: 2014-03-03 19:07:43
+comments: true
+categories: Blog
+tags: [Hexo]
+keywords: Hexo, Blog
+description: 生命在于折腾，又把博客折腾到Hexo了。给Hexo点赞。
+```
+# 在yilia基础上改进http://moxfive.coding.me/yelee/
+1. 如何添加新的导航栏
+
+打开主题的配置文件，_config.yml,如图所示,我现在想要新增一个页面，比如前端导航
+```
+menu:
+## 如何添加新的导航栏
+  主页: /
+  所有文章: /archives/
+  #随笔: /tags/随笔
+  标签云: /tags/
+  关于我: /about/
+  前端导航:/webLinks/
+```
+然后在hexo里面执行
+```
+$ hexo new page "webLinks"
+INFO  Created: E:\hexo\source\webLinks\index.md
+```
+这时候在hexo的source文件目录里面就会生成一个名字叫做webLinks的文件夹，里面对应的index.md 就是我们点击前端导航以后显示的页面。
+
+# 写作
+使用hexo n那个命令新建文章就好了，你也可以在博客目录D:\hexo\source\_posts中新建一个后缀为.md的文件，使用文本编辑器在里面采用Markdown来书写，效果一样。文本编辑器的话，可以选用Notepad++（推荐新手使用），对Vim熟悉的话也可以使用Vim。这些在这里简单带过，来说点别的东西。
+### 1. 新建一篇文章
+- 命令行
+在hexo的文件目录直接输入下面这句话
+```
+$ hexo new "测试"
+INFO  Created: E:\hexo\source\_posts\测试.md
+```
+他提示我们在E:\hexo\source\_posts\目录下面已经给我们新建了一个名字为测试的markdown文件，我们可以直接找到这个文件直接书写就行，如图
+
+![目录详情](images/hexo-github/1.png)
+
+- 直接在这个目录下面新建也可以
+```
+E:\hexo\source\_posts
+```
