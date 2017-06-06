@@ -1,6 +1,9 @@
 使用GitHub和hexo搭建网站
 ---
 参考链接：https://linghucong.js.org/2016/04/15/2016-04-15-hexo-github-pages-blog/
+hexo中文文档：https://hexo.io/zh-cn/docs/tag-plugins.html
+yelee主题说明:http://moxfive.coding.me/yelee/2.Basic-Usage/tag-cloud-page.html
+yelee主题地址:https://github.com/MOxFIVE/hexo-theme-yelee
 # 安装hexo
 ---
 ### 1. 官网 https://hexo.io/zh-cn/
@@ -438,7 +441,7 @@ scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo 
 点击添加解析，记录类型选A或CNAME，A记录的记录值就是ip地址，github(官方文档)提供了两个IP地址，192.30.252.153和192.30.252.154，这两个IP地址为github的服务器地址，两个都要填上，解析记录设置两个www和@，线路就默认就行了，CNAME记录值填你的github博客网址。如我的是也就是我的GabrielKaliboy.github.io。
 
 - hexo新建一个CNAME
-这些全部设置完成后，此时你并不能要申请的域名访问你的博客。接着你需要做的是在hexo根目录的source文件夹里创建CNAME文件，不带任何后缀，里面添加你的域名信息，如：zhuhongwei.com。实践证明如果此时你填写的是www.zhuhongwei.online那么以后你只能用www.zhuhongwei.online访问，而如果你填写的是penglei.online。那么用www.zhuhongwei.online和zhuhongwei.online访问都是可以的。重新清理hexo,并发布即可用新的域名访问。
+这些全部设置完成后，此时你并不能要申请的域名访问你的博客。接着你需要做的是在hexo根目录的source文件夹里创建CNAME文件，不带任何后缀，里面添加你的域名信息，如：zhuhongwei.com。实践证明如果此时你填写的是www.zhuhongwei.online那么以后你只能用www.zhuhongwei.online访问，而如果你填写的是zhuhongwei.online。那么用www.zhuhongwei.online和zhuhongwei.online访问都是可以的。重新清理hexo,并发布即可用新的域名访问。
 
 - updata.sh重新生成一下，并上传到GitHub
 
