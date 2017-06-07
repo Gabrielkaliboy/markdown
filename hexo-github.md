@@ -545,3 +545,42 @@ INFO  Created: E:\hexo\source\_posts\测试.md
 ```
 E:\hexo\source\_posts
 ```
+### 2.为每篇文章添加分类和标签
+使用标签云功能，首先我们应该把标签云页面新建出来，输入如下命令，新建标签云页面（每个主题可能一样，也可能不一样，自己查一下，这里以Yelee为例）。
+```
+hexo new page tags
+```
+
+使用命令`hexo new 文章的名字`以后，会自动为我们新建一个文章名字.md的markdown文档，这个文档里面会还有一些初始化的内容，我们可以自己手动添加一些再
+```
+---
+title: 小程序
+date: 2017-06-07 20:52:40
+categories: 前端
+tags: [小程序,javascript]
+---
+<Excerpt in index | 首页摘要> 
+小程序
+<!-- more -->
+<The rest of contents | 余下全文>
+```
+解释说明一下上面的内容
+- categories:文章的分类
+- tags:标签
+- <Exceprpt in index | 首页摘要>.......<!-- more -->:他们中间省略的是摘要内容，里面可以写md格式的文档。
+- <The rest of contents | 余下全文>：是一个缩略标签
+
+### 3.文章中插入图片(这是个坑！)
+参考：http://www.tuicool.com/articles/umEBVfI
+首先确认 hexo的_config.yml 中有 post_asset_folder:true 。
+文章插入图片需要用到Hexo的一个插件，首先cd到hexo的根目录
+```
+npm install https://github.com/CodeFalling/hexo-asset-image --save
+```
+然后把图片放入对应文章的配套文件夹下，比如1.png。切记，文章的名字必须和保存图片的文件夹的名字一致，否则还是出不来。如图所示的目录结构：
+![](images/hexo-github/hexoInsertImage.png)
+此时我在xiaochengxu.md文件里面嵌入xiaochengxu文件夹里面的1.jpg,我需要这么写：
+```
+![](xiaochengxu/1.jpg)
+```
+这样他的路径才会自动转成正确的！！！！
