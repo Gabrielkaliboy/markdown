@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.maskedinput/1.4.0/jquery.maskedinput.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <input id="phone" placeholder="请输入手机号码" type="text" tabindex="1"/>
+    <input id="date"  type="text" tabindex="2" />
+</body>
+<script type="text/javascript">
+    $(function() {
+        //我们将默认的下划线去掉了，用0占位
+        $("#phone").mask("(999) 999-9999",{placeholder:"0"});
+        //用*占位
+        $("#date").mask("99/99/9999",{placeholder:"*"});
+    });
+</script>
+</html>

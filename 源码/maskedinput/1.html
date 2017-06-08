@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.maskedinput/1.4.0/jquery.maskedinput.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <input id="phone" type="text"/>
+    <input id="info"  type="text">
+    <input id="date" value="1231" type="text" tabindex="1" />
+</body>
+<script type="text/javascript">
+    $(function() {
+         $("#date").mask("99/99/9999",{completed:function(){alert("completed!");}});
+         $("#phone").mask("(999) 999-9999");
+        
+         // $("input").blur(function() {
+         //     $("#info").html("Unmasked value: " + $(this).mask());
+         // }).dblclick(function() {
+         //     $(this).unmask();
+         // });
+     });
+</script>
+</html>

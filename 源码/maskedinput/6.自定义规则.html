@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.maskedinput/1.4.0/jquery.maskedinput.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <input id="phone" type="text" tabindex="6" />
+</body>
+<script type="text/javascript">
+    $(function() {
+        //自定义规则“~”符号代替“+”或者“-”
+        $.mask.definitions['~']='[+-]';
+        //这样，用户在输入的时候，第一位必须为加号，或者减号
+        $("#phone").mask("(~99) 999-9999");
+    })
+</script>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="http://libs.baidu.com/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery.maskedinput/1.4.0/jquery.maskedinput.min.js"></script>
+    <title></title>
+</head>
+<body>
+    <input id="test" type="text" tabindex="6" />
+</body>
+<script type="text/javascript">
+    $(function() {
+    	//设置h的输入范围只能是数字0-9，字母A-F,a-f
+    	$.mask.definitions['h'] = "[A-Fa-f0-9]";
+    	//限制输入8位16进制数字
+        $("#test").mask("#hhhhhhhh");
+    })
+</script>
+</html>
