@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script type="text/javascript" src="jquery.dataTables.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="H-ui.css"/>
+	<style>
+		.main{
+			width:1300px;
+			margin:100px auto;
+		}
+		td{
+			text-align: center;
+		}
+	</style>
+	<title></title>
+</head>
+<body>
+	<div class="main">
+		<table id="showdeviceloggatherdata" class="table table-border table-bordered table-bg table-hover table-sort">
+			<thead>
+				<tr class="text-c">
+					<th width="30">序号</th>
+					<th width="80">详细</th>
+					<th width="130">报修单号</th>
+					<th width="80">设备状态</th>
+					<th width="80">故障处理</th>
+					<th width="130">维修单号</th>
+					<th width="140">设备编号</th>
+					<th width="100">设备名称</th>
+					<th width="70">规格型号</th>
+					<th width="70">使用部门</th>
+					<th width="100">发生时间</th>
+					<th width="100">记录时间</th>
+					<th width="80">故障等级</th>
+					<th width="80">故障类别</th>
+					<th width="100">确认时间</th>
+					<th width="60">确认人</th>
+					<th width="200">故障描述</th>
+					<th width="200">处理意见</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</div>
+</body>
+<script type="text/javascript">
+    var oTable = null;
+    var edit = false;
+    var eadd = false;
+    var eget = false;
+    var emanager = false;
+
+    function queryRepairList() {
+        /*表格数据操作*/
+        oTable = $('.table-sort').dataTable({
+            "bLengthChange": false, //是否允许自定义每页显示条数.
+            'bPaginate': true,  //是否分页。
+            "bProcessing": false, //当datatable获取数据时候是否显示正在处理提示信息。
+            "bFilter": false,//是否使用内置的过滤功能
+            "bSort": false,//支持排序功能
+            "sScrollX": "100%", //横向滚动条
+            "iDisplayLength": 10,//每页显示10条记录
+            "bServerSide": true,//服务端处理分页
+            "sAjaxSource": "1.json",
+            "fnServerData": retrieveData,//用于替换默认发到服务端的请求操作
+            "aoColumns": [
+                       { "mData": "id", "sClass": "text-c" },
+                       { "mData": "id", "sClass": "text-c" },
+                       { "mData": "recordnumber", "sClass": "text-c" },
+                       { "mData": "recordstate", "sClass": "text-c" },
+                       { "mData": "opinionstate", "sClass": "text-c" },
+                       { "mData": "wxrecordnumber", "sClass": "text-c" },
+                       { "mData": "serialnumber", "sClass": "text-c" },
+                       { "mData": "devicename", "sClass": "text-c" },
+                       { "mData": "modelname", "sClass": "text-c" },
+                       { "mData": "deptname", "sClass": "text-c" },
+                       { "mData": "occurredtime", "sClass": "text-c" },
+                       { "mData": "recordtime", "sClass": "text-c" },                       
+                       { "mData": "faultlevel", "sClass": "text-c" },
+                       { "mData": "faulttype", "sClass": "text-c" },
+                       { "mData": "confirmtime", "sClass": "text-c" },
+                       { "mData": "confirmor", "sClass": "text-c" },
+                       { "mData": "faultdesc", "sClass": "text-c" },
+                       { "mData": "opinion", "sClass": "text-c" }
+            ],
+            "columnDefs": [{
+                "targets": [1], // 目标列位置，下标从0开始
+                "render": function (data, type, full) { // 返回自定义内容getcallrepair
+                    //return "<a href='javascript:add(" + data + ")'>详细</a>";
+                    var dhtml = "";
+                    if (edit) {
+                        dhtml = "<a href='javascript:addcallrepair(" + data + ")'><i class=\"Hui-iconfont\">&#xe6df;编辑</i></a>";
+                    }
+                    else {
+                        if (eget) {
+                            dhtml = "<a href='javascript:getcallrepair(" + data + ")'><i class=\"Hui-iconfont\">&#xe6df;查看</i></a>";
+                        }
+                        else {
+                            dhtml = "";
+                        }
+                    }
+                    return dhtml;
+                }
+            }, {
+                "targets": [3], // 目标列位置，下标从0开始
+                "render": function (data, type, full) { // 返回自定义内容
+                    //return "<font style='color:blue;'>列入计划</font>";
+                    if (data == 0) {
+                        return "<font style='color:blue;'>停机待修</font>";
+                    }
+                    else if (data == 1) {
+                        return "<font style='color:blue;'>带病运行</font>";
+                    }
+                    else {
+                        return "<font style='color:blue;'>其他</font>";
+                    }
+                }
+            }, {
+                "targets": [4], // 目标列位置，下标从0开始
+                "render": function (data, type, full) { // 返回自定义内容                   
+                    //return "<font style='color:blue;'>列入计划</font>";
+                    if (data == 0) {
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;待审核</i></a>" : "待审核";
+                    }
+                    else if (data == 1) {
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;审核不通过</i></a>" : "审核不通过";
+                    }
+                    else if(data ==2) {
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;暂不处理</i></a>" : "暂不处理";
+                    }
+                    else if (data == 3) {
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;立刻维修</i></a>" : "立刻维修";
+                    }
+                    else if (data == 4) {
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;列入计划</i></a>" : "列入计划";
+                    }
+                    else{
+                        return emanager ? "<a href='javascript:editcallrepair(" + full.id + ")'><i class=\"Hui-iconfont\">&#xe6df;维修完成</i></a>" : "维修完成";
+                    }
+                }
+            }, {
+                "targets": [12], // 目标列位置，下标从0开始
+                "render": function (data, type, full) { // 返回自定义内容                   
+                    //return "<font style='color:blue;'>列入计划</font>";
+                    if (data == 0) {
+                        return "紧急";
+                    }
+                    else if (data == 1) {
+                        return "重大";
+                    }
+                    else {
+                        return "一般";
+                    }
+                }
+            }],
+            "fnDrawCallback": function () {
+                var api = this.api();
+                var startIndex = api.context[0]._iDisplayStart;//获取本页开始的条数
+                api.column(0).nodes().each(function (cell, i) {
+                    cell.innerHTML = startIndex + i + 1;
+                });
+            }
+        });
+    };
+    function retrieveData(url, aoData, fnCallback) {
+        return $.ajax({
+            type: "POST",
+            url: url,
+            dataType: "json",
+            data: {
+                serialnumber: $("#serialnumber").val(),
+                modelname: $("#modelname").val(),
+                devicename: $("#devicename").val(),
+                sEcho: aoData.sEcho,
+                pageIndex: aoData[3].value / aoData[4].value + 1,
+                pageSize: aoData[4].value
+            },
+            success: function (result) {
+                fnCallback(result);
+                $(".table-sort tbody tr").dblclick(function (event) {
+                    var aData = oTable.fnGetData(this);
+                    $(".table-sort tbody tr").removeClass("trSpecial");
+                    $(this).addClass("trSpecial");
+                    if (eadd) {
+                        addcallrepair(aData.id);
+                    }
+                });
+                $('.table-sort tbody').on('click', 'tr', function () {
+                    //if ($(this).hasClass('selected')) {
+                    //    $(this).removeClass('selected');
+                    //} else {
+                    //    oTable.$('tr.selected').removeClass('selected');
+                    //    $(this).addClass('selected');
+                    //}
+                    //$(this).toggleClass('selected');//批量
+                });
+            }
+        });
+    };
+    $(document).ready(function () {
+        edit = "@ViewBag.eedit" == "0" ? true : false;
+        eadd = "@ViewBag.eadd" == "0" ? true : false;
+        eget = "@ViewBag.eget" == "0" ? true : false;
+        emanager = "@ViewBag.emanager" == "0" ? true : false;
+        //if (eadd) {
+        //    $("#BtnaddPersim").show();
+        //    eadd = true;
+        //}
+        //else {
+        //    eadd = false;
+        //    $("#BtnaddPersim").hide();
+        //}
+        queryRepairList();
+        $("#btnQuery").click(function () {
+            oTable.fnDraw();
+        });
+    });
+    function addcallrepair(id) {
+        var index = layer.open({
+            type: 2,
+            title: "故障报修",
+            content: "../equipment/addCallRepair?id=" + id,
+            area: ["800px", "700px"],
+            end: function (index) {
+                //oTable.fnDraw(false);
+                oTable.fnPageChange('previous', true);
+            }
+        });
+    };
+    function editcallrepair(id) {
+        var index = layer.open({
+            type: 2,
+            title: "故障处理",
+            content: "../equipment/CallRepairEdit?id=" + id,
+            area: ["800px", "760px"],
+            end: function (index) {
+                //oTable.fnDraw(false);
+                oTable.fnPageChange('previous', true);
+            }
+        });
+    };
+    function del() {
+        var oTable = $('.table-sort').DataTable();
+        //alert(oTable.rows('.selected').data().length + ' row(s) selected');
+    }
+    function getcallrepair(id) {
+        var index = layer.open({
+            type: 2,
+            title: "查看故障",
+            content: "../equipment/getCallRepair?id=" + id,
+            area: ["800px", "640px"],
+            end: function (index) {
+                //oTable.fnDraw(false);
+                oTable.fnPageChange('previous', true);
+            }
+        });
+    };
+</script>
+</html>
