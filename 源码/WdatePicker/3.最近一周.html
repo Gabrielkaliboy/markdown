@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script src="My97DatePicker/WdatePicker.js"></script>
+	<title></title>
+</head>
+<body>
+	日期范围:
+	<input type="text"  id="LstartTime" class="Wdate" style="width:120px;">
+	-
+	<input type="text"  id="LendTime" class="Wdate" style="width:120px;">
+	<button name="" id="recentWeek" type="submit">最近一周</button>
+</body>
+<script type="text/javascript">
+	$(function () {
+	    //获取当前的日期和时间
+	    var ndate = new Date();
+	    $('#recentWeek').click(function () {
+	    	//七天以前
+	        $('#LstartTime').val(addDate(ndate, -7));
+	        //一天以前
+	        $('#LendTime').val(addDate(ndate, -1));
+	    });
+	});
+	function addDate(datetimes, days) {
+		//返回从 1970 年 1 月 1 日至今的毫秒数
+	    var datetime = new Date(datetimes);
+	    //格式化时间戳
+	    datetime = datetime.valueOf();
+	    //将时间修改为days天以后
+	    datetime = datetime + days * 24 * 60 * 60 * 1000;
+	    //将时间戳在设置回正确时间格式
+	    datetime = new Date(datetime);
+	    //返回年月日
+	    return datetime.getFullYear() + '-' + (datetime.getMonth() + 1) + '-' + datetime.getDate();
+	}
+</script>
+</html>

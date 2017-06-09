@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script src="My97DatePicker/WdatePicker.js"></script>
+	<title></title>
+</head>
+<body>
+	<h3>第一个输入框的时间范围：最小~第二个输入框的时间往前推(-)30天;最大~第二个输入框的时间</h3>
+	<h3>第二个输入框的时间范围：最小~第一个输入框的时间；最大~第一个输入框的时间往后推(+)30天</h3>
+	日期范围:
+	<input type="text" onfocus="startTimefocus('LendTime')" id="LstartTime" class="Wdate" style="width:120px;">
+	-
+	<input type="text" onfocus="endTimefocus('LstartTime')" id="LendTime" class="Wdate" style="width:120px;">
+<script type="text/javascript">
+	function startTimefocus(endTime) {
+	    return WdatePicker({
+	        skin: 'whyGreen',
+	        //参数endTime是某个input的ID值，此时为LendTime的，也就是第二个input输入框的
+	        //最小输入时间为ID=LendTime的输入框时间往前减30天
+	        minDate: '#F{$dp.$D(\'' + endTime + '\',{d:-30});}',
+	        //最大输入时间为ID=LendTime的输入时间
+	        maxDate: '#F{$dp.$D(\'' + endTime + '\')||\'%y-%M-%d\'}',
+	        doubleCalendar: true,
+	        dateFmt: 'yyyy-MM-dd'
+	    });
+	}
+	function endTimefocus(startTime) {
+	    return WdatePicker({
+	        skin: 'whyGreen',
+	        //参数startTime是某个input的ID值，此时为LstartTime的，也就是第一个input输入框的
+	        //最小输入时间为ID=LstartTime的输入框输入的时间
+	        minDate: '#F{$dp.$D(\'' + startTime + '\')}',
+	        //最大输入时间为ID=LstartTime的输入框时间往后加30天
+	        maxDate: '#F{$dp.$D(\'' + startTime + '\',{d:30})||\'%y-%M-%d\'}',
+	        doubleCalendar: true,
+	        dateFmt: 'yyyy-MM-dd'
+	    });
+	}
+</script>
+</html>

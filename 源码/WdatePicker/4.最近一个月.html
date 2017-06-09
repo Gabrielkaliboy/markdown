@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script src="My97DatePicker/WdatePicker.js"></script>
+	<title></title>
+</head>
+<body>
+	日期范围:
+	<input type="text"  id="recentMonthStartTime" class="Wdate" style="width:120px;">
+	-
+	<input type="text"  id="recentMonthEndTime" class="Wdate" style="width:120px;">
+	<button name="" id="recentMonth" type="submit">最近一月</button>
+<script type="text/javascript">
+	//获取当前时间
+	var ndate = new Date();
+	$('#recentMonth').click(function () {
+	    $('#recentMonthStartTime').val(addMon(-1));
+	    $('#recentMonthEndTime').val(addDate(ndate, -1));
+	});
+	function addDate(datetimes, days) {
+	    var datetime = new Date(datetimes);
+	    datetime = datetime.valueOf();
+	    datetime = datetime + days * 24 * 60 * 60 * 1000;
+	    datetime = new Date(datetime);
+	    return datetime.getFullYear() + '-' + (datetime.getMonth() + 1) + '-' + datetime.getDate();
+	}
+	function addMon(mon) {
+	    var datetime = new Date();
+	    datetime.setMonth(datetime.getMonth() + mon);
+	    return datetime.getFullYear() + '-' + (datetime.getMonth() + 1) + '-' + datetime.getDate();
+	}
+</script>
+</html>
