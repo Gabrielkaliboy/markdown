@@ -584,3 +584,5 @@ npm install https://github.com/CodeFalling/hexo-asset-image --save
 ![](xiaochengxu/1.jpg)
 ```
 这样他的路径才会自动转成正确的！！！！
+
+### 4.yelee主题修改评论工具为网易云跟帖
