@@ -1,0 +1,223 @@
+body{
+    background: #eaeff2;
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+    -moz-background-size:100% 100%;
+    background-size:100% 100%;
+}
+a:active{
+	color:#000;
+}
+/*必填*/
+.c-red{
+    color: red;
+}
+/*第一行的*/
+.RegisterFirst {
+height: 70px;
+    line-height: 70px;
+    background: #0cc0f4;
+    width: 1100px;
+    margin: 0 auto;
+}
+/*左侧的logo*/
+.RegisterFirstLeft {
+    float:left;
+}
+.RegisterFirstLeft img{
+    width:60%;
+}
+.registerFirstRight {
+    float: right;
+    color: #fff;
+}
+.registerFirstRight span{
+    margin: 0 10px;
+}
+.registerFirstRight a{
+    color: #fff;
+}
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 70px;
+    background: #FFFFFF;
+}
+.header{
+	height:50px;
+	line-height:50px;
+	background:#dbe2e5;
+}
+.header a{
+    color:#000;
+}
+.header .active{
+	color:#000;
+	font-size: 20px;
+	background:#FFF;
+}
+.header span{
+	display: inline-block;
+	width:100px;
+	text-align: center;
+	color:#7F848F;
+}
+
+/*主体表单区域*/
+.main{
+	background: #FFFFFF;
+	width:100%;
+    margin-bottom:50px;
+}
+
+/*个人用户*/
+.main .personal{
+	position:relative;
+	top:1px;
+}
+.main .personal .personalRegisterForm{
+    width: 50%;
+    margin: 0 25%;
+        margin-top: 40px;
+}
+.personalRegisterForm li{
+    height: 50px;
+    line-height: 50px;
+    text-align: right;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.personalRegisterForm li input{
+	border-radius: 3px;
+    border: 1px solid #dddee3;
+    width: 80%;
+    padding-left: 5px;
+    padding-top:5px;
+    height: 40px;
+}
+/*三级联动css*/
+.personalRegisterForm li select{
+	border-radius: 3px;
+    border: 1px solid #dddee3;
+    height: 38px;
+    width:26%;
+}
+/*验证码*/
+#getScode1{
+    padding-right: 10px;
+    height: 40px;
+    width: 106px;
+}
+#liGetScode1{
+    margin-right:180px;
+}
+/*底部的登录按钮*/
+.submit_button{
+	width: 70%;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    border-radius: 14px;
+    background-color: #0CC3F1;
+}
+/*表单验证提示信息*/
+#personalRegisterForm li label.error{
+	position: absolute;
+    margin-left: 10px;
+    color: #f00;
+    display:inline !important;
+}
+/*验证码那行*/
+#yzm-error{
+	margin-left:20px;
+}
+
+
+
+/*企业用户*/
+.main .enterprise{
+	position:relative;
+	top:1px;
+	display: none;
+}
+.main .enterprise .enterpriseRegisterForm{
+    width: 50%;
+    margin: 0 25%;
+    margin-top:20px;
+}
+.enterpriseRegisterForm li{
+    height: 45px;
+    line-height: 45px;
+    text-align: right;
+    margin: 10px 0;
+    cursor:pointer;
+}
+.enterpriseRegisterForm li input{
+	border-radius: 3px;
+    border: 1px solid #dddee3;
+    width: 74%;
+    padding-left: 5px;
+    padding-top:5px;
+    height: 40px;
+}
+/*三级联动css*/
+.enterpriseRegisterForm li select{
+	border-radius: 3px;
+    border: 1px solid #dddee3;
+    height: 40px;
+    width:24%;
+}
+/*所属行业*/
+#tradeSelectLi{
+	
+}
+#tradeSelectLi  select {
+    border-radius: 3px;
+    border: 1px solid #dddee3;
+    width: 74%;
+    padding-left: 5px;
+    height: 40px;
+}
+/*验证码*/
+#getScode2{
+    padding-right: 10px;
+    height: 40px;
+    width: 106px;
+}
+#liGetScode2{
+    margin-right:180px;
+}
+/*底部的登录按钮*/
+.submit_button{
+	width: 70%;
+    height: 45px;
+    color: #fff;
+    font-size: 16px;
+    outline: none;
+    border: 0;
+    border-radius: 14px;
+    background-color: #0CC3F1;
+}
+/*表单验证提示信息*/
+#enterpriseRegisterForm li label.error{
+	position: absolute;
+    margin-left: 10px;
+    color: #f00;
+    display:inline !important;
+}
+/*验证码那行*/
+#yzm-error{
+	margin-left:20px;
+}
+/*大标题*/
+h2 {
+    margin:20px 0;
+}
+
+/*每个注册页面的信息提示*/
+.enterpriseTips , .personalTips {
+    text-align: center;
+    visibility: hidden;
+    color: #f00;
+}

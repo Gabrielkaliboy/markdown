@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+	<!-- 去除默认样式 -->
+	<link rel="stylesheet" type="text/css" href="css/base.css">
+	<!-- 步骤条 -->
+	<link rel="stylesheet" type="text/css" href="css/step.css">
+	<link rel="stylesheet" type="text/css" href="css/index.css">
+	<title>表单分步提交</title>
+</head>
+<body>
+	<div id="container">
+		<div class="step">
+		    <span class="steps action">第一步</span>
+		    <span class="steps">第二步</span>
+		    <span class="steps disabled">第三步</span>
+		    <span class="steps disabled">第四步</span>
+		</div>
+		<div id="myForm">
+			<form action="" method="post"> 
+				<section class="stepBlock">
+					<div class="stepBlockTitle">
+						创建账号
+					</div>
+					<div class="errorMesage"></div>
+					<div class="formMessage">
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="userName"><span class="c-red">*</span>用户名:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text" placeholder="请输入用户名" name="userName" id="userName">
+							</div>
+						</div>
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="passworld"><span class="c-red">*</span>密码:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text" placeholder="请输入密码" name="passworld" id="passworld">
+							</div>
+						</div>
+					</div>
+				</section>
+			</form>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,66 @@
+body{
+	background:url(../sakura.png);
+}
+#container{
+	width:800px;
+	margin:100px auto;
+}
+#myForm{
+	width: 500px;
+	margin: 0 auto;
+	padding: 20px;
+	background: #fff;
+}
+.c-red {
+    color: red;
+}
+/*每个区块控制*/
+.stepBlock{
+}
+/*区块里面的错误信息提示*/
+.errorMesage{
+
+}
+/*区块里面的大标题*/
+.stepBlockTitle{
+	text-align: center;
+	font-size: 20px;
+	font-weight:bold;
+}
+/*每个里面的表单数据*/
+.formMessage{
+
+}
+/*每一行*/ 
+.stepRow{
+	height: 35px;
+	line-height: 35px;
+    margin: 10px auto;
+}
+/*每一行左侧*/ 
+.stepRowLeft{
+    float: left;
+    width: 150px;
+    text-align: right;
+    margin-right: 10px;
+}
+/*每一行右侧*/ 
+.stepRowRight{
+	float:left;
+}
+/*信息里面的input等控制*/ 
+#myForm select, #myForm input, #myForm textarea {
+    width: 200px;
+    height: 38px;
+    font-size: 14px;
+    line-height: 38px;
+    color: #757575;
+    cursor: pointer;
+    margin-right: 20px;
+    border: 1px solid #b0b0b0;
+    padding-left: 10px;
+}
+#myForm select:focus, #myForm input:focus, #myForm textarea:focus {
+	box-shadow:0 0 0 2px #90b4e6;
+	border:none;
+}
