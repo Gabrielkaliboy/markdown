@@ -1,0 +1,76 @@
+/*一幅图片和它的描述文本都包裹在一个div.box容器中，为容器设置透视效果。*/
+.box{
+    position: relative;
+    perspective: 1000px;
+}  
+/*图片开始时透明度为1，宽度为100%容器宽度，高度自适应，并设置ease-in-out的动画过渡效果。*/
+.box img{
+    width: 100%;
+    height: auto;
+    opacity:1;
+    transform: translateY(0) rotateX(0);
+    transition: all 0.6s ease-in-out 0s;
+}  
+/*在鼠标滑过图片的时候，图片沿Y轴移动-100%（即向上移动，移动距离为图片的高度），并沿X轴旋转90度，由于设置了旋转的中心为图片的底部，所以得到的效果为图片向上并翻转的效果。*/
+.box:hover img{
+    transform: translateY(-100%) rotateX(90deg);
+    transform-origin: center bottom 0;
+    opacity:0;
+} 
+/*图片的文字层开始使透明度为0，定位方式使用绝对定位，宽度和高度都为100%容器宽度和高度，同样设置ease-in-out的动画过渡效果。*/
+.box .over-layer{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    opacity:0;
+    background:#333d4b;
+    text-align:center;
+    padding: 0 20px;
+    transition: all 0.60s ease-in-out 0s;
+}  
+  /*在鼠标滑过时，它的透明度被设置为1。*/
+.box:hover .over-layer{
+    opacity:1;
+} 
+
+/*剩下的与这个特效无关了，是设置里面的文字样式的*/
+.box .title,
+.box .description,
+.box .social-links{
+    position: relative;
+    top: 11%;
+    color: #d3d3d3;
+}
+.box .title{
+    text-transform: capitalize;
+}
+.box .title:after,
+.box .description:after{
+    content:"";
+    width: 50%;
+    display: block;
+    margin: 10px auto 0;
+    border-bottom: 1px solid #fff;
+}
+.box .social-links{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+.box .social-links li{
+    margin: 10px;
+    display: inline-block;
+}
+.box .social-links li a{
+    color: #fff;
+    font-size: 20px;
+}
+.box .social-links li a:hover{
+    color: #d3d3d3;
+    text-decoration: none;
+}
+@media only screen and (max-width: 990px){
+    .box{  margin-bottom:20px; }
+}
