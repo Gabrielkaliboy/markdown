@@ -4,6 +4,9 @@
 	<meta charset="UTF-8">
 	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
 	<script src="http://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+	<script type="text/javascript" src="additional-methods.js"></script>
+	<script type="text/javascript" src="jsAddress.js"></script>
+	<script type="text/javascript" src="1.js"></script>
 	<!-- 去除默认样式 -->
 	<link rel="stylesheet" type="text/css" href="css/base.css">
 	<!-- 步骤条 -->
@@ -15,15 +18,16 @@
 	<div id="container">
 		<div class="step">
 		    <span class="steps action">第一步</span>
-		    <span class="steps">第二步</span>
+		    <span class="steps disabled">第二步</span>
 		    <span class="steps disabled">第三步</span>
 		    <span class="steps disabled">第四步</span>
 		</div>
-		<div id="myForm">
-			<form action="" method="post"> 
-				<section class="stepBlock">
+		<div id="">
+			<form action="" method="post" id="myForm"> 
+				<!-- 步骤一 -->
+				<section class="stepBlock" id="stepBlockFirst">
 					<div class="stepBlockTitle">
-						创建账号
+						账号信息
 					</div>
 					<div class="errorMesage"></div>
 					<div class="formMessage">
@@ -32,18 +36,222 @@
 								<label for="userName"><span class="c-red">*</span>用户名:</label>
 							</div>	
 							<div class="stepRowRight">
-								<input type="text" placeholder="请输入用户名" name="userName" id="userName">
+								<input type="text"  name="userName" id="userName">
 							</div>
 						</div>
+						<div class="messageTip">6~18个字符，可使用字母、数字、下划线，需以字母开头</div>
+
+
 						<div class="stepRow clearfix">
 							<div class="stepRowLeft">
-								<label for="passworld"><span class="c-red">*</span>密码:</label>
+								<label for="password"><span class="c-red">*</span>密码:</label>
 							</div>	
 							<div class="stepRowRight">
-								<input type="text" placeholder="请输入密码" name="passworld" id="passworld">
+								<input type="password"  name="passworld" id="passworld">
 							</div>
 						</div>
+						<div class="messageTip">6-16个字符，同时包含字母、数字、特殊字符</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="rePassworld"><span class="c-red">*</span>确认密码:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="password"  name="rePassworld" id="rePassworld">
+							</div>
+						</div>
+						<div class="messageTip">请确认密码</div>
 					</div>
+					<div class="sectionBtn clearfix">
+						<input type="button" value="上一步" class="BtnUp" id="firstBtnUp">
+						<input type="button" value="下一步" class="BtnNext" id="firstBtnNext">
+					</div>
+				</section>
+
+				<!-- 步骤二 -->
+				<section class="stepBlock" id="stepBlockSecond">
+					<div class="stepBlockTitle">
+						公司信息
+					</div>
+					<div class="errorMesage"></div>
+					<div class="formMessage">
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="companyName"><span class="c-red">*</span>企业名称:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="companyName" id="companyName">
+							</div>
+						</div>
+						<div class="messageTip">4-16个字符,可以包含字母数字和中文</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="local"><span class="c-red">*</span>所在地:</label>
+							</div>	
+							<div class="stepRowRight">
+								<select class="local" id="s_province" name="s_province"></select>
+								<select class="local" id="s_city" name="s_city"></select>
+								<select class="local" id="s_county" name="s_county"></select>
+								<script type="text/javascript">
+								    addressInit('s_province', 's_city', 's_county');
+								</script>
+							</div>
+						</div>
+						<div class="messageTip">请选择您的所在地</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="detailAddress"><span class="c-red">*</span>详细地址:</label>
+							</div>	
+							<div class="stepRowRight">
+								<textarea name="detailAddress" id="detailAddress" cols="30" rows="10"></textarea>
+							</div>
+						</div>
+						<div class="messageTip">可以包含汉字,英文和数字</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="detailBusiness"><span class="c-red">*</span>所属行业:</label>
+							</div>	
+							<div class="stepRowRight">
+								<select name="detailBusiness" id="detailBusiness">
+		                            <option value="">选择行业</option>
+		                            <option value="1">计算机硬件及网络设备</option>
+		                            <option value="2">计算机软件</option>
+		                            <option value="3">IT服务（系统/数据/维护）</option>
+		                            <option value="4">互联网/电子商务</option>
+		                            <option value="5">通讯（设备/运营/增资服务）</option>
+		                            <option value="6">电子技术/半导体/集成电路</option>
+		                            <option value="7">仪器仪表</option>
+		                            <option value="8">工业自动化</option>
+		                            <option value="9">大型设备/机电设备/重工业</option>
+		                            <option value="10">医疗设备/器械</option>
+		                            <option value="11">能源/矿产/采掘/冶炼</option>
+		                            <option value="12">服装服饰/纺织/皮革/家具/家电</option>
+		                            <option value="13">家居/室内设计/装饰装潢</option>
+		                            <option value="14">加工制造</option>
+		                            <option value="15">汽车/摩托车</option>
+		                            <option value="16">交通/物流/运输</option>
+		                            <option value="17">网络游戏</option>
+		                            <option value="18">电气/电力/水利</option>
+		                            <option value="19">石油/石化/化工</option>
+		                            <option value="20">办公用品及设备</option>
+		                            <option value="21">礼品/玩具/工艺美术/收藏品</option>
+		                            <option value="22">食品/饮料/烟酒/化妆品</option>
+		                            <option value="23">金融/银行/投资/基金/证据</option>
+		                            <option value="24">保险</option>
+		                            <option value="25">房地产/建筑/建材/工程</option>
+		                            <option value="26">物业管理/商业中心</option>
+		                            <option value="27">广告/会展/公关/市场推广</option>
+		                            <option value="28">媒体/出版/影视/文化/艺术</option>
+		                            <option value="29">印刷/包装/造纸</option>
+		                            <option value="30">咨询/管理产业/法律/财会</option>
+		                            <option value="31">教育/培训</option>
+		                            <option value="32">检验/检测/认证</option>
+		                            <option value="33">中介服务</option>
+		                            <option value="34">贸易/进出口</option>
+		                            <option value="35">零售/批发</option>
+		                            <option value="36">医药/生物工程</option>
+		                            <option value="37">医疗/护理/美容/保健</option>
+		                            <option value="38">酒店/餐饮</option>
+		                            <option value="39">娱乐/休闲/体育</option>
+		                            <option value="40">旅游/度假</option>
+		                            <option value="41">航空/航天</option>
+		                            <option value="42">学术/科研</option>
+		                            <option value="43">政府/公共事业/非盈利机构</option>
+		                            <option value="44">环保</option>
+		                            <option value="45">农/林/牧/渔</option>
+		                            <option value="46">跨领域经营</option>
+		                            <option value="47">其它</option>
+		                        </select>
+							</div>
+						</div>
+						<div class="messageTip">请选择您的所在行业</div>
+
+					</div>
+					<div class="sectionBtn clearfix">
+						<input type="button" value="上一步" class="BtnUp" id="secondBtnUp">
+						<input type="button" value="下一步" class="BtnNext" id="secondBtnNext">
+					</div>
+				</section>
+
+				<!-- 步骤三 -->
+				<section class="stepBlock" id="stepBlockThird">
+					<div class="stepBlockTitle">
+						联系人信息
+					</div>
+					<div class="errorMesage"></div>
+					<div class="formMessage">
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="contacts"><span class="c-red">*</span>联系人:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="contacts" id="contacts">
+							</div>
+						</div>
+						<div class="messageTip">1-16个字符的纯英文名字或者纯中文名字</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="phoneNumber"><span class="c-red">*</span>手机号:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="phoneNumber" id="phoneNumber">
+							</div>
+						</div>
+						<div class="messageTip">请填写您正确的手机号码</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="TelNumber"><span class="c-red">*</span>联系电话:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="TelNumber" id="TelNumber">
+							</div>
+						</div>
+						<div class="messageTip">请填写您正确的电话号码</div>
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="email"><span class="c-red">*</span>邮箱:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="email" id="email">
+							</div>
+						</div>
+						<div class="messageTip">请输入您的邮箱</div>
+
+
+						<div class="stepRow clearfix">
+							<div class="stepRowLeft">
+								<label for="yzm"><span class="c-red">*</span>验证码:</label>
+							</div>	
+							<div class="stepRowRight">
+								<input type="text"  name="yzm" id="yzm">
+							</div>
+						</div>
+						<div class="messageTip">请输入验证码</div>
+					</div>
+					<div class="sectionBtn clearfix">
+						<input type="button" value="上一步" class="BtnUp" id="thirdBtnUp">
+						<input type="submit" value="提交" class="BtnNext" id="thirdBtnNext">
+					</div>
+				</section>
+
+				<!-- 步骤四 -->
+				<section class="stepBlock" id="stepBlockFourth">
+					<div class="stepBlockTitle">
+						注册成功，正在跳转...
+					</div>
+					<div class="errorMesage"></div>
 				</section>
 			</form>
 		</div>

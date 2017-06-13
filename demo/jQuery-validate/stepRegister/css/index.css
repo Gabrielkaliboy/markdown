@@ -1,3 +1,12 @@
+/*-----------stepRegister-------------
+* http://www.zhuhongwei.online/
+* Created & Modified by zhuhongwei
+* Date modified 2017-06.13
+*
+* Copyright  朱宏伟 All rights reserved.
+* Licensed under MIT license.
+* http://opensource.org/licenses/MIT
+*/
 body{
 	background:url(../sakura.png);
 }
@@ -6,7 +15,7 @@ body{
 	margin:100px auto;
 }
 #myForm{
-	width: 500px;
+	width: 600px;
 	margin: 0 auto;
 	padding: 20px;
 	background: #fff;
@@ -47,10 +56,11 @@ body{
 /*每一行右侧*/ 
 .stepRowRight{
 	float:left;
+	position:relative;
 }
 /*信息里面的input等控制*/ 
-#myForm select, #myForm input, #myForm textarea {
-    width: 200px;
+#myForm select, #myForm input[type="text"],#myForm input[type="password"],#myForm textarea{
+    width: 300px;
     height: 38px;
     font-size: 14px;
     line-height: 38px;
@@ -59,8 +69,97 @@ body{
     margin-right: 20px;
     border: 1px solid #b0b0b0;
     padding-left: 10px;
+    border-radius: 5px;
+}
+/*textarea控制*/ 
+#myForm textarea {
+	height: 80px !important;
+	line-height: 20px !important;
+}
+/*三级联动select控制*/ 
+.local{
+	width:84px !important;
 }
 #myForm select:focus, #myForm input:focus, #myForm textarea:focus {
 	box-shadow:0 0 0 2px #90b4e6;
 	border:none;
+}
+/*提示用户输入的规则*/ 
+.messageTip{
+	margin-left: 160px;
+	color: #949494;
+	font-size: 12px;
+	margin-bottom: 15px;
+	clear: both;
+}
+/*上一步下一步的按钮控制*/ 
+.sectionBtn{
+    padding-right: 117px;
+    padding-left: 173px;
+}
+.BtnUp{
+	float: left;
+}
+.BtnNext{
+	float: right;
+}
+/*所有按钮的控制*/ 
+input[type="button"],input[type="submit"]{
+	width: 100px;
+	padding: 8px 0px;
+	color: #fff;
+	font-size: 16px;
+	border-radius: 9px;
+	background: #ff8148;
+	cursor: pointer;
+}
+/*所有的错误信息提示*/ 
+label.error {
+    left: 33px;
+    position: absolute;
+    top: 41px;
+    color: #fff;
+    background: #ff0000;
+    padding: 0px 11px;
+    z-index: 1;
+    opacity: 0.6;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 5px;
+}
+
+label.error:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 11px;
+    width: 0;
+    height: 0;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent;
+    margin-bottom: -1px;
+    border-bottom-width: 10px;
+    border-bottom-color: currentColor;
+    color: #f00;
+}
+/*详细地址那里的错误提示*/ 
+#detailAddress-error{
+	top: 86px!important;
+}
+/*步骤一*/ 
+#stepBlockFirst{
+/*	display: none;*/
+}
+/*步骤二*/
+#stepBlockSecond{
+	display: none;
+}
+/*步骤三*/
+#stepBlockThird{
+  display: none;
+}
+/*第四步*/ 
+#stepBlockFourth{
+	display: none;
 }

@@ -67,7 +67,7 @@
 .step .steps.action::after{
     background-color: #3690CF;
 }
-.step .steps:nth-child(3)::after{
+.step .steps::after{
     border-bottom:1px solid #E5E5E5;
     border-right:1px solid #E5E5E5;
 }
