@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<style>
+		#container{
+			width:1100px;
+			margin:20px auto;
+		}
+		table{
+			width: 100%;
+		    empty-cells: show;
+		    background-color: transparent;
+		    border-collapse: collapse;
+		    border-spacing: 0;
+		    text-align: center;
+		}
+		table thead th {
+		    background-color: #f5fafe;
+		    height:30px;
+		}
+		tr{
+			border:1px solid #cac5ca;
+		}
+		table th, table td {
+		    padding: 8px;
+		    line-height: 20px;
+		    word-break: break-all;
+		    border-bottom: 1px solid #ddd;
+	        border-left: 1px solid #ddd;
+		}
+		tbody tr:hover td, tbody tr:hover th {
+		    background-color: #f5f5f5;
+		}
+	</style>
+	<script type="text/javascript" src="resizable-tables.js"></script>
+	<title>测试</title>
+</head>
+<body>
+	<div id="container">
+		<table cellpadding="0" cellspacing="0" class="resizable">
+		    <thead>
+		        <tr>
+		            <th>序号</th>
+		            <th>序号</th>
+		            <th>序号</th>
+		            <th>序号</th>
+		            <th>序号</th>
+		        </tr>
+		    </thead>
+		    <tbody>
+		    	<tr>
+		    		<td>1</td>
+		    		<td>2</td>
+		    		<td>3</td>
+		    		<td>4</td>
+		    		<td>5</td>
+		    	</tr>
+		    	<tr>
+		    		<td>1</td>
+		    		<td>2</td>
+		    		<td>3</td>
+		    		<td>4</td>
+		    		<td>5</td>
+		    	</tr>
+		    	<tr>
+		    		<td>1</td>
+		    		<td>2</td>
+		    		<td>3</td>
+		    		<td>4</td>
+		    		<td>5</td>
+		    	</tr>
+		    	<tr>
+		    		<td>1</td>
+		    		<td>2</td>
+		    		<td>3</td>
+		    		<td>4</td>
+		    		<td>5</td>
+		    	</tr>
+		    </tbody>
+		    <tfoot>
+		    	<tr>
+		    		<td>001</td>
+		    		<td>002</td>
+		    		<td>003</td>
+		    		<td>004</td>
+		    		<td>005</td>
+		    	</tr>
+		    </tfoot>
+		</table>
+	</div>
+</body>
+</html>
