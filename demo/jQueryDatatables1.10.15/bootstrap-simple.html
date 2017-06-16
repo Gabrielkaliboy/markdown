@@ -8,12 +8,14 @@
     <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="dataTables.bootstrap.css">
 
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
     <script type="text/javascript" language="javascript" src="jquery.dataTables.min.js"></script>
     <script type="text/javascript" language="javascript" src="dataTables.bootstrap.js"></script>
-    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+    <<script src="colResizable-1.6.min.js"></script>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function() {
             var table=$('#example').dataTable();
+            $("#example").colResizable();
         } );
     </script>
 </head>
