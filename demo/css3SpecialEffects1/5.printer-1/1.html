@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+	<script type="text/javascript" src="typeit.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="typeit.min.css">
+	<title>Document</title>
+</head>
+<body>	
+	<p class="example1"></p> 
+	<p class="example2" data-typeit-whattotype="This was defined with a data-typeit-* attribute." data-typeit-typeSpeed="100"></p> 
+	<p class="example3"></p> 
+	<p class="example4"></p> 
+	<script>
+		$('.example1').typeIt({
+		     whatToType: "You've just initialized this bad boy.",//要输出的文字
+		     typeSpeed: 100,//书写速度
+		     lifeLike:true,
+		     showCursor:true,//是否显示光标
+		     breakLines:true,//是否换行，如果为false,将会把一行写完删掉以后再开始写下一行
+		     breakWait:1000,//换行的时候，等待多长时间
+		     delayStart:1000,//延迟几秒钟开始
+
+		});
+		//可以使用这种形式data-typeit-whattotype
+		$('.example2').typeIt();
+		//换行
+		$('.example3').typeIt({
+		     whatToType: ["This is a string!", "And here's another one."],
+		     typeSpeed: 100
+		});
+
+		$('.example4').typeIt({
+		     whatToType: ["This is a great string.", "But here is a better one."],
+		     typeSpeed: 100,
+		     //不换行,删除第一行在接着写
+		     breakLines: false
+		});
+	</script>
+</body>
+</html>
