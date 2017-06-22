@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<h1>测试是不是页面内容全部被替换</h1>
+	<div id="div1">我一会会变成日期</div>
+	<button id="btn">点我</button>
+</body>
+<script>
+	document.getElementById("btn").onclick=function(){
+		document.write(Date());
+	};
+</script>
+</html>
