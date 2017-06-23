@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<p>请输入5-10之间的数字</p>
+	<input type="text" id="demo">
+	<button type="button" onclick="test()">测试输入</button>
+	<p id="message"></p>
+</body>
+<script>
+function test(){
+	var message,x;
+	//错误信息显示的地方
+	message=document.getElementById("message");
+	//每次点击按钮清空错误信息
+	message.innerHTML="";
+	//获取用户输入
+	x=document.getElementById("demo").value
+	try{
+		if(x==""){
+			throw "值为空"
+		}
+		if(isNaN(x)){
+			throw "不是数字"
+		}
+		x=Number(x);
+		if(x<5){
+			throw "太小"
+		}
+		if(x>10){
+			throw "太大"
+		}
+	}catch(error){
+		message.innerHTML="错误：" +error
+	}
+};
+</script>
+</html>

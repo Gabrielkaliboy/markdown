@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+	<p>请输入10-20之间的数字</p>
+	<form action="test.php" name="myform" id="myform">
+		<label for="typeNum">请输入数字:<input type="text" name="typeNum" id="typeNum"></label>
+		<input type="button" value="提交" id="btn">
+	</form>
+	<p id="aa"></p>
+</body>
+<script>
+		var aa=document.getElementById("aa"),
+		btn=document.getElementById("btn");
+		btn.addEventListener("click",check);
+	function check(){
+		var typeNum=document.forms["myform"]["typeNum"].value;
+		aa.innerHTML="";
+		if(isNaN(typeNum)){
+			text="请输入数字";
+		}
+		else if(typeNum==""){
+			text="你没有输入任何值"
+		}
+		else if(typeNum <10){
+			text="输入的值小于10";
+		}
+		else if(typeNum > 20){
+			text="输入的值过大";
+		}else{
+			text=typeNum;
+		}
+		aa.innerHTML=text;
+
+	};
+</script>
+</html>

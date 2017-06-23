@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<script>
+		function validate(){
+			var userName=document.forms[0]["userName"].value;
+			if(userName==null || userName==""){
+				alert("请输入姓名");
+				return false;
+			}
+		};
+	</script>
+</head>
+<body>
+	<form action="test.php" method="post" id="myform" name="myform" onsubmit="return validate()">
+		<label for="userName">名字：</label><input type="text" id="userName" name="userName">
+		<input type="submit" value"提交">
+	</form>
+</body>
+</html>

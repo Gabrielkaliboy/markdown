@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+</head>
+<body>
+	<form action="1.php" id="myform">
+		<label for="userName">请输入姓名：
+			<input type="text" name="userName" id="userName" required="required">
+		</label>
+		<label for="pword">请输入密码：
+			<input type="password" name="pword" id="pword" required pattern="[A-Z]{3}" title="只能输入三个大写字母">
+		</label>
+		<label for="age">请输入年龄：
+			<input type="number" name="age" id="age" required pattern="[0-9]" min="10" max="100" title="只能输入数字">
+		</label>
+		<input type="submit" value="提交">
+	</form>
+</body>
+</html>
