@@ -1,0 +1,146 @@
+[
+    {
+        "id": "1000",
+        "pId": "0",
+        "name": "光谱亮度计",
+        "boolmodel": false,
+        "icon": "",
+        "open": true
+    },
+    {
+        "id": "1001",
+        "pId": "1000",
+        "name": "SRC-200S",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1002",
+        "pId": "1000",
+        "name": "SRC-200M",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1003",
+        "pId": "1000",
+        "name": "SRC-600S",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1004",
+        "pId": "1000",
+        "name": "SRC-600M",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1005",
+        "pId": "1000",
+        "name": "SRC-600MX",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1006",
+        "pId": "1000",
+        "name": "SRC-600",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1100",
+        "pId": "0",
+        "name": "光谱仪",
+        "boolmodel": false,
+        "icon": "",
+        "open": true
+    },
+    {
+        "id": "1101",
+        "pId": "1100",
+        "name": "HAAS-2000",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1102",
+        "pId": "1100",
+        "name": "HAAS-1200",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1103",
+        "pId": "1100",
+        "name": "CAS-200",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1200",
+        "pId": "0",
+        "name": "分布式光度计",
+        "boolmodel": false,
+        "icon": "",
+        "open": true
+    },
+    {
+        "id": "1201",
+        "pId": "1200",
+        "name": "GO-2000",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1202",
+        "pId": "1200",
+        "name": "GO-R5000",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1203",
+        "pId": "1200",
+        "name": "GO-NR1000",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "1300",
+        "pId": "0",
+        "name": "照度计",
+        "boolmodel": false,
+        "icon": "",
+        "open": true
+    },
+    {
+        "id": "1301",
+        "pId": "1300",
+        "name": "SPIC-200",
+        "boolmodel": true,
+        "icon": "images/items_16.png",
+        "open": true
+    },
+    {
+        "id": "0",
+        "pId": "-1",
+        "name": "全部",
+        "boolmodel": false,
+        "icon": "images/home_16.png",
+        "open": true
+    }
+]
