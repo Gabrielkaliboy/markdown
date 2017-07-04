@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Animation</title>
+    <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.js"></script>
+    <script type="text/javascript" src="esl.js"></script>
+</head>
+<body>
+    <div id="Main" style="width:600px;height:400px;"></div>
+
+</body>
+<script type="text/javascript">
+    window.onload=function(){
+        require.config({
+            packages: [
+                {
+                    name: 'zrender',
+                    location: '../src',
+                    main: 'zrender'
+                }
+            ]
+        });
+        require(
+            [
+                'zrender',
+                'zrender/graphic/shape/Ellipse',
+            ],
+            function(zrender, EllipseShape){
+
+                // 初始化zrender
+                var zr = zrender.init(document.getElementById("Main"));
+                zr.clear();
+                var width = Math.ceil(zr.getWidth());
+                var height = Math.ceil(zr.getHeight());
+
+                var shape = new EllipseShape({
+                    shape:{
+                        cx: 110,
+                        cy: 110,
+                    },
+                    style: {
+                        x: 200,
+                        y: 200,
+                        a: 400,
+                        b: 200,
+                        width:100,
+                        height:100,
+                        brushType: 'both',
+                        lineCape:"round",
+                        color: '#f0f0f0',
+                        strokeColor: '#f9f9f9',
+                        lineWidth: 8,
+                        text: 'Ellipse'
+                    }    
+                });
+                zr.add(shape);
+            })
+    };
+</script>
+</html>
