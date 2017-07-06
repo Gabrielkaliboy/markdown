@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$("#div1").animate({left:100});
+		$("#div1").animate({top:100});
+		$("#div1").animate({width:300});
+		//如果保证他的动画是按照顺序一个个执行的，这里就用到了queue队列管理。他的作用就是把
+		//上面三个存到一个队列里面，当一个走完，让他出队dequeue
+	</script>
+	<title></title>
+</head>
+<body>
+	
+</body>
+</html>
