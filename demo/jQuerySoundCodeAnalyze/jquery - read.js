@@ -1,7 +1,7 @@
-/*!
+/*!版本和官网
  * jQuery JavaScript Library v2.0.3
  * http://jquery.com/
- *
+ *里面包含sizzle.js,他是独立的，用来实现复杂的选择器，还有他的官方网址
  * Includes Sizzle.js
  * http://sizzlejs.com/
  *
@@ -9,26 +9,37 @@
  * Released under the MIT license
  * http://jquery.org/license
  *
+ *更新时间
  * Date: 2013-07-03T13:30Z
  */
 (function( window, undefined ) {
 
 // Can't do this because several apps including ASP.NET trace
+//不能使用严格模式，因为如果后台是.net,会引发崩溃
 // the stack via arguments.caller.callee and Firefox dies if
+//后面跟的#13335的意思是可以再这里找到更详细的说明
 // you try to trace through "use strict" call chains. (#13335)
 // Support: Firefox 18+
 //"use strict";
 var
 	// A central reference to the root jQuery(document)
+	//根目录
 	rootjQuery,
 
+	//与dom加载有关的变量
 	// The deferred used on DOM ready
 	readyList,
 
 	// Support: IE9
 	// For `typeof xmlNode.method` instead of `xmlNode.method !== undefined`
+	//这个东西在IE6/7/8/9有问题，加入我们判断一个xml一个节点或者属性的时候，这种时候，只用
+	//window.a==undefined这种形式可能判断不出来他会认为条件不充分，所以为了做到所有情况的兼容，最好使用
+	//下面这种写法，出现这种情况的时候非常少
+	//下面变量存的是一个字符串形式的undefined
 	core_strundefined = typeof undefined,
 
+
+	//对于一些window下的变量进行存储
 	// Use the correct document accordingly with window argument (sandbox)
 	location = window.location,
 	document = window.document,
