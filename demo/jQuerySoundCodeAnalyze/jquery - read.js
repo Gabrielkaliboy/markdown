@@ -14,6 +14,7 @@
  */
 (function( window, undefined ) {
 
+//这里所说的多少行，多少行都是原版中中没有写入任何代码分析语句的时候所在的行数
 // Can't do this because several apps including ASP.NET trace
 //不能使用严格模式，因为如果后台是.net,会引发崩溃
 // the stack via arguments.caller.callee and Firefox dies if
@@ -52,58 +53,81 @@ var
 	_$ = window.$,
 
 	// [[Class]] -> type pairs
+	//用来做类型判断的，两个类型的字符串格式，在$.type()的时候会用到
 	class2type = {},
 
 	// List of deleted data cache ids, so we can reuse them
+	//定义一个和缓存数据有关的数组，在老版本中，和3308-3652里面的data()函数有关，在2.0.3版本中已经没有什么用处了
 	core_deletedIds = [],
 
+	//版本号
 	core_version = "2.0.3",
 
 	// Save a reference to some core methods
+	//把一些js中常用的字符串，数组函数等的方法进行局部存储，可以很方便的在后面使用，对压缩也有很大的帮助
 	core_concat = core_deletedIds.concat,
 	core_push = core_deletedIds.push,
 	core_slice = core_deletedIds.slice,
 	core_indexOf = core_deletedIds.indexOf,
 	core_toString = class2type.toString,
 	core_hasOwn = class2type.hasOwnProperty,
+	//去掉字符串的前后空格，老版本没有，需要自己写一个正则
 	core_trim = core_version.trim,
 
 	// Define a local copy of jQuery
+	//定义jQuery方法，可以看8843行，在jQuery中$()和jQuery()这两个是一样的，他俩最终调用的都是下面这个jQuery
 	jQuery = function( selector, context ) {
 		// The jQuery object is actually just the init constructor 'enhanced'
+		//这个函数里面返回的是一个对象，这样他的后面才可以接他拥有的方法，jQuery.fn.init是他的真正的构造函数
+		//查看96行，jQuery.fn = jQuery.prototype，说明fn就是原型
 		return new jQuery.fn.init( selector, context, rootjQuery );
 	},
 
 	// Used for matching numbers
+	//下面这个正则的作用就是去找匹配数字的，包括正数，负数，小数点，还有科学计数法，这个正则会在后面的css方法里面使用
 	core_pnum = /[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,
 
 	// Used for splitting on whitespace
+	//匹配单词有关的，\s就是空格，调用这个正则就可以找到一个整体的单词，因为单词和单词之间是由空格分开的
 	core_rnotwhite = /\S+/g,
 
 	// A simple way to check for HTML strings
 	// Prioritize #id over <tag> to avoid XSS via location.hash (#9521)
 	// Strict HTML recognition (#11290: must start with <)
+	//匹配的是一个标签或者id.防止通过 location.hash进行xss注入，location.hash就是页面中的锚点，用来做快速定位
+	//比如www.520wsr.com/#message,快速定位到页面中message这个锚点的位置，有的人可能就利用这个漏洞来注入xss,
+	//他可能在后面直接写入一段代码，例如www.520wsr.com/#<div>....</div>,之前的jQuery看到这个会帮你去创建一个div
+	//如果这个div里面有木马程序的话就会很危险。
+	//下面这个正则就是为了防止上面说的情况，他会识别真正的id，而不是一些带有<>标签的，所以可以防止注入
+	//匹配：<p>aaaa或者#div1这两种形式
 	rquickExpr = /^(?:\s*(<[\w\W]+>)[^>]*|#([\w-]*))$/,
 
 	// Match a standalone tag
+	//匹配的是一个成对的空标签，比如<p></p>,<div></div>
 	rsingleTag = /^<(\w+)\s*\/?>(?:<\/\1>|)$/,
 
 	// Matches dashed string for camelizing
+	//ms是IE的一个前缀，除了这个还有webkit，rmsPrefix和rdashAlpha都是和css3相关的
 	rmsPrefix = /^-ms-/,
+
+	//找到横杆-和字符a-z，和上面的那个一起用
 	rdashAlpha = /-([\da-z])/gi,
 
 	// Used by jQuery.camelCase as callback to replace()
+	//用来实现驼峰的
 	fcamelCase = function( all, letter ) {
 		return letter.toUpperCase();
 	},
 
 	// The ready event handler and self cleanup method
+	//dom加载成功的时候触发的
 	completed = function() {
 		document.removeEventListener( "DOMContentLoaded", completed, false );
 		window.removeEventListener( "load", completed, false );
 		jQuery.ready();
 	};
 
+//jQuery.fn = jQuery.prototype，说明fn就是原型
 jQuery.fn = jQuery.prototype = {
 	// The current version of jQuery being used
 	jquery: core_version,
