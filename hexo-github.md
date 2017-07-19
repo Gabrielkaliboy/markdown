@@ -432,6 +432,7 @@ scaffolds是“脚手架、骨架”的意思，当你新建一篇文章（hexo 
 
 
 # hexo绑定别的域名
+https://www.baidu.com/baidu?tn=64075107_1_dg&ie=utf-8&wd=hexo%20%E5%9F%9F%E5%90%8D%E7%BB%91%E5%AE%9A
 ### 1. 初衷
 本来不想在绑定一个别的域名的，结果想给博客开启一个留言评论系统，看了一下yilia作者的介绍。附上链接：https://github.com/litten/hexo-theme-yilia/wiki
 看了一下，网易云跟帖最符合我的要求。但是我在申请网易云跟帖的时候，他只认根域名。也就是我的GabrielKaliboy.github.io显示已被注册。所以我只好弄个别的域名

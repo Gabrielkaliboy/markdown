@@ -120,7 +120,7 @@ var
 	},
 
 	// The ready event handler and self cleanup method
-	//dom加载成功的时候触发的
+	//dom加载成功的时候触发的，后面讲到再说
 	completed = function() {
 		document.removeEventListener( "DOMContentLoaded", completed, false );
 		window.removeEventListener( "load", completed, false );
@@ -130,8 +130,10 @@ var
 //jQuery.fn = jQuery.prototype，说明fn就是原型
 jQuery.fn = jQuery.prototype = {
 	// The current version of jQuery being used
+	//版本就是指向我们上面的那个变量
 	jquery: core_version,
 
+	//修正指向问题
 	constructor: jQuery,
 	init: function( selector, context, rootjQuery ) {
 		var match, elem;
@@ -143,6 +145,8 @@ jQuery.fn = jQuery.prototype = {
 
 		// Handle HTML strings
 		if ( typeof selector === "string" ) {
+			//首先判断一下，最左边的字符是不是<，然后又判断了一下最右边的字符是不是>,并且长度>=3
+			//其实就是去找标签
 			if ( selector.charAt(0) === "<" && selector.charAt( selector.length - 1 ) === ">" && selector.length >= 3 ) {
 				// Assume that strings that start and end with <> are HTML and skip the regex check
 				match = [ null, selector, null ];
@@ -232,6 +236,7 @@ jQuery.fn = jQuery.prototype = {
 	selector: "",
 
 	// The default length of a jQuery object is 0
+	//默认length的长度是0
 	length: 0,
 
 	toArray: function() {

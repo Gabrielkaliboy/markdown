@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../jquery.js"></script>
+    <script>
+        function Aaa(){};
+
+        Aaa.prototype.name="jarry";
+        Aaa.prototype.age=20;
+        //因为Aaa.prototype本身就是一个对象，所以我们也可以用对象的写法，如下
+        Aaa.prototype={
+            "name":"jarry",
+            "age":12
+        };
+        //在大部分情况下，上面的两种写法都是没有区别的，但是在面向对象的过程中是有区别的
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

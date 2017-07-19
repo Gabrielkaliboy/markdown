@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="../jquery.js"></script>
+    <script>
+        function Aaa(){};
+        var a1=new Aaa();
+        //如果强制更改他的constructor指向
+        Aaa.prototype.constructor=Array;
+        alert(a1.constructor);
+        //不加强制指向function Aaa(){}
+        //加了强制指向：function Array() { [native code] }
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="../jquery.js"></script>
+    <script>
+       $(function(){
+            //$("li").css("background","#f00");
+            //将上面代码分解一下用原生去写
+            var aLi=document.getElementsByTagName("li");
+            for(var i=0;i<aLi.length;i++){
+                aLi[i].style.background="red";
+            };
+            //jQuery中
+            this={
+                0:"li",
+                1:"li",
+                2:"li",
+                length:3,
+            };
+            for(var i=0;i<this.length;this++){
+                this[i].style.background="red";
+            };
+       })
+    </script>
+    <title>Document</title>
+</head>
+<body>
+    <ul>
+        <li>DDD</li>
+        <li>SSSS</li>
+        <li>DDDD</li>
+    </ul>
+</body>
+</html>
