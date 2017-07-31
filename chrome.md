@@ -44,3 +44,10 @@ GitHub地址：https://github.com/justjavac/ChromeSnifferPlus
 
 #### 12.postman
 说明：用来调试数据接口的
+
+#### 13.Internet Download Manager (IDM)
+用来下载文件的
+地址：https://chrome.google.com/webstore/detail/internet-download-manager/cajliamcobdmamhjdpjjljlnlgfafgjg
+
+#### 14.用来控制页面中数据统计
+地址：https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij
