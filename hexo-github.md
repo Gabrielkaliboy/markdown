@@ -135,7 +135,7 @@ hexo d
 $ git clone https://github.com/GabrielKaliboy/GabrielKaliboy.github.io.git .deploy/GabrielKaliboy.github.io
 ```
 
-- 创建一个deploy脚本文件
+- 创建一个deploy脚本文件名字为updata.sh，sh是他的扩展名
 ```
 hexo generate
 cp -R public/* .deploy/GabrielKaliboy.github.io
