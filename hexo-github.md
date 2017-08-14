@@ -587,3 +587,22 @@ npm install https://github.com/CodeFalling/hexo-asset-image --save
 这样他的路径才会自动转成正确的！！！！
 
 ### 4.yelee主题修改评论工具为网易云跟帖
+
+
+yilia相关
+---
+
+### 1.说明
+地址：https://github.com/litten/hexo-theme-yilia
+
+
+### 2.添加头像
+在主题yilia目录下找到yml配置文件
+```
+#你的头像url
+#这里使用的是相对路径，是themes\yilia\source\img
+avatar: "/img/avatar.png"
+```
+
+### 3.添加域名
+除了将CNAME文件放在hexo下面，还需要在GabrielKaliboy.github.io的setting里面Custom domain（自定义域名）那里设置一下。
