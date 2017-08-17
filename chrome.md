@@ -51,3 +51,26 @@ GitHub地址：https://github.com/justjavac/ChromeSnifferPlus
 
 #### 14.用来控制页面中数据统计
 地址：https://chrome.google.com/webstore/detail/ghostery/mlomiejdfkolichcflejclcbmpeaniij
+
+#### 15.Octotree：树形展示 Github 项目代码
+Octotree 是国外程序员Buu Nguyen 做的一个 Chrome 插件。安装之后，浏览托管在Github上的项目，可看到左侧的树形结构，更方便查看代码…… 
+
+特性：
+
+- 像 IDE 那样方便地浏览代码
+- pjax 支持快速浏览
+- 支持热键切换代码树
+- 支持私有仓库 [1]
+
+地址：https://chrome.google.com/webstore/detail/octotree/bkhaagjahfmjljalopjnoealnfndnagc
+
+github:https://github.com/buunguyen/octotree#github-api-rate-limit
+
+
+#### 16.Insight.io for Github 同15不过比他好看
+地址：https://chrome.google.com/webstore/detail/insightio-for-github/pmhfgjjhhomfplgmbalncpcohgeijonh/
+
+介绍：
+http://www.geeksense.cn/plugin/
+
+官网：https://insight.io/
