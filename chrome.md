@@ -74,3 +74,15 @@ github:https://github.com/buunguyen/octotree#github-api-rate-limit
 http://www.geeksense.cn/plugin/
 
 官网：https://insight.io/
+
+
+#### 17.Tunnello VPN
+地址：https://chrome.google.com/webstore/detail/tunnello-vpn-unblock-ultr/hoapmlpnmpaehilehggglehfdlnoegck
+介绍：科学上网
+
+#### 18.快速安全通道
+地址：https://chrome.google.com/webstore/detail/faststunnel-vpn-unblack-s/bblcccknbdbplgmdjnnikffefhdlobhp
+
+介绍：科学上网 163的
+
+
