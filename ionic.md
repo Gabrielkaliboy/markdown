@@ -126,3 +126,59 @@ http://localhost:8100/ionic-lab
 感觉和上面那个没什么区别
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/ionic/2.gif?raw=true)
+
+- super:看着和上面这个也没啥区别
+
+a starting project complete with pre-built pages,providers   and best practices for ionic development
+
+
+
+### 4.7如果在手机上运行，需要执行以下命令
+执行这个命令之前需要配置好jdk和Android SDK,详情请看[win系统搭建ionic环境]()
+
+```
+// 如果需要在手机运行，则执行以下命令
+// 添加iOS项目
+$ ionic cordova platform add ios
+// 把src里的内容同步到ios项目中(src后面会讲到)
+$ ionic cordova build ios
+// 运行iOS项目,相当于在Xcode里面按Command+R
+$ ionic cordova emulate ios
+
+//安卓的话同理，把ios替换为android即可
+$ ionic cordova platform add android
+$ ionic cordova build android
+$ ionic cordova emulate android
+
+//如果移除某个ios或者Android
+$ ionic cordova platform rm android 
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+## 搭建ionic环境
+上面搭建的只能在web浏览器里面跑起来，我们现在搭建一个Android的
+
+
+### 5.
