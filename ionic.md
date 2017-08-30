@@ -1,6 +1,6 @@
 ---
 title: 使用ionic开发文档记录
-date: 2017-08-25 1:17:40
+date: 2017-08-25 16:17:40
 categories: 前端
 tags: [前端,hybird,App]
 ---
