@@ -36,12 +36,12 @@ tags: [前端,hybird,App]
 
 
 ### 3.一些概念
-#### 什么是 ionic？他和 Cordova、Angular2 有什么联系？
+#### 3.1 什么是 ionic？他和 Cordova、Angular2 有什么联系？
 `ionic = Cordova + Angular + ionic CSS `
 
 Cordova 提供了使用 JavaScript 调用 Native 功能，ionic CSS 是一套 UI 框架，ionic 对 Angular 进行了封装。
 
-#### ionic3
+#### 3.2 ionic3
 
 ionic 基于 AngularJS 开发。由于 AngularJS1.x 版本在性能上已经很难有较大提升，Google 推出了全新设计的 Angular 2，ionic 也对应着出了2。
 
@@ -154,7 +154,14 @@ $ ionic cordova emulate android
 $ ionic cordova platform rm android 
 ```
 
+### 4.8如果不出错的话，会生成APP
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/ionic/4.png?raw=true)
 
+生成的app会在这个路径下面
+```
+项目名称/platforms\android\build\outputs\apk
+```
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/ionic/5.png?raw=true)
 
 
 
