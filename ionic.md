@@ -959,3 +959,79 @@ XMLHttpRequest cannot load
 http://jsonplaceholder.typicode.com/
 
 拖到下面的 Resources 可以看到图片。从图中可以看出接口种类还是比较丰富的，我们选择带图片的 /photos 进行测试。
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/ionic/10.png?raw=true)
+
+home.ts
+
+```typescript
+import { Http, Response } from '@angular/http';
+
+@Component({
+  selector: 'page-home',
+  templateUrl: 'home.html'
+})
+export class HomePage {
+  // 接收数据用
+  listData: Object;
+
+  // 依赖注入
+  constructor(public navCtrl: NavController, private http: Http) {
+
+  }
+
+  ionViewDidLoad() {
+    // 网络请求
+    this.http.request('http://jsonplaceholder.typicode.com/photos')
+    .subscribe((res: Response) => {
+      this.listData = res.json();
+    });
+  }
+```
+
+http.request 会返回一个 Observable 对象。我们可以使用 subscribe 订阅变化。
+
+当 http.request 从服务器返回一个流时，它就会发出一个 Response 对象。我们用 json 方法提取出响应体解析成一个 Object，最后将它赋值给 this.listData。
+
+
+
+home.html
+
+```
+<ion-header>
+  <ion-navbar>
+    <ion-title>首页</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list *ngFor="let item of listData">
+    <ion-item>
+      <ion-avatar item-left>
+        <img [src]="item?.url">
+      </ion-avatar>
+      {{item?.title}}
+    </ion-item>
+  </ion-list>
+</ion-content>
+```
+
+这里使用了一个 ngFor 遍历了 listData，生成了一个列表数据。还有一点要提一下，这个 item?.title 是 Angular 的一种语法，如果对象为空就不会取值，可以防止报错。
+
+最后效果如图所示
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/ionic/11.png?raw=true)
+
+再补上一个 Promise 的写法
+```
+import 'rxjs/add/operator/toPromise';
+
+this.http.request('http://jsonplaceholder.typicode.com/photos')
+  .toPromise()
+  .then(res => { this.listData = res.json(); })
+  .catch(err => { console.error(err) });
+
+```
+
+
+[防丢demo](https://github.com/Gabrielkaliboy/demo/tree/master/markdown/ionic)
