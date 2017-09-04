@@ -30,3 +30,7 @@ TSLint是用来监控typescript代码质量的工具
 -  trailing whitespace:尾部有多余的空白（空格）
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/TSLint/2.gif?raw=true)
+
+- expected nospace before colon in property-declaration (typedef-whitespace):在属性声明之前不应该有空格
+
+![]()
