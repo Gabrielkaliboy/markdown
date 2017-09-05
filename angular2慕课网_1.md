@@ -206,33 +206,3 @@ export class ContactListComponent{
  ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/20.png?raw=true)
 
 
- ### 2-4. 模块
- 模块有两层含义：
- - 框架代码以模块形的式组织(文件模块)
- - 功能单元以模块的形式组织(应用模块)
-
-
- #### 2.4.1文件层面的模块
-  ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/21.png?raw=true)
-
-  - 核心模块：包含变化检测，依赖注入,渲染等核心功能代码.
-
-  - 通用模块：包含一些常用的内置指令等.
-
-  - 表单模块：表单相关的组件和指令等
-
-  - 网络模块：处理网络相关的请求和服务。
-
-
-  **模块的使用**
-  比如http服务。只需要
-  ```
-  import { Http } from "@angular/http"
-  ```
-  指令的装饰器都是需要先导入才能使用的
-
-   ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/22.png?raw=true)
-
-
-#### 2.4.2 应用模块
-关注功能层面。大型的应用有大量的组件、指令以及服务构成.这些构建有的是没有交集的,而有些则是协同工作来完成某些特定的功能.我们希望把这些有关联的构建包装到一块，形成一个独立的单元.这样的单元在实际意义上就称作应用模块.应用模块就是对应用类零散的组件,指令，服务等按功能进行归类包装.除此之外，应用模块还有一个比较重要的实际意义.因为在默认情况下,一个组件是不能引用其他组件的,也不能使用其他指令的功能,要想使用就必须先导入,其实前面的父子组件已经提到过,这个导入的过程就是应用模块所实现的.总结来说一个组件可以任意的使用同模块的其他指令和组件等
