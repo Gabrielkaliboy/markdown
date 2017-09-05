@@ -1,4 +1,17 @@
-地址：http://www.imooc.com/video/14300
+---
+title: angular2快速入门(1)
+date: 2017-09-05 16:17:40
+categories: 前端
+tags: [前端,angular]
+---
+<Excerpt in index | 首页摘要> 
+angular2快速入门
+<!-- more -->
+<The rest of contents | 余下全文>
+
+-----
+
+慕课网课程地址：http://www.imooc.com/video/14300
 
 
 ---
@@ -8,7 +21,6 @@
 - 性能更好，渲染更快，变化检测效率更高
 - 优先为移动应用设计，专门开发了一个套件，叫Angular Mobile Toolkit
 - 更加贴合未来的标准（如ES6/7  webComponent ）
-- 
 
 
 ## 2. ng2核心概念详解
