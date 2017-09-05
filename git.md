@@ -334,3 +334,18 @@ Git中非常重要的一个文件――.gitignore。
 		!/fw/sf/
 
 说明：忽略全部内容，但是不忽略 .gitignore 文件、根目录下的 /fw/bin/ 和 /fw/sf/ 目录；
+
+
+常用的一些命令
+---
+1.安装淘宝镜像
+官网：http://npm.taobao.org/
+```
+$ npm install -g cnpm --registry=https://registry.npm.taobao.org
+```
+安装完毕以后验证
+```
+cnpm -v
+```
+
+2. 升级npm
