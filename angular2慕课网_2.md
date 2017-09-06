@@ -126,3 +126,145 @@ webpack把项目中用到的静态资源都视为模块，模块之间会相互�
 开发工具：vs code
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/34.png?raw=true)
+
+
+### 3.3项目启动
+这部分所有的代码地址：https://github.com/lizhonghui/angular2-demo
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/37.png?raw=true)
+
+
+项目 package.json
+```json
+{
+  "name": "angular2-demo",
+  "discription": "A simple demo for angular 2",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "webpack-dev-server --inline --colors --progress --port 3000"
+  },
+  "dependencies": {
+    "@angular/common": "2.1.1",
+    "@angular/compiler": "2.1.1",
+    "@angular/core": "2.1.1",
+    "@angular/forms": "2.1.1",
+    "@angular/http": "2.1.1",
+    "@angular/platform-browser": "2.1.1",
+    "@angular/platform-browser-dynamic": "2.1.1",
+    "@angular/router": "3.1.1",
+    "core-js": "2.4.1",
+    "reflect-metadata": "0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "0.6.26"
+  },
+  "devDependencies": {
+    "@types/core-js": "0.9.34",
+    "ts-loader": "1.0.0",
+    "typescript": "2.0.3",
+    "webpack": "2.3.2",
+    "webpack-dev-server": "2.4.2"
+  }
+}
+
+```
+可以看到angular是`2.1.1`,打包工具是webpack`"webpack": "2.3.2",`
+
+
+项目tsconfig.json
+是typescript项目里面必须保留的，是ts的一个配置文件
+```json
+{
+  "compilerOptions": {
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "removeComments": false,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "typeRoots": [
+      "./node_modules/@types/"
+    ]
+  },
+  "compileOnSave": true,
+  "exclude": [
+    "node_modules"
+  ]
+}
+
+```
+
+文件 webpack.config.js
+```js
+module.exports = {
+  entry: './main.ts',
+
+  output: {
+    filename: './bundle.js'
+  },
+
+  resolve: {
+    extensions: ['.ts', '.js']
+  },
+
+  module: {
+    rules: [
+      {
+        test: /\.ts$/,
+        loader: 'ts-loader'
+      }
+    ]
+  }
+};
+
+```
+
+有这三个文件就可以干活了。现在的目录结构如下图
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/angular_mukewang/38.png?raw=true)
+
+项目目录为angular-test
+
+在项目目录下新建app文件目录
+
+app目录下新建
+app.component.ts
+```typescript
+```
+
+app.module.ts
+```
+```
+说明：ng2应用至少需要定义一个模块，这个模块是跟模块，用来做启动的单元。引入`import { AppComponent } from "./app.component";`,并放在declaration里面`    declarations:[AppComponent],`,同时在bootstrap元数据里面也定义了app的组件`bootstrap:[AppComponent],`。
+
+关于`BrowserModule`这个模块：
+包含的浏览器启动所需要的一些关键逻辑，所以我们必须在应用的根模块里面引入BrowserModule，这个应用才能正常的启动。
+
+app.component.html
+```
+```
+说明:组件的模板文件
+
+
+项目目录下新建main.ts
+```
+```
+说明：`import { AppModule } from './app/app.module';`导入刚才定义的模块文件，并且使用`platformBrowserDynamic`去启动它，这个工具是ng2在浏览器环境里引导启动应用的一种常用方式，叫做动态引导，这是区别于静态引导，静态引导需要预先编译。动态引导需要引入`import 'reflect-metadata';`这个库，这个库是用来处理元数据相关的，还有一个重要的库`import 'zone.js';`用来捕获浏览器的一些异步事件，帮助ng2实现高效的变化检测特性，所以ng2的变化检测是基于这个库来实现的，必须要引入，
+
+
+
+代码编写完毕以后就是编译打包，我们用的是webpack。再次看一下webpack.config.json
+
+入口：`entry: './main.ts',`
+打包出来的文件`filename: './bundle.js'`,得到这个文件以后我们需要在index.html里面引入
+
+
+项目文件下
+index.html文件
+```
+```
+说明：引入`<script src="bundle.js"></script>`文件
+
+在index.html文件里使用我们的根组件`<my-app>加载中...</my-app>`
