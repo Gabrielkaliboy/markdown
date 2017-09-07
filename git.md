@@ -349,3 +349,9 @@ cnpm -v
 ```
 
 2. 升级npm
+
+
+3. 查看npm全局安装的模块
+```
+npm list --depth=0
+```
