@@ -268,3 +268,6 @@ index.html文件
 说明：引入`<script src="bundle.js"></script>`文件
 
 在index.html文件里使用我们的根组件`<my-app>加载中...</my-app>`
+
+
+最后去运行这个应用，看一下package.json里面有一个`webpack-dev-server`,这个工具可以临时的在本机帮我们搭建一个httpServe.`"start": "webpack-dev-server --inline --colors --progress --port 3000"`,可以看到他监听的是3000端口
