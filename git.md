@@ -355,3 +355,16 @@ cnpm -v
 ```
 npm list --depth=0
 ```
+卸载全局安装模块  npm uninstall -g <package>
+
+卸载后，你可以到 /node_modules/ 目录下查看包是否还存在，或者使用以下命令查看：npm ls
+
+
+
+npm的指令还是要多看英文文档，如https://docs.npmjs.com/。
+
+查看所有全局安装的模块 npm ls -g
+
+查看npm默认设置（部分） npm config ls
+
+查看npm默认设置（全部） npm config ls -l
