@@ -29,15 +29,31 @@
 #### 2.4 Sublime Text Keymap
 让vs code 具有和sublime一样的快捷键
 
-#### 2.5TSLint
+#### 2.5 TSLint
 用来规范typescript的代码风格的
 
-#### View In Browser
+#### 2.6 View In Browser
 用来在浏览器里面打开html文件。
 使用：F1或者 Ctrl + Shift + P
 
-#### Path Intellisense
+#### 2.7 Path Intellisense
 html引入文件的时候，文件路径提示。
+
+
+#### 同上 Path Autocomplete
+#### 2.8 vscode-icons
+给不同的文件类型加上不同的图标
+
+
+#### 2.9 IntelliSense for CSS class names
+在HTML写class类名的时候，会自动提示已有的css样式类名称
+
+#### 2.10 Color Info
+css样式中，如果有颜色代码，他会显示他的颜色
+
+#### 2.11 fileheader
+
+顶部注释模板，可定义作者、时间等信息，并会自动更新最后修改时间
 ### 3.其他工具篇
 
 #### 3.1 Auto-Open Markdown Preview
