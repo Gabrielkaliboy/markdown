@@ -10,8 +10,10 @@ tags: [百度云]
 <The rest of contents | 余下全文>
 
 -----
-
-来源：https://www.douban.com/note/638117496/
+声明：本文所有资源均来自网上，链接失效不补（没法补。。。。。）
+来源：
+https://www.douban.com/note/638117496/
+https://www.douban.com/group/topic/93844790/   
 
 3Dmax资料:
 
@@ -2106,3 +2108,2745 @@ KFC肯德基系列技术 链接: http://pan.baidu.com/s/1hq8JN7m 密码: 7vvs
 链接: https://pan.baidu.com/s/1boT6Hdl 密码: gi7c 
 链接: https://pan.baidu.com/s/1c2CPVWG 密码: jer4 
 链接: https://pan.baidu.com/s/1hs5qpJe 密码: b7u2 
+
+---
+
+17年最新一级建造师 各机构考前超押 
+链接：http://pan.baidu.com/s/1jIoq8ZG 密码：eitr 
+
+盛天云盘:百度网盘最好的替代品 比度盘更良心 
+https://www.douban.com/group/topic/97668771/ 
+
+精品：http://www.toutiao.com/m52374411545/ 
+
+进国外你进不了的网站的神器，星愿浏览器无需任何设置，就可以直接访问Y0utube, Instagram, faceb00k，g00gle，汤不热等，以后看海量原创英文视频，全面了解英语文化，就更方便了 
+https://www.douban.com/group/topic/98096633/ 
+
+2017年安全工程师链接:https://pan.baidu.com/s/1jIBhkcY#list/path=%2F 
+
+武术教程 
+链接：http://pan.baidu.com/s/1jHTOILS 密码：kawq 
+
+默默潜水一年多 攒下了不少视频教程 今天一并分享出来吧 希望有人能用得上 
+
+dedecms 
+链接:https://pan.baidu.com/s/1nvoG5br 密码:1avi 
+
+计算机四级网络工程师 
+链接: https://pan.baidu.com/s/1jIv8pOM 密码: 62ac 
+
+极客学院教程 
+包含的内容很多：Python、前端、.net、GUI、javaweb、Unity3D、C、C#、php、java、ios、Android、cocos2d-x.... 
+链接: https://pan.baidu.com/s/1i53bPgp 密码: m3q3 
+
+前端 
+链接: https://pan.baidu.com/s/1boUIjJT 密码: rmx7 
+
+php 
+这里面有tp教程、兄弟连教程、韩顺平教程等等 
+链接:https://pan.baidu.com/s/1i53HJFJ 密码:h2iv 
+
+Oracle 数据库 
+链接：http://pan.baidu.com/s/1gf0ydxD 密码：vxhw (2017年3月14日16:24:23 补丁) 
+
+mysql 数据库 
+链接: https://pan.baidu.com/s/1nvSChzb 密码: 5ahj 
+
+Linux 教程两套分别是兄弟连和韩顺平的 
+链接: https://pan.baidu.com/s/1o7Qsa6Y 密码: vkqi 
+
+C 
+链接: https://pan.baidu.com/s/1jINY90a 密码: yg8g 
+
+oracle数据库视频以及笔记、资料 http://pan.baidu.com/s/1kVg7r63 
+
+诺基亚要归来了 你知道它的发展史么？诺基亚发展史在线观看https://www.douban.com/group/topic/93950089/ 
+
+深入解析Windows操作系统 
+链接: http://pan.baidu.com/s/1dEHHRDR 密码: ebhj 
+
+慕课网-158个教程视频-Java-安卓-PS 
+百度云：http://pan.baidu.com/share/link?uk=1228720692&shareid=1448181672 
+
+【付费资源】樊登读书会音频/PPT分享 
+链接：https://pan.baidu.com/s/1eR6TUDG 密码：6l3l 
+
+2017年各种培训机构公务员考试资料 
+有圣儒国考，华图国考，纵横国考，必胜课国考，腰果国考 
+还有2014-2016联考真题详细解析 
+链接: https://pan.baidu.com/s/1nv2mddR 密码: p9yh 
+
+锐普最新PPT模板500多份 
+http://pan.baidu.com/s/1ge8TJjl 密码：4rad 
+
+ps全套工具教程，有喜欢ps的拿走吧 
+链接: http://pan.baidu.com/s/1gfmP5lT 密码: 3d6z 
+
+
+某宝热卖的246个网游单机版 
+https://www.douban.com/group/topic/94176579/ 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+摄影后期基础视频链接: https://pan.baidu.com/s/1qXKdyOG 密码: 52aa 
+
+摄影后期风光教程链接: https://pan.baidu.com/s/1jIBIuBc 密码: avji 
+
+屏幕录像专家——高清破解版 
+https://pan.baidu.com/s/1skLwQtB 
+
+mongodb数据库视频教程以及笔记、资料 http://pan.baidu.com/s/1i491z3R 
+
+素描零基础直达四级课程 
+链接: https://pan.baidu.com/s/1eRTkFgI 密码: cnyx 
+http://www.toutiao.com/i6360137503789285890/ 
+
+2017年二级建造师最新视频链接: http://pan.baidu.com/s/1qYRKrUW 密码: yrq9 
+http://www.toutiao.com/m52374411545/ 
+
+GiliSoft Video Editor7.2_视频添加水印软件_附软件激活码 
+点击软件右上方的 激活链接 ，输入激活码进行激活。 
+注册邮箱：blog@vxia.net 
+注册序列号：69119-28452-21851-78560-19228-77483 
+链接: https://pan.baidu.com/s/1hssjdQ0 密码: 441i 
+
+nginx视频教程以及笔记、资料 http://pan.baidu.com/s/1qXA9cTm 
+
+全套思科华为学习视频 
+链接：http://pan.baidu.com/s/1qY4JWBy 密码：fpl4 
+
+多版本mysql数据库视频 以及笔记、资料 http://pan.baidu.com/s/1c1Ar8Fu 
+
+鸟哥、后盾、兄弟连、马哥、黑客基地等多版本视频 以及笔记、资料 linuxhttp://pan.baidu.com/s/1hsPsIri 
+
+jQuery视频教程 http://pan.baidu.com/s/1pKWpHuN 
+
+Angularjs系列视频 http://pan.baidu.com/s/1eRAT2cq 
+
+Smarty模板引擎视频教程 http://pan.baidu.com/s/1geZTR6j 
+
+织梦仿站教程初、中、高级 http://pan.baidu.com/s/1qYS0ofa 
+
+传智播客全套高清视频教程及代码 http://pan.baidu.com/s/1dE6RJfb 
+
+兄弟连视频教程（包含PHP、linux、H5、UI等多种视频资源） http://pan.baidu.com/s/1hsgD0R6 
+
+ThinkPHP视频教程 http://pan.baidu.com/s/1kVO6HhX 
+
+燕十八视频及代码 http://pan.baidu.com/s/1kU9xvpX 
+
+PhotoShop视频教程与资源 http://pan.baidu.com/s/1bpJxund 
+
+DW视频 http://pan.baidu.com/s/1slTejk5 
+
+HTML5+CSS3视频教程 http://pan.baidu.com/s/1dEHHbXn 
+
+http://www.toutiao.com/m52374411545/ 
+http://baijiahao.baidu.com/builder/preview/s?id=1552326250670530 
+手机软件安卓开发教程 
+http://pan.baidu.com/s/1gfzCoj5 
+http://a.mp.uc.cn/article.html?uc_param_str=frdnsnpfvecpntnwprdssskt&wm_id=08719f166f2149e3baf89ac506866c91&wm_aid=834ab1e9e8214df6b22562dba5cb5301 
+http://www.jianshu.com/users/622gJy/latest_articles 
+### 兄弟连视频教程百度网盘下载地址汇总 ### 
+《跟兄弟连学PHP》光盘内容 
+http://pan.baidu.com/s/1miew4qO 
+
+学破解论坛2周年庆典2015.10~2016.10年度外链接视频教程 
+http://pan.baidu.com/s/1i59EBpb（解压密码：www.xuepojie.com） 
+
+兄弟连新版视频教程整体打包下载地址 
+http://pan.baidu.com/s/1eRXNisa 
+http://pan.baidu.com/s/1slszyCt 
+
+兄弟连新版视频教程 前端 1 HTML（共20讲） 
+http://pan.baidu.com/s/1o7YSHeE 
+
+兄弟连新版视频教程 前端 1 HTML（未打包） 
+http://pan.baidu.com/s/1mhKdFsc 
+
+兄弟连新版视频教程 前端 2 CSS （共8讲） 
+http://pan.baidu.com/s/1jH5oDZC 
+
+兄弟连新版视频教程 前端 2 CSS（未打包） 
+http://pan.baidu.com/s/1o8kya50 
+
+兄弟连新版视频教程 前端 3 DIV+CSS （共13讲） 
+http://pan.baidu.com/s/1bHGnhk 
+
+兄弟连新版视频教程 前端 3 DIV+CSS（未打包） 
+http://pan.baidu.com/s/1nv4IP9R 
+
+兄弟连新版视频教程 前端 4 HTML5 （共12讲） 
+http://pan.baidu.com/s/1gfkCs0N 
+
+兄弟连新版视频教程 前端 4 HTML5（未打包） 
+http://pan.baidu.com/s/1c2sjWGC 
+
+兄弟连新版视频教程 前端 5 CSS3 （共20讲） 
+http://pan.baidu.com/s/1sl8EzxF 
+
+
+兄弟连新版视频教程 前端 6 Web响应式布局 （共8讲） 
+http://pan.baidu.com/s/1eR8eCz4 
+
+兄弟连新版视频教程 前端 6 Web响应式布局（未打包） 
+http://pan.baidu.com/s/1cwXIpS 
+
+
+兄弟连新版视频教程 PHP视频教程 （共346讲）? 
+http://pan.baidu.com/s/1skHlFDb 
+
+兄弟连新版视频教程 PHP视频教程（未打包）? 
+http://pan.baidu.com/s/1i4IhUbb 
+
+新版Linux视频教程 Linux基础知识与系统管理 （共104讲） 
+http://pan.baidu.com/s/1skX43xj 
+
+兄弟连新版Linux教程 Linux网络基础 
+http://pan.baidu.com/s/1jI4iXCU 
+
+兄弟连新版Linux教程 Linux网络服务 
+http://pan.baidu.com/s/1micu9ZU 
+
+预习视频 
+http://pan.baidu.com/s/1pLAeywF 
+
+Linux课堂实录-Windows服务和路由交换 
+http://pan.baidu.com/s/1bp9MVhX 
+
+Linux课堂实录-Windows服务和路由交换（未打包） 
+http://pan.baidu.com/s/1eRVLlXw 
+
+兄弟连iOS视频教程 
+兄弟连iOS学习入门C语言基础 
+http://pan.baidu.com/s/1cIC2HS 
+
+Objective-C语言 
+http://pan.baidu.com/s/1nvq5GwT 
+
+
+参加活动获取LAMP+LNMP环境编译及搭建视频教程 
+http://bbs.lampbrother.net/read-htm-tid-171938.html 
+
+兄弟连张诚UI视频教程 
+http://pan.baidu.com/s/1hssbNG4 
+
+经典版PHP视频教程 
+http://pan.baidu.com/s/1bFEuxK 
+
+《细说PHP》第二版 光盘 
+http://pan.baidu.com/s/1bpJqxP1 
+
+【六级夯实基础直播课】 链接：http://pan.baidu.com/s/1c2FWWPM密码：waqj 
+英语六级【强化】强化作文 链接：http://pan.baidu.com/s/1pKYrahP 密码：gj2 
+
+【基础】六级基础语法课程 链接：http://pan.baidu.com/s/1qYzZjTM 密码：4lwe 
+2017年考研英语李旭保命28 阅读理解 链接：http://pan.baidu.com/s/1o8DA7Y6 密码：v6q7 
+
+【潘赟】考研英语写作冲刺突击班 英语一 链接：http://pan.baidu.com/s/1nvtZRyp密码：1zp2 
+2017商志高端直播班85篇精讲班 【持续更新】链接：http://pan.baidu.com/s/1kU5rl9l密码：1yrt 
+
+[外科学][最新版][强化班]2017西医综合外科学考点精讲课程：张蕴新 徐琦（重点推荐徐琦部分）链接：http://pan.baidu.com/s/1b8WHWy密码：2ben 
+
+
+2017蒋中挺考研政治形势与政策（面授）http://pan.baidu.com/s/1dFgJiTV 密码：g6x9 
+
+四级单词一笑而过+周思成PDF电子版.pdf 
+链接：http://pan.baidu.com/s/1boI1nCr 密码：rgkb 
+
+【六级夯实基础直播课】 链接：http://pan.baidu.com/s/1c2FWWPM密码：waqj 
+英语六级【强化】强化作文 链接：http://pan.baidu.com/s/1pKYrahP 密码：gj2 
+
+【基础】六级基础语法课程 链接：http://pan.baidu.com/s/1qYzZjTM 密码：4lwe 
+2017年考研英语李旭保命28 阅读理解 链接：http://pan.baidu.com/s/1o8DA7Y6 密码：v6q7 
+
+【潘赟】考研英语写作冲刺突击班 英语一 链接：http://pan.baidu.com/s/1nvtZRyp密码：1zp2 
+2017商志高端直播班85篇精讲班 【持续更新】链接：http://pan.baidu.com/s/1kU5rl9l密码：1yrt 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+[外科学][最新版][强化班]2017西医综合外科学考点精讲课程：张蕴新 徐琦（重点推荐徐琦部分）链接：http://pan.baidu.com/s/1b8WHWy密码：2ben 
+
+
+2017蒋中挺考研政治形势与政策（面授）http://pan.baidu.com/s/1dFgJiTV 密码：g6x9 
+
+亲测成功，一分钱不花免费得12个月PPTV聚力VIP，免费看片 
+https://www.douban.com/group/topic/93792223/ 
+免费VIP来啦[豆荚：开放注册 让你实现看任意国家的网站]https://www.douban.com/group/topic/41894983/ 
+爱剪辑制作视频教程+片头77个特效视频制作300G素材 
+第一部分http://pan.baidu.com/s/1slRIGUD 
+第二部分http://pan.baidu.com/s/1bo0QBDH 
+第三部分http://pan.baidu.com/s/1nuQUD6L 
+第四部分http://pan.baidu.com/s/1o78BJ2E 
+第五部分http://pan.baidu.com/s/1ceisjW 
+
+分享者：https://www.douban.com/group/yaoqingzhuce/ 
+
+以下再分享一些干货，有人反映提取密码老容易失效，那是因为下载量太大了，看到的人过多，因此，以下部分的密码打开这里看下吧http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+
+美术相关 
+国画经典视频:链接：http://pan.baidu.com/s/1jHOQPme 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+美术高考视频教程:链接：http://pan.baidu.com/s/1hsNjr6k 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+素描美术教程:由于百度云无法审核通过连接失效 
+以上教程合集：链接：http://pan.baidu.com/s/1jI54pCU 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+PS相关 
+高端ps合成教程（中文字幕）：链接：http://pan.baidu.com/s/1eSDJTZG 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+中文版PHOTOSHOP.CS6自学一本通 链接：http://pan.baidu.com/s/1boJF2Xp 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+以上教程合集：链接：http://pan.baidu.com/s/1jIFDFH8 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+
+MAYA相关 
+奇迹网校MAYA2015建模入门教程（机器人案例）：链接：http://pan.baidu.com/s/1c2mdEMW 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+maya白金手册2014：链接：http://pan.baidu.com/s/1c1AjZKc 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+MAYA触手之路入门教程：链接：http://pan.baidu.com/s/1hrXIz8C 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+珠峰社区VIP 教程（MAYA法拉利建模）：链接：http://pan.baidu.com/s/1boFBHy3 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+完美动力动画教程：链接：http://pan.baidu.com/s/1hsnXz04 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+珠峰社区VIP教程（maya卡通女孩建模）：链接：http://pan.baidu.com/s/1qYjDtDy 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+MAYA群动画骑兵教程：链接：http://pan.baidu.com/s/1bO1mb0 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+51自学网部分教程：链接：http://pan.baidu.com/s/1bo6RrUf 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+以上教程合集：链接：http://pan.baidu.com/s/1i5oBuAx 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+MAYA概念汽车制造教程（英文）：链链：http://pan.baidu.com/s/1nv0b9jF 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+lumino相关 
+Lumion高手终极教程[54课时]：链接：http://pan.baidu.com/s/1eRD3ISi 密码http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+unity3D相关 
+Unity3d 2D超级玛丽 高级系列教程[68 课时]：链接：http://pan.baidu.com/s/1eSkDHg2 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+Unity3D 愤怒的小鸟中文视频教程[12课时]：链接：http://pan.baidu.com/s/1slINm7z 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+siki案例公开课《飞机大战》录制课程[7课时]：链接：http://pan.baidu.com/s/1eSLR1uy 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+Cocos2dx 魂斗罗游戏实例开发[22课时]：链接：http://pan.baidu.com/s/1pLalXeb 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+Unity3D C#实例讲解打砖块游戏[8课时]：链接：http://pan.baidu.com/s/1mizu9q4 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+Unity3D 动作冒险解谜游戏特效案例制作教程[16课时]：链接：http://pan.baidu.com/s/1pLSuFyz 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+Unity3D AboutCG 初级视频教程[37课时]：链接：http://pan.baidu.com/s/1jIvuTJg 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+以上教程合集：链接：http://pan.baidu.com/s/1skTwreP 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+UDK（虚幻3）相关 
+GFX(Scaleform) udk UI视频教程[11课时]：链接：http://pan.baidu.com/s/1i4KjjMX 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+UDK材质视频教程[36课时]：链接：http://pan.baidu.com/s/1gfx2ScN 密码：uw03 
+UDK虚幻3游戏引擎游戏特效[15课时]：链接：http://pan.baidu.com/s/1bpfuh47 密码：bdqw 
+以上教程合集：链接：http://pan.baidu.com/s/1eR1s0zo 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+其他教程 
+影视特效幕后技术视频教程 中文字幕：链接：http://pan.baidu.com/s/1slcPGTJ 密码：wir5 
+Boujou基础入门教学：链接：http://pan.baidu.com/s/1o7JYZeM 密码：7mz2 
+以上所有教程合集：链接：http://pan.baidu.com/s/1o8s4RWI 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+PR教程 
+《Premiere色彩校正技法视频教程》中文字幕翻译教程：链链接：http://pan.baidu.com/s/1kUR9HD9 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+视频素材 
+飘舞的粉尘：链接：http://pan.baidu.com/s/1i48DS93 密码：das5 
+烟雾素材：链接：http://pan.baidu.com/s/1c18Oe0S 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+以上素材合集：链接：http://pan.baidu.com/s/1bo96eF9 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+模型 
+模型合集：链接：http://pan.baidu.com/s/1o8vSH78 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+卡通动物模型合集：链接：http://pan.baidu.com/s/1hsoGy00 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+AE模板合集：链接：http://pan.baidu.com/s/1jIFDFJS 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+参考 
+参考合集：链接：http://pan.baidu.com/s/1bFDIaE 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+材质贴图 
+材质贴图合集：链接：http://pan.baidu.com/s/1i4CbGaD 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+HDR贴图 
+HDR合集：链接：http://pan.baidu.com/s/1b0NGaq 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+以上所以素材合集（不含HDR）：链接：http://pan.baidu.com/s/1cmhJOU 密码：http://www.360doc.com/userhome.aspx?userid=7863900&cid=768 
+【☆☆软件区——Win系统☆☆】 
+
+1：『PSCS6』：正规软件，完整版，压缩包共1.32GB，内含注册序列号，winxp/7/8/10均可用。链接：http://pan.baidu.com/share/link?shareid=1482722506&uk=259804855 
+————————————————————————— 
+2：『PSCS5』正规软件，完整版，压缩包共1.61GB，内含注册序列号，winxp/7/8/10均可用。链接：http://pan.baidu.com/share/link?shareid=501909408&uk=259804855 
+————————————————————————— 
+3：『PSCC2017』破解版，内含注册机和安装教程，32位1.25GB，64位1.35GB，链接：http://pan.baidu.com/share/link?shareid=1531951111&uk=259804855 
+————————————————————————— 
+4：『PSCC2015.5』详见此贴：http://tieba.baidu.com/p/4855339163 
+————————————————————————— 
+5：『PSCS3』已破解，安装即用，精简版，共50.03M，链接：http://pan.baidu.com/share/link?shareid=3066699802&uk=259804855 
+—————————————————————————6：『PSCS4』已破解，安装即用，精简版，共61.32M，链接：http://pan.baidu.com/share/link?shareid=1511652930&uk=259804855 
+————————————————————————— 
+7：『PSCS5』已破解，安装即用，精简版，共152.87M，链接：http://pan.baidu.com/share/link?shareid=1328166368&uk=259804855 
+————————————————————————— 
+8：『PSCS6』已破解，安装即用，精简版，共174.61M，链接：http://pan.baidu.com/share/link?shareid=3079297113&uk=259804855 
+————————————————————————— 
+9：『PSCC2015.5』已破解，安装即用，精简版，32位+64位，共207.61M，链接：http://pan.baidu.com/share/link?shareid=1151003950&uk=259804855 
+————————————————————————— 
+
+-----------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+【☆☆软件区——Mac系统☆☆】 
+
+1：『PSCS6』完整版链接：http://pan.baidu.com/share/link?shareid=1858763942&uk=259804855 
+————————————————————————— 
+2：『PSCC2015』完整版链接：http://pan.baidu.com/share/link?shareid=1537329653&uk=259804855 
+————————————————————————— 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+【☆☆教程区☆☆】 
+
+1：敬伟教程全套，完全0基础，新手自学，http://pan.baidu.com/share/link?shareid=1246179304&uk=259804855 
+————————————————————————— 
+2：MAC系统PSCS6教程，以及部分精选教程http://pan.baidu.com/share/link?shareid=104966734&uk=259804855 
+————————————————————————— 
+3：MAC系统PSCC2015教程http://pan.baidu.com/share/link?shareid=2862444233&uk=259804855 
+—————————————————————————4：PS转手绘教程视频http://pan.baidu.com/share/link?shareid=2394392379&uk=259804855 
+————————————————————————— 
+5：PS抠图教程100例精选http://pan.baidu.com/share/link?shareid=3033439128&uk=259804855 
+————————————————————————— 
+6：PS磨皮教程http://pan.baidu.com/share/link?shareid=1849001732&uk=259804855 
+————————————————————————— 
+7：其它部分教程http://pan.baidu.com/share/link?shareid=4039192880&uk=259804855 
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+【☆☆素材区--字体合集☆☆】 
+
+
+1：上万个英文字体：http://pan.baidu.com/s/1nvdeGY1 
+————————————————————————— 
+2：上万个中文字体：http://pan.baidu.com/s/1mhEKpGO 
+————————————————————————— 
+3：20000个各类型中文字体：http://pan.baidu.com/s/1slGmiFN 
+————————————————————————— 
+4：582个中英文字体：http://pan.baidu.com/s/1kV37lPX 
+————————————————————————— 
+5：各类型字体合集：http://pan.baidu.com/s/1c1VV5CG 
+————————————————————————— 
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+【☆☆素材区——图片素材合集☆☆】 
+
+1：高清图片1250张：http://pan.baidu.com/s/1nuBuwop 
+————————————————————————— 
+2：精美各种图片素材打包下载1000多张：http://pan.baidu.com/s/1bI207W 
+————————————————————————— 
+3：图片素材库140张：http://pan.baidu.com/s/1slharP7 
+————————————————————————— 
+4：500多款PS经典平铺背景图案：http://pan.baidu.com/s/1c2gKPR6 
+————————————————————————— 
+5：古风素材集结号：http://pan.baidu.com/s/1kVtxQw3 
+————————————————————————— 
+6：极具创意的图片集：http://pan.baidu.com/s/1kVwfDIZ 
+————————————————————————— 
+7：三千个3D小人素材：http://pan.baidu.com/s/1sl8eGZb 
+————————————————————————— 
+8：精品欧美海报设计1200张：http://pan.baidu.com/s/1o8Eqxv0 
+————————————————————————— 
+9：PPT常用图片素材：http://pan.baidu.com/s/1hsnyrys 
+————————————————————————— 
+10：各类图片素材：http://pan.baidu.com/s/1mi6SUZA 
+————————————————————————— 
+11：精美实用创意图：http://pan.baidu.com/s/1hr8gKG8 
+————————————————————————— 
+12：construction史上最精美建筑图片：http://pan.baidu.com/s/1bo15xeB 
+————————————————————————— 
+13：超清创意图片1250张：http://pan.baidu.com/s/1gfC2Ppx 
+————————————————————————— 
+14：5000张图片素材：http://pan.baidu.com/s/1miO3ScK 
+————————————————————————— 
+
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+
+【☆☆素材区——笔刷合集☆☆】 
+
+
+1：637个各类型PS笔刷：http://pan.baidu.com/s/1gfDiLhh 
+————————————————————————— 
+2：上千种分类笔刷合集：http://pan.baidu.com/s/1i5foHHb 
+————————————————————————— 
+3：恐怖丧尸笔刷套装：http://pan.baidu.com/s/1nvrrPUT 
+————————————————————————— 
+
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+
+
+【☆☆素材区——滤镜合集☆☆】 
+
+
+1：滤镜全套教程：http://pan.baidu.com/s/1c22z5RU 
+————————————————————————— 
+2：滤镜合集1：http://pan.baidu.com/s/1gf1D3R9 
+————————————————————————— 
+3：滤镜合集2：http://pan.baidu.com/s/1gfwnM2v 
+————————————————————————— 
+
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+
+
+【☆☆素材区——背景素材合集☆☆】 
+
+
+1：古风背景：http://pan.baidu.com/s/1bPobiY 
+————————————————————————— 
+2：2000张背景图片素材1：http://pan.baidu.com/s/1kUJ5Y43 
+————————————————————————— 
+3：2000张背景图片素材2：http://pan.baidu.com/s/1dE4jgqd 
+————————————————————————— 
+4：1000张背景图片素材：http://pan.baidu.com/s/1hr6KSrq 
+————————————————————————— 
+5：自然风光：http://pan.baidu.com/s/1pKUTk51 
+————————————————————————— 
+6：高精度背景图集：http://pan.baidu.com/s/1jIe6JJK 
+————————————————————————— 
+7：唯美网页背景1560款：http://pan.baidu.com/s/1c5l4iM 
+
+
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+
+
+【☆☆素材区——婚纱素材合集☆☆】 
+
+
+1：16个浪漫婚纱模版：http://pan.baidu.com/s/1pKSlrgn 
+————————————————————————— 
+2：最新婚纱情侣写真方版横版影楼摄影PSD模版200p：http://pan.baidu.com/s/1gfgEK2R 
+————————————————————————— 
+3：110个婚纱背景大图：http://pan.baidu.com/s/1hsPrZa0 
+————————————————————————— 
+4：婚纱PSD素材01：http://pan.baidu.com/s/1c9VjAY 
+————————————————————————— 
+5：婚纱PSD素材02：http://pan.baidu.com/s/1nuCawUt 
+————————————————————————— 
+6：PS时尚杂志婚纱设计之时尚杂志婚纱设计：http://pan.baidu.com/s/1gfdqXtp 
+————————————————————————— 
+7：PS时尚杂志婚纱设计之婚纱照片制作高级基础：http://pan.baidu.com/s/1kVO5XRL 
+————————————————————————— 
+8：PS时尚杂志婚纱设计之梦幻唯美婚纱设计：http://pan.baidu.com/s/1c1hFFS 
+
+------------------------------------------------------------------------------------------------------------------------------华丽的分割线 
+
+
+【☆☆素材区——PSD各类模板合集☆☆】 
+
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+1：118款超简约风格PPT模板、125款经典PPT模板、136款动态PPT模板：http://pan.baidu.com/s/1o7KfMQY 
+————————————————————————— 
+2：PSD儿童素材模版：http://pan.baidu.com/s/1hsmcucW 
+————————————————————————— 
+3：PSD名片素材模板：http://pan.baidu.com/s/1miLgeZe 
+————————————————————————— 
+4：上海婚展模版：http://pan.baidu.com/s/1o8rVLfs 
+————————————————————————— 
+5：PSD名片模板：http://pan.baidu.com/s/1i48eMd3 
+————————————————————————— 
+欢迎关注：http://www.toutiao.com/m52374411545/ 
+
+下面是事业单位系列（*部分内容和以前分享的重复，但不要紧啦） 
+
+老规矩解压密码：888 
+
+圣儒2016事业单位考试综合应用直播课（更新完）	链接：http://pan.baidu.com/s/1pKDiw3L	密码：cux8 
+圣儒2016事业单位考试公共基础直播课（更新中）	链接：http://pan.baidu.com/s/1gfuHI2v	密码：qzki 
+2016年事业单位考试五一时政押题班-张峰	链接：http://pan.baidu.com/s/1qYEHLxy	密码：fcvy 
+2016年公共基础知识-冲刺班-罗红军23讲	链接：http://pan.baidu.com/s/1skUDqZr	密码：udt5 
+2016年公共基础知识-真题班-罗红军26讲	链接：http://pan.baidu.com/s/1byDzKq	密码：5ac4 
+2016年事业单位考试《公共基础知识》真题分类详解班	链接：http://pan.baidu.com/s/1cM9Wui	密码：cyy6 
+2016年华图《公共基础知识》冲刺密卷班	链接：http://pan.baidu.com/s/1c2yPhio	密码：zdm0 
+【2016年最新版】公共基础知识-罗红军实战技巧班	链接：http://pan.baidu.com/s/1bnNqtIn	密码：0v5o 
+2016事业单位-公共基础知识-预测试卷	链接：http://pan.baidu.com/s/1nvk7BfF	密码：solp 
+2016事业单位-公共基础知识-小班密训营	链接：http://pan.baidu.com/s/1pLvYRMV	密码：w8ww 
+梦娇老师带你冲刺山东时政热点	链接：http://pan.baidu.com/s/1hrEnL5a	密码：3ao9 
+梦娇老师带你冲刺安徽事业单位公基	链接：http://pan.baidu.com/s/1mhN9bbM	密码：y7io 
+梦娇老师带你冲刺山西事业单位综合知识	链接：http://pan.baidu.com/s/1caeGGY	密码：ajj6 
+云南事业单位综合应用能力（客观题）	链接：http://pan.baidu.com/s/1jHGR6bO	密码：qqgu 
+2016年6月份华图事业单位小班课汇总	链接：http://pan.baidu.com/s/1i5LT1Tr	密码：2ter 
+2016年5月份华图事业单位小班课汇总	链接：http://pan.baidu.com/s/1bWaTTO	密码：x6xn 
+2016年4月份华图事业单位小班课汇总	链接：http://pan.baidu.com/s/1bCydBK	密码：vbgo 
+2017年深圳市事业单位-公共基础知识基础精讲班	链接：http://pan.baidu.com/s/1miygJkk	密码：ua6u 
+【华图】2017事业单位《公共基础知识》名师模块班	链接：http://pan.baidu.com/s/1dE2ieQH	密码：p2c3 
+2016年华图公共基础知识密训营	链接：http://pan.baidu.com/s/1pKJyFOZ	密码：y7t9 
+2016某网培机构公基模考大赛第七季	链接:https://pan.baidu.com/s/1mi2Puv2	密码： wiqv 
+湖南事业单位历年真题20套600页-配详细解析	链接：http://pan.baidu.com/s/1pKP39Rt	密码：3loz
+公共基础知识刷题班试题+视频解析(2016年10月)	链接:https://pan.baidu.com/s/1eRLcnNs	密码： vyd3 
+2016某网培机构事业单位系统班18班-完-最新完班	链接：http://pan.baidu.com/s/1kV37sJd	密码：zbgr 
+我爱公基网(52公基)视频+讲义	链接：http://pan.baidu.com/s/1geAQfiN	密码：wdp1 
+2016.10.28公基模考大赛（第六季）解析课 王鹏	链接：http://pan.baidu.com/s/1kUAHRaZ	密码：3o28 
+2016纵横公基 全套视频讲义9月最新版	链接：http://pan.baidu.com/s/1qXLwNYs	密码：9wta 
+【粉笔公考】2016.10.15公基模考大赛（第五季）解析课	链接：http://pan.baidu.com/s/1miLKDZE	密码：kmus 
+【粉笔公考】2016.09.10+公基模考大赛（第四季）解析课+王鹏	链接：http://pan.baidu.com/s/1c2ieijA	密码：un0d 
+2016纵横公考《公基-潘玥辰》法理、宪法、刑法、民法	链接：http://pan.baidu.com/s/1kVdLRAf 密码：c19v 
+【粉笔公考】事业单位-综合应用能力（2016年6月最新）	链接：http://pan.baidu.com/s/1hsa0Yck 密码：g5ej 
+梦娇老师事业单位最后5套预测押题密卷	链接：http://pan.baidu.com/s/1eR8IXZO	密码：u9gw 
+梦娇老师带你学习2017版常识速记口诀88条	链接：http://pan.baidu.com/s/1mh85qkw	密码：8cet 
+【华图砖题库】5.21事业单位万人冲刺之综合应用C(2016-05-20)	链接：http://pan.baidu.com/s/1eSkBioy	密码：yu9x 
+【砖题库】5.21事业单位万人冲刺之综合应用B(2016-05-18)	链接：http://pan.baidu.com/s/1hr7rwPI	密码：7t8q 
+【砖题库】5.21事业单位万人冲刺之综合应用A(2016-05-18)	链接：http://pan.baidu.com/s/1o8EMVtK	密码：g6sx 
+【砖题库】5.21事业单位万人冲刺之判断推理(2016-05-17)	链接：http://pan.baidu.com/s/1i5NeDCD	密码：nc68 
+【砖题库】5.21事业单位万人冲刺之言语理解(2016-05-16)	链接：http://pan.baidu.com/s/1hrN6ys0	密码：33sh 
+【砖题库】5.21事业单位万人冲刺之数量资料(2016-05-15	链接：http://pan.baidu.com/s/1sk9aTp7 密码：5o8c 
+【华图砖题库】2016公共基础知识预测试卷+解析课	链接：http://pan.baidu.com/s/1eROqytW	密码：va2u 
+【华图砖题库】521事业单位联考预测试卷+解析课	链接：http://pan.baidu.com/s/1slKM02L	密码：ffz2 
+梦娇老师带你冲刺山东时政热点（2016.5.3）	链接：http://pan.baidu.com/s/1jHZCKS2	密码：gib2
+【粉笔公考】2016年事业单位：综合应用能力	链接：http://pan.baidu.com/s/1kV8fSSB	密码：kxt4 
+事业单位考试《公文写作》基础精讲班	链接：http://pan.baidu.com/s/1cAzEcY	密码：tn7a 
+事业单位考试《综合写作》基础精讲班	链接：http://pan.baidu.com/s/1boGSWur	密码：4pma 
+事业单位考试综合写作（材料作文）基础精讲班	链接：http://pan.baidu.com/s/1i4SlZU1	密码：k6ep 
+2016粉笔事业单位高频考点	链接：http://pan.baidu.com/s/1mio0uMG	密码：8xjf 
+2016粉笔事业单位1000题	链接：http://pan.baidu.com/s/1slj61Ed	密码：kvva 
+2016事业单位-名师模块班-综合应用能力-叶其政	链接：http://pan.baidu.com/s/1kVRbVxl	密码：8pwp 
+2016年事业单位高分笔记【冲刺版】	链接：http://pan.baidu.com/s/1c1VdgOw	密码：x5io 
+31省市事业单位历年真题精选	链接：http://pan.baidu.com/s/1skyGKdJ	密码：o6j5 
+2016最新事业单位考试[公文写作]（18课）	链接：http://pan.baidu.com/s/1hrcCM7U	密码：l5wd 
+【2016.2.28直播课】梦娇老师带你狂刷事业单位历年真题	链接：http://pan.baidu.com/s/1mh16gWS	密码：h8nx 
+公共基础知识笔试过关宝典	链接：http://pan.baidu.com/s/1sklegEx	密码：ap6f 
+2015事业单位面试视频汇总	链接:http://pan.baidu.com/s/1mgT1PJa	密码：xva4 
+
+下面是国考系列（*部分内容和以前分享的重复，但不要紧啦） 
+
+老规矩解压密码：888 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+2017国考-大斌哥(李国斌)最后押题三小时	链接：http://pan.baidu.com/s/1bLQNyY	密码：ug3i 
+2017国考-花生十三-资料和逻辑终极押题	链接：http://pan.baidu.com/s/1c12jS6c	密码：sp7l 
+【老吴公考】2017年国考冲刺班	链接：http://pan.baidu.com/s/1dECXniD	密码：et6t 
+【中公】2017年国考冲刺预测班	链接：http://pan.baidu.com/s/1qXIa0e4	密码：528q 
+【中公】2017年国考点睛密押班	链接：http://pan.baidu.com/s/1hsJSSOc	密码：ygnf 
+【腰果公考】2017年国考冲刺班	链接：http://pan.baidu.com/s/1hr8NrM0	密码：u514 
+2017国考申论命题大“猜想”暨密押卷 申论教父蒋红增	链接：http://pan.baidu.com/s/1kV2lI3H	密码：twe6 
+【砖题库】2017年国考考前大冲刺	链接：http://pan.baidu.com/s/1miHIMhE	密码：ju14 
+2017国考-华图-考前大冲刺-申论预测试卷4+x系列	链接：http://pan.baidu.com/s/1bTsfRS	密码：mmww 
+2017国考-纵横行测押宝班	链接：http://pan.baidu.com/s/1kVHKHJh	密码：eftz 
+【四海公考】2017年国考刷题班	链接：http://pan.baidu.com/s/1caJ92e	密码：g5o4 
+2017国考-华图-冲刺点睛班 视频+讲义	链接：http://pan.baidu.com/s/1jIhUDYA	密码：idky 
+华图2017国考-考前师说新语系列	链接：http://pan.baidu.com/s/1jHAeHW6	密码：q17b 
+【必胜课】2017年国考580元系统班	链接：http://pan.baidu.com/s/1jItzyUq	密码：2vhz 
+2017年华图国考押题预测班	链接：http://pan.baidu.com/s/1mi8otao	密码：fx42 
+2017年国考中公密押冲刺直播课	链接：http://pan.baidu.com/s/1i5LlDAX	密码：voqt 
+【纵横公考】2017年国考冲刺班（更新完）	链接：http://pan.baidu.com/s/1miczUxM	密码：4j1r 
+【站长申论】2017年国考申论基础班（一期班）	链接：http://pan.baidu.com/s/1c23K364	密码：ldpe 
+【站长申论】2017年国考申论真题班（三期班）	链接：http://pan.baidu.com/s/1bp7Qpe3	密码：mc3w 
+【腰果公考】公考十年真题精选合集（更新完）	链接：http://pan.baidu.com/s/1bpJvzdX	密码：el17 
+华图2017国家公务员考试真题深度解析	链接:https://pan.baidu.com/s/1qY4ehKK	密码： r4xb 
+2017华图国考万人冲刺	链接：http://pan.baidu.com/s/1nvAprdv	密码：8cjm 
+李梦娇2017国考申论最后四套押题密卷11.22版	链接：http://pan.baidu.com/s/1qY6LrfI	密码：z7zc
+半月谈手把手教你秒杀2016国考行测真题--2017国考者必看	链接：http://pan.baidu.com/s/1hsa73KC	密码：umon 
+2017国考常识夺分营电子预测卷	链接：http://pan.baidu.com/s/1qY5zm8k	密码：5b20 
+半月谈-2017国考冲刺押题密卷 行测+申论+秒杀解析	链接：http://pan.baidu.com/s/1boTVVoN	密码：kxz5 
+国考-文心申论-突破22讲	链接:https://pan.baidu.com/s/1eSsShYa	密码： riv6 
+【必胜课程】2017国家公务员考试-行测思维2课时（李国斌）	链接：http://pan.baidu.com/s/1geY7dT5	密码：0yum 
+2017年国考最新咖啡逻辑	链接：http://pan.baidu.com/s/1dFgcnnF	密码：dowa 
+【腰果公考】2017年国考行测模考大赛（第14期）	链接：http://pan.baidu.com/s/1hrNEUwc	密码：t3o4 
+【腰果公考】2017年国考行测模考大赛（第13期）	链接：http://pan.baidu.com/s/1mh9ZB3y	密码：hied 
+【粉笔公考】2017年国考行测模考大赛解析课（第14季）	链接：http://pan.baidu.com/s/1kVhR3gV	密码：fie0 
+【粉笔公考】2017年国考系统班 强化梳理课程	链接：http://pan.baidu.com/s/1hsI5xQk	密码：aoge 
+【粉笔公考】2017年国考行测模考大赛解析课（第13季）	链接：http://pan.baidu.com/s/1eRGrsFw	密码：eqwy 
+【粉笔公考】2017年国考行测模考大赛解析课（第12季）	链接：http://pan.baidu.com/s/1hrZjv0o 密码：eae8 
+【粉笔公考】2017年国考行测模考大赛解析课（第11季）	链接：http://pan.baidu.com/s/1bpBnpwz	密码：vite 
+【必胜课程】2017国考.公考行测：逻辑推理-因果关系-可能	链接：http://pan.baidu.com/s/1boEuoft	密码：0s3l 
+【必胜课程】2017国考.公考行测：逻辑推理-三段论”由此	链接：http://pan.baidu.com/s/1c23Jh1e 密码：etle 
+【必胜课程】2017国考.公考行测：逻辑推理-元素对应问题	链接：http://pan.baidu.com/s/1cIakAq 密码：ju5e 
+【必胜课程】2017国考.公考行测：图形推理的”锦囊妙计“	链接：http://pan.baidu.com/s/1b9Cz4y 密码：0i99 
+【必胜课】2017国考.公考行测：逻辑判断（题干分析-数据	链接：http://pan.baidu.com/s/1slBzRzR	密码：ngsa 
+【必胜课程】2017国考.公考行测：逻辑判断（题干分析-强	链接：http://pan.baidu.com/s/1skWi1el	密码：k1ra 
+【腰果公考】2017年国考行测模考大赛（第12期）	链接：http://pan.baidu.com/s/1qYu6WVy	密码：71aw 
+【腰果公考】2017年国考行测模考大赛（第11期）	链接：http://pan.baidu.com/s/1bpBnpwz	密码：vite 
+【腰果公考】2017年国考行测模考大赛（第10期）	链接：http://pan.baidu.com/s/1jHEfJeu	密码：5m9j 
+【腰果公考】2017年国考行测模考大赛（第九期）	链接：http://pan.baidu.com/s/1jIQ7lZo	密码：nfh8 
+【必胜课程】2017国考.公考行测：逻辑判断（题干分析-类比论证）	链接：http://pan.baidu.com/s/1miErPDe	密码：9r4h 
+【必胜课程】2017国考.公考行测：逻辑判断（题干分析-枚举归纳）	链接：http://pan.baidu.com/s/1bFHSAU	密码：q95x 
+【必胜课程】2017国考.公考行测：逻辑判断（朴素推理-真假话问题）	链接：http://pan.baidu.com/s/1qYtQRnu	密码：qxd3 
+【粉笔公考】2017年国考行测模考大赛解析课（第10期）	链接：http://pan.baidu.com/s/1gfbSqcj 密码：co7h 
+【粉笔公考】2017年国考行测模考大赛解析课（第9期）	链接：http://pan.baidu.com/s/1kVS6VSr 密码：vs87 
+【必胜课程】2017国考.公考行测：逻辑判断（复言命题-假言命题）	链接：http://pan.baidu.com/s/1gfHPIE3	密码：rdkq 
+【必胜课程】2017国考.公考行测：复言命题-联言（选言）	链接：http://pan.baidu.com/s/1o7Yqmxk	密码：w2l5 
+【必胜课程】2017国考.公考行测：直言命题-提高篇	链接：http://pan.baidu.com/s/1i5yONfJ	密码：d698 
+【必胜课程】2017国考.公考行测：直言命题-基础篇	链接：http://pan.baidu.com/s/1i58Ykjr	密码：9mie 
+【必胜课程】2017国考.公考行测:判断推理篇-走进逻辑	链接：http://pan.baidu.com/s/1sltiN29	密码：5c48 
+【粉笔公考】数资套题实战-唐宋（7班）	链接：http://pan.baidu.com/s/1o893Q9k	密码：shgy 
+2017国考-王建伟-申论提高课	链接：http://pan.baidu.com/s/1hskD6h2	密码：im36 
+2017国考-刘文波-行测提高课	链接:https://pan.baidu.com/s/1jHZef4q	密码： ewf3 
+【粉笔公考】2017国考-唐宋 数量关系猜题技巧	链接：http://pan.baidu.com/s/1bAXUe6	密码：teqb 
+聂佳判断推理方法精讲（8班完）	链接：http://pan.baidu.com/s/1kVi5x9H	密码：vziq 
+聂佳判断推理方法精讲7班(完)	链接：http://pan.baidu.com/s/1jIuIGJW	密码：jmwd 
+【必胜课程】2017国考.申论篇:审清题目-奠定对策基础	链接：http://pan.baidu.com/s/1qY3tRWS 密码：9vre 
+【必胜课程】2017国考.申论篇:”提炼“倒推“两招助你发	链接：http://pan.baidu.com/s/1qYxoo6C	密码：qmav 
+【必胜课程】2017国考.申论篇:三种方式打造吸睛开头	链接：http://pan.baidu.com/s/1kUXFYcv	密码：9odi 
+【必胜课程】2017国考.申论篇:让你的标题闪亮登场	链接：http://pan.baidu.com/s/1o8KYPsu	密码：0rjm 
+【必胜课程】2017国考.申论篇:五句话让你的文章论证深入	链接：http://pan.baidu.com/s/1jICZ3Xs	密码：obhu 
+【粉笔公考】2017年国考行测模考大赛解析课（第8期）	链接：http://pan.baidu.com/s/1c63XYu 密码：8p3m 
+【必胜课程】2017国考.申论篇：应用文写作你必须知道的规矩	链接：http://pan.baidu.com/s/1kUAFf0r	密码：3705 
+【必胜课程】2017国考.申论篇：应用题必会公式	链接：http://pan.baidu.com/s/1i5NQBmX	密码：1kps 
+【必胜课程】2017国考.申论篇：应用题（你会写讲话稿么？）	链接：http://pan.baidu.com/s/1eRZRBQa	密码：49zw 
+【必胜课程】2017国考.申论篇：分析题秒变概括题	链接：http://pan.baidu.com/s/1pLhGMXt	密码：l7di 
+【必胜课程】.申论篇：归纳概括题（加标题题型可以不扣分）	链接：http://pan.baidu.com/s/1bDFdQu	密码：hfh5 
+【必胜课程】2017国考.申论篇：阅读案例开型材料不再抓狂	链接：http://pan.baidu.com/s/1nv95kbZ	密码：wqsu 
+【必胜课程】2017国考.申论篇：轻松搞定要点分类	链接：http://pan.baidu.com/s/1kUVD2uz	密码：2bke 
+【必胜课程】2017国考.申论篇：记住这些词，80%的得分点尽	链接：http://pan.baidu.com/s/1gfx5Tr9	密码：37l7 
+【必胜课程】2017国考.行测言语理解篇：逻辑选词填空概述	链接：http://pan.baidu.com/s/1nvjM34t	密码：5fps 
+【必胜课程】2017国考.行测言语理解篇(片段阅读——转折关系）	链接：http://pan.baidu.com/s/1eSiELJO	密码：45mj 
+【粉笔公考】2017年国考行测模考大赛解析课（第7期）	链接：http://pan.baidu.com/s/1dFkcGId 密码：rort 
+【必胜课程】2017国考.行测言语理解篇：病语的状态	链接：http://pan.baidu.com/s/1eSuPXwm 密码：rb34 
+【必胜课程】2017国考.行测言语理解篇：30秒速解语句排序题	链接：http://pan.baidu.com/s/1mhGHYGS	密码：9mkz 
+【腰果公考】2017年国考行测模考大赛（第八期）	链接：http://pan.baidu.com/s/1kVBA4HD	密码：fj88 
+【腰果公考】2017年国考行测模考大赛（第七期）	链接：http://pan.baidu.com/s/1pLu7ypt	密码：gel1 
+【腰果公考】2017年国考行测模考大赛（第六期）	链接：http://pan.baidu.com/s/1hrXfeew	密码：de5i 
+【必胜课程】2017国考.行测言语理解篇(结构两分，助你把握片段阅读，核心精髓）	链接：http://pan.baidu.com/s/1dFHmmBn	密码：25i1 
+【必胜课程】2017国考.行测言语理解篇(片段阅读之类惑选项的透析）	链接：http://pan.baidu.com/s/1dFx9jw9	密码：9qf7 
+【必胜课程】2017国考.行测言语理解篇(片段阅读三招制敌）	链接：http://pan.baidu.com/s/1cj2d1k	密码：7ejp 
+【粉笔公考】2017国考行测模考大赛第六季解析课	链接：http://pan.baidu.com/s/1hsuLhGg	密码：wlvj 
+【粉笔公考】2017国考行测模考大赛第五季解析课	链接：http://pan.baidu.com/s/1qYq1drI	密码：a7q0 
+【腰果公考】2017年国考行测模考大赛（第五期）	链接：http://pan.baidu.com/s/1eR8LFW2	密码：n81g 
+【腰果公考】2017年国考行测模考大赛（第四期）	链接：http://pan.baidu.com/s/1hs8rRQ8	密码：kxcr 
+【腰果公考】2017年国考行测模考大赛（第三期）	链接：http://pan.baidu.com/s/1kUKgPcN	密码：b95m 
+【腰果公考】2017年国考行测模考大赛（第二期）	链接：http://pan.baidu.com/s/1c2slaG4	密码：xwia 
+【必胜课程】2017国考.行测资料分析篇(6课时)	链接：http://pan.baidu.com/s/1boU6tqv	密码：8wti 
+【必胜课程】2017国考.行测数学篇(6课时)	链接：http://pan.baidu.com/s/1eSLSRp4	密码：7g3k 
+（2016.07.24）2017年国考粉笔模考大赛解析课（第四季）	链接：http://pan.baidu.com/s/1jIsE1jK	密码：9sfy 
+【粉笔公考】2017国考行测模考大赛第三季解析课	链接：http://pan.baidu.com/s/1pLlHLcJ	密码：fc66 
+【腰果公考】2017年国考腰果模考第一期	链接：http://pan.baidu.com/s/1geXeN9h	密码：xbub 
+（2016.6.26）2017年国考粉笔模考大赛（第二季）	链接：http://pan.baidu.com/s/1eS8ZDgY	密码：1tmy 
+【腰果公考】2017年国考先导班	链接：http://pan.baidu.com/s/1nvCiUNJ	密码：puht 
+梦娇老师带你狂刷国考历年真题(2016-06-18）	链接：http://pan.baidu.com/s/1b4PNS6	密码：xc9u 
+（2016.5.22）2017年国考粉笔模考大赛（第一季）	链接：http://pan.baidu.com/s/1c9fWh4	密码：auok 
+灰兔-数量关系 2015年第三版	链接：http://pan.baidu.com/s/1qXdFg9u	密码：sn80 
+最全的人体漂浮魔术教学 
+链接: http://pan.baidu.com/s/1qWyiLFQ 密码: wbfi 
+
+一本书在手，万事不求人——《人生必备万事通》 
+http://pan.baidu.com/s/1hqDU75q 
+
+【一学就会的100个小魔术】彩图版 
+http://pan.baidu.com/s/1dD1jxjb 
+
+五笔字型魔鬼训练法：五天突破1分钟100字 
+http://pan.baidu.com/s/1w95gU 
+
+《赚钱金点子大全》300个赚钱金点子 
+http://pan.baidu.com/s/1c0eQPX2 
+
+《硅谷禁书·世界上最神奇的24堂课》 
+http://pan.baidu.com/s/1bnvNMOJ 
+
+88个小本创业的赚钱项目分享 
+http://pan.baidu.com/s/1sjvvqED 
+
+如何摆出好POSE 美少女外拍动作图解X100 
+http://pan.baidu.com/s/1CO4WY 
+
+世界营销绝妙点子800例 
+http://pan.baidu.com/s/1ntqNyIH 
+
+《如何通过网络日赚1000元》 
+http://pan.baidu.com/s/1jGwtnG6 
+
+1块变10块的投资分配法 
+http://pan.baidu.com/s/1dDeS3L3 
+
+陈安之 价值18万元《香港半岛总裁班独家内部资料》 
+http://pan.baidu.com/s/1qWCvXOo 
+
+财气——获取财富的36条黄金法则].张玉斌.李鹏 
+http://pan.baidu.com/s/1i39m4NN 
+《倍增吸引定律之天授传奇》售价198元的好书！至今未曾被超越的高频能量书 
+http://pan.baidu.com/s/1bnnav7p 
+
+联通移动免费充话费教程（长期有效） 
+http://pan.baidu.com/s/1gdBs50J 
+
+5折无限充值Q币方法（长期有效） 
+http://pan.baidu.com/s/1c0thINY 
+
+各种魔术教学电子书，各种秘术绝技资料教程 
+http://pan.baidu.com/share/home?uk=1229317686 
+
+《无价之宝108条》让您心想事成的无上宝典！ 
+http://www.2k2z.com/forum.php?mod=viewthread&tid=127 
+
+价值百万，上千G精品资源分享 
+http://www.2k2z.com/forum.php?mod=forumdisplay&fid=37 
+
+2013最新美甲视频教程大全 美甲店专业技术教材宝典 自学美甲 
+链接: http://pan.baidu.com/s/1szH8s 密码: d9so 
+
+2013最新影楼新娘化妆教程|韩国专业彩妆教程|包含80款妆容设计 
+链接: http://pan.baidu.com/s/1rdO3h 密码: 72l8 
+
+2013最新流行美新娘盘发教程视频大全 韩式编发200款影楼发型设计 
+链接: http://pan.baidu.com/s/107pM6 密码: cj6b 
+
+棕编教程 草编动物制作视频 叶编工艺 五彩编扎技术培训教学光盘 
+链接:http://pan.baidu.com/share/link?shareid=1600768612&uk=2251453667 
+密码:q62q 
+
+百变魔术气球教程 魔法背带娃娃玩偶 婚庆拱门造型教材85视频书籍 
+链接: http://pan.baidu.com/s/1GMpVy 密码: w2fq 
+
+捏面人教程 面塑绝技 彩塑视频 泥塑方法 送全套教材秘籍技术光盘 
+链接:http://pan.baidu.com/share/link?shareid=1675665073&uk=2251453667 
+密码:cjyt 
+
+2013最新小女孩盘发扎发扎辫宝宝编发编辫子儿童发型教程资料 
+链接: http://pan.baidu.com/s/1GMpMO 密码: tcyd 
+
+2013一站式开家奶茶店 珍珠奶茶技术配方 小吃技术配方 
+链接: http://pan.baidu.com/s/1ovWQp 密码: brjv 
+
+安徽相法视频教程 面相书籍秘笈 面相过三关 相术风水古相法 
+链接:http://pan.baidu.com/share/link?shareid=3717673175&uk=2301764067 
+密码:ypjd 
+
+最全家电维修大全视频教程 彩电 空调 冰箱电脑主板家电维修教程 
+链接:http://pan.baidu.com/share/link?shareid=981375128&uk=2519914211 
+密码:itsp 
+
+链接:http://pan.baidu.com/share/link?shareid=976272021&uk=2570220771 
+密码:jfp1 
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/ 
+邀请码小组：http://t.cn/zYbWzh5 
+链接:http://pan.baidu.com/share/link?shareid=990286004&uk=2620525283 
+密码:1mtk 
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材 
+链接:http://pan.baidu.com/share/link?shareid=1048515281&uk=2620525283 
+密码:jg8u 
+
+王紫杰2013最新力作《互联网印钞机》共6盘DVD 
+http://pan.baidu.com/s/1dDkUvPv 
+
+《龙式创富法则——从一万到十亿》共6节（主讲：张浩）价值1580元 
+http://pan.baidu.com/s/1kTHSiEV 
+
+苏引华《钱是这样赚的-让你在3个月内倍增利润》6碟DVD 
+http://pan.baidu.com/s/1kT0rnIR 
+
+各种学习资料150G 
+http://yun.baidu.com/share/home?uk=592122224&view=share#category/type=0 
+
+每套价值上千元 互联网VIP培训教程 绝对精品 
+链接: http://pan.baidu.com/s/1sjFcNoT 密码: jaxq 有一小部分有要解压密码 密码是：xiaobeivip 
+
+价值几千元儿童早教教程 
+链接: http://pan.baidu.com/s/1ntFQnlJ 密码: n917清华幼儿英语语感启蒙 
+链接: http://pan.baidu.com/s/1gdd2KmR 密码: bxf6宝宝睡前故事格林童话等 
+链接: http://pan.baidu.com/s/1kTvB4k3 密码: tw1u美国早教宝宝手语时间 
+链接: http://pan.baidu.com/s/1mgHoknm 密码: ux6d早教儿歌500首经典童谣500首欧美儿歌 
+链接: http://pan.baidu.com/s/1eQy35uy 密码: hbjw美吉姆早教资料 
+链接: http://pan.baidu.com/s/1o6pzKZw 密码: msvw金宝贝早教资料 
+链接: http://pan.baidu.com/s/1dD3ppGd 密码: sib8好父母决定孩子的一生 
+链接: http://pan.baidu.com/s/1eQ5pgoq 密码: lstp最全巧虎宝宝早教 
+链接: http://pan.baidu.com/s/1bnD2HDt 密码: vadg巅峰家教智慧 
+链接: http://pan.baidu.com/s/1jGfy58q 密码: qv97韩国最火英语启蒙视频littlefox 
+链接: http://pan.baidu.com/s/1ky7mA 密码: uzr6家长突围视频 
+链接: http://pan.baidu.com/s/13vvZK 密码: pvs1双语不用教 
+链接: http://pan.baidu.com/s/1pJNTBIV 密码: bc72七田真早教幼儿才能教育pdf 
+链接: http://pan.baidu.com/s/1pJsf6DP 密码: pt23冯德全爱萌早教36DVD前5集 
+链接: http://pan.baidu.com/s/1gdFw1V1 密码: nkx9陈功雄爱和乐早教全能全脑音乐 
+链接: http://pan.baidu.com/s/1pJylkFp 密码: ev8v冯德全爱萌早教36DVD后31集 
+链接: http://pan.baidu.com/s/1hq3PIra 密码: 18q1美国第一宝贝 
+
+★★★★★VIP创业致富★★★★★ 
+
+棕编教程 草编动物制作视频 叶编工艺 五彩编扎技术培训教学光盘 
+链接:http://pan.baidu.com/share/link?shareid=1600768612&uk=2251453667 
+密码:q62q 
+
+2013最新美甲视频教程大全 美甲店专业技术教材宝典 自学美甲 
+链接: http://pan.baidu.com/s/1szH8s 密码: d9so 
+
+新知识头条：http://www.toutiao.com/m52374411545/ 
+邀请码小组：http://t.cn/zYbWzh5 
+小组官博:http://www.weibo.com/2005540527/ 
+新知博客：http://xinzhiblog.blog.163.com/ 
+乐乎：http://xinzhiblog.lofter.com/ 
+免费图书馆：http://xhsd.360doc.com 
+百家号：http://baijiahao.baidu.com/builder/preview/s?id=1554712847191423 
+一点号：http://www.yidianzixun.com/home?page=article&id=0FJQkwHP 
+UC云观：http://a.mp.uc.cn/article.html?uc_param_str=frdnsnpfvecpntnwprdssskt&wm_id=08719f166f2149e3baf89ac506866c91&wm_aid=e44b7e9a67ba489c92272defb79eb587 
+时间号：http://new.item.btime.com/wm/421vkb2tvv28i6bmdr2trpoenrt 
+众媒号：http://look.360.cn/detail?url=http%3A%2F%2Fzm.news.so.com%2Fc20d9ce85a2425fa0fdbb2cc83d73d68&token=d9fbb76270d78cd7 
+网易号：http://c.m.163.com/news/a/C91551LO0511CJTR.html?spss=newsapp&spsw=1 
+一建视频课程，超级完整 
+公共基础 链接: https://pan.baidu.com/s/1pL4kGZp 密码: 6q68←复制可见 
+法律法规零基础班 链接: https://pan.baidu.com/s/1gfh0y7T 密码: dpqu ←复制可见 
+法律法规精讲班 链接: https://pan.baidu.com/s/1i44MDAd 密码: urc6 ←复制可见 
+有事出去下，回来继续分享 
+
+不好意思，俺要远行西藏等会就动身，先发几个，到了目的地就发完整，声明，视频是2016最完整版，其实知识点都一样，我自己也是学的这个！ 
+工程经济零基础班 链接: https://pan.baidu.com/s/1hrPN2Fq 密码: yvzv ←复制可见 
+工程经济精讲班 链接: https://pan.baidu.com/s/1eREwrBW 密码: rmt3 ←复制可见 
+机电实务零基础班 链接: https://pan.baidu.com/s/1qY8mzWo 密码: 6i5g ←复制可见 
+机电实务精讲班 链接: https://pan.baidu.com/s/1bpzP12R 密码: iecj ←复制可见 
+http://www.toutiao.com/m52374411545/ 
+[我要自学网]全站资源 几乎涵盖所有 
+-------附解压密码--------- 
+记得一同下载 不然打不开压缩包不要找我哦 
+由于没压缩一分享出来就挂了 现在按类别发链接 需要的速度收藏 
+信息办公: 链接：http://pan.baidu.com/s/1pKOosOz 密码：0bwq 
+平面设计: 链接：http://pan.baidu.com/s/1qXKO5xa 密码：37mo 
+影视动画: 链接：http://pan.baidu.com/s/1miTuuQs 密码：e4xa 
+网页设计: 链接：http://pan.baidu.com/s/1pL2jTSv 密码：hj29 
+机械设计: 链接：http://pan.baidu.com/s/1bWgvX8 密码：d42e 
+室内设计: 链接：http://pan.baidu.com/s/1kVdV8lp 密码：jifk 
+会计教程: 链接：http://pan.baidu.com/s/1o7WxRvW 密码：bvze 
+解压密码: 链接：http://pan.baidu.com/s/1hrIwVT6 密码：5p35 
+
+【工程执业考试第1编】2017年二级建造师考试资料分享 
+2017二建法规链接：http://pan.baidu.com/s/1qYqAon6 密码：c0it 
+2017二建管理链接：http://pan.baidu.com/s/1dEPSmWh 密码：lczg 
+2017二建建筑链接：http://pan.baidu.com/s/1eRNizRG 密码：slt1 
+2017二建市政链接：http://pan.baidu.com/s/1o80NCfS 密码：11qt 
+2017二建机电链接：http://pan.baidu.com/s/1o8k8E86 密码：h01r 
+
+某马UI教学全套资料链接： 
+http://pan.baidu.com/s/1dF7OUpb 密码：fwww 
+------------------------------------------------------------ 
+HTML5模板800套链接： 
+http://pan.baidu.com/s/1geOzCsj 密码：xcq8 
+------------------------------------------------------------ 
+上千套整站源码链接： 
+http://pan.baidu.com/s/1gf9gK3T 密码：bwdc 
+------------------------------------------------------------ 
+PHP整站源码链接： 
+http://pan.baidu.com/s/1bptFS1D 密码：690h 
+------------------------------------------------------------ 
+Jack游戏UI教程链接： 
+http://pan.baidu.com/s/1i4XOUup 密码：1noh 
+------------------------------------------------------------ 
+中谷教育-Python视频教程（完整版）链接： 
+http://pan.baidu.com/s/1gfBOByr 密码：km3u 
+------------------------------------------------------------ 
+会声会影模板链接： 
+http://pan.baidu.com/s/1kVoFReB 密码：x1u4 
+------------------------------------------------------------ 
+AE教学视频链接： 
+http://pan.baidu.com/s/1eREYlV0 密码：udnx 
+------------------------------------------------------------ 
+中谷教育-Python视频教程（完整版）链接： 
+http://pan.baidu.com/s/1dEYDeTz 密码：g01i 
+------------------------------------------------------------ 
+iOS9教程链接： 
+http://pan.baidu.com/s/1i58wJw5 密码：zvl6 
+------------------------------------------------------------ 
+极客学院安卓Android全套最新视频教程【17G全套视频+独家源码】链接： 
+http://pan.baidu.com/s/1dF2zplR 密码：bzzg 
+------------------------------------------------------------ 
+某内WEB前端视频教程 完整版链接： 
+http://pan.baidu.com/s/1bo9EHor 密码：2rt3 
+------------------------------------------------------------ 
+易语言教程链接： 
+http://pan.baidu.com/s/1c2dyOyG 密码：e3fd 
+------------------------------------------------------------ 
+C++教学教程链接： 
+http://pan.baidu.com/s/1i5v55dF 密码：wl46 
+------------------------------------------------------------ 
+某达 C语言教程链接： 
+http://pan.baidu.com/s/1qX9ojy0 密码：jddm 
+------------------------------------------------------------ 
+JAVA视频教学链接： 
+http://pan.baidu.com/s/1slaq4iD 密码：zm1k2016 
+------------------------------------------------------------ 
+PS 插件大全链接： 
+http://pan.baidu.com/s/1hsp1YSk 密码：uhtj 
+------------------------------------------------------------ 
+Flash教学资料100G觅风易语言教程链接： 
+http://pan.baidu.com/s/1qY8i0Za 密码：zu2a 
+------------------------------------------------------------ 
+AE常用插件链接： 
+http://pan.baidu.com/s/1i5uPAvF 密码：717r 
+------------------------------------------------------------ 
+海量设计小工具链接： 
+http://pan.baidu.com/s/1eSmin9C 密码：lrjd 
+------------------------------------------------------------ 
+李涛数码（摄影后期 高手成长之路那本书的）链接： 
+http://pan.baidu.com/s/1dFiM5P3 密码：q4s4 
+------------------------------------------------------------ 
+古版Q版链接： 
+http://pan.baidu.com/s/1bpGa6cf 密码：7v15 
+------------------------------------------------------------ 
+各种字体链接： 
+http://pan.baidu.com/s/1jI9GDIu 密码：rb9d 
+------------------------------------------------------------ 
+边框和水印链接： 
+http://pan.baidu.com/s/1hrOxCW0 密码：lt5h 
+------------------------------------------------------------ 
+动作 样式 渐变库链接： 
+http://pan.baidu.com/s/1mikAeso 密码：zdsl 
+------------------------------------------------------------ 
+滤镜（估计有很多不能用了 PS更新的问题 CS6全支持）链接： 
+http://pan.baidu.com/s/1kUVdgdp 密码：y8xq 
+链接：http://pan.baidu.com/s/1bpvHMCv 密码：7qnj 
+链接：http://pan.baidu.com/s/1bpGG6OB 密码：l4k6 
+------------------------------------------------------------ 
+笔刷链接： 
+http://pan.baidu.com/s/1bXxqlK 密码：igdy 
+------------------------------------------------------------ 
+UI资源链接： 
+http://pan.baidu.com/s/1dE2jbkl 密码：t93i 
+------------------------------------------------------------ 
+C4D白无常淘宝美工培训链接： 
+http://pan.baidu.com/s/1i4S4lH7 密码：gw4z 
+------------------------------------------------------------ 
+全套泡妞搭讪把妹教程 
+
+链接：http://pan.baidu.com/s/1sluEiRj 密码：oetr 
+
+------------------------------------------------------------ 
+觅风-易语言入门系列教程辅助12课 
+链接：http://pan.baidu.com/s/1o82lNGe 密码：omxo 
+------------------------------------------------------------ 
+宫崎骏全集 
+链接：http://pan.baidu.com/s/1nuJ89pZ 密码：2ncq 
+------------------------------------------------------------ 
+高清二战 
+链接：http://pan.baidu.com/s/1hs0wmWW 密码：xvih 
+------------------------------------------------------------ 
+------------------------------------------------------------ 
+------------------------------------------------------------ 
+http://www.toutiao.com/m52374411545/ 
+
+建筑施工行业资料分享 
+pan.baidu.com/s/1sk9rrlj 码: n545 
+
+一套价值8800元的excel教程 
+链接: https://pan.baidu.com/s/1o7EOs4a 密码: 8een 
+
+考驾照学习视频资料 + 开车模拟软件 考试必备 
+下载链接: https://pan.baidu.com/s/1gf3ObPD 密码: 9aws 
+
+2017年一级建造师各科视频课件跳楼大分享 
+
+2017年一级建造师-项目管理-顾永才必考300句 
+百度网盘下载链接：https://pan.baidu.com/s/1jI5h2Vs 
+提取密码：kqnb 
+
+2017一建-项目管理-HX-精讲班-肖国祥 更新到第69讲，更新完毕！ 
+百度网盘下载链接：https://pan.baidu.com/s/1skUZ8sP 
+提取密码：fsrj 
+
+2017一级建造师-工程经济-X P-精讲班-梅世强 更新到第18讲，更新了讲义 
+百度网盘下载链接：https://pan.baidu.com/s/1nv0qAQt 
+提取密码：cw5n 
+
+2017一级建造师-法律法规-HQ-精讲班-蔡恒 更新完毕！ 
+百度网盘下载链接：https://pan.baidu.com/s/1i4O4dzn 
+提取密码：k6m8 
+
+2017年一级建造师-法律法规-HX-精讲班-陈印 更新到第58讲 
+百度网盘下载链接：https://pan.baidu.com/s/1dEJSL7V 
+提取密码：qp2s 
+
+2017年一级建造师-法律法规-陈印-内训面授精讲两天完整 
+百度网盘下载链接：https://pan.baidu.com/s/1c1BNFzy 
+提取密码：8m5k 
+
+2017一建-建筑实务-HQ精讲班-王树京 更新完毕！ 更新到第59讲，更新完毕 
+百度网盘下载链接：https://pan.baidu.com/s/1kUGs8UN 
+提取密码：dn5d 
+
+2017一级建造师-公路实务-HX-精讲班-黄秉英 更新到第27讲 
+百度网盘下载链接：https://pan.baidu.com/s/1hsww1CS 
+提取密码：2frb 
+
+2017一级建造师-市政-HQ精讲班-陈明 更新到第42讲 
+百度网盘下载链接：https://pan.baidu.com/s/1qYdQQ1A 
+提取密码：j4h5 
+
+2017一级建造师-机电实务-233-机电精讲班-朱培浩 更新到第46讲 
+百度网盘下载链接：https://pan.baidu.com/s/1gePoFIV 
+提取密码：hxca 
+
+2017一级建造师-水利水电-DL-水利精讲班-李 想 更新到第25讲 
+百度网盘下载链接：https://pan.baidu.com/s/1mhB7vlQ 
+提取密码：f22e 
+
+老司机收集数年的资源 
+https://pan.baidu.com/s/1o8BLyu2 
+
+兄弟连新版视频教程整体打包下载地址 
+http://pan.baidu.com/s/1eRXNisa 
+http://pan.baidu.com/s/1slszyCt
+
+兄弟连新版视频教程 前端 1 HTML（共20讲） 
+http://pan.baidu.com/s/1o7YSHeE
+
+兄弟连新版视频教程 前端 1 HTML（未打包）
+http://pan.baidu.com/s/1mhKdFsc
+
+兄弟连新版视频教程 前端 2 CSS （共8讲） 
+http://pan.baidu.com/s/1jH5oDZC
+
+兄弟连新版视频教程 前端 2 CSS（未打包）
+http://pan.baidu.com/s/1o8kya50
+
+兄弟连新版视频教程 前端 3 DIV+CSS （共13讲） 
+http://pan.baidu.com/s/1bHGnhk
+
+兄弟连新版视频教程 前端 3 DIV+CSS（未打包）
+http://pan.baidu.com/s/1nv4IP9R
+
+兄弟连新版视频教程 前端 4 HTML5 （共12讲） 
+http://pan.baidu.com/s/1gfkCs0N
+
+兄弟连新版视频教程 前端 4 HTML5（未打包）
+http://pan.baidu.com/s/1c2sjWGC
+
+兄弟连新版视频教程 前端 5 CSS3 （共20讲）
+http://pan.baidu.com/s/1sl8EzxF
+
+兄弟连新版视频教程 前端 6 Web响应式布局 （共8讲）
+http://pan.baidu.com/s/1eR8eCz4
+
+兄弟连新版视频教程 前端 6 Web响应式布局（未打包）
+http://pan.baidu.com/s/1cwXIpS
+
+兄弟连新版视频教程 PHP视频教程 （共346讲）?
+http://pan.baidu.com/s/1skHlFDb
+
+兄弟连新版视频教程 PHP视频教程（未打包）?
+http://pan.baidu.com/s/1i4IhUbb
+
+新版Linux视频教程 Linux基础知识与系统管理 （共104讲）
+http://pan.baidu.com/s/1skX43xj
+
+兄弟连新版Linux教程 Linux网络基础 
+http://pan.baidu.com/s/1jI4iXCU 
+
+兄弟连新版Linux教程 Linux网络服务
+http://pan.baidu.com/s/1micu9ZU 
+
+预习视频
+http://pan.baidu.com/s/1pLAeywF
+
+Linux课堂实录-Windows服务和路由交换 
+http://pan.baidu.com/s/1bp9MVhX 
+
+Linux课堂实录-Windows服务和路由交换（未打包）
+http://pan.baidu.com/s/1eRVLlXw
+
+兄弟连iOS视频教程
+兄弟连iOS学习入门C语言基础
+http://pan.baidu.com/s/1cIC2HS
+
+Objective-C语言
+http://pan.baidu.com/s/1nvq5GwT
+
+参加活动获取LAMP+LNMP环境编译及搭建视频教程
+http://bbs.lampbrother.net/read-htm-tid-171938.html
+
+兄弟连张诚UI视频教程
+http://pan.baidu.com/s/1hssbNG4
+
+经典版PHP视频教程
+http://pan.baidu.com/s/1bFEuxK
+
+《细说PHP》第二版 光盘 
+http://pan.baidu.com/s/1bpJqxP1
+
+【六级夯实基础直播课】 链接：http://pan.baidu.com/s/1c2FWWPM密码：waqj
+英语六级【强化】强化作文 链接：http://pan.baidu.com/s/1pKYrahP 密码：gj2
+
+【基础】六级基础语法课程 链接：http://pan.baidu.com/s/1qYzZjTM 密码：4lwe
+2017年考研英语李旭保命28 阅读理解 链接：http://pan.baidu.com/s/1o8DA7Y6 密码：v6q7
+
+【潘赟】考研英语写作冲刺突击班 英语一 链接：http://pan.baidu.com/s/1nvtZRyp密码：1zp2
+2017商志高端直播班85篇精讲班 【持续更新】链接：http://pan.baidu.com/s/1kU5rl9l密码：1yrt
+
+[外科学][最新版][强化班]2017西医综合外科学考点精讲课程：张蕴新 徐琦（重点推荐徐琦部分）链接：http://pan.baidu.com/s/1b8WHWy密码：2ben
+
+2017蒋中挺考研政治形势与政策（面授）http://pan.baidu.com/s/1dFgJiTV 密码：g6x9
+
+四级单词一笑而过+周思成PDF电子版.pdf
+链接：http://pan.baidu.com/s/1boI1nCr 密码：rgkb
+
+【六级夯实基础直播课】 链接：http://pan.baidu.com/s/1c2FWWPM密码：waqj
+英语六级【强化】强化作文 链接：http://pan.baidu.com/s/1pKYrahP 密码：gj2
+
+【基础】六级基础语法课程 链接：http://pan.baidu.com/s/1qYzZjTM 密码：4lwe
+2017年考研英语李旭保命28 阅读理解 链接：http://pan.baidu.com/s/1o8DA7Y6 密码：v6q7
+
+【潘赟】考研英语写作冲刺突击班 英语一 链接：http://pan.baidu.com/s/1nvtZRyp密码：1zp2
+2017商志高端直播班85篇精讲班 【持续更新】链接：http://pan.baidu.com/s/1kU5rl9l密码：1yrt
+
+[外科学][最新版][强化班]2017西医综合外科学考点精讲课程：张蕴新 徐琦（重点推荐徐琦部分）链接：http://pan.baidu.com/s/1b8WHWy密码：2ben
+
+2017蒋中挺考研政治形势与政策（面授）http://pan.baidu.com/s/1dFgJiTV 密码：g6x9
+
+亲测成功，一分钱不花免费得12个月PPTV聚力VIP，免费看片 
+https://www.douban.com/group/topic/93792223/ 
+免费VIP来啦[豆荚：开放注册 让你实现看任意国家的网站]https://www.douban.com/group/topic/41894983/
+
+屏幕录像专家——高清破解版
+https://pan.baidu.com/s/1skLwQtB
+
+
+2017年二级建造师最新视频链接: http://pan.baidu.com/s/1qYRKrUW 密码: yrq9
+
+
+
+摄影后期基础视频链接: https://pan.baidu.com/s/1qXKdyOG 密码: 52aa
+
+摄影后期风光教程链接: https://pan.baidu.com/s/1jIBIuBc 密码: avji
+
+2013最新影楼新娘化妆教程|韩国专业彩妆教程|包含80款妆容设计
+链接: http://pan.baidu.com/s/1rdO3h 密码: 72l8
+
+2013最新流行美新娘盘发教程视频大全 韩式编发200款影楼发型设计
+链接: http://pan.baidu.com/s/107pM6 密码: cj6b
+新知识头条：http://t.cn/RIh8Crz 
+官方微博:http://weibo.com/2005540527/
+邀请码小组：http://t.cn/zYbWzh5
+
+地摊叫卖商场促销广告制作文字转换语音合成配音录音软件送教程
+链接: http://pan.baidu.com/s/1c0BtBmo 密码: 427g
+
+汽车美容培训教材/汽车美容技术光盘/汽车美容教程50VCD+资料12套
+http://kuai.xunlei.com/d/bnBBDQLVOgAGRWpR982?p=122364
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+毛戈平化妆（彩妆、日常妆、新娘妆、职业妆）视频教程全集 4G多
+http://kuai.xunlei.com/d/bnBBDQJ5egAvkmtRb42?p=122364
+
+百变魔术气球教程 魔法背带娃娃玩偶 婚庆拱门造型教材85视频书籍
+链接: http://pan.baidu.com/s/1GMpVy 密码: w2fq
+
+捏面人教程 面塑绝技 彩塑视频 泥塑方法 送全套教材秘籍技术光盘
+链接:http://pan.baidu.com/share/link?shareid=1675665073&uk=2251453667 
+密码:cjyt
+
+比特币挖矿图文教程比特币挖矿机 网赚项目网赚教程
+链接: http://pan.baidu.com/s/1b4K1Q 密码: n64b
+
+广告技术大全 全套制作教程 资料打包灯箱LED 发光字教程
+链接: http://pan.baidu.com/s/1o69CxtS 密码: vaek
+
+花店教程 2013年 无基础开花店 花店运营方案 学插花教程花艺教程 
+链接: http://pan.baidu.com/s/1ntHgb0X 密码: s250
+
+香辣烤面筋技术配方 正宗西安烤面筋酱料泡酱刷酱洒料 培训教程 
+链接:http://pan.baidu.com/share/link?shareid=2374023347&uk=2301764067 
+密码:x7it
+
+秘制广东肠粉技术 独家/酱汁配方+高清视频 小吃技术
+链接: http://pan.baidu.com/s/1qWqB37A 密码: z3gh 解压密码：25662390
+
+重庆酸辣粉传统配方 四川酸辣粉 小吃技术文字资料 送制作视频 
+链接:http://pan.baidu.com/share/link?shareid=3608649950&uk=2301764067 
+密码:kwgd
+
+沙县小吃视频教程 配方小吃技术传授 特色小吃制作方法 创业秘方
+链接:http://pan.baidu.com/share/link?shareid=2628128354&uk=2301764067 
+密码:5fdu
+
+土豆粉视频教程 砂锅土豆粉配方小吃技术 制作方法特色做法
+链接:http://pan.baidu.com/share/link?shareid=2577290897&uk=2301764067 
+密码:rc29
+
+正宗台湾手抓饼技术及核心配料含JY粉技术+视屏教程 小吃技术配方
+链接:http://pan.baidu.com/share/link?shareid=2596825542&uk=2301764067 
+密码:7c4q
+
+85度配方/咖啡配方/冰沙/奶茶配方/85度C饮品资料/奶茶技术
+链接: http://pan.baidu.com/s/1gU0Re 密码: 3xxe
+
+咖啡做法视频教程 咖啡拉花制作教程 饮料配方技术大全 开店必备 
+链接: http://pan.baidu.com/s/1bnEcAiN 密码: c51d
+
+陕西凉皮技术配方教程 含秘制调料配方 特色小吃技术配方
+链接: http://pan.baidu.com/s/1sj6Pfbv 密码: fsxt
+
+2013一站式开家奶茶店 珍珠奶茶技术配方 小吃技术配方
+链接: http://pan.baidu.com/s/1ovWQp 密码: brjv
+
+2013 正宗重庆麻辣烫配方技术 底料 串串香 四川 
+链接: http://pan.baidu.com/s/1y5uYb 密码: rgap
+解压密码：35682343
+
+秘制辣椒油红油技术配方 辣椒酱技术配方+视频教程 
+链接:http://pan.baidu.com/share/link?shareid=2508011946&uk=2301764067 
+密码:4wuy
+
+沙冰制作、刨冰制作、奶昔制作、冰激凌技术配方 小吃技术配方 
+链接:http://pan.baidu.com/share/link?shareid=2653396819&uk=2301764067 
+密码:htla
+
+寿司小吃技术 日本寿司做法培训视频教程 制作大全配方资料 快餐
+链接:http://pan.baidu.com/share/link?shareid=2722747707&uk=2301764067 密码:8wsv
+
+2013 coco都可最新奶茶配方 奶茶小吃技术配方资料 
+链接:http://pan.baidu.com/share/link?shareid=3680121677&uk=2301764067 
+密码:eknx
+
+鲜榨果汁视频教程冷饮小吃技术营养果蔬果菜汁珍珠奶茶店必备配方
+链接:http://pan.baidu.com/share/link?shareid=2461585112&uk=2301764067 
+密码:e2ck
+
+★★★★★VIP周易系列★★★★★
+
+周易批八字软件手机版 安卓版 周易手机软件合集
+链接:http://pan.baidu.com/share/link?shareid=3756789434&uk=2301764067 
+密码:gy7i
+
+取名软件 宝贝取名软件 宝贝起名软件 起名软件
+链接:http://pan.baidu.com/share/link?shareid=3780940622&uk=2301764067 
+密码:calf
+
+周易玄奥八字软件合集 永久使用 算命软件 电脑版+手机版
+链接:http://pan.baidu.com/share/link?shareid=3728480179&uk=2301764067 
+密码:8qgi
+
+自学家居风水书籍送面相 易经玄学八宅玄空布局秘术入门图书视频 
+链接:http://pan.baidu.com/share/link?shareid=3768792884&uk=2301764067 
+密码:4ct5
+
+徐氏正宗批八字 算命大师的八字预测软件
+链接:http://pan.baidu.com/share/link?shareid=3743955966&uk=2301764067 
+密码:9yqj
+如果运行软件强出"richtx32.ocx"窗口请安装下面软件(正常不用装)
+http://pan.baidu.com/share/link?shareid=638555888&uk=3912486126
+
+何荣柱 超级神算全套6部送易经风水布局秘笈全套+视频录像教程
+链接: http://pan.baidu.com/s/1pcgjG 密码: xpsi
+
+安徽相法视频教程 面相书籍秘笈 面相过三关 相术风水古相法
+链接:http://pan.baidu.com/share/link?shareid=3717673175&uk=2301764067 
+密码:ypjd
+
+★★★★★VIP维修教程★★★★★
+
+迅维网最新6期数据恢复视频教程 电脑维修教程硬盘维修教程无加密
+链接:http://pan.baidu.com/share/link?shareid=703892116&uk=2519914211
+密码:s4ly
+
+主板维修视频教程 维修主板显卡视频教程 完整版
+http://kuai.xunlei.com/s/9D1C04MFodXwLKwNRKj7hA
+
+电工电子技术基础教程 电工维修视频教程 电工视频教程 包教包会
+http://kuai.xunlei.com/s/202JRIbnCTn53JOlX5EtuA
+
+最全家电维修大全视频教程 彩电 空调 冰箱电脑主板家电维修教程
+链接:http://pan.baidu.com/share/link?shareid=981375128&uk=2519914211
+密码:itsp
+
+链接:http://pan.baidu.com/share/link?shareid=976272021&uk=2570220771
+密码:jfp1
+
+链接:http://pan.baidu.com/share/link?shareid=990286004&uk=2620525283
+密码:1mtk
+
+最新迅维网液晶显示器维修视频教程 10期本店独有 技术从这里雄起
+链接:http://pan.baidu.com/share/link?shareid=854960386&uk=2519914211
+密码:b7cc 
+解压密码：rexiaoba
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+电脑维修大全视频教程刘坚强主板硬盘显卡电源液晶显示器30DVD
+链接:http://pan.baidu.com/share/link?shareid=911567927&uk=2519914211
+密码:x9fu
+备用下载地址：
+链接: http://pan.baidu.com/s/1qWk61J2 密码: itry
+链接: http://pan.baidu.com/s/1hqC7goO 密码: g4v7
+
+电动车维修技术速成教程 蓄电池电瓶修复技术视频资料
+链接: http://pan.baidu.com/s/1mglZVfU 密码: 83ke
+
+迅维网是新维修教程 电脑，硬盘，笔记本，电路基础，主板显卡
+笔记本http://kuai.xunlei.com/d/WamOAwLU.wD-6-1Q9c4
+电路基础http://kuai.xunlei.com/d/WamOAwLY9wAQ1v1Qa49
+主板显卡http://kuai.xunlei.com/d/WamOAwKPJQDnbf5Q7f9
+液晶http://kuai.xunlei.com/d/WamOAwJ4AQAA-v1Qb91
+硬盘http://kuai.xunlei.com/d/WamOAwKcDgDfKP5Q440
+迅雷下载就行
+
+汽车维修视频教程48张DVD自学电动车摩托车轿车故障修理技巧大全
+链接: http://pan.baidu.com/s/107opG 密码: p74b
+
+★★★★★VIP实用教程★★★★★
+
+西门子触摸屏技术 Wincc Flexible 阳胜峰主讲 培训视频教程4.21G
+链接:http://pan.baidu.com/share/link?shareid=1070113419&uk=2620525283
+密码:wocn
+
+国外顶级商业修图教程，人像精修视频教程，中文字幕
+http://kuai.xunlei.com/d/lRfxDAJnWgD4XXFRda5
+
+100%有效！口吃结巴矫正教程资料 口吃病治疗法 口才训练方法
+教程提取地址：http://kuai.xunlei.com/s/lvTmDvXvx5ZUrkLKQkaDSg
+赠品A提取地址：http://kuai.xunlei.com/s/lIrjfmiDvgvfuLRfLlBG6w
+赠品B提取地址：http://kuai.xunlei.com/s/KOaBG45Ax8cLJw4SyigXVQ
+赠品C提取地址：http://kuai.xunlei.com/s/LmvocvtSpf9SwEuTdlRkwQ
+
+最有效的催眠秘决 催眠教程 催眠术 催眠音乐催眠视频催眠曲
+链接:http://pan.baidu.com/share/link?shareid=1082043656&uk=2620525283
+密码:0zw0
+解压密码rexiaoba
+
+特价 训狗教程 训犬教程 养狗视频光盘教材送新概念技术方法大全
+http://kuai.xunlei.com/s/nsrhJ9szJC5ENQurM5LGLQ
+
+2013最新小女孩盘发扎发扎辫宝宝编发编辫子儿童发型教程资料
+链接: http://pan.baidu.com/s/1GMpMO 密码: tcyd
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材
+链接:http://pan.baidu.com/share/link?shareid=1048515281&uk=2620525283
+密码:jg8u
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+2013年 申论视频教程 钟君申论完整版视频
+链接: http://pan.baidu.com/s/1rdN1b 密码: xzsm
+
+★★★★★VIP行业教程★★★★★
+
+ps秘笈 ps/photoshop cs5cs6 全套视频教程自学高级ps教程
+链接: http://pan.baidu.com/s/1kTuPOvP 密码: ii0o
+
+【独家特价】金蝶K3视频教程+金蝶顾问学院培训资料 全套14G
+链接: http://pan.baidu.com/s/1i35d81J 密码: x3kw
+
+促销Eviews7.2计量经济学数据分析软件 送精选eviews教程+大礼包
+链接: http://pan.baidu.com/s/1qWFDUrU 密码: hmb7
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材
+链接:http://pan.baidu.com/share/link?shareid=3350262310&uk=3325186542
+密码:7zo9
+
+【钢结构】PKPM钢结构 STS入门到精通视频教程 软件教程 自学教程
+链接:http://pan.baidu.com/share/link?shareid=4109867298&uk=2368891619
+密码:2hdu
+
+买一送百 arcgis10教程 arcgis10.0教程 有声中文视频初学者入门
+链接: http://pan.baidu.com/s/1mgsL5cW 密码: 3idu
+
+DaVinci Resolve9.0达芬奇调色全面核心视频教程上下合集中文字幕
+链接: http://pan.baidu.com/s/1tfGgi 密码: 4aij
+
+托福/TOEFL最新版赵丽托福词汇8000视频教程 送托福强化+冲刺课程
+主产品：链接:http://pan.baidu.com/share/link?shareid=3960664697&uk=2368891619
+密码:ax6m （解压码：rexiaoba)
+（赠品）链接:http://pan.baidu.com/share/link?shareid=3957279315&uk=2368891619
+密码:gucl
+
+stm32视频教程 李想stm32视频全套
+链接: http://pan.baidu.com/s/1ON6U 密码: kqn2 
+解压码：rexiaoba
+
+南方CASS教程 初学者系统视频教程 CASS 详细实用教程 买一送五
+链接:http://pan.baidu.com/share/link?shareid=4192073115&uk=2419197155
+密码:usnm
+
+2013年最新160集Tekla Structures xsteel视频教程
+链接: http://pan.baidu.com/s/1u1Bsr 密码: wqsj 
+解压码：@hodhens128347?!
+
+catia v5r20/catia v5r21软件 全套视频教程125G 逆向视频
+链接:http://pan.baidu.com/share/link?shareid=4061475468&uk=2368891619
+密码:r6lt 解压密码 rexiaoba
+
+2013 CorelDRAW X4 X5 X6CDR软件序列号视频教程设计素材排版字库
+链接: http://pan.baidu.com/s/1gd41QHP 密码: pkbx
+
+UG6.0全套编程教程 工厂师傅录制视频教程
+链接: http://pan.baidu.com/s/1ntt0sUt 密码: 7z44
+
+proe5.0软件 proe5.0全套教程 pro/e 5.0 送60G 包安装 包学会
+链接: http://pan.baidu.com/s/1eQssEzC 密码: qrbp
+
+传智播客网页美工PS平面设计师培训视频学习教程
+链接: http://pan.baidu.com/s/1mgmFRzM 密码: brvj
+
+三菱plc高清视频教程 fx-plc 学习资料大全 送仿真软件+编程软件
+链接:http://pan.baidu.com/share/link?shareid=4205120829&uk=2419197155
+密码:yg26
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+服装教程 制作设计视频 缝纫放码裁剪打版 自学书 服装打版教程
+链接: http://pan.baidu.com/s/1gUDdG 密码: 04y6
+
+精雕从初级到高级全套视频教程 62G (送5.2精雕软件 
+http://kuai.xunlei.com/s/WOfDv.vv3xPVI-v-8hvVOw 
+下载密码：rexiaoba
+
+matlab视频种类大全（打包）视频教程
+链接: http://pan.baidu.com/s/1jCpXj 密码: vls7
+
+杨师傅UG4.0数控编程视频教程(28张CD 20G文件大)
+http://kuai.xunlei.com/d/bnBBDQLsGwBEJnBRc39?p=122364
+
+Visual Basic 6.0 2008程序设计vb.net入门到精通编程视频教程
+链接: http://pan.baidu.com/s/1hqokQt2 密码: binp
+
+AE 中文视频自学教程全集 送AE素材+模板+最全插件
+链接: http://pan.baidu.com/s/1GgseB 密码: yj9x
+解压密码：rexiaoba
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+2014 电脑组装与维护光盘下载、书自光盘下载 http://115.com/lb/5lbc9nsf7tac 1.46G
+2014 非常私房菜光盘下载、书自光盘下载 http://115.com/lb/5lbagxfv3hhk 3.74G
+2014 极品大众菜光盘下载、书自光盘下载 http://115.com/lb/5lbb7kszp8zg 3.74G
+2014 3000道营养加倍家常菜光盘下载、随书光盘自学教程 http://115.com/lb/5lbcp1miym2c 2.15G
+2014 解密搜索引擎技术实战：Lucene&Java精华版光盘下载、随书光盘自学教程 http://115.com/lb/5lbebaw106ve 491M
+2014 解密搜索引擎技术实战光盘下载、书自带光盘下载 http://115.com/lb/5lbdz8mg353 616M
+2014 精选百吃不厌学常菜1288例光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxuao7cd 2.95G
+2014 考研数学名师名家高等数学辅导讲义光盘下载、书自光盘下载 http://115.com/lb/5lbagxuy8qyd 558M
+2014 零点起飞学PROTEL DXP 2004 原理与PCB设计随书光盘 http://115.com/lb/5lbb7kgd0f3g 680M
+2014 路由技术光盘下载、书自带光盘下载 http://115.com/lb/5lbagxuz62o0 1.05G
+2014 美术基础训练教程光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxubyq8n 439M
+2014 企业内部控制规范化操作全案光盘下载、书自带光盘下载 http://115.com/lb/5lbdz8ms9cki 1.42M
+2014 汽车理论光盘下载、书自光盘下载 http://115.com/lb/5lbagxurc0 140M
+2014 零点起飞学UG NX 8.5辅助设计随书光盘下载 http://115.com/lb/5lbagxucwx6h 1.95G
+2014 嵌入式Linux驱动程序和系统开发实例精讲光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxujbpkk 92M
+2014 全国职称计算机考试标准教材与专用题库 Excel 2003中文电子表格光盘下载 http://115.com/lb/5lbagxu9c88n 433M
+2014 全国职称计算机考试标准教材与专用题库 中文Windows XP操作系统光盘下载 http://115.com/lb/5lbdz8m7igfm 584M
+2014 全国职称计算机考试标准教材与专用题库 Internet应用光盘下载、随书光盘自学教程 http://115.com/lb/5lbb7kgwmt5g 621M
+2014 全国职称计算机考试标准教材与专用题库新大纲·2013年考试专用光盘下载 http://115.com/lb/5lbb7kg98ebe 541M
+2014 全国职称计算机考试讲义.真题.预测三合一Word 2003中文字处理光盘下载、随书光盘 http://115.com/lb/5lbcp13k9v4a 521M
+2014 全国职称计算机考试讲义·真题·预测三合一.Internet应用光盘下载、随书光盘自学教程 http://115.com/lb/5lbags5r42pu 463M
+2014 全国职称计算机考试讲义.真题.预测三合一中文Windows XP操作系统光盘下载 http://115.com/lb/5lbb7proq5ei 548M
+2014 软件加密技术从入门到精通光盘下载、随书光盘自学教程 http://115.com/lb/5lbebfp9ldy8 24M
+2014 软件开发视频大讲堂：PHP从入门到精通光盘下载、随书光盘自学教程 http://115.com/lb/5lbebfpj9yrn 2.63G
+2014 商业地产光盘下载、书自带光盘下载 http://115.com/lb/5lbebfpjrczt 1.71G
+2014 商业海报设计创意解析范例导航光盘下载、随书光盘自学教程 http://115.com/lb/5lbag4we0jid 2G
+2014 食全食美私家菜光盘下载、书自光盘下载 http://115.com/lb/5lbag4whmbs0 2.25G
+2014 世界500强企业绩效考核管理工具光盘下载、书自带光盘下载 http://115.com/lb/5lbcpr8aq0mx 1.18M
+2014 世界500强企业人力资源精细化管理工具光盘下载、书自带光盘下载 http://115.com/lb/5lbag4wlwc6h 1M
+2014 淘宝网开店与推广必读光盘下载、书自光盘下载 http://115.com/lb/5lbeb3425ged 1.6G
+2014 马哥高薪Linux运维网络配置管理及高级功能 http://115.com/lb/5lbebvm2jgc2 285M
+2014 Java数据库技术详解 http://115.com/lb/5lbcp7t6dwgu 774M
+2014 西门子PLC工业通信网络应用案例精讲 http://115.com/lb/5lbebvm9fnxn204M
+2014 中文版Illustrator CS6高手成长之路 http://115.com/lb/5lbcp7te4u2s 1.33G
+2014 Photoshop CS5图像处理与典型实例从入门到通 http://115.com/lb/5lbcp7ta9u0j 3.28G
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+2014 嵌入式Linux C语言应用程序设计 http://115.com/lb/5lbag6yjido0 3M
+2014 虚拟现实案例教程 http://115.com/lb/5lbebvm6vbl7 48KB
+
+2014 无师自通学电脑组装.维护.故障排除光盘下载、书自光盘下载 http://115.com/lb/5lbdz7k3km2m 2.5G
+2014 现代五笔速录光盘下载、书自光盘下载 http://115.com/lb/5lbb74mtegbi 82M
+2014 五笔打字与文档处理入门与进阶光盘下载、书自光盘下载 http://115.com/lb/5lbagtc5qtau 2.2G
+2014 新手驾车全攻略光盘下载、书自光盘下载 http://115.com/lb/5lbeb6jnjq1d 2.1G
+2014 现代音乐人编曲手册光盘下载、书自光盘下载 http://115.com/lb/5lbb74mjktab 2G
+2014 新手驾车全攻略光盘下载、书自光盘下载 http://115.com/lb/5lbcphed9h32 1.37G
+2014 新手学做网站随书光盘下载 http://115.com/lb/5lbeb6jjb8jl 2.1G
+2014 信息系统开发实例精粹(C#版) 光盘下载、书自光盘下载 http://115.com/lb/5lbeb6j8qu3n 239M
+2014 新手学电脑从入门到精通光盘下载、书自带光盘下载 http://115.com/lb/5lbeb6j2dm77 2.35G
+2014 信息系统开发实例精粹光盘下载、书自光盘下载 http://115.com/lb/5lbeb6jyoazt 200M
+2014 中老年人轻松学电脑光盘下载、书自带光盘下载 http://115.com/lb/5lbb74mdoo8i 984M
+2014 舟舟化妆实用宝典光盘下载、书自光盘下载 http://115.com/lb/5lbagtl8oq3d 1.29G
+2014 中老年人的网上幸福生活光盘下载、书自带光盘下载 http://115.com/lb/5lbb74m06sxi 687M
+2014 马哥Linux运维基础进阶和shell入门 http://115.com/lb/5lbb74o19hh8 568M
+2014 Windows 7从新手到高手 http://115.com/lb/5lbaqb22p3d8 1.46G
+2014 3ds Max 2009模型制作208例 http://115.com/lb/5lbclvwvgp53 1.74
+2014 710分高分攻略 http://115.com/lb/5lbdn1s92f93 374M
+2014 After Effects CS5从新手到高手 http://115.com/lb/5lbclvwtog9x 560M
+2014 3ds Max 2013中文版入门与提高 http://115.com/lb/5lbaqb26ziyd 2.14G
+2014 AutoCAD机械设计实例精解 http://115.com/lb/5lbeouuclu2d 579M
+2014 CorelDRAW X4中文版实训标准教程 http://115.com/lb/5lbdn113n0ks 594M
+2014 CorelDRAW X4中文版应用教程 http://115.com/lb/5lbeouua24wl 396M
+2014 CSS+XHTML+JavaScript网页设计与布局从入门到精通 http://115.com/lb/5lbbhaar60kb 75M
+2014 AutoCAD 2011中文版实用教程 http://115.com/lb/5lbbhaas1ofb 1.2G
+2014 Java Web开发详解：XML+DTD+XML Schema+XSLT+Servlet 3.0+JSP 2.2深入剖析与实例应用 http://115.com/lb/5lbeouuf7v08 440M
+2014 Java数据库技术详解 http://115.com/lb/5lbclvvzgjda 774M
+2014 Photoshop CS5图像处理与典型实例从入门到通 http://115.com/lb/5lbdn11dwovp 3.28G
+2014 Flex+PHP RIA应用开发实战详解 http://115.com/lb/5lbbhaa7b8fx 800M
+2014 Photoshop非主流照片设计与修饰 http://115.com/lb/5lbclvv2q21w 2.77G
+2014 PowerPoint 2010办公专家从入门到精通 http://115.com/lb/5lbeouuiwsql 2.63G
+2014 Visual C++程序设计 http://115.com/lb/5lbdn11b1czv 349M
+2014 Windows黑客技术揭秘与攻防 http://115.com/lb/5lbbhaa8ksl8 6.74M
+2014 电脑组装与维护现用现查 http://115.com/lb/5lbaqbbtepd8 473M
+2014 吉他弹唱校园民谣精品大全 http://115.com/lb/5lbaqbb9yi32 59M
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+2014 加密与解密 http://115.com/lb/5lbbhaamnk0g 140M
+2014 教师必须知道的80个Excel函数 http://115.com/lb/5lbdn11ullsj 62M
+2014 嵌入式Linux C语言应用程序设计 http://115.com/lb/5lbclvvwekxc 3M
+2014 全国计算机等级考试零起点一本通 http://115.com/lb/5lbdn111giqp 442M
+2014 完全掌握Eclipse项目开发实战 http://115.com/lb/5lbclvvgz13s 238M
+2014 五笔打字实例与操作 http://115.com/lb/5lbbhaai5gsb 40M
+2014 中文版AutoCAD2008机械设计经典学习手册 http://115.com/lb/5lbdn11h47ws 592M
+2014 Pro ENGINEER中文野火版5.0曲面设计实例精解 http://115.com/lb/5lbeouuvocsn 1.48G
+2014 After Effects CS4多媒体教学经典教程 http://115.com/lb/5lbclvnc6sus 573M
+2014 Android开发应用从入门到精通 http://115.com/lb/5lbdn10466mj 559M
+2014 C#编程网络大讲堂 http://115.com/lb/5lbclvtdtiex 1.79G
+2014 C++标准教程 http://115.com/lb/5lbbhafc85jx 1.75G
+2014 C语言从入门到精通 http://115.com/lb/5lbeoum9hkrn 724M
+2014 DIV+CSS商业案例与网页布局开发精讲 http://115.com/lb/5lbdn16smmn3 32M
+2014 C++语言从入门到精通 http://115.com/lb/5lbdn161btsc 1.82G
+2014 iPhone应用程序开发指南 http://115.com/lb/5lbaqby7fvou 177M
+2014 IT精英职场英语口语 http://115.com/lb/5lbdn16cwwzm 139M
+2014 Java编程网络大讲堂 http://115.com/lb/5lbeoummd0q2 5KB
+2014 JSP应用教程 http://115.com/lb/5lbdn16gxbij 12.5M
+2014 Excel 2010电子表格制作 http://115.com/lb/5lbdn1hjudbv 316M
+新知识头条：http://t.cn/RIh8Crz 
+邀请码小组：http://t.cn/zYbWzh5
+2014 Linux 系统移植 http://115.com/lb/5lbdn1h4b7u3 3.64G
+2014 Linux指令范例速查手册 http://115.com/lb/5lbaqbavuvfd 468M
+2014 Linux设备驱动开发详解 http://115.com/lb/5lbeou5anv48 4.36G
+2014 Office 2010从入门到精通 http://115.com/lb/5lbdn1hr9wcp 594M
+2014 OrCAD和PADS Layout电路设计与实践 http://115.com/lb/5lbclvo3zus2 2.3M
+2014 Oracle从入门到精通 http://115.com/lb/5lbclvomkwoa 852M
+2014 Photoshop cs5案例实战从入门到精通 http://115.com/lb/5lbclvo4a222 3.13G
+2014 Photoshop CS5数码人像摄影后期精修108技 http://115.com/lb/5lbeou5s55yt 3.27G
+2014 Pro E野火版4.0精选50例详解 http://115.com/lb/5lbclvo906kw 544M
+2014 UG NX 6.0机械设计 http://115.com/lb/5lbaqbagtpo0 72M
+2014 从零开始学C++ http://115.com/lb/5lbdn1hnu6zm 639M
+2014 Photoshop CS5完全学习手册基础应用全接触 http://115.com/lb/5lbclvo27l6j 3.18G
+2014 从零开始学Java http://115.com/lb/5lbdn1hbyh3c 1G
+2014 从零开始学Visual C++ http://115.com/lb/5lbbha0wptkx 420M
+2014 电脑组装、维护与优化一点通 http://115.com/lb/5lbeou5nbcl1 15M
+2014 从零开始学Linux http://115.com/lb/5lbdn1h75fmc 1.32G
+2014 跟我学HTML+CSS http://115.com/lb/5lbclvodumas 854M
+2014 黑客攻防完全掌控 http://115.com/lb/5lbdn1hv0i6s 544M
+2014 计算机组织与体系结构 http://115.com/lb/5lbeou59fhhn 78M
+2014 黑客与反黑工具使用详解 http://115.com/lb/5lbclvo6uzy3 1.09G
+2014 全国计算机等级考试四级教程 http://115.com/lb/5lbclvov3r9w 239M
+2014 全能网站建设完全自学手册 http://115.com/lb/5lbclvosre83 1.44G
+2014 网络管理与故障调整CompTIA Network+认证教程 http://115.com/lb/5lbbek7bx9r8 562M
+2014 精通JS脚本之ExtJS框架 http://115.com/lb/5lbbek7dt2xn 2.38G
+2014 中文版3ds Max 2010技法精粹 http://115.com/lb/5lbc21pthjxc 257M
+2014 液晶显示器故障维修全程指导 http://115.com/lb/5lbc21p7v4js 1000M
+2014 中文版SolidWorks 2010从入门到精通 http://115.com/lb/5lbbekh1edry 610M
+2014 Photoshop CS5数码照片处理从入门到精通 http://115.com/lb/5lbc21lfe2lu 493M
+2014 Photoshop智能手机APP界面设计全解析 http://115.com/lb/5lbanxqoxvs0 280M
+2014 从零开始学ASP.NET http://115.com/lb/5lbe7aow2j5t 428M
+2014 中文版AutoCAD 2010快捷命令一册通 http://115.com/lb/5lbe7aolmd1d 334M
+2014 马哥Linux运维基础进阶和shell入门 http://115.com/lb/5lbdp8nn0krm 568M
+2014 [马哥高薪Linux运维教程4]-Linux网络配置管理及高级功能 http://115.com/lb/5lbdp8n5y6cp 285M
+2014 马哥Linux网络文件共享机制-NFS高级功能 http://115.com/lb/5lbe7ao6fgpn 184M
+2014 马哥Linux网络知识体系和防火墙iptables http://115.com/lb/5lbanxqj3olu 750M
+2014 黑客风云VIP_Linux渗透与安全课程 http://115.com/lb/5lbanxq0ky88 427M
+2014 Visual Basic范例开发大全 http://115.com/lb/5lbc21l68uss 2G
+2014 马哥Linux运维教程企业级金牌容灾方案_RAID深入讲解 http://115.com/lb/5lbe7aoudsl1 170M
+2014 马哥Linux运维教程企业级Linux文件共享FTP入门和进阶 http://115.com/lb/5lbbekhdqwcn 270M
+2014 马哥Linux运维必备知识LVM动态磁盘逻辑卷 http://115.com/lb/5lbbekh0yjog 121M
+
+
+下面是省考系列（*部分内容和以前分享的重复，但不要紧啦）
+
+老规矩解压密码：888
+
+2016年河南省考冲刺班	链接：http://pan.baidu.com/s/1dFigxZ7	密码：b1sj
+2017年北京市考冲刺课程	链接：http://pan.baidu.com/s/1dFurnLv	密码：4sa6
+【华图】2017年省考全程班（更新中）	链接：http://pan.baidu.com/s/1geVQFth	密码：zwg0
+【砖题库】2017年省考密训营（更新中）	链接：http://pan.baidu.com/s/1mhPAHIw	密码：snbn
+【纵横公考】2016河南省公务员考试-冲刺课程	链接：http://pan.baidu.com/s/1i54sc77	密码：6v47
+【52公基网】2017年公基专项班（更新中）	链接：http://pan.baidu.com/s/1sk84TmX	密码：n1sl
+2016年9月最新花生十三-资料分析	链接：http://pan.baidu.com/s/1c5ldBg	密码：lc40
+2017年联考、山东、江苏、广东省考笔试系统班（更新中）	链接：http://pan.baidu.com/s/1pLIVHXp	密码：f2k7
+2017京考名师模考班-常识-现场版	链接：http://pan.baidu.com/s/1jI0Thps	密码：0b78
+【华图】2017年上海市考专业课程全套视频	链接:https://pan.baidu.com/s/1hrAjN1q	密码：bcpb
+【华图】2017京考大作战-听完涨十分视频	链接:https://pan.baidu.com/s/1mhGNqvY	密码：cjtj
+华图-四川公务员历年真题详解视频解析	链接：http://pan.baidu.com/s/1miM3eI0	密码：5n2j
+华图-河南公务员历年真题详解视频解析	链接：http://pan.baidu.com/s/1nuTCxLn	密码：9g09
+2014-2016联考真题详细视频解析	链接：http://pan.baidu.com/s/1qXHuYIg	密码：ha85
+2017版李梦娇常识速记88条4.0视频+讲义	链接：http://pan.baidu.com/s/1sletpwD	密码：adqv
+原价98元的《申论38篇》-官网原版-连续10年命中申论	链接：http://pan.baidu.com/s/1cy0q4Y	密码：z53p
+2017河北公务员-考点精讲班	链接：http://pan.baidu.com/s/1pKMLZQj	密码：zlax
+2017山东公务员-红领决胜班	链接：http://pan.baidu.com/s/1c2n6HZM	密码：066u
+2017广东公务员-名师精品班	链接：http://pan.baidu.com/s/1slq4ezb	密码：oo2k
+2017山西公务员-名师精品班	链接：http://pan.baidu.com/s/1qYtTNcC	密码：a680
+2017江苏公务员-冲刺点睛班	链接：http://pan.baidu.com/s/1pLjg54J	密码：kkwd
+2017云南公务员-基础精讲班	链接：http://pan.baidu.com/s/1c1HIAFA	密码：nead
+2017浙江公务员-名师精品班	链接：http://pan.baidu.com/s/1qXQNBdi	密码：te1w
+2017上海公务员-考点精讲班	链接：http://pan.baidu.com/s/1dEApdiL	密码：uv7f
+2017黑龙江公务员-考点精讲班	链接：http://pan.baidu.com/s/1hs8xnmc	密码：x6zq
+2017内蒙古区考-考点考前冲刺提升班	链接：http://pan.baidu.com/s/1hseAY4O	密码：zi5r
+2017北京公务员-考前冲刺班	链接：http://pan.baidu.com/s/1o7VBpUi	密码：1317
+2017北京公务员-冲刺点睛班	链接：http://pan.baidu.com/s/1pLVj8dd	密码：frvg
+2017上海公务员-考前系统提分班	链接：http://pan.baidu.com/s/1bpHuRmv	密码：nb24
+2017浙江公务员-点睛冲刺班	链接:https://pan.baidu.com/s/1slrjTnf	密码：r8xb
+【腰果专题课】专题课-趣味小题型-赵伟东	链接：http://pan.baidu.com/s/1bpii6Qj	密码：2y2a
+【腰果专题课】专题课：常识科技	链接：http://pan.baidu.com/s/1eS1FipW	密码：i7w7
+【腰果专题课】专题：空间重构	链接：http://pan.baidu.com/s/1dFj0wZf	密码：rev8
+【腰果专题课】专题：申论文章写作（一、二）	链接：http://pan.baidu.com/s/1pLvrpl5	密码：dvbz
+2017灰兔-数量关系10天秒杀技巧	链接：http://pan.baidu.com/s/1nvS5cdN	密码：fwxy
+【粉笔公考】2016年吉林省考冲刺课（更新完）	链接:https://pan.baidu.com/s/1nvbbhhB	密码：78kv
+【必胜课程】2016年吉林省公务员考试申论备考指导	链接：http://pan.baidu.com/s/1sliul2X	密码：uwmz
+【必胜课程】2016年吉林省公务员考试行测备考指导（2课时）	链接：http://pan.baidu.com/s/1qYIoigG	密码：hm6m
+【腰果专题课】常识历史一、二	链接：http://pan.baidu.com/s/1boGwckJ	密码：qra0
+【腰果专题课】常识经济一、二---李晶晶	链接：http://pan.baidu.com/s/1boQ5xIv	密码：2tad
+【腰果专题课】应用文写作-尤欣	链接：http://pan.baidu.com/s/1o872vW2	密码：2cdf
+【腰果专题课】行程问题-齐麟	链接：http://pan.baidu.com/s/1nuACbUx	密码：8577
+2017年华图第11版考前必做1000题	链接：http://pan.baidu.com/s/1eSeCs4U	密码：05cu
+2017年华图第11版模块宝典	链接：http://pan.baidu.com/s/1qXUO4IK	密码：vf4h
+【粉笔公考】2016年重庆市考真题课	链接：http://pan.baidu.com/s/1kUBvzoV	密码：fjkp
+【粉笔9元课】2016年吉林省考真题课	链接：http://pan.baidu.com/s/1pLERe7T	密码：zhpn
+【腰果专题课】真假判断-胡晶	链接：http://pan.baidu.com/s/1pLRbHdp	密码：sgzw
+【腰果专题课】专题：篇章阅读葛欣	链接：http://pan.baidu.com/s/1qX81gQC	密码：hofd
+【腰果专题课】赵伟东专题：数字推理	链接：http://pan.baidu.com/s/1slow8nb	密码：77e6
+【腰果专题课】齐麟专题：排列组合与概率（二）	链接：http://pan.baidu.com/s/1gfwOzHT	密码：ypeg
+【腰果专题课】2016.7.3齐麟专题：排列组合与概率（一）	链接：http://pan.baidu.com/s/1pKDl9Cv	密码：yow4
+申论教材作者教你6小时速成应用文和大作文-蒋红增	链接：http://pan.baidu.com/s/1nvnIojv	密码：4qe2
+【弘毅公考】2016.1月小月逻辑	链接：http://pan.baidu.com/s/1slceJ5V	密码：jw9p
+【天道公考】幕王侧-资料分析（2016.2月最新版）	链接：http://pan.baidu.com/s/1boyrc6	密码：nbgn
+【天道公考】幕王侧数学提高班（2016年2月最新版）	链接：http://pan.baidu.com/s/1boyrc6	密码：nbgn
+【天道公考】大师兄申论（2016.2月最新版）	链接：http://pan.baidu.com/s/1hrmPu7q	密码：f4p7
+【天道公考】蒲公英-言语理解（2016年最新版）	链接：http://pan.baidu.com/s/1i4mfRpj	密码：c8nh
+【天道公考】钩不了沉-逻辑（2016年最新）	链接：http://pan.baidu.com/s/1i4kdCCt	密码：yw6b
+【天道公考】楚凝香-数学基础班（2016年最新）	链接：http://pan.baidu.com/s/1kUfpI6b	密码：rkce
+公考状元高分笔记-申论	链接：http://pan.baidu.com/s/1jHa8azW	密码：uyr2
+公考状元高分笔记-判断推理	链接：http://pan.baidu.com/s/1pJUsct1	密码：ul2u
+公考状元高分笔记-言语理解	链接：http://pan.baidu.com/s/1hrt8UEw	密码：bw6o
+公考状元高分笔记-资料+数量	链接：http://pan.baidu.com/s/1qX0eda8	密码：jkrz
+叶老师申论五天课完整视频-叶其政（华图）	链接：http://pan.baidu.com/s/1c1qsVDm	密码：9ys2
+【2016年最新】钩不了沉-言语理解	链接：http://pan.baidu.com/s/1qWWXbdi	密码：dm0t
+【佳远公考】申论-满庭芳	链接:http://pan.baidu.com/s/1YLw0A	密码：5qs5
+2016年最新梦娇题库	链接：http://pan.baidu.com/s/1hrkdY2C	密码：p4xd
+【2016.2.27直播课】梦娇老师带你秒杀常识判断历年真题	链接：http://pan.baidu.com/s/1c1ij6nu 密码：yx1u
+【2016.1.14直播课】梦娇老师教你玩转最新法律和最新热点	链接：http://pan.baidu.com/s/1nu2PAqt	密码：aqqz
+【天道公考】幕王侧-数量关系【2016版】	链接：http://pan.baidu.com/s/1ntUtJBV	密码：erwq
+【一点教育】九哥-资料分析	链接：http://pan.baidu.com/s/1bnPobDX	密码：u86b
+【摆渡公考】夏西-变态图形推理	链接：http://pan.baidu.com/s/1i4oKmUT	密码：cm1w
+【天道公考】2016年资料分析-幕王侧	链接：http://pan.baidu.com/s/1mhnVIlU	密码：f9xa
+【摆渡公考】钻石流老师-申论	链接：http://pan.baidu.com/s/1eRohhh4	密码：7f1c
+【一点教育】钩不了沉-逻辑秒杀	链接：http://pan.baidu.com/s/1sk1XDgT	密码：bt3q
+【四海公考】花生十三-数量关系	链接：http://pan.baidu.com/s/1bnTosEj	密码：rc2a
+【四海公考】柳岩-言语理解	链接：http://pan.baidu.com/s/1gdVLXvl	密码：rdb2
+【四海公考】龙飞-图推	链接：http://pan.baidu.com/s/1dEfZc5N	密码：u18a
+【四海公考】飞扬-申论	链接：http://pan.baidu.com/s/1c1iI2Hi	密码：lc9p
+【四海公考】舒心-申论	链接：http://pan.baidu.com/s/1c0OzJBq	密码：mhsz
+【四海公考】花生十三-资料分析	链接：http://pan.baidu.com/s/1hrz4Fze	密码：pr1o
+【四海公考】花生十三-逻辑判断	链接:http://pan.baidu.com/s/1dDU23VN	密码：vh33
+【VIP专享】2016年大师兄申论系统班	链接：http://pan.baidu.com/s/1geyig4z	密码：nuxo
+[综合通用]资料分析最霸道解题法 视频 资料分析必对20题	链接:http://pan.baidu.com/s/1i4xvOv7	密码：d95v
+申论80分必备！背诵材料！2016版	链接：http://pan.baidu.com/s/1ntVzXVz	密码：71s8
+【某小机构】常识+公共基础（明月）	链接:http://pan.baidu.com/s/1c1pxY4S	密码：c8wu
+【qzzn大神】（行测）天字一号数量关系精讲	链接:http://pan.baidu.com/s/1bosNuqV	密码：geke
+（行测）[天字逻辑资料]	链接:http://pan.baidu.com/s/1o6Z2q3g	密码：kitt
+（行测）逻辑推断-弘毅公考	链接:http://pan.baidu.com/s/1bgClZK	密码：dvet
+（行测）数量关系-灰兔	链接:http://pan.baidu.com/s/1ntYiz13	密码：i96y
+（行测）[图推定义类比-夏西]	链接:http://pan.baidu.com/s/1jHrlwVW	密码：smjd
+（行测）言语理解-弘毅公考	链接:http://pan.baidu.com/s/1eQQVjYM	密码：akgw
+
+
+由于太多地址，请下载文档解压看；解压密码是：www.aiwanba.net
+超过一万G珍贵资源免费分享百度网盘下载地址：超过一万G珍贵资源免费分享
+免费分享给大家，欢迎转载分享！
+
+最全的人体漂浮魔术教学
+链接: http://pan.baidu.com/s/1qWyiLFQ 密码: wbfi
+
+一本书在手，万事不求人——《人生必备万事通》
+http://pan.baidu.com/s/1hqDU75q
+
+【一学就会的100个小魔术】彩图版
+http://pan.baidu.com/s/1dD1jxjb
+
+五笔字型魔鬼训练法：五天突破1分钟100字
+http://pan.baidu.com/s/1w95gU
+
+《赚钱金点子大全》300个赚钱金点子
+http://pan.baidu.com/s/1c0eQPX2
+
+《硅谷禁书·世界上最神奇的24堂课》
+http://pan.baidu.com/s/1bnvNMOJ
+
+88个小本创业的赚钱项目分享
+http://pan.baidu.com/s/1sjvvqED
+
+如何摆出好POSE 美少女外拍动作图解X100
+http://pan.baidu.com/s/1CO4WY
+
+世界营销绝妙点子800例
+http://pan.baidu.com/s/1ntqNyIH
+
+《如何通过网络日赚1000元》
+http://pan.baidu.com/s/1jGwtnG6
+
+1块变10块的投资分配法
+http://pan.baidu.com/s/1dDeS3L3
+
+陈安之 价值18万元《香港半岛总裁班独家内部资料》
+http://pan.baidu.com/s/1qWCvXOo
+
+财气——获取财富的36条黄金法则].张玉斌.李鹏
+http://pan.baidu.com/s/1i39m4NN
+《倍增吸引定律之天授传奇》售价198元的好书！至今未曾被超越的高频能量书
+http://pan.baidu.com/s/1bnnav7p
+
+联通移动免费充话费教程（长期有效）
+http://pan.baidu.com/s/1gdBs50J
+
+5折无限充值Q币方法（长期有效）
+http://pan.baidu.com/s/1c0thINY
+
+各种魔术教学电子书，各种秘术绝技资料教程
+http://pan.baidu.com/share/home?uk=1229317686
+
+《无价之宝108条》让您心想事成的无上宝典！
+http://www.2k2z.com/forum.php?mod=viewthread&tid=127
+
+价值百万，上千G精品资源分享
+http://www.2k2z.com/forum.php?mod=forumdisplay&fid=37
+
+2013最新美甲视频教程大全 美甲店专业技术教材宝典 自学美甲
+链接: http://pan.baidu.com/s/1szH8s 密码: d9so
+
+2013最新影楼新娘化妆教程|韩国专业彩妆教程|包含80款妆容设计
+链接: http://pan.baidu.com/s/1rdO3h 密码: 72l8
+
+2013最新流行美新娘盘发教程视频大全 韩式编发200款影楼发型设计
+链接: http://pan.baidu.com/s/107pM6 密码: cj6b
+
+棕编教程 草编动物制作视频 叶编工艺 五彩编扎技术培训教学光盘
+链接:http://pan.baidu.com/share/link?shareid=1600768612&uk=2251453667 
+密码:q62q
+
+百变魔术气球教程 魔法背带娃娃玩偶 婚庆拱门造型教材85视频书籍
+链接: http://pan.baidu.com/s/1GMpVy 密码: w2fq
+
+捏面人教程 面塑绝技 彩塑视频 泥塑方法 送全套教材秘籍技术光盘
+链接:http://pan.baidu.com/share/link?shareid=1675665073&uk=2251453667 
+密码:cjyt
+
+2013最新小女孩盘发扎发扎辫宝宝编发编辫子儿童发型教程资料
+链接: http://pan.baidu.com/s/1GMpMO 密码: tcyd
+
+2013一站式开家奶茶店 珍珠奶茶技术配方 小吃技术配方
+链接: http://pan.baidu.com/s/1ovWQp 密码: brjv
+
+安徽相法视频教程 面相书籍秘笈 面相过三关 相术风水古相法
+链接:http://pan.baidu.com/share/link?shareid=3717673175&uk=2301764067 
+密码:ypjd
+
+最全家电维修大全视频教程 彩电 空调 冰箱电脑主板家电维修教程
+链接:http://pan.baidu.com/share/link?shareid=981375128&uk=2519914211
+密码:itsp
+
+链接:http://pan.baidu.com/share/link?shareid=976272021&uk=2570220771
+密码:jfp1
+
+链接:http://pan.baidu.com/share/link?shareid=990286004&uk=2620525283
+密码:1mtk
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材
+链接:http://pan.baidu.com/share/link?shareid=1048515281&uk=2620525283
+密码:jg8u
+
+王紫杰2013最新力作《互联网印钞机》共6盘DVD
+http://pan.baidu.com/s/1dDkUvPv
+
+《龙式创富法则——从一万到十亿》共6节（主讲：张浩）价值1580元
+http://pan.baidu.com/s/1kTHSiEV
+
+苏引华《钱是这样赚的-让你在3个月内倍增利润》6碟DVD
+http://pan.baidu.com/s/1kT0rnIR
+
+各种学习资料150G
+http://yun.baidu.com/share/home?uk=592122224&view=share#category/type=0
+
+每套价值上千元 互联网VIP培训教程 绝对精品
+链接: http://pan.baidu.com/s/1sjFcNoT 密码: jaxq 有一小部分有要解压密码 密码是：xiaobeivip
+
+价值几千元儿童早教教程
+链接: http://pan.baidu.com/s/1ntFQnlJ 密码: n917清华幼儿英语语感启蒙
+链接: http://pan.baidu.com/s/1gdd2KmR 密码: bxf6宝宝睡前故事格林童话等
+链接: http://pan.baidu.com/s/1kTvB4k3 密码: tw1u美国早教宝宝手语时间
+链接: http://pan.baidu.com/s/1mgHoknm 密码: ux6d早教儿歌500首经典童谣500首欧美儿歌
+链接: http://pan.baidu.com/s/1eQy35uy 密码: hbjw美吉姆早教资料
+链接: http://pan.baidu.com/s/1o6pzKZw 密码: msvw金宝贝早教资料
+链接: http://pan.baidu.com/s/1dD3ppGd 密码: sib8好父母决定孩子的一生
+链接: http://pan.baidu.com/s/1eQ5pgoq 密码: lstp最全巧虎宝宝早教
+链接: http://pan.baidu.com/s/1bnD2HDt 密码: vadg巅峰家教智慧
+链接: http://pan.baidu.com/s/1jGfy58q 密码: qv97韩国最火英语启蒙视频littlefox
+链接: http://pan.baidu.com/s/1ky7mA 密码: uzr6家长突围视频
+链接: http://pan.baidu.com/s/13vvZK 密码: pvs1双语不用教
+链接: http://pan.baidu.com/s/1pJNTBIV 密码: bc72七田真早教幼儿才能教育pdf
+链接: http://pan.baidu.com/s/1pJsf6DP 密码: pt23冯德全爱萌早教36DVD前5集
+链接: http://pan.baidu.com/s/1gdFw1V1 密码: nkx9陈功雄爱和乐早教全能全脑音乐
+链接: http://pan.baidu.com/s/1pJylkFp 密码: ev8v冯德全爱萌早教36DVD后31集
+链接: http://pan.baidu.com/s/1hq3PIra 密码: 18q1美国第一宝贝
+
+★★★★★VIP创业致富★★★★★
+
+棕编教程 草编动物制作视频 叶编工艺 五彩编扎技术培训教学光盘
+链接:http://pan.baidu.com/share/link?shareid=1600768612&uk=2251453667 
+密码:q62q
+
+2013最新美甲视频教程大全 美甲店专业技术教材宝典 自学美甲
+链接: http://pan.baidu.com/s/1szH8s 密码: d9so
+
+2013最新影楼新娘化妆教程|韩国专业彩妆教程|包含80款妆容设计
+链接: http://pan.baidu.com/s/1rdO3h 密码: 72l8
+
+2013最新流行美新娘盘发教程视频大全 韩式编发200款影楼发型设计
+链接: http://pan.baidu.com/s/107pM6 密码: cj6b
+
+地摊叫卖商场促销广告制作文字转换语音合成配音录音软件送教程
+链接: http://pan.baidu.com/s/1c0BtBmo 密码: 427g
+
+汽车美容培训教材/汽车美容技术光盘/汽车美容教程50VCD+资料12套
+http://kuai.xunlei.com/d/bnBBDQLVOgAGRWpR982?p=122364
+
+毛戈平化妆（彩妆、日常妆、新娘妆、职业妆）视频教程全集 4G多
+http://kuai.xunlei.com/d/bnBBDQJ5egAvkmtRb42?p=122364
+
+百变魔术气球教程 魔法背带娃娃玩偶 婚庆拱门造型教材85视频书籍
+链接: http://pan.baidu.com/s/1GMpVy 密码: w2fq
+
+捏面人教程 面塑绝技 彩塑视频 泥塑方法 送全套教材秘籍技术光盘
+链接:http://pan.baidu.com/share/link?shareid=1675665073&uk=2251453667 
+密码:cjyt
+
+比特币挖矿图文教程比特币挖矿机 网赚项目网赚教程
+链接: http://pan.baidu.com/s/1b4K1Q 密码: n64b
+
+广告技术大全 全套制作教程 资料打包灯箱LED 发光字教程
+链接: http://pan.baidu.com/s/1o69CxtS 密码: vaek
+
+花店教程 2013年 无基础开花店 花店运营方案 学插花教程花艺教程 
+链接: http://pan.baidu.com/s/1ntHgb0X 密码: s250
+
+香辣烤面筋技术配方 正宗西安烤面筋酱料泡酱刷酱洒料 培训教程 
+链接:http://pan.baidu.com/share/link?shareid=2374023347&uk=2301764067 
+密码:x7it
+
+秘制广东肠粉技术 独家/酱汁配方+高清视频 小吃技术
+链接: http://pan.baidu.com/s/1qWqB37A 密码: z3gh 解压密码：25662390
+
+重庆酸辣粉传统配方 四川酸辣粉 小吃技术文字资料 送制作视频 
+链接:http://pan.baidu.com/share/link?shareid=3608649950&uk=2301764067 
+密码:kwgd
+
+沙县小吃视频教程 配方小吃技术传授 特色小吃制作方法 创业秘方
+链接:http://pan.baidu.com/share/link?shareid=2628128354&uk=2301764067 
+密码:5fdu
+
+土豆粉视频教程 砂锅土豆粉配方小吃技术 制作方法特色做法
+链接:http://pan.baidu.com/share/link?shareid=2577290897&uk=2301764067 
+密码:rc29
+
+正宗台湾手抓饼技术及核心配料含JY粉技术+视屏教程 小吃技术配方
+链接:http://pan.baidu.com/share/link?shareid=2596825542&uk=2301764067 
+密码:7c4q
+
+85度配方/咖啡配方/冰沙/奶茶配方/85度C饮品资料/奶茶技术
+链接: http://pan.baidu.com/s/1gU0Re 密码: 3xxe
+
+咖啡做法视频教程 咖啡拉花制作教程 饮料配方技术大全 开店必备 
+链接: http://pan.baidu.com/s/1bnEcAiN 密码: c51d
+
+陕西凉皮技术配方教程 含秘制调料配方 特色小吃技术配方
+链接: http://pan.baidu.com/s/1sj6Pfbv 密码: fsxt
+
+2013一站式开家奶茶店 珍珠奶茶技术配方 小吃技术配方
+链接: http://pan.baidu.com/s/1ovWQp 密码: brjv
+
+2013 正宗重庆麻辣烫配方技术 底料 串串香 四川 
+链接: http://pan.baidu.com/s/1y5uYb 密码: rgap
+解压密码：35682343
+
+秘制辣椒油红油技术配方 辣椒酱技术配方+视频教程 
+链接:http://pan.baidu.com/share/link?shareid=2508011946&uk=2301764067 
+密码:4wuy
+
+沙冰制作、刨冰制作、奶昔制作、冰激凌技术配方 小吃技术配方 
+链接:http://pan.baidu.com/share/link?shareid=2653396819&uk=2301764067 
+密码:htla
+
+寿司小吃技术 日本寿司做法培训视频教程 制作大全配方资料 快餐
+链接:http://pan.baidu.com/share/link?shareid=2722747707&uk=2301764067 密码:8wsv
+
+2013 coco都可最新奶茶配方 奶茶小吃技术配方资料 
+链接:http://pan.baidu.com/share/link?shareid=3680121677&uk=2301764067 
+密码:eknx
+
+鲜榨果汁视频教程冷饮小吃技术营养果蔬果菜汁珍珠奶茶店必备配方
+链接:http://pan.baidu.com/share/link?shareid=2461585112&uk=2301764067 
+密码:e2ck
+
+★★★★★VIP周易系列★★★★★
+
+周易批八字软件手机版 安卓版 周易手机软件合集
+链接:http://pan.baidu.com/share/link?shareid=3756789434&uk=2301764067 
+密码:gy7i
+
+取名软件 宝贝取名软件 宝贝起名软件 起名软件
+链接:http://pan.baidu.com/share/link?shareid=3780940622&uk=2301764067 
+密码:calf
+
+周易玄奥八字软件合集 永久使用 算命软件 电脑版+手机版
+链接:http://pan.baidu.com/share/link?shareid=3728480179&uk=2301764067 
+密码:8qgi
+
+自学家居风水书籍送面相 易经玄学八宅玄空布局秘术入门图书视频 
+链接:http://pan.baidu.com/share/link?shareid=3768792884&uk=2301764067 
+密码:4ct5
+
+徐氏正宗批八字 算命大师的八字预测软件
+链接:http://pan.baidu.com/share/link?shareid=3743955966&uk=2301764067 
+密码:9yqj
+如果运行软件强出"richtx32.ocx"窗口请安装下面软件(正常不用装)
+http://pan.baidu.com/share/link?shareid=638555888&uk=3912486126
+
+何荣柱 超级神算全套6部送易经风水布局秘笈全套+视频录像教程
+链接: http://pan.baidu.com/s/1pcgjG 密码: xpsi
+
+安徽相法视频教程 面相书籍秘笈 面相过三关 相术风水古相法
+链接:http://pan.baidu.com/share/link?shareid=3717673175&uk=2301764067 
+密码:ypjd
+
+★★★★★VIP维修教程★★★★★
+
+迅维网最新6期数据恢复视频教程 电脑维修教程硬盘维修教程无加密
+链接:http://pan.baidu.com/share/link?shareid=703892116&uk=2519914211
+密码:s4ly
+
+主板维修视频教程 维修主板显卡视频教程 完整版
+http://kuai.xunlei.com/s/9D1C04MFodXwLKwNRKj7hA
+
+电工电子技术基础教程 电工维修视频教程 电工视频教程 包教包会
+http://kuai.xunlei.com/s/202JRIbnCTn53JOlX5EtuA
+
+最全家电维修大全视频教程 彩电 空调 冰箱电脑主板家电维修教程
+链接:http://pan.baidu.com/share/link?shareid=981375128&uk=2519914211
+密码:itsp
+
+链接:http://pan.baidu.com/share/link?shareid=976272021&uk=2570220771
+密码:jfp1
+
+链接:http://pan.baidu.com/share/link?shareid=990286004&uk=2620525283
+密码:1mtk
+
+最新迅维网液晶显示器维修视频教程 10期本店独有 技术从这里雄起
+链接:http://pan.baidu.com/share/link?shareid=854960386&uk=2519914211
+密码:b7cc 
+解压密码：rexiaoba
+
+电脑维修大全视频教程刘坚强主板硬盘显卡电源液晶显示器30DVD
+链接:http://pan.baidu.com/share/link?shareid=911567927&uk=2519914211
+密码:x9fu
+备用下载地址：
+链接: http://pan.baidu.com/s/1qWk61J2 密码: itry
+链接: http://pan.baidu.com/s/1hqC7goO 密码: g4v7
+
+电动车维修技术速成教程 蓄电池电瓶修复技术视频资料
+链接: http://pan.baidu.com/s/1mglZVfU 密码: 83ke
+
+迅维网是新维修教程 电脑，硬盘，笔记本，电路基础，主板显卡
+笔记本http://kuai.xunlei.com/d/WamOAwLU.wD-6-1Q9c4
+电路基础http://kuai.xunlei.com/d/WamOAwLY9wAQ1v1Qa49
+主板显卡http://kuai.xunlei.com/d/WamOAwKPJQDnbf5Q7f9
+液晶http://kuai.xunlei.com/d/WamOAwJ4AQAA-v1Qb91
+硬盘http://kuai.xunlei.com/d/WamOAwKcDgDfKP5Q440
+迅雷下载就行
+
+汽车维修视频教程48张DVD自学电动车摩托车轿车故障修理技巧大全
+链接: http://pan.baidu.com/s/107opG 密码: p74b
+
+★★★★★VIP实用教程★★★★★
+
+西门子触摸屏技术 Wincc Flexible 阳胜峰主讲 培训视频教程4.21G
+链接:http://pan.baidu.com/share/link?shareid=1070113419&uk=2620525283
+密码:wocn
+
+国外顶级商业修图教程，人像精修视频教程，中文字幕
+http://kuai.xunlei.com/d/lRfxDAJnWgD4XXFRda5
+
+100%有效！口吃结巴矫正教程资料 口吃病治疗法 口才训练方法
+教程提取地址：http://kuai.xunlei.com/s/lvTmDvXvx5ZUrkLKQkaDSg
+赠品A提取地址：http://kuai.xunlei.com/s/lIrjfmiDvgvfuLRfLlBG6w
+赠品B提取地址：http://kuai.xunlei.com/s/KOaBG45Ax8cLJw4SyigXVQ
+赠品C提取地址：http://kuai.xunlei.com/s/LmvocvtSpf9SwEuTdlRkwQ
+
+最有效的催眠秘决 催眠教程 催眠术 催眠音乐催眠视频催眠曲
+链接:http://pan.baidu.com/share/link?shareid=1082043656&uk=2620525283
+密码:0zw0
+解压密码rexiaoba
+
+特价 训狗教程 训犬教程 养狗视频光盘教材送新概念技术方法大全
+http://kuai.xunlei.com/s/nsrhJ9szJC5ENQurM5LGLQ
+
+2013最新小女孩盘发扎发扎辫宝宝编发编辫子儿童发型教程资料
+链接: http://pan.baidu.com/s/1GMpMO 密码: tcyd
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材
+链接:http://pan.baidu.com/share/link?shareid=1048515281&uk=2620525283
+密码:jg8u
+
+2013年 申论视频教程 钟君申论完整版视频
+链接: http://pan.baidu.com/s/1rdN1b 密码: xzsm
+
+★★★★★VIP行业教程★★★★★
+
+ps秘笈 ps/photoshop cs5cs6 全套视频教程自学高级ps教程
+链接: http://pan.baidu.com/s/1kTuPOvP 密码: ii0o
+
+【独家特价】金蝶K3视频教程+金蝶顾问学院培训资料 全套14G
+链接: http://pan.baidu.com/s/1i35d81J 密码: x3kw
+
+促销Eviews7.2计量经济学数据分析软件 送精选eviews教程+大礼包
+链接: http://pan.baidu.com/s/1qWFDUrU 密码: hmb7
+
+三天速成电脑组装高手 零基础完整视频教程DIY计算机自学装机教材
+链接:http://pan.baidu.com/share/link?shareid=3350262310&uk=3325186542
+密码:7zo9
+
+【钢结构】PKPM钢结构 STS入门到精通视频教程 软件教程 自学教程
+链接:http://pan.baidu.com/share/link?shareid=4109867298&uk=2368891619
+密码:2hdu
+
+买一送百 arcgis10教程 arcgis10.0教程 有声中文视频初学者入门
+链接: http://pan.baidu.com/s/1mgsL5cW 密码: 3idu
+
+DaVinci Resolve9.0达芬奇调色全面核心视频教程上下合集中文字幕
+链接: http://pan.baidu.com/s/1tfGgi 密码: 4aij
+
+托福/TOEFL最新版赵丽托福词汇8000视频教程 送托福强化+冲刺课程
+主产品：链接:http://pan.baidu.com/share/link?shareid=3960664697&uk=2368891619
+密码:ax6m （解压码：rexiaoba)
+（赠品）链接:http://pan.baidu.com/share/link?shareid=3957279315&uk=2368891619
+密码:gucl
+
+stm32视频教程 李想stm32视频全套
+链接: http://pan.baidu.com/s/1ON6U 密码: kqn2 
+解压码：rexiaoba
+
+南方CASS教程 初学者系统视频教程 CASS 详细实用教程 买一送五
+链接:http://pan.baidu.com/share/link?shareid=4192073115&uk=2419197155
+密码:usnm
+
+2013年最新160集Tekla Structures xsteel视频教程
+链接: http://pan.baidu.com/s/1u1Bsr 密码: wqsj 
+解压码：@hodhens128347?!
+
+catia v5r20/catia v5r21软件 全套视频教程125G 逆向视频
+链接:http://pan.baidu.com/share/link?shareid=4061475468&uk=2368891619
+密码:r6lt 解压密码 rexiaoba
+
+2013 CorelDRAW X4 X5 X6CDR软件序列号视频教程设计素材排版字库
+链接: http://pan.baidu.com/s/1gd41QHP 密码: pkbx
+
+UG6.0全套编程教程 工厂师傅录制视频教程
+链接: http://pan.baidu.com/s/1ntt0sUt 密码: 7z44
+
+proe5.0软件 proe5.0全套教程 pro/e 5.0 送60G 包安装 包学会
+链接: http://pan.baidu.com/s/1eQssEzC 密码: qrbp
+
+传智播客网页美工PS平面设计师培训视频学习教程
+链接: http://pan.baidu.com/s/1mgmFRzM 密码: brvj
+
+三菱plc高清视频教程 fx-plc 学习资料大全 送仿真软件+编程软件
+链接:http://pan.baidu.com/share/link?shareid=4205120829&uk=2419197155
+密码:yg26
+
+服装教程 制作设计视频 缝纫放码裁剪打版 自学书 服装打版教程
+链接: http://pan.baidu.com/s/1gUDdG 密码: 04y6
+
+精雕从初级到高级全套视频教程 62G (送5.2精雕软件 
+http://kuai.xunlei.com/s/WOfDv.vv3xPVI-v-8hvVOw 
+下载密码：rexiaoba
+
+matlab视频种类大全（打包）视频教程
+链接: http://pan.baidu.com/s/1jCpXj 密码: vls7
+
+杨师傅UG4.0数控编程视频教程(28张CD 20G文件大)
+http://kuai.xunlei.com/d/bnBBDQLsGwBEJnBRc39?p=122364
+
+Visual Basic 6.0 2008程序设计vb.net入门到精通编程视频教程
+链接: http://pan.baidu.com/s/1hqokQt2 密码: binp
+
+AE 中文视频自学教程全集 送AE素材+模板+最全插件
+链接: http://pan.baidu.com/s/1GgseB 密码: yj9x
+解压密码：rexiaoba
+
+2014 电脑组装与维护光盘下载、书自光盘下载 http://115.com/lb/5lbc9nsf7tac 1.46G
+2014 非常私房菜光盘下载、书自光盘下载 http://115.com/lb/5lbagxfv3hhk 3.74G
+2014 极品大众菜光盘下载、书自光盘下载 http://115.com/lb/5lbb7kszp8zg 3.74G
+2014 3000道营养加倍家常菜光盘下载、随书光盘自学教程 http://115.com/lb/5lbcp1miym2c 2.15G
+2014 解密搜索引擎技术实战：Lucene&Java精华版光盘下载、随书光盘自学教程 http://115.com/lb/5lbebaw106ve 491M
+2014 解密搜索引擎技术实战光盘下载、书自带光盘下载 http://115.com/lb/5lbdz8mg353 616M
+2014 精选百吃不厌学常菜1288例光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxuao7cd 2.95G
+2014 考研数学名师名家高等数学辅导讲义光盘下载、书自光盘下载 http://115.com/lb/5lbagxuy8qyd 558M
+2014 零点起飞学PROTEL DXP 2004 原理与PCB设计随书光盘 http://115.com/lb/5lbb7kgd0f3g 680M
+2014 路由技术光盘下载、书自带光盘下载 http://115.com/lb/5lbagxuz62o0 1.05G
+2014 美术基础训练教程光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxubyq8n 439M
+2014 企业内部控制规范化操作全案光盘下载、书自带光盘下载 http://115.com/lb/5lbdz8ms9cki 1.42M
+2014 汽车理论光盘下载、书自光盘下载 http://115.com/lb/5lbagxurc0 140M
+2014 零点起飞学UG NX 8.5辅助设计随书光盘下载 http://115.com/lb/5lbagxucwx6h 1.95G
+2014 嵌入式Linux驱动程序和系统开发实例精讲光盘下载、随书光盘自学教程 http://115.com/lb/5lbagxujbpkk 92M
+2014 全国职称计算机考试标准教材与专用题库 Excel 2003中文电子表格光盘下载 http://115.com/lb/5lbagxu9c88n 433M
+2014 全国职称计算机考试标准教材与专用题库 中文Windows XP操作系统光盘下载 http://115.com/lb/5lbdz8m7igfm 584M
+2014 全国职称计算机考试标准教材与专用题库 Internet应用光盘下载、随书光盘自学教程 http://115.com/lb/5lbb7kgwmt5g 621M
+2014 全国职称计算机考试标准教材与专用题库新大纲·2013年考试专用光盘下载 http://115.com/lb/5lbb7kg98ebe 541M
+2014 全国职称计算机考试讲义.真题.预测三合一Word 2003中文字处理光盘下载、随书光盘 http://115.com/lb/5lbcp13k9v4a 521M
+2014 全国职称计算机考试讲义·真题·预测三合一.Internet应用光盘下载、随书光盘自学教程 http://115.com/lb/5lbags5r42pu 463M
+2014 全国职称计算机考试讲义.真题.预测三合一中文Windows XP操作系统光盘下载 http://115.com/lb/5lbb7proq5ei 548M
+2014 软件加密技术从入门到精通光盘下载、随书光盘自学教程 http://115.com/lb/5lbebfp9ldy8 24M
+2014 软件开发视频大讲堂：PHP从入门到精通光盘下载、随书光盘自学教程 http://115.com/lb/5lbebfpj9yrn 2.63G
+2014 商业地产光盘下载、书自带光盘下载 http://115.com/lb/5lbebfpjrczt 1.71G
+2014 商业海报设计创意解析范例导航光盘下载、随书光盘自学教程 http://115.com/lb/5lbag4we0jid 2G
+2014 食全食美私家菜光盘下载、书自光盘下载 http://115.com/lb/5lbag4whmbs0 2.25G
+2014 世界500强企业绩效考核管理工具光盘下载、书自带光盘下载 http://115.com/lb/5lbcpr8aq0mx 1.18M
+2014 世界500强企业人力资源精细化管理工具光盘下载、书自带光盘下载 http://115.com/lb/5lbag4wlwc6h 1M
+2014 淘宝网开店与推广必读光盘下载、书自光盘下载 http://115.com/lb/5lbeb3425ged 1.6G
+2014 马哥高薪Linux运维网络配置管理及高级功能 http://115.com/lb/5lbebvm2jgc2 285M
+2014 Java数据库技术详解 http://115.com/lb/5lbcp7t6dwgu 774M
+2014 西门子PLC工业通信网络应用案例精讲 http://115.com/lb/5lbebvm9fnxn204M
+2014 中文版Illustrator CS6高手成长之路 http://115.com/lb/5lbcp7te4u2s 1.33G
+2014 Photoshop CS5图像处理与典型实例从入门到通 http://115.com/lb/5lbcp7ta9u0j 3.28G
+2014 嵌入式Linux C语言应用程序设计 http://115.com/lb/5lbag6yjido0 3M
+2014 虚拟现实案例教程 http://115.com/lb/5lbebvm6vbl7 48KB
+
+2014 无师自通学电脑组装.维护.故障排除光盘下载、书自光盘下载 http://115.com/lb/5lbdz7k3km2m 2.5G
+2014 现代五笔速录光盘下载、书自光盘下载 http://115.com/lb/5lbb74mtegbi 82M
+2014 五笔打字与文档处理入门与进阶光盘下载、书自光盘下载 http://115.com/lb/5lbagtc5qtau 2.2G
+2014 新手驾车全攻略光盘下载、书自光盘下载 http://115.com/lb/5lbeb6jnjq1d 2.1G
+2014 现代音乐人编曲手册光盘下载、书自光盘下载 http://115.com/lb/5lbb74mjktab 2G
+2014 新手驾车全攻略光盘下载、书自光盘下载 http://115.com/lb/5lbcphed9h32 1.37G
+2014 新手学做网站随书光盘下载 http://115.com/lb/5lbeb6jjb8jl 2.1G
+2014 信息系统开发实例精粹(C#版) 光盘下载、书自光盘下载 http://115.com/lb/5lbeb6j8qu3n 239M
+2014 新手学电脑从入门到精通光盘下载、书自带光盘下载 http://115.com/lb/5lbeb6j2dm77 2.35G
+2014 信息系统开发实例精粹光盘下载、书自光盘下载 http://115.com/lb/5lbeb6jyoazt 200M
+2014 中老年人轻松学电脑光盘下载、书自带光盘下载 http://115.com/lb/5lbb74mdoo8i 984M
+2014 舟舟化妆实用宝典光盘下载、书自光盘下载 http://115.com/lb/5lbagtl8oq3d 1.29G
+2014 中老年人的网上幸福生活光盘下载、书自带光盘下载 http://115.com/lb/5lbb74m06sxi 687M
+2014 马哥Linux运维基础进阶和shell入门 http://115.com/lb/5lbb74o19hh8 568M
+2014 Windows 7从新手到高手 http://115.com/lb/5lbaqb22p3d8 1.46G
+2014 3ds Max 2009模型制作208例 http://115.com/lb/5lbclvwvgp53 1.74
+2014 710分高分攻略 http://115.com/lb/5lbdn1s92f93 374M
+2014 After Effects CS5从新手到高手 http://115.com/lb/5lbclvwtog9x 560M
+2014 3ds Max 2013中文版入门与提高 http://115.com/lb/5lbaqb26ziyd 2.14G
+2014 AutoCAD机械设计实例精解 http://115.com/lb/5lbeouuclu2d 579M
+2014 CorelDRAW X4中文版实训标准教程 http://115.com/lb/5lbdn113n0ks 594M
+2014 CorelDRAW X4中文版应用教程 http://115.com/lb/5lbeouua24wl 396M
+2014 CSS+XHTML+JavaScript网页设计与布局从入门到精通 http://115.com/lb/5lbbhaar60kb 75M
+2014 AutoCAD 2011中文版实用教程 http://115.com/lb/5lbbhaas1ofb 1.2G
+2014 Java Web开发详解：XML+DTD+XML Schema+XSLT+Servlet 3.0+JSP 2.2深入剖析与实例应用 http://115.com/lb/5lbeouuf7v08 440M
+2014 Java数据库技术详解 http://115.com/lb/5lbclvvzgjda 774M
+2014 Photoshop CS5图像处理与典型实例从入门到通 http://115.com/lb/5lbdn11dwovp 3.28G
+2014 Flex+PHP RIA应用开发实战详解 http://115.com/lb/5lbbhaa7b8fx 800M
+2014 Photoshop非主流照片设计与修饰 http://115.com/lb/5lbclvv2q21w 2.77G
+2014 PowerPoint 2010办公专家从入门到精通 http://115.com/lb/5lbeouuiwsql 2.63G
+2014 Visual C++程序设计 http://115.com/lb/5lbdn11b1czv 349M
+2014 Windows黑客技术揭秘与攻防 http://115.com/lb/5lbbhaa8ksl8 6.74M
+2014 电脑组装与维护现用现查 http://115.com/lb/5lbaqbbtepd8 473M
+2014 吉他弹唱校园民谣精品大全 http://115.com/lb/5lbaqbb9yi32 59M
+
+2014 加密与解密 http://115.com/lb/5lbbhaamnk0g 140M
+2014 教师必须知道的80个Excel函数 http://115.com/lb/5lbdn11ullsj 62M
+2014 嵌入式Linux C语言应用程序设计 http://115.com/lb/5lbclvvwekxc 3M
+2014 全国计算机等级考试零起点一本通 http://115.com/lb/5lbdn111giqp 442M
+2014 完全掌握Eclipse项目开发实战 http://115.com/lb/5lbclvvgz13s 238M
+2014 五笔打字实例与操作 http://115.com/lb/5lbbhaai5gsb 40M
+2014 中文版AutoCAD2008机械设计经典学习手册 http://115.com/lb/5lbdn11h47ws 592M
+2014 Pro ENGINEER中文野火版5.0曲面设计实例精解 http://115.com/lb/5lbeouuvocsn 1.48G
+2014 After Effects CS4多媒体教学经典教程 http://115.com/lb/5lbclvnc6sus 573M
+2014 Android开发应用从入门到精通 http://115.com/lb/5lbdn10466mj 559M
+2014 C#编程网络大讲堂 http://115.com/lb/5lbclvtdtiex 1.79G
+2014 C++标准教程 http://115.com/lb/5lbbhafc85jx 1.75G
+2014 C语言从入门到精通 http://115.com/lb/5lbeoum9hkrn 724M
+2014 DIV+CSS商业案例与网页布局开发精讲 http://115.com/lb/5lbdn16smmn3 32M
+2014 C++语言从入门到精通 http://115.com/lb/5lbdn161btsc 1.82G
+2014 iPhone应用程序开发指南 http://115.com/lb/5lbaqby7fvou 177M
+2014 IT精英职场英语口语 http://115.com/lb/5lbdn16cwwzm 139M
+2014 Java编程网络大讲堂 http://115.com/lb/5lbeoummd0q2 5KB
+2014 JSP应用教程 http://115.com/lb/5lbdn16gxbij 12.5M
+2014 Excel 2010电子表格制作 http://115.com/lb/5lbdn1hjudbv 316M
+
+2014 Linux 系统移植 http://115.com/lb/5lbdn1h4b7u3 3.64G
+2014 Linux指令范例速查手册 http://115.com/lb/5lbaqbavuvfd 468M
+2014 Linux设备驱动开发详解 http://115.com/lb/5lbeou5anv48 4.36G
+2014 Office 2010从入门到精通 http://115.com/lb/5lbdn1hr9wcp 594M
+2014 OrCAD和PADS Layout电路设计与实践 http://115.com/lb/5lbclvo3zus2 2.3M
+2014 Oracle从入门到精通 http://115.com/lb/5lbclvomkwoa 852M
+2014 Photoshop cs5案例实战从入门到精通 http://115.com/lb/5lbclvo4a222 3.13G
+2014 Photoshop CS5数码人像摄影后期精修108技 http://115.com/lb/5lbeou5s55yt 3.27G
+2014 Pro E野火版4.0精选50例详解 http://115.com/lb/5lbclvo906kw 544M
+2014 UG NX 6.0机械设计 http://115.com/lb/5lbaqbagtpo0 72M
+2014 从零开始学C++ http://115.com/lb/5lbdn1hnu6zm 639M
+2014 Photoshop CS5完全学习手册基础应用全接触 http://115.com/lb/5lbclvo27l6j 3.18G
+2014 从零开始学Java http://115.com/lb/5lbdn1hbyh3c 1G
+2014 从零开始学Visual C++ http://115.com/lb/5lbbha0wptkx 420M
+2014 电脑组装、维护与优化一点通 http://115.com/lb/5lbeou5nbcl1 15M
+2014 从零开始学Linux http://115.com/lb/5lbdn1h75fmc 1.32G
+2014 跟我学HTML+CSS http://115.com/lb/5lbclvodumas 854M
+2014 黑客攻防完全掌控 http://115.com/lb/5lbdn1hv0i6s 544M
+2014 计算机组织与体系结构 http://115.com/lb/5lbeou59fhhn 78M
+2014 黑客与反黑工具使用详解 http://115.com/lb/5lbclvo6uzy3 1.09G
+2014 全国计算机等级考试四级教程 http://115.com/lb/5lbclvov3r9w 239M
+2014 全能网站建设完全自学手册 http://115.com/lb/5lbclvosre83 1.44G
+2014 网络管理与故障调整CompTIA Network+认证教程 http://115.com/lb/5lbbek7bx9r8 562M
+2014 精通JS脚本之ExtJS框架 http://115.com/lb/5lbbek7dt2xn 2.38G
+2014 中文版3ds Max 2010技法精粹 http://115.com/lb/5lbc21pthjxc 257M
+2014 液晶显示器故障维修全程指导 http://115.com/lb/5lbc21p7v4js 1000M
+2014 中文版SolidWorks 2010从入门到精通 http://115.com/lb/5lbbekh1edry 610M
+2014 Photoshop CS5数码照片处理从入门到精通 http://115.com/lb/5lbc21lfe2lu 493M
+2014 Photoshop智能手机APP界面设计全解析 http://115.com/lb/5lbanxqoxvs0 280M
+2014 从零开始学ASP.NET http://115.com/lb/5lbe7aow2j5t 428M
+2014 中文版AutoCAD 2010快捷命令一册通 http://115.com/lb/5lbe7aolmd1d 334M
+2014 马哥Linux运维基础进阶和shell入门 http://115.com/lb/5lbdp8nn0krm 568M
+2014 [马哥高薪Linux运维教程4]-Linux网络配置管理及高级功能 http://115.com/lb/5lbdp8n5y6cp 285M
+2014 马哥Linux网络文件共享机制-NFS高级功能 http://115.com/lb/5lbe7ao6fgpn 184M
+2014 马哥Linux网络知识体系和防火墙iptables http://115.com/lb/5lbanxqj3olu 750M
+2014 黑客风云VIP_Linux渗透与安全课程 http://115.com/lb/5lbanxq0ky88 427M
+2014 Visual Basic范例开发大全 http://115.com/lb/5lbc21l68uss 2G
+2014 马哥Linux运维教程企业级金牌容灾方案_RAID深入讲解 http://115.com/lb/5lbe7aoudsl1 170M
+2014 马哥Linux运维教程企业级Linux文件共享FTP入门和进阶 http://115.com/lb/5lbbekhdqwcn 270M
+2014 马哥Linux运维必备知识LVM动态磁盘逻辑卷 http://115.com/lb/5lbbekh0yjog 121M
+
+淘宝热卖的246个网游单机版
+
+1 大闹天宫 链接: http://pan.baidu.com/s/1hq7ZWmK 密码: gtck
+2 七雄争霸 链接: http://pan.baidu.com/s/1eQxUD3O 密码: fskd
+3 热血三国V1.2 链接: http://pan.baidu.com/s/1ntEBtnr 密码: e1f9
+4 霸王大陆 链接: http://pan.baidu.com/s/1eQyA8gi 密码: wn4x
+5 天堂1 链接: http://pan.baidu.com/s/1qW5bLoC 密码: i7ab
+6 天堂2（商业） 链接: http://pan.baidu.com/s/1gdzU1Zd 密码: cc5x
+7 天堂2 链接: http://pan.baidu.com/s/1hhNem 密码: 5xpm
+8 大唐豪侠（有视频） 链接: http://pan.baidu.com/s/1sjJmTD7 密码: 7d9f
+9 大唐豪侠 链接: http://pan.baidu.com/s/1eQChLyq 密码: ufgr
+10 真封神 链接: http://pan.baidu.com/s/1kTMgWb9 密码: kup4
+11 梦幻龙族2 链接: http://pan.baidu.com/s/1ntOeIFn 密码: m6da
+12 梦幻龙族 链接: http://pan.baidu.com/s/1bngzM4R 密码: kxyi
+13 新魔界 链接: http://pan.baidu.com/s/1kTmpgwB 密码: vqzh
+14 诛仙3 链接: http://pan.baidu.com/s/1jGDv5zg 密码: a7dq
+15 EVE 链接: http://pan.baidu.com/s/10eADo 密码: b79y
+16 盛世遮天XP 链接: http://pan.baidu.com/s/1ntuY3kH 密码: ipj4
+17 彩虹岛 链接: http://pan.baidu.com/s/1jGIflXk 密码: tb6k
+18 鬼话钟馗 链接: http://pan.baidu.com/s/1sjmcRKh 密码: kc3v
+19 机战（零点） 链接: http://pan.baidu.com/s/1gd8bYxH 密码: j74k 后缀名
+20 三国群英传OL 链接: http://pan.baidu.com/s/1bnEVIN1 密码: 6qcu
+21 洪荒神话（商业） 链接: http://pan.baidu.com/s/1gdw6Bxp 密码: tku6
+22 洪荒神话 链接: http://pan.baidu.com/s/1bn0c7pX 密码: gadx
+23 赤壁（虎卫） 链接: http://pan.baidu.com/s/1qWn0PAW 密码: j2bi
+24 龙腾世界 链接: http://pan.baidu.com/s/1o6DTuem 密码: 2sgu
+25 龙之谷7职业 链接: http://pan.baidu.com/s/1c0B5Tgk 密码: zs1s
+26 龙之谷5职业 链接: http://pan.baidu.com/s/1mgGFqa8 密码: 96rh 后缀名
+27 龙之谷133极限版 链接: http://pan.baidu.com/s/1sjyUehn 密码: 3ia4
+28 完美世界 链接: http://pan.baidu.com/s/1bnfJNER 密码: ytcv
+29 幻灵游侠3.0 链接: http://pan.baidu.com/s/1qWPu7CS 密码: 76nh
+30 幻灵游侠4.0（最完美） 链接: http://pan.baidu.com/s/1107bK 密码: kxc5
+31 佣兵天下 链接: http://pan.baidu.com/s/1107ca 密码: pwki
+32 仙剑神曲 链接: http://pan.baidu.com/s/1sjqgDfn 密码: 5smy
+33 孽族 链接: http://pan.baidu.com/s/18mi7c 密码: pnkp
+34 九剑 链接: http://pan.baidu.com/s/1EXJl0 密码: ch6m
+35 神魔大陆 链接: http://pan.baidu.com/s/1hqCJD8g 密码: urhr
+36 梦幻蜀山 链接: http://pan.baidu.com/s/1pJ2vXLx 密码: 91jb
+37 梦幻古龙2 链接: http://pan.baidu.com/s/1bnvsRJh 密码: uvud
+38 梦三国 链接: http://pan.baidu.com/s/1i3zkyzz 密码: azpy
+39 斗破苍穹2 链接: http://pan.baidu.com/s/1jGveBT8 密码: sesk
+40 冒险岛113 链接: http://pan.baidu.com/s/1pJPw8Uf 密码: v2p2
+41 冒险岛118 链接: http://pan.baidu.com/s/1kTqsSz9 密码: gfr9
+42 六道OL 链接: http://pan.baidu.com/s/1AocSA 密码: 63e5
+43 诛仙422 链接: http://pan.baidu.com/s/1gdfBEBT 密码: 7phs
+44 魂之力量 链接: http://pan.baidu.com/s/1pJC5ywr 密码: kaiz
+45 口袋西游 链接: http://pan.baidu.com/s/1dDCPLxZ 密码: vufe
+46 月影传说 链接: http://pan.baidu.com/s/1mgww2gg 密码: qw9y
+47 龙OL 链接: http://pan.baidu.com/s/1pJ7LAC7 密码: dkwx
+48 新惊天动地 链接: http://pan.baidu.com/s/1o6l3fjs 密码: kjzp
+49 惊天战神（无虚拟机） 链接: http://pan.baidu.com/s/1o6NwJYM 密码: k5ei
+50 惊天战神（源代码网） 链接: http://pan.baidu.com/s/1tYZqY 密码: vgre
+51 倩女无双 链接: http://pan.baidu.com/s/1jGkpp0i 密码: t39w
+52 石器时代V10 链接: http://pan.baidu.com/s/1c02Ixn6 密码: 9cgk 后缀名
+53 蜀山新传 链接: http://pan.baidu.com/s/1sjHkZGp 密码: parf
+54 剑踪侠影 链接: http://pan.baidu.com/s/1mgEDvD2 密码: gu4j
+55 蜀门商业（最新） 链接: http://pan.baidu.com/s/1dDAhTQx 密码: h2x7
+56 蜀门207 链接: http://pan.baidu.com/s/1qWHTa0W 密码: dyph
+57 蜀门206 链接: http://pan.baidu.com/s/1dDB3QrJ 密码: dg6t
+58 征途 链接: http://pan.baidu.com/s/1o67NDZO 密码: 1f74
+59 飘渺雪域 链接: http://pan.baidu.com/s/1c0B5TgW 密码: tqbp
+60 剑侠世界 链接: http://pan.baidu.com/s/1o6qmHCY 密码: j79p
+61 烈火战神（镜像）源代码 链接: http://pan.baidu.com/s/1kTGHse7 密码: 2h5v
+62 烈火战神 链接: http://pan.baidu.com/s/1i39tOCt 密码: 2sm5
+63 暗黑世界 链接: http://pan.baidu.com/s/1jGoYYaE 密码: vgmt
+64 武林外传地藏 链接: http://pan.baidu.com/s/1i33UdXb 密码: bmb9
+65 武林外传地藏免虚拟机（32位傻瓜版） 链接: http://pan.baidu.com/s/1hq3WhtM 密码: 81xi
+69 永恒之塔4.7 链接: http://pan.baidu.com/s/1mgj5pbi 密码: byap
+70 鸟马之光 链接: http://pan.baidu.com/s/1bndHWZX 密码: uwv9
+71 瞳光 链接: http://pan.baidu.com/s/1mgqqOpa 密码: yh9x
+72 预言OL 链接: http://pan.baidu.com/s/1jGHzrnC 密码: khp4
+73 神鬼世界 链接: http://pan.baidu.com/s/1eQdBOMA 密码: wvut
+74 天龙诀 链接: http://pan.baidu.com/s/1o6p6Nhw 密码: gf8t
+75 飞飞V18 链接: http://pan.baidu.com/s/1c0zuCU0 密码: th1r
+76 飞飞V19 链接: http://pan.baidu.com/s/1ntHtliT 密码: 37ui
+77 路尼亚 链接: http://pan.baidu.com/s/1AUadC 密码: udxb 后缀名
+78 蜀山神话S5 链接: http://pan.baidu.com/s/1vuU8A 密码: j4sk
+79 石器时代9.5 链接: http://pan.baidu.com/s/1bn2KxNT 密码: 63ur 后缀名
+80 问天 链接: http://pan.baidu.com/s/1o60wfEU 密码: r8xb
+81 楚汉神话（仙楚） 链接: http://pan.baidu.com/s/1ntxGsUd 密码: ff86
+82 颓废之心（商业） 链接: http://pan.baidu.com/s/1ntGDnmx 密码: rufq
+83 窝窝世界 链接: http://pan.baidu.com/s/1jGtIEvO 密码: 65cn
+84 奇迹世界 链接: http://pan.baidu.com/s/1dDIpzw9 密码: fhzr
+85 封神无敌（星辰） 链接: http://pan.baidu.com/s/1gdy86hP 密码: gcj6
+86 龙魂 链接: http://pan.baidu.com/s/1hqktvcK 密码: va3h 后缀名
+87 风火之旅XP（无虚拟机） 链接: http://pan.baidu.com/s/1sjwmr85 密码: y93e
+88 风火之旅（虚拟机） 链接: http://pan.baidu.com/s/1o61cdlw 密码: bs71
+89 傲视遮天（元神成就） 链接: http://pan.baidu.com/s/1sjI6V8p 密码: bg4r
+90 傲视千雄 链接: http://pan.baidu.com/s/1gdozmmR 密码: jbrs
+91 功夫世界第四版 链接: http://pan.baidu.com/s/1pJ9hAcj 密码: pgch 后缀名
+92 蒸汽幻想 链接: http://pan.baidu.com/s/1bn8kggB 密码: zauk
+93 骑士2.0 链接: http://pan.baidu.com/s/1ntEBtpf 密码: dbrd
+94 露娜 链接: http://pan.baidu.com/s/1sjNWCyD 密码: 6vba
+95 投名状 链接: http://pan.baidu.com/s/1dDu8NDJ 密码: w6hi 后缀名
+96 命运2 链接: http://pan.baidu.com/s/1zyCjW 密码: 2wzr
+97 仙侣奇缘3 链接: http://pan.baidu.com/s/1qW2tTzI 密码: cs2h
+98 千年 链接: http://pan.baidu.com/s/1o6NwKae 密码: r6uc
+99 希望OL 链接: http://pan.baidu.com/s/1pJn2Raj 密码: x3cj
+100 魔力宝贝6.0 链接: http://pan.baidu.com/s/1dDnhvZr 密码: jnnn
+101 剑侠情缘烽火诸侯 链接: http://pan.baidu.com/s/1kTMMS2F 密码: 2rid
+102 剑侠情缘网络版（一键端）V6 链接: http://pan.baidu.com/s/1nt9lAWD 密码: jdgg
+103 彩虹骑士 链接: http://pan.baidu.com/s/1c0bEb8s 密码: b32x
+104 斩仙录 链接: http://pan.baidu.com/s/1wGQ1C 密码: 7fm5
+105 仙风道 链接: http://pan.baidu.com/s/1hqu2Hvu 密码: n9x5
+106 密传4.2 链接: http://pan.baidu.com/s/1qW6xGsO 密码: pjgu
+107 亮剑 链接: http://pan.baidu.com/s/1hq7ZW9Y 密码: ir7i
+108 神鬼传奇 链接: http://pan.baidu.com/s/1c0pRhGs 密码: sk7c
+109 烈焰 链接: http://pan.baidu.com/s/1ntFrqLN 密码: 87z1 后缀名
+110 乱舞江山 链接: http://pan.baidu.com/s/1bn8QdD9 密码: d6ns
+111 暗黑修仙（耀世） 链接: http://pan.baidu.com/s/1i3J3kXZ 密码: 5gwa
+112 笑傲江湖 链接: http://pan.baidu.com/s/1i3rIQ1J 密码: 9sik
+113 攻城掠地 链接: http://pan.baidu.com/s/1i3iVxPj 密码: hba5
+114 仙尘2 链接: http://pan.baidu.com/s/1pJn2RaF 密码: njpe
+115 凤舞天骄V8057（双版） 链接: http://pan.baidu.com/s/1i3BvBQP 密码: a29y
+116 凤舞天骄V8057 链接: http://pan.baidu.com/s/1i3H1qRV 密码: pe12
+117 神将录 链接: http://pan.baidu.com/s/1ycMHw 密码: xmdp
+118 将神录 链接: http://pan.baidu.com/s/1qWsk4zE 密码: niiy
+119 天神传奇 链接: http://pan.baidu.com/s/1mgBp9XY 密码: pazs
+120 逆神 链接: http://pan.baidu.com/s/1gd8HVnP 密码: j5rn
+121 江湖问剑 链接: http://pan.baidu.com/s/1i3AFI6p 密码: 5hu6
+122 问剑江湖 链接: http://pan.baidu.com/s/1pJKCSND 密码: 4rms
+123 斗战水浒 链接: http://pan.baidu.com/s/1gd6Gaun 密码: 2bd5
+124 论剑天下 链接: http://pan.baidu.com/s/1qWwUo7E 密码: jtps
+125 九州世界 链接: http://pan.baidu.com/s/1pJOGC59 密码: 7f2m
+126 问仙 链接: http://pan.baidu.com/s/1c0hdHCG 密码: 16t4
+127 烈火征程 链接: http://pan.baidu.com/s/1i3CbCNF 密码: pmez
+128 搜神OL 链接: http://pan.baidu.com/s/1ntzIk8T 密码: 625g
+129 逗仙OL 链接: http://pan.baidu.com/s/1o6l3fkA 密码: 9c2n
+130 暗黑屠龙 链接: http://pan.baidu.com/s/1o6MGM74 密码: akth
+131 创世三国 链接: http://pan.baidu.com/s/1hq3Whus 密码: xshh
+132 妖魔世界 链接: http://pan.baidu.com/s/1gdrgW63 密码: 48af
+133 妖魔世界（耀世） 链接: http://pan.baidu.com/s/1dDCjOpr 密码: fnec
+134 神仙道 链接: http://pan.baidu.com/s/1bnvsRIR 密码: 9t4w
+135 问道外传（新） 链接: http://pan.baidu.com/s/1kTl9j0r 密码: d8sp
+136 跑跑卡丁车 链接: http://pan.baidu.com/s/1bnm5xk7 密码: gewv
+137 天诛OL 链接: http://pan.baidu.com/s/1bnnlxZh 密码: y9xs
+138 醉西游（源代码网） 链接: http://pan.baidu.com/s/1bnFBEsn 密码: qeih
+139 醉西游 链接: http://pan.baidu.com/s/1o6Hrium 密码: vpk4
+140 三国演义一键 链接: http://pan.baidu.com/s/1dDANSnn 密码: c9d6
+141 天魔神谭 链接: http://pan.baidu.com/s/1ntDpyZ3 密码: ucfn
+142 猎灵OL 链接: http://pan.baidu.com/s/1c01w0Ti 密码: bd4k
+143 灵境 链接: http://pan.baidu.com/s/1bnpnmAr 密码: znzw
+144 横版三国（带GM） 链接: http://pan.baidu.com/s/1qW3FQnq 密码: ndm6
+145 乱世枭雄 链接: http://pan.baidu.com/s/1o63dXWI 密码: dih8
+146 白蛇传 链接: http://pan.baidu.com/s/1c03ysWK 密码: ympj
+147 水浒历险 链接: http://pan.baidu.com/s/1jGrGPMY 密码: 3sfn
+148 火影堂 链接: http://pan.baidu.com/s/1kTgP0xD 密码: wks2
+149 火影堂 链接: http://pan.baidu.com/s/1pJyYjj1 密码: 3arw
+150 御灵道 链接: http://pan.baidu.com/s/1kT3keKB 密码: qi2h
+151 藏龙 链接: http://pan.baidu.com/s/1c0ETHmg 密码: gb2h
+152 西游梦 链接: http://pan.baidu.com/s/1mg5jUg4 密码: 4qsn
+153 梦启江湖 链接: http://pan.baidu.com/s/1sj8x5FJ 密码: ymtw
+154 王朝霸域（最新） 链接: http://pan.baidu.com/s/1bn30xiB 密码: vviq
+155 中华赤壁 链接: http://pan.baidu.com/s/1gd7wb4J 密码: hirg
+156 热血海贼王 链接: http://pan.baidu.com/s/1kTKffJD 密码: a8j7
+157 生死格斗 链接: http://pan.baidu.com/s/1pJ7fF1T 密码: xy2a
+158 书与剑 链接: http://pan.baidu.com/s/1dDlLw3J 密码: c5rx
+159 地下城与勇士2（DNF2） 链接: http://pan.baidu.com/s/1zyCl4 密码: s8ee
+160 DNF 15 链接: http://pan.baidu.com/s/1i35qdxF 密码: 3hcp
+161 天龙八部3（慕容） 链接: http://pan.baidu.com/s/1bn1y6HD 密码: aqp8
+162 天龙八部3（最新） 链接: http://pan.baidu.com/s/1c02IxqS 密码: 1wr8
+163 唐门 链接: http://pan.baidu.com/s/1sjv6qLZ 密码: 9yva
+164 唐门 链接: http://pan.baidu.com/s/1c00a7ni 密码: 2kvf
+165 魔兽世界（熊猫人） 链接: http://pan.baidu.com/s/1eQB1Nvc 密码: mm1n
+166 魔兽世界1.12 链接: http://pan.baidu.com/s/1jGquX9O 密码: avie
+167 诛仙2 链接: http://pan.baidu.com/s/1i3vMCqL 密码: f8fu
+168 英雄联盟轻变单机版 链接: http://pan.baidu.com/s/1pJLYP2j 密码: 5hcs
+169 LOL英雄联盟单机版 链接: http://pan.baidu.com/s/1c0njssC 密码: ww5j
+170 KO堂 链接: http://pan.baidu.com/s/1mg22ePM 密码: vvqj
+171 QQ西游修罗 链接: http://pan.baidu.com/s/1kTmpg0n 密码: y9rw
+172 霸刀 链接: http://pan.baidu.com/s/1mg3idBU 密码: 1j6f
+173 弹弹堂 链接: http://pan.baidu.com/s/1dDcXTIx 密码: 5a4t
+174 刀剑无双（最新） 链接: http://pan.baidu.com/s/1o6E9n1S 密码: ci8q
+175 凡人修仙传 链接: http://pan.baidu.com/s/1eQnLrhS 密码: naea
+176 凡人修真2 链接: http://pan.baidu.com/s/1ntqoJfN 密码: x5yw
+177 画皮2（无虚拟机） 链接: http://pan.baidu.com/s/1kTHxnpH 密码: y9ed
+178 画皮2（源代码） 链接: http://pan.baidu.com/s/1bntWUYj 密码: 2nrz
+179 画皮2 链接: http://pan.baidu.com/s/1mgzKmZA 密码: rhne
+180 浪漫Q堂（最新） 链接: http://pan.baidu.com/s/1ntMIOVf 密码: k97t
+181 魔域 链接: http://pan.baidu.com/s/1sjmcRNJ 密码: h9ty
+182 三界乾坤（无虚拟机） 链接: http://pan.baidu.com/s/1bnjh907 密码: ix45
+183 三界乾坤 链接: http://pan.baidu.com/s/1sjE3l9b 密码: c9vm
+184 新兽血沸腾 链接: http://pan.baidu.com/s/1bn8QdFx 密码: 1dys
+185 天之刃 链接: http://pan.baidu.com/s/1jGy2wLK 密码: jw5g
+186 仙境传说2014 链接: http://pan.baidu.com/s/1mgFZshU 密码: ujit
+187 新破天一剑 链接: http://pan.baidu.com/s/1gd6GavL 密码: 7rzu
+188 御剑江湖第六版 链接: http://pan.baidu.com/s/1o6p6NjG 密码: hxki
+189 御剑江湖第五版（GM） 链接: http://pan.baidu.com/s/1gdy86kz 密码: 75fy
+190 诸仙列传 链接: http://pan.baidu.com/s/1jG04r58 密码: h3tu
+191 大荒传奇 链接: http://pan.baidu.com/s/1bnhfJ6v 密码: v3ek
+192 神泣9.0 链接: http://pan.baidu.com/s/1pJDRskb 密码: 99ut 后缀名
+193 神泣7.0 链接: http://pan.baidu.com/s/1dDwAHYL 密码: akqb 后缀名
+194 CF穿越火线 链接: http://pan.baidu.com/s/1sjDNoDJ 密码: 1nu4
+195 劲舞团 链接: http://pan.baidu.com/s/1c0ClQtM 密码: 5akn
+196 百炼成仙（源代码） 链接: http://pan.baidu.com/s/1o6kNfr8 密码: 7wbh
+197 百炼成仙 链接: http://pan.baidu.com/s/1dD1ux7j 密码: 1dqk
+198 武侠世界 链接: http://pan.baidu.com/s/1jGmrkbW 密码: f55s
+199 金庸群侠传 链接: http://pan.baidu.com/s/1wnUm 密码: fjcf
+200 大话战国 链接: http://pan.baidu.com/s/1sj1BWz7 密码: jw99
+201 网页捕鱼 链接: http://pan.baidu.com/s/1nt5NROt 密码: xx3j
+202 梦回唐朝 链接: http://pan.baidu.com/s/1qWNYFsK 密码: qaip
+203 梦回江湖 链接: http://pan.baidu.com/s/1hqDzEja 密码: uw9i
+204 热血巅峰 链接: http://pan.baidu.com/s/1o6OIGyQ 密码: 9jgc
+205 李小龙截拳道 链接: http://pan.baidu.com/s/1i3eRFIt 密码: gkc9
+206 卧龙吟 链接: http://pan.baidu.com/s/1bnFBGPD 密码: agf3
+207 传奇3 链接: http://pan.baidu.com/s/1mgDXxUC 密码: usp3
+208 战国英雄 链接: http://pan.baidu.com/s/1gdiZ2Kz 密码: kf38
+209 风云 链接: http://pan.baidu.com/s/1ntHtkTV 密码: ju3b
+210 新凤鸣 链接: http://pan.baidu.com/s/1jGnDaXS 密码: 5264
+211 光之国度 链接: http://pan.baidu.com/s/1pJqkIaZ 密码: 7i9y
+212 魔煞 链接: http://pan.baidu.com/s/1kT3ke5T 密码: 6pvj
+213 热血战纪 链接: http://pan.baidu.com/s/1qWzCeb6 密码: cekd
+214 梦武大陆 链接: http://pan.baidu.com/s/1o6JsYwi 密码: 3b68
+215 屠龙王者 链接: http://pan.baidu.com/s/1dD0E2fZ 密码: rxsj
+216 热血江湖V11 链接: http://pan.baidu.com/s/1c0gxI72 密码: m1i5
+217 幻想学院 链接: http://pan.baidu.com/s/1o6vCyeQ 密码: k6dz
+218 武斗乾坤 链接: http://pan.baidu.com/s/1qWwosbi 密码: eey5
+219 大三国 链接: http://pan.baidu.com/s/1dDANSad 密码: zvnv
+220 秦美人 链接: http://pan.baidu.com/s/1sjBLrml 密码: 8b26
+221 热血传奇 链接: http://pan.baidu.com/s/1ntHZihb 密码: 2jgb 后缀名
+222 倚天 链接: http://pan.baidu.com/s/1mgva4ys 密码: wvkt
+223 传奇世界 链接: http://pan.baidu.com/s/1qWDjtq0 密码: pjx2
+224 剑宗 链接：http://pan.baidu.com/s/1o67NGL0 密码：r7so
+225 星尘传说（灭世） 链接: http://pan.baidu.com/s/1sjPs5gp 密码: r5zj
+226 星尘传说（星世纪） 链接: http://pan.baidu.com/s/1bnfdQWn 密码: h78t
+227 楚汉传奇 链接: http://pan.baidu.com/s/1pVoLo 密码: jnmf
+228 征战四方2 链接: http://pan.baidu.com/s/1mgEDvzM 密码: gj3u
+229 传世镇魔录 链接: http://pan.baidu.com/s/1c0GV6SS 密码: t5h5
+230 星际帝国（网页） 链接: http://pan.baidu.com/s/1kToqWth 密码: bkaj
+231 海盗王 链接: http://pan.baidu.com/s/1hqtgMhe 密码: 3xnx
+232 魔刹(商业） 链接: http://pan.baidu.com/s/1bnpTk8f 密码: 38wm
+233 魔刹 链接: http://pan.baidu.com/s/1kTGHrSF 密码: 58mw
+234 逍遥天龙3 链接: http://pan.baidu.com/s/1eQ0C2UQ 密码: pk77 
+235 大话西游2 链接: http://pan.baidu.com/s/1pJkfdft 密码: 84bc
+236 古剑奇侠 链接: http://pan.baidu.com/s/1hqGNv7m 密码: nfq3
+237 星愿 链接: http://pan.baidu.com/s/1nny0m 密码: ms1j
+238 星辰OL 链接: http://pan.baidu.com/s/1c093Y5y 密码: c58f
+239 破天一剑（网页） 链接: http://pan.baidu.com/s/1pJ1aaAf 密码: 6gmc
+240 成吉思汗（重磅） 链接: http://pan.baidu.com/s/1qWuSv1a 密码: ym5r
+241 奇迹1.03K 链接: http://pan.baidu.com/s/1jGCF7Ga 密码: fbpj
+242 暗黑大陆 链接: http://pan.baidu.com/s/1kTqYS0B 密码: 87s1
+243 丝路传说 链接: http://pan.baidu.com/s/1bnyaHBp 密码: 2y6a
+244 梦幻西游 链接: http://pan.baidu.com/s/1kTiRw83 密码: 9yvu
+245 翼灵龙族 链接: http://pan.baidu.com/s/1nt7PM1F 密码: 8qiu
+246 空冥诀 链接: http://pan.baidu.com/s/1pJ4xSKV 密码: 1u6q
+
+20G 破 解 教程
+链接: http://pan.baidu.com/s/1nv8pyPV 密码: bdyv
+
+36GB的沪江英语学习资料
+https://pan.baidu.com/mbox/homepage?short=i5siFZJ
+
+
+AE经典工程文件模板500套链接：http://pan.baidu.com/s/1bptGYGf 密码：x5xa
+16G101图集完整高清版链接:https://pan.baidu.com/s/1boHKcCf 密码:fjfk
+2016年优米网全套精品课程https://pan.baidu.com/s/1o8lTahs#list/path=%2F
+344G书法教程，字帖，视频链接: https://pan.baidu.com/s/1jIv4Dgy 密码: nn98
+高清无损2000G字画吐血分享https://pan.baidu.com/share/home?uk=2575202441#category/type=0 https://pan.baidu.com/s/1o7Bvp5g#list/path=%2F 【国家博物馆内部流出】
+新知识头条：http://www.toutiao.com/m52374411545/ 
+邀请码小组：http://t.cn/zYbWzh5 
+小组官博:http://www.weibo.com/2005540527/ 
+新知博客：http://xinzhiblog.blog.163.com/ 
+乐乎：http://xinzhiblog.lofter.com/ 
+免费图书馆：http://xhsd.360doc.com 
+公考视频2016年的各大网校素材 云盘：链接：http://pan.baidu.com/s/1nvwexRj 密码：vla5
+
+某宝买的小学奥数视频 超全
+http://pan.baidu.com/s/1qW4oDgo 密码：rd7j
+2TB名人字画分享
+https://pan.baidu.com/s/1qXBrgLI#list/path=%2F
+https://pan.baidu.com/s/1mhWxYQG#list/path=%2F
+https://pan.baidu.com/s/1hslztEO#list/path=%2F
+https://pan.baidu.com/s/1c2oVqwg#list/path=%2F
+https://pan.baidu.com/s/1hsLXdAG#list/path=%2F
+https://pan.baidu.com/s/1i4RK0tv#list/path=%2F
+https://pan.baidu.com/s/1o8Ixcoy#list/path=%2F
+https://pan.baidu.com/s/1hrD9tbQ#list/path=%2F
+https://pan.baidu.com/s/1nv9BCZR#list/path=%2F
+https://pan.baidu.com/s/1nv9BCZR#list/path=%2F
+https://pan.baidu.com/s/1nv9BCZR#list/path=%2F
+https://pan.baidu.com/s/1boJjnQn#list/path=%2F
+https://pan.baidu.com/s/1jHH8XZg#list/path=%2F
+https://pan.baidu.com/s/1sl2b4ZV#list/path=%2F
+https://pan.baidu.com/s/1qXP3ULA#list/path=%2F
+https://pan.baidu.com/s/1kVe7j7L#list/path=%2F
+https://pan.baidu.com/s/1boAvvyv#list/path=%2F
+https://pan.baidu.com/s/1pKZFwJh#list/path=%2F
+https://pan.baidu.com/s/1qYIq59E#list/path=%2F
+https://pan.baidu.com/s/1qYNan5U#list/path=%2F
+https://pan.baidu.com/s/1qXBrgLI#list/path=%2F
+
+
+
+公共基础 链接: https://pan.baidu.com/s/1pL4kGZp 密码: 6q68←复制可见
+法律法规零基础班 链接: https://pan.baidu.com/s/1gfh0y7T 密码: dpqu ←复制可见
+法律法规精讲班 链接: https://pan.baidu.com/s/1i44MDAd 密码: urc6 ←复制可见
+有事出去下，回来继续分享
+
+不好意思，俺要远行西藏等会就动身，先发几个，到了目的地就发完整，声明，视频是2016最完整版，其实知识点都一样，我自己也是学的这个！
+工程经济零基础班 链接: https://pan.baidu.com/s/1hrPN2Fq 密码: yvzv ←复制可见
+工程经济精讲班 链接: https://pan.baidu.com/s/1eREwrBW 密码: rmt3 ←复制可见
+机电实务零基础班 链接: https://pan.baidu.com/s/1qY8mzWo 密码: 6i5g ←复制可见
+机电实务精讲班 链接: https://pan.baidu.com/s/1bpzP12R 密码: iecj ←复制可见
+
+
+
+dedecms 
+链接:https://pan.baidu.com/s/1nvoG5br 密码:1avi
+
+计算机四级网络工程师 
+链接: https://pan.baidu.com/s/1jIv8pOM 密码: 62ac
+
+极客学院教程 
+包含的内容很多：Python、前端、.net、GUI、javaweb、Unity3D、C、C#、php、java、ios、Android、cocos2d-x....
+链接: https://pan.baidu.com/s/1i53bPgp 密码: m3q3
+
+前端
+链接: https://pan.baidu.com/s/1boUIjJT 密码: rmx7
+
+php 
+这里面有tp教程、兄弟连教程、韩顺平教程等等
+链接:https://pan.baidu.com/s/1i53HJFJ 密码:h2iv
+
+Oracle 数据库
+链接：http://pan.baidu.com/s/1gf0ydxD 密码：vxhw (2017年3月14日16:24:23 补丁)
+
+mysql 数据库
+链接: https://pan.baidu.com/s/1nvSChzb 密码: 5ahj
+
+Linux 教程两套分别是兄弟连和韩顺平的
+链接: https://pan.baidu.com/s/1o7Qsa6Y 密码: vkqi
+
+C
+链接: https://pan.baidu.com/s/1jINY90a 密码: yg8g
+
+
+
+[我要自学网]全站资源 几乎涵盖所有
+-------附解压密码---------
+记得一同下载 不然打不开压缩包不要找我哦 
+由于没压缩一分享出来就挂了 现在按类别发链接 需要的速度收藏
+信息办公: 链接：http://pan.baidu.com/s/1pKOosOz 密码：0bwq
+平面设计: 链接：http://pan.baidu.com/s/1qXKO5xa 密码：37mo
+影视动画: 链接：http://pan.baidu.com/s/1miTuuQs 密码：e4xa
+网页设计: 链接：http://pan.baidu.com/s/1pL2jTSv 密码：hj29
+机械设计: 链接：http://pan.baidu.com/s/1bWgvX8 密码：d42e
+室内设计: 链接：http://pan.baidu.com/s/1kVdV8lp 密码：jifk
+会计教程: 链接：http://pan.baidu.com/s/1o7WxRvW 密码：bvze
+解压密码: 链接：http://pan.baidu.com/s/1hrIwVT6 密码：5p35
+
+【工程执业考试第1编】2017年二级建造师考试资料分享
+2017二建法规链接：http://pan.baidu.com/s/1qYqAon6 密码：c0it
+2017二建管理链接：http://pan.baidu.com/s/1dEPSmWh 密码：lczg
+2017二建建筑链接：http://pan.baidu.com/s/1eRNizRG 密码：slt1
+2017二建市政链接：http://pan.baidu.com/s/1o80NCfS 密码：11qt
+2017二建机电链接：http://pan.baidu.com/s/1o8k8E86 密码：h01r
+
+
+某马UI教学全套资料链接：
+http://pan.baidu.com/s/1dF7OUpb 密码：fwww
+------------------------------------------------------------
+HTML5模板800套链接：
+http://pan.baidu.com/s/1geOzCsj 密码：xcq8
+------------------------------------------------------------
+上千套整站源码链接：
+http://pan.baidu.com/s/1gf9gK3T 密码：bwdc
+------------------------------------------------------------
+PHP整站源码链接：
+http://pan.baidu.com/s/1bptFS1D 密码：690h
+------------------------------------------------------------
+Jack游戏UI教程链接：
+http://pan.baidu.com/s/1i4XOUup 密码：1noh
+------------------------------------------------------------
+中谷教育-Python视频教程（完整版）链接：
+http://pan.baidu.com/s/1gfBOByr 密码：km3u
+------------------------------------------------------------
+会声会影模板链接：
+http://pan.baidu.com/s/1kVoFReB 密码：x1u4
+------------------------------------------------------------
+AE教学视频链接：
+http://pan.baidu.com/s/1eREYlV0 密码：udnx
+------------------------------------------------------------
+中谷教育-Python视频教程（完整版）链接：
+http://pan.baidu.com/s/1dEYDeTz 密码：g01i
+------------------------------------------------------------
+iOS9教程链接：
+http://pan.baidu.com/s/1i58wJw5 密码：zvl6
+------------------------------------------------------------
+极客学院安卓Android全套最新视频教程【17G全套视频+独家源码】链接：
+http://pan.baidu.com/s/1dF2zplR 密码：bzzg
+------------------------------------------------------------
+某内WEB前端视频教程 完整版链接：
+http://pan.baidu.com/s/1bo9EHor 密码：2rt3
+------------------------------------------------------------
+易语言教程链接：
+http://pan.baidu.com/s/1c2dyOyG 密码：e3fd
+------------------------------------------------------------
+C++教学教程链接：
+http://pan.baidu.com/s/1i5v55dF 密码：wl46
+------------------------------------------------------------
+某达 C语言教程链接：
+http://pan.baidu.com/s/1qX9ojy0 密码：jddm
+------------------------------------------------------------
+JAVA视频教学链接：
+http://pan.baidu.com/s/1slaq4iD 密码：zm1k2016
+------------------------------------------------------------
+PS 插件大全链接：
+http://pan.baidu.com/s/1hsp1YSk 密码：uhtj
+------------------------------------------------------------
+Flash教学资料100G觅风易语言教程链接：
+http://pan.baidu.com/s/1qY8i0Za 密码：zu2a
+------------------------------------------------------------
+AE常用插件链接：
+http://pan.baidu.com/s/1i5uPAvF 密码：717r
+------------------------------------------------------------
+海量设计小工具链接：
+http://pan.baidu.com/s/1eSmin9C 密码：lrjd
+------------------------------------------------------------
+李涛数码（摄影后期 高手成长之路那本书的）链接：
+http://pan.baidu.com/s/1dFiM5P3 密码：q4s4
+------------------------------------------------------------
+古版Q版链接：
+http://pan.baidu.com/s/1bpGa6cf 密码：7v15
+------------------------------------------------------------
+各种字体链接：
+http://pan.baidu.com/s/1jI9GDIu 密码：rb9d
+------------------------------------------------------------
+边框和水印链接：
+http://pan.baidu.com/s/1hrOxCW0 密码：lt5h
+------------------------------------------------------------
+动作 样式 渐变库链接：
+http://pan.baidu.com/s/1mikAeso 密码：zdsl
+------------------------------------------------------------
+滤镜（估计有很多不能用了 PS更新的问题 CS6全支持）链接：
+http://pan.baidu.com/s/1kUVdgdp 密码：y8xq
+链接：http://pan.baidu.com/s/1bpvHMCv 密码：7qnj
+链接：http://pan.baidu.com/s/1bpGG6OB 密码：l4k6
+------------------------------------------------------------
+笔刷链接：
+http://pan.baidu.com/s/1bXxqlK 密码：igdy
+------------------------------------------------------------
+UI资源链接：
+http://pan.baidu.com/s/1dE2jbkl 密码：t93i
+------------------------------------------------------------
+C4D白无常淘宝美工培训链接：
+http://pan.baidu.com/s/1i4S4lH7 密码：gw4z
+------------------------------------------------------------
+全套泡妞搭讪把妹教程
+
+链接：http://pan.baidu.com/s/1sluEiRj 密码：oetr
+
+------------------------------------------------------------
+觅风-易语言入门系列教程辅助12课
+链接：http://pan.baidu.com/s/1o82lNGe 密码：omxo
+------------------------------------------------------------
+宫崎骏全集
+链接：http://pan.baidu.com/s/1nuJ89pZ 密码：2ncq
+------------------------------------------------------------
+高清二战
+链接：http://pan.baidu.com/s/1hs0wmWW 密码：xvih
