@@ -54,7 +54,9 @@ mock.js的使用
 </html>
 ```
 
-
+### 3.数据格式的编写
+已有实例：http://mockjs.com/examples.html
+文档：http://mockjs.com/0.1/
 
 
 
