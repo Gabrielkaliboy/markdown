@@ -55,6 +55,10 @@ css样式中，如果有颜色代码，他会显示他的颜色
 #### 2.11 fileheader
 
 顶部注释模板，可定义作者、时间等信息，并会自动更新最后修改时间
+
+#### 2.12 live server
+能够让vscode拥有自己的本地web服务器。
+
 ### 3.其他工具篇
 
 #### 3.1 Auto-Open Markdown Preview
