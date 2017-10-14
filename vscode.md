@@ -121,6 +121,7 @@ markdown文档预览
 ####  vscode-icons
 可以个不同后缀名称的文件加上不同图标
 
+如果安装以后不生效，就在文件---首选项里面进行设置
 #### Enki Theme (Material Design Inspired) 
 当前用的代码高亮，个人感觉很赞  （用上面那个）
 #### GitLens
