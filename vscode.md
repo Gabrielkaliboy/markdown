@@ -121,6 +121,8 @@ markdown文档预览
 ####  vscode-icons
 可以个不同后缀名称的文件加上不同图标
 
+#### Enki Theme (Material Design Inspired) 
+当前用的代码高亮，个人感觉很赞  （用上面那个）
 #### GitLens
 丰富的git日志插件
 
@@ -129,6 +131,3 @@ markdown文档预览
 
 #### Output Colorizer 
 可以终端日志输出着色，实用
-
-#### Enki Theme (Material Design Inspired) 
-当前用的代码高亮，个人感觉很赞  很强
