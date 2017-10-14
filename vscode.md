@@ -1,5 +1,7 @@
 ## 插件
-
+官网：https://code.visualstudio.com/
+插件：https://code.visualstudio.com/docs
+     https://marketplace.visualstudio.com/vscode
 ### 1.python篇
 
 #### 1.1Python
@@ -59,15 +61,74 @@ css样式中，如果有颜色代码，他会显示他的颜色
 #### 2.12 live server
 能够让vscode拥有自己的本地web服务器。
 
-### 3.其他工具篇
+#### 2.13 debug for chrome
+让 vscode 映射 chrome 的 debug功能，静态页面都可以用 vscode 来打断点调试,配置稍微复杂一些
 
-#### 3.1 Auto-Open Markdown Preview
+
+####  2.14 Project Manager
+
+在多个项目之前快速切换的工具
+
+#### 2.15 beautify
+格式化代码的工具
+
+#### 2.16 filesize
+在底部状态栏显示当前文件大小，点击后还可以看到详细创建、修改时间
+
+#### 2.17 Bracket Pair Colorizer
+让括号拥有独立的颜色，易于区分。可以配合任意主题使用。
+
+
+#### 2.18 HTML CSS Support 
+让HTML标签上写class智能提示当前项目所支持的样式
+
+#### 2.19 HTML Snippets
+超级实用且初级的H5代码片段以及提示
+
+#### 2.20 JQuery Code Snippets
+jquery提示工具
+
+#### 2.21 VS Code JavaScript (ES6) snippets
+ES6提示工具
+
+JavaScript Snippet Pack : ES5及以下的代码片段，实用
+#### 2.22 Document This
+为JavaScript和TypeScript提供JSDoc comments
+
+
+### 3.vue
+#### 3.1 vetur
+语法高亮、智能感知、Emmet等
+
+### 3.2 VueHelper
+snippet代码片段
+
+### 其他工具篇
+
+#### Setting Sync
+同步你得设置和插件
+
+####  Auto-Open Markdown Preview
 markdown文档预览
 
-#### 3.2 OneDark Pro
+#### Markdown PDF
+将markdown文档转换成pdf的利器
+
+####  OneDark Pro
 一个用来设置主题的插件，可以让代码具有和atom一样的显示风格。
 使用的时候，先按Ctrl+k,再按Ctrl+t
 
-
-#### 3.3 vscode-icons
+####  vscode-icons
 可以个不同后缀名称的文件加上不同图标
+
+#### GitLens
+丰富的git日志插件
+
+#### Git History
+可以查看Git log, file, 和line 历史记录。
+
+#### Output Colorizer 
+可以终端日志输出着色，实用
+
+#### Enki Theme (Material Design Inspired) 
+当前用的代码高亮，个人感觉很赞  很强
