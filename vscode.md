@@ -63,3 +63,7 @@ markdown文档预览
 #### 3.2 OneDark Pro
 一个用来设置主题的插件，可以让代码具有和atom一样的显示风格。
 使用的时候，先按Ctrl+k,再按Ctrl+t
+
+
+#### 3.3 vscode-icons
+可以个不同后缀名称的文件加上不同图标
