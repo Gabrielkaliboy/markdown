@@ -2,7 +2,7 @@
 官网：https://code.visualstudio.com/
 插件：https://code.visualstudio.com/docs
      https://marketplace.visualstudio.com/vscode
-### 1.python篇
+## 1.python篇
 
 #### 1.1Python
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/vscode/1.png?raw=true)
@@ -12,7 +12,7 @@
 
 
 
-### 2.前端开发篇
+## 2.前端开发篇
 
 #### 2.1 Auto Close Tag
 用于html标签自动闭合
@@ -96,14 +96,58 @@ JavaScript Snippet Pack : ES5及以下的代码片段，实用
 为JavaScript和TypeScript提供JSDoc comments
 
 
-### 3.vue
+## 3.vue
 #### 3.1 vetur
 语法高亮、智能感知、Emmet等
 
 ### 3.2 VueHelper
 snippet代码片段
 
-### 其他工具篇
+
+
+## 4.php
+#### 4.1 PHP Debug
+用来调试PHP代码的。
+
+
+配置：
+参考：http://blog.csdn.net/x356982611/article/details/52664334
+
+简介
+
+php是动态语言没有调试器的话排错起来很是麻烦。vscode可以说是程序员的福音，启动速度快，插件越来越多，跨平台。现在说一下vscode上调试php文件
+
+所需文件
+
+xampp 集成服务器
+vscode
+Xdebug
+php-debug 插件
+
+配置过程
+
+1: 在vscode中按 F1, 输入ext install php-debug 安装调试插件 
+2：去 https://xdebug.org/download.php下载php对应版本的插件，php版本可以在xampp中的readme看到，下载这个PHP 5.6 VC11 TS (32 bit) 把dll文件拷贝到php目录
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/vscode/2.png?raw=true)
+
+
+3：打开php目录下的php.ini ，添加几行配置，xdebug的路径按实际情况配置，配置完成后重启apache服务器
+```
+zend_extension=C:\xampp\php\ext\php_xdebug-2.4.1-5.6-vc11.dll
+[XDebug]
+xdebug.remote_enable = 1
+xdebug.remote_autostart = 1
+```
+4：第一次安装vs会提示这个，需要配置下php.exe的路径(xampp下面的php.exe)，在用户设置里添加以下项(改成你自己的PHP.exe)
+```
+"php.validate.executablePath": "C:\\xampp\\php\\php.exe"
+```
+如果以后想改的话，可以在文件---》首选项里面进行更改，例如我的是
+```
+"php.validate.executablePath": "D:\\xampp\\php\\php.exe",
+```
+5：在vscode中的php文件打一断点，点Listen for XDebug 项目的运行，配置不用更改，默认就可以 (debug里面)
+## 其他工具篇
 
 #### Setting Sync
 同步你得设置和插件
