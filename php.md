@@ -82,3 +82,49 @@ return $val;
 然后在用的时候，直接用 _get('str') 代替 $_GET['str'] 就行啦~
 
 只有第四种方法有效，其余方法我改的不成。
+
+# 工具
+
+## PHP Storm
+
+### 配置php解释器
+如果刚安装的phpstorm,没有设置PHP解释器的位置，直接打开PHP文件，就会出现下面的错误。
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/3.png?raw=true)
+
+这时候需要去配置一下PHP解释器
+
+文件-->设置--->语言和框架--->php，如图所示
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/4.png?raw=true)
+
+
+点击CLI interpreters,如图所示
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/5.png?raw=true)
+
+
+配置完成后，再打开PHP文件就可以解析了。
+
+
+### 配置debug
+
+1.修改配置文件php.ini，按下面修改（位置在最后）
+
+```
+zend_extension=D:\xampp\php\php_xdebug-2.5.5-7.0-vc14.dll
+[XDebug]
+xdebug.remote_enable = on
+xdebug.remote_host="127.0.0.1"
+xdebug.port=9000
+xdebug.profiler_enable = on
+xdebug.profiler_enable_trigger = off
+xdebug.profiler_output_name = cachegrind.out.%t.%p
+xdebug.remote_autostart=on
+xdebug.profiler_output_dir = "D:/wamp/tmp"
+xdebug.show_local_vars=0
+xdebug.idekey = PHPSTORM
+```
+修改完后重启服务
+
+用phpinfo查看，出现如下配置，则代表修改成功
