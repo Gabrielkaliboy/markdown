@@ -127,4 +127,5 @@ xdebug.idekey = PHPSTORM
 ```
 修改完后重启服务
 
-用phpinfo查看，出现如下配置，则代表修改成功
+用phpinfo查看，出现如下配置，则代表修改成功![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/6.png?raw=true)
+
