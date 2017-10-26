@@ -10,6 +10,7 @@ php相关
 <The rest of contents | 余下全文>
 
 -----
+# 常见错误收集
 
 ## 关于阿里云服务器问题
 
@@ -38,3 +39,46 @@ Warning: mysqli_connect(): (HY000/2000): mysqlnd cannot connect to MySQL 4.1+ us
 MySQL Access denied for user 'root'@'%' to database 'xxx'  
 ```
 这是由于我们根本没有权限新建数据库，只能在给定的数据库里面新建表，你可以在官网数据库上操作试试。
+
+## 代码性错误
+
+Notice: Undefined index
+原因:
+```
+$logout=$_GET['action'];
+```
+
+我们经常接收表单POST过来的数据时报Undefined index错误,如下: $act=$_POST['action']; 
+用以上代码总是提示 
+Notice: Undefined index: act in D:\test\post.php on line 20 
+另外，有时还会出现 
+Notice: Undefined variable: Submit ...... 等一些这样的提示 
+
+出现上面这些是 PHP 的提示而非报错，PHP 本身不需要事先声明变量即可直接使用，但是对未声明变量会有提示。一般作为正式的网站会把提示关掉的，甚至连错误信息也被关掉。 
+
+解决方法： 
+方法1：服务器配置修改 
+修改 php.ini 中的 error配置下错误显示方式：将`error_reporting = E_ALL` 修改为 `error_reporting = E_ALL & ~E_NOTICE `
+
+修改后重启下APCHE服务器，方可生效。 
+
+方法2：对变量进行初始化。 
+
+方法3：做判断isset($_post['']),empty($_post['']) if --else 
+
+方法4：在出现notice代码之前加上@，@表示这行有错误或是警告不要输出，`@$username=$_post['username']; `
+在变量前面 加上一个 @ ，如 `if (@$_GET['action']=='save') { ... `
+
+方法5：最后一种很实用，是别人写的一个函数，通过这个函数进行传递值。 
+
+定义一个函数： 
+
+```php
+function _get($str){ 
+$val = !empty($_GET[$str]) ? $_GET[$str] : null; 
+return $val; 
+} 
+```
+然后在用的时候，直接用 _get('str') 代替 $_GET['str'] 就行啦~
+
+只有第四种方法有效，其余方法我改的不成。
