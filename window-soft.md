@@ -175,6 +175,7 @@ Balsamiq Mockups是一种软件工程中快速原型的建立软件，可以做�
 重要内容再次强调，动态！背景音乐！十几个场景模板！
 支持各种类型的壁纸，包括2D和3D动画，网站，视频，甚至某些应用程序。 
 虫部落：http://bbs.chongbuluo.com/thread-2372-1-1.html
+吾爱破解：https://www.52pojie.cn/thread-592323-1-1.html
 
 ## 火莹视频桌面
 
