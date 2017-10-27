@@ -129,3 +129,57 @@ xdebug.idekey = PHPSTORM
 
 用phpinfo查看，出现如下配置，则代表修改成功![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/6.png?raw=true)
 
+2.phpstorm设置
+
+File->Settings->语言和框架-->php--->service，如下图：
+这里要填写服务器端的相关信息: 
+name: localhost， 
+host: localhost， 
+port: 80， 
+debugger: XDebug
+
+如果是自定域名则host设置自定域名, 如laravel5.io
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/7.png?raw=true)
+
+
+ PHP->Debug页面 Debug Port设置为9000
+
+ ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/8.png?raw=true)
+
+
+ PHP标签下Debug->DBGp Proxy 配置如下
+进入File>Settings>PHP>Debug>DBGp Proxy 填写： 
+IDE key: phpStorm 
+host: localhost （如果是你自己自定义的域名，改成你自己的）
+port: 80
+
+ ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/9.png?raw=true)
+
+ 设置完毕，点OK退出。
+
+
+
+3.配置PHP Web Application
+点菜单栏的Run>Edit Configurations… 在弹出的窗口中添加一个调试配置：
+
+ ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/10.png?raw=true)
+
+
+点击左上角加号，选择PHP Web Application
+
+ ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/11.png?raw=true)
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/12.png?raw=true)
+
+填写完毕后，在代码里设置断点, 再开启电话icno监听, 点小甲壳虫启动调试
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/13.png?raw=true)
+
+这样就能用了
+
+4.浏览器插件
+
+再下个浏览器插件, xdebug helper, 下载好之后点选项, IDE选PHPSTORM, 不想让所以网页显示小甲虫, 可以设置domain filter
+
+JetBrains IDE Support扩展，安装
