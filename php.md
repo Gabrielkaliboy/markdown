@@ -203,11 +203,18 @@ port: 80
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/12.png?raw=true)
 
-填写完毕后，在代码里设置断点, 再开启电话icno监听, 点小甲壳虫启动调试
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/13.png?raw=true)
+
+填写完毕后，在代码里设置断点,设置调试模式， 再开启电话icno监听, 点小甲壳虫启动调试
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/13.png?raw=true)
 
 这样就能用了
+
+
+小插曲，有的时候并不能打开我们当前调试的页面，而是哪个默认的，他会弹出这个，然后同意就好了
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/15.png?raw=true)
 
 4.浏览器插件
 
