@@ -108,14 +108,44 @@ return $val;
 
 
 ### 配置debug
+参考：
+http://www.cnblogs.com/jsn521/p/3399997.html
+
+老外：
+https://blog.jetbrains.com/webide/2011/02/zero-configuration-debugging-with-xdebug-and-phpstorm-2-0/
+
+https://blog.jetbrains.com/phpstorm/2011/03/configure-php-debugging-in-phpstorm-2-0/
+
+0.下载xdebug
+在xampp里面打开readme文档，查看当前的php的版本，根据版本去下载对应的xdebug文件。
+
+地址：https://xdebug.org/download.php
+
+ 每一个文件分为TS版本和非TS版本 起初我还不能明白这时什么意思 后来了解到TS代表的应该是thread safe(线程安全) 不知道理解的对不对 对于php的了解不是很深入 这里我也不是很明白两者之间的关系 开始配置的时候 我下载的是非TS版本 结果证明我错了 搞了很久 向php.ini添加配置信息的之后 使用命令行转到php的解压缩文件目录之下 运行php.exe -m之后 始终不能看到Xdebug模块的加载  后来尝试了5.2 VC9 TS (32 bit 我的电脑是32位的)这个版本之后 终于成功了 所以建议大家下载第二个版本 如果不行的话 可以尝试第一个版本 鉴于每台电脑的不同 大家可以多尝试一下
+
+把下载的dll拷贝到php里面的ext文件夹里
+
+
+****
+如果不能确定到底下载哪个版本的xdebug文件，可以将上面配置好的PHP环境运行
+```php
+<?php
+phpinfo()
+?>
+```
+将页面上所有输出的文字copy一下，粘到这个https://xdebug.org/wizard.php里面，让他给你判断一下到底安装哪个版本，怎么按，如图所示
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/php/14.png?raw=true)
 
 1.修改配置文件php.ini，按下面修改（位置在最后）
 
 ```
+//这里是上一步下载的动态链接库的存放路径 建议使用绝对路径
 zend_extension=D:\xampp\php\php_xdebug-2.5.5-7.0-vc14.dll
 [XDebug]
+//是否允许远程终端 这里标示开启
 xdebug.remote_enable = on
 xdebug.remote_host="127.0.0.1"
+//这里表示服务器的监听端口
 xdebug.port=9000
 xdebug.profiler_enable = on
 xdebug.profiler_enable_trigger = off
@@ -123,6 +153,7 @@ xdebug.profiler_output_name = cachegrind.out.%t.%p
 xdebug.remote_autostart=on
 xdebug.profiler_output_dir = "D:/wamp/tmp"
 xdebug.show_local_vars=0
+//这里是调试器的关键字 在Chrome以及FireFox中插件配置的时候要用到
 xdebug.idekey = PHPSTORM
 ```
 修改完后重启服务
