@@ -17,3 +17,11 @@ title: mysql知识点
 
 ![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/mysql/1.png?raw=true)
 
+
+### 设置某一个字段是键值
+一般我们会有一个id，想设置id为自动增长，且为键值，在最后默认那一栏，选择AUTO_INCREMENT;
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/mysql/2.png?raw=true)
+
+![](https://github.com/Gabrielkaliboy/images/blob/master/markdown/mysql/3.png?raw=true)
+
+然后单击id这一行，在弹出的对话框里面选择创建新索引，然后选择primary
