@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>CSS filter属性效果演示|DEMO_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/htmleaf-demo.css">
+	<style type="text/css">
+		.htmleaf-content{
+			width: 800px;
+			margin: 50px auto;
+			display: table;
+		}
+		.row{
+			display: table-row;
+			width: 100%;
+		}
+		.cell{
+			display: table-cell;
+			width: 45%;
+		}
+		.row h3{
+			font-size: 1.3em;
+			line-height: 1.5em;
+			border-bottom: 2px solid #D5D6E2;
+		}
+		.blur{
+			-webkit-filter: blur(5px);
+			filter: blur(5px);
+		}
+		.brightness{
+			-webkit-filter: brightness(200%);
+			filter: brightness(200%);
+		}
+		.contrast{
+			-webkit-filter: contrast(300%);
+			filter: contrast(300%);
+		}
+		.grayscale{
+			-webkit-filter: grayscale(100%);
+			filter: grayscale(100%);
+		}
+		.hue-rotate{
+			-webkit-filter: hue-rotate(150deg);
+			filter: hue-rotate(150deg);
+		}
+		.invert{
+			-webkit-filter: invert(100%);
+			filter: invert(100%);
+		}
+		.opacity{
+			-webkit-filter: opacity(30%);
+			filter: opacity(30%);
+		}
+		.saturate{
+			-webkit-filter: saturate(200%);
+			filter: saturate(200%);
+		}
+		.sepia{
+			-webkit-filter: sepia(100%);
+			filter: sepia(100%);
+		}
+		.drop-shadow{
+			-webkit-filter: drop-shadow(20px 20px 10px  rgba(0,0,0,0.8));
+			filter: drop-shadow(20px 20px 10px  rgba(0,0,0,0.8));
+		}
+		.url{
+			-webkit-filter: url(#myFilter);
+			filter: url(#myFilter);
+		}
+	</style>
+	<!--[if IE]>
+		<script src="http://libs.useso.com/js/html5shiv/3.7/html5shiv.min.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="htmleaf-container">
+		<header class="htmleaf-header">
+			<h1>CSS filter属性效果演示 <span>CSS filter demo</span></h1>
+			<div class="htmleaf-links">
+				<a class="htmleaf-icon icon-htmleaf-home-outline" href="http://www.htmleaf.com/" title="jQuery之家" target="_blank"><span> jQuery之家</span></a>
+				<a class="htmleaf-icon icon-htmleaf-arrow-forward-outline" href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/filter.html" title="返回下载页" target="_blank"><span> 返回下载页</span></a>
+			</div>
+			<div class="htmleaf-demo center">
+			  <a href="index.html" class="current">各种CSS滤镜</a>
+			  <a href="index2.html">box-shadow和drop-shadow的比较</a>
+			</div>
+		</header>
+		<div class="htmleaf-content">
+			<div class="row"><h3>blur() - 模糊滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl.jpg" alt="手绘女孩">
+				</div>
+				<div class="cell">
+					<img src="img/girl.jpg" class="blur" alt="手绘女孩">
+				</div>
+			</div>
+			<div class="row"><h3>brightness() - 明亮度滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_5.jpg" alt="手绘女孩5">
+				</div>
+				<div class="cell">
+					<img src="img/girl_5.jpg" class="brightness" alt="手绘女孩5">
+				</div>
+			</div>
+			<div class="row"><h3>contrast() - 对比度滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_2.jpg" alt="手绘女孩2">
+				</div>
+				<div class="cell">
+					<img src="img/girl_2.jpg" class="contrast" alt="手绘女孩2">
+				</div>
+			</div>
+			<div class="row"><h3>grayscale() - 灰度滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_3.jpg" alt="手绘女孩3">
+				</div>
+				<div class="cell">
+					<img src="img/girl_3.jpg" class="grayscale" alt="手绘女孩3">
+				</div>
+			</div>
+			<div class="row"><h3>hue-rotate() - 色相旋转滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_4.jpg" alt="手绘女孩4">
+				</div>
+				<div class="cell">
+					<img src="img/girl_4.jpg" class="hue-rotate" alt="手绘女孩4">
+				</div>
+			</div>
+			<div class="row"><h3>invert() - 颜色反转滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_6.jpg" alt="手绘女孩6">
+				</div>
+				<div class="cell">
+					<img src="img/girl_6.jpg" class="invert" alt="手绘女孩6">
+				</div>
+			</div>
+			<div class="row"><h3>opacity() - 透明度滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_7.jpg" alt="手绘女孩7">
+				</div>
+				<div class="cell">
+					<img src="img/girl_7.jpg" class="opacity" alt="手绘女孩7">
+				</div>
+			</div>
+			<div class="row"><h3>saturate() - 饱和度滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_8.jpg" alt="手绘女孩8">
+				</div>
+				<div class="cell">
+					<img src="img/girl_8.jpg" class="saturate" alt="手绘女孩8">
+				</div>
+			</div>
+			<div class="row"><h3>sepia() - sepia滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl_9.jpg" alt="手绘女孩9">
+				</div>
+				<div class="cell">
+					<img src="img/girl_9.jpg" class="sepia" alt="手绘女孩9">
+				</div>
+			</div>
+			<div class="row"><h3>drop-shadow() - 阴影滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/chunli.png" alt="春丽">
+				</div>
+				<div class="cell">
+					<img src="img/chunli.png" class="drop-shadow" alt="春丽">
+				</div>
+			</div>
+			<div class="row"><h3>url() - url滤镜</h3></div>
+			<div class="row">
+				<div class="cell">
+					<img src="img/girl.jpg" alt="手绘女孩1">
+				</div>
+				<div class="cell">
+					<img src="img/girl.jpg" class="url" alt="手绘女孩1">
+				</div>
+			</div>
+		</div>
+	</div>
+	<svg height="0" xmlns="http://www.w3.org/2000/svg">
+	  <filter id="myFilter" x="-5%" y="-5%" width="110%" height="110%">
+	    <feGaussianBlur in="SourceGraphic" stdDeviation="8"/>
+	  </filter>
+	</svg>
+</body>
+</html>

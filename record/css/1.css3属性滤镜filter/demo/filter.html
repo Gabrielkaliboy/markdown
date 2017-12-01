@@ -1,0 +1,625 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSS属性参考 | filter_jQuery之家-自由分享jQuery、html5、css3的插件库</title>
+    <meta name="keywords" content="filter,css滤镜,css,css filter,css属性,滤镜,css教程">
+    <meta name="description" content="CSS filter（CSS滤镜） 是一种通过CSS的方法为页面中的元素（图片）应用各种滤镜效果的方式。" />
+    <link rel="stylesheet" href="http://www.htmleaf.com/templets/default/css/article.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-sticky bootsnav">
+        <div class="container">
+            <div class="attr-nav">
+                <ul>
+                    <li class="side-menu"><a href="#"><i class="fa fa-bars"></i></a></li>
+                </ul>
+            </div>
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                <i class="fa fa-bars"></i>
+            </button>
+                <a class="navbar-brand-mc" href="http://www.htmleaf.com/"><img src="http://www.htmleaf.com/images/logo.svg" class="logo" alt="jQuery之家-自由分享jQuery、html5、css3的插件库"></a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-menu">
+                <ul class="nav navbar-nav navbar-right nav-actions">
+                    <li><a href="http://weibo.com/jqueryzhijia" data-toggle="tooltip" data-placement="bottom" title="关注jQuery之家的新浪微博"
+                            target="_blank"> <i class="fa fa-weibo"></i> <span class="hidden-md hidden-lg" style="font-size: 0.6em;">关注新浪微博</span></a></li>
+                    <li><a href="http://koubei.baidu.com/s/htmleaf.com" data-toggle="tooltip" data-placement="bottom" title="请为jQuery之家在百度口碑上点个赞吧！"
+                            target="_blank"> <i class="fa fa-paw"></i> <span class="hidden-md hidden-lg" style="font-size: 0.6em;">百度口碑</span></a></li>
+                    <li><a href="http://www.htmleaf.com/about/Contact_Us.html" data-toggle="tooltip" data-placement="bottom"
+                            title="联系我们"> <i class="fa fa-envelope-o"></i> <span class="hidden-md hidden-lg" style="font-size: 0.6em;">联系我们</span></a></li>
+                </ul>
+                <form name="formsearch" action="http://www.htmleaf.com/plus/search.php" rel="nofollow" id="global_search_form" method="post"
+                    class="navbar-form-mc navbar-right" role="search">
+                    <div class="input-group input-group-nav">
+                        <input type="text" name="q" autocomplete="off" id="input-search" class="form-control" placeholder="搜索从这里开始..." maxlength="60">
+                        <span class="input-group-btn">
+                        <a role="button" class="btn" aria-label="search button" id="search-btn">
+                            <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                        </a>
+                        </span>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="side" id="nav-sider-bar">
+            <a href="#" class="close-side"><i class="fa fa-times"></i></a>
+            <div class="widget">
+                <h5 class="title"><i class="fa fa-pagelines"></i> jQuery库</h5>
+                <ul class="link">
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/pubuliuchajian/"><span class="ui-all ui-1"></span><span><i class="fa fa-rub"></i> 瀑布流插件 </span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/shijuecha/"><span class="ui-all ui-1"></span><span><i class="fa  fa-eye-slash"></i> 视觉差滚动效果 </span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Menu-Navigation/"><span class="ui-all ui-1"></span><span><i class="fa fa-list"></i> 菜单和导航 </span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Slideshow-Scroller/"><span class="ui-all ui-3"></span><span><i class="fa fa-film"></i> 幻灯片和轮播图</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Image-Effects/"><span class="ui-all ui-2"></span><span><i class="fa fa-photo"></i> 图片效果</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Form/"><span class="ui-all ui-4"></span><span><i class="fa fa-check-square-o"></i> 表单</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Tooltips/"><span class="ui-all ui-5"></span><span><i class="fa fa-comment"></i> 工具提示</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Table/"><span class="ui-all ui-6"></span><span><i class="fa fa-table"></i> 表格</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Rating-Star-Rating/"><span class="ui-all ui-7"></span><span><i class="fa fa-star-half-o"></i> 评分和星级</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Tabs/"><span class="ui-all ui-8"></span><span><i class="fa fa-folder"></i> 选项卡</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Accordion/"><span class="ui-all ui-9"></span><span><i class="fa fa-reorder"></i> 手风琴</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Lightbox-Dialog/"><span class="ui-all ui-10"></span><span><i class="fa fa-comments"></i> Lightbox和对话框</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Text-Link-Effects/"><span class="ui-all ui-11"></span><span><i class="fa fa-chain"></i> 文本和超链接</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Layout-Interface/"><span class="ui-all ui-12"></span><span><i class="fa fa-list-alt"></i> 布局和界面</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Calendar-Date-Time-picker/"><span class="ui-all ui-13"></span><span><i class="fa fa-calendar"></i> 日期时间选择器</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Color-Picker/"><span class="ui-all ui-14"></span><span><i class="fa fa-flask"></i> 颜色选择器</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Chart/"><span class="ui-all ui-15"></span><span><i class="fa fa-bar-chart"></i> 图表</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/Buttons-Icons/"><span class="ui-all ui-16"></span><span><i class="fa fa-toggle-on"></i> 按钮和图标</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jQuery/jquery-tools/"><span class="ui-all ui-16"></span><span><i class="fa fa-wrench"></i> 工具类</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h5 class="title"><i class="fa fa-html5"></i> HTML5库</h5>
+                <ul class="link">
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/html5-canvas/"><span class="input-all input-1"></span><span><i class="fa fa-delicious"></i> Canvas </span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/SVG/"><span class="input-all input-1"></span><span><i class="fa fa-slideshare"></i> SVG </span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/html5donghua/"><span class="input-all input-2"></span><span><i class="fa fa-fighter-jet"></i> HTML5动画</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/html5youxi/"><span class="input-all input-2"></span><span><i class="fa fa-soccer-ball-o"></i> HTML5游戏</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/html5muban/"><span class="input-all input-2"></span><span><i class="fa fa-newspaper-o"></i> HTML5模板</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/html5/yinpinheshipin/"><span class="input-all input-2"></span><span><i class="fa fa-play"></i> 音频视频播放器</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h5 class="title"><i class="fa fa-css3"></i> CSS3库</h5>
+                <ul class="link">
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/animation/"><span class="input-all input-2"></span><span><i class="fa fa-flag"></i> CSS3 animation</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/transform/"><span class="input-all input-2"></span><span><i class="fa fa-joomla"></i> CSS3 transform</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/transition/"><span class="input-all input-2"></span><span><i class="fa fa-magic"></i> CSS3 transition</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/css3donghua/"><span class="input-all input-2"></span><span><i class="fa fa-bus"></i> CSS3动画</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/daohangcaidan/"><span class="input-all input-2"></span><span><i class="fa fa-list-ul"></i> CSS3导航菜单</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/css3/ui-design/"><span class="input-all input-2"></span><span><i class="fa fa-slideshare"></i> UI界面设计</span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="widget">
+                <h5 class="title"><i class="fa fa-ge"></i> 资料库</h5>
+                <ul class="link">
+                    <li>
+                        <a href="http://www.htmleaf.com/ziliaoku/font-awesome/"><span class="input-all input-2"></span><span><i class="fa fa-flag"></i> Font Awesome</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/"><span class="input-all input-2"></span><span><i class="fa fa-graduation-cap"></i> 前端教程</span></a>
+                    </li>
+                    <li>
+                        <a href="http://www.htmleaf.com/jquery-doc/"><span class="input-all input-2"></span><span><i class="fa fa-file-text-o"></i> jQuery在线文档</span></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jq-container">
+        <div class="jq-content">
+            <div class="jq-inner">
+                <div class="jq-main jq-main-post jq-content">
+                    <div class="jq-post">
+                        <article>
+                            <header>
+                                <div class="jq-navbar-main">
+                                    <div class="jq-navbar-container">
+                                        <div class="a1">
+                                            <div class="mo-boy"></div>
+                                            <div class="mo-girl"></div>
+                                            <div class="mo-mo"></div>
+                                            <div class="mo-wheel2"></div>
+                                            <div class="mo-wheel1"></div>
+                                        </div>
+                                        <div class="motor_shadow"></div>
+                                        <i class="smoke smoke_1"></i>
+                                        <i class="smoke smoke_2"></i>
+                                    </div>
+                                    <div class="jq-navbar-location">
+                                        <strong>当前位置</strong>：<a href='http://www.htmleaf.com/'>主页</a> > <a href='http://www.htmleaf.com/ziliaoku/'>资料库</a>                                        > <a href='http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/'>前端教程</a> > CSS属性参考
+                                        | filter
+                                    </div>
+                                </div>
+                                <div class="jq-content-header-inner jq-content-header--color">
+                                    <div class="jq-content-title">
+                                        <h1>CSS属性参考 | filter</h1>
+                                    </div>
+                                    <div class="clr"></div>
+                                </div>
+                                <div class="jq-content-headerbar">
+                                    <div class="jq-content-publish">
+                                        <span class="jq-content-publish__info">
+                                              <i class="fa fa-clock-o"></i> 2016-06-21
+                                              <i class="fa fa-eye"></i> <script src="http://www.htmleaf.com/plus/count.php?view=yes&aid=3631&mid=1" type='text/javascript' language="javascript"></script> 次
+                                          </span>
+                                    </div>
+                                    <div class="jq-content-tag">
+                                        <span class="jq-content-tag__title"><i class="fa fa-tag"></i> 标签</span>
+                                        <a href='http://www.htmleaf.com/tags.php?/css%E6%95%99%E7%A8%8B/'>css教程</a>
+
+                                        <a href='http://www.htmleaf.com/tags.php?/css%E5%B1%9E%E6%80%A7/'>css属性</a>
+
+                                        <a href='http://www.htmleaf.com/tags.php?/%E6%BB%A4%E9%95%9C/'>滤镜</a>
+
+                                    </div>
+                                </div>
+                            </header>
+
+                            <div class="jq-post-content">
+                                <p><strong>CSS filter（CSS滤镜） 是一种通过CSS的方法为页面中的元素（图片）应用各种滤镜效果的方式。</strong></p>
+                                <p>通过CSS滤镜，我们可以制作出类似photoshop的滤镜效果。例如为图片制作模糊效果，阴影效果，滤色效果等。</p>
+                                <p>CSS滤镜通过<code>filter</code>函数来为元素应用滤镜效果。一个元素可以同时应用多个滤镜效果，各个滤镜之间使用空格来分隔。在CSS中可用的滤镜效果有：</p>
+                                <ul>
+                                    <li><a href="#blur">blur()</a></li>
+                                    <li><a href="#brightness">brightness()</a></li>
+                                    <li><a href="#contrast">contrast()</a></li>
+                                    <li><a href="#grayscale">grayscale()</a></li>
+                                    <li><a href="#hue-rotate">hue-rotate()</a></li>
+                                    <li><a href="#invert">invert()</a></li>
+                                    <li><a href="#opacity">opacity()</a></li>
+                                    <li><a href="#saturate">saturate()</a></li>
+                                    <li><a href="#sepia">sepia()</a></li>
+                                    <li><a href="#drop-shadow">drop-shadow()</a></li>
+                                    <li><a href="#url">url()</a></li>
+                                </ul>
+                                <p>理论上来说，所有的元素都会被应用的CSS滤镜影响，包括任何背景，边框，文本，轮廓和滚动条等。</p>
+                                <p>CSS <code>filter</code>属性不会影响元素的盒形状。当你为一个元素应用多个滤镜效果时，滤镜的顺序会影响最终合成的效果。</p>
+                                <p>某些滤镜可能会引起页面的性能问题，例如模糊滤镜和阴影滤镜。使用这些滤镜时要特别注意。</p>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 官方语法</h5>
+                                <pre class="brush:css">
+filter: &lt;filter-function&gt; [&lt;filter-function&gt;]* | none
+                            </pre>
+                                <p>参数：</p>
+                                <ul>
+                                    <li><b>&lt;filter-function&gt;</b>：要应用在元素上的滤镜函数。</li>
+                                    <li><b>none</b>：不使用CSS滤镜。</li>
+                                </ul>
+                                <p><code>filter</code>属性的初始值为<code>none</code>。</p>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 应用范围</h5>
+                                <p><code>font-style</code>属性可以应用在所有图像和容器元素上。</p>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 滤镜函数</h5>
+                                <p>使用CSS滤镜属性，你需要设定下面某一函数的值。如果该值无效，函数返回none。除特殊说明外，函数的值如果接受百分比值（如66%），那么该函数也接受小数值（如0.66）。</p>
+                                <ul class="css-filter-value">
+                                    <li id="blur">
+                                        <h6>blur() - 模糊滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+blur(&lt;length&gt;)                                  
+                                </pre>
+                                        <p><code>blur()</code>模糊滤镜使用<a href="http://en.wikipedia.org/wiki/Gaussian_blur" target="_blank">Gaussian blur</a>给图像设置高斯模糊。<code>blur()</code>函数通过参数来设置高斯模糊的模糊半径。半径值设定高斯函数的标准差，通俗来讲就是屏幕上有多少像素融在一起，这个值越大越模糊。如果没有设定值，则默认是0。这个参数可设置为CSS
+                                            <a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/length.html">&lt;length&gt;</a>值，但不可以是
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>值。<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/length.html">&lt;length&gt;</a>值不可以为负值。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element {
+    filter: blur(.15em);
+}
+.element2 {
+    filter: blur();
+}
+.element3 {
+    filter: blur(10px);
+}                                  
+                                </pre>
+                                        <p>下图中演示了图片使用模糊滤镜前后的效果。右图的滤镜效果为<code>filter: blur(5px)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/blur-filter.jpg" alt="CSS滤镜的模糊效果" width="700"
+                                                height="430"></p>
+                                    </li>
+                                    <li id="brightness">
+                                        <h6>brightness() - 明亮度滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+brightness([&lt;number&gt; | &lt;percentage&gt;])                              
+                                </pre>
+                                        <p><code>brightness()</code>明亮度滤镜给图片应用一种线性乘法，使其看起来更亮或更暗。如果值是0%，图像会完全变黑。如果值是100%，则图像无变化。</p>
+                                        <p><code>brightness()</code>明亮度函数的值可以大于100%。当值大于100%时，值越大则图片越亮。如果没有指定值，默认的值为100%。</p>
+                                        <p><code>brightness()</code>明亮度函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element {
+    filter: brightness(0.5);
+}
+.element2 {
+    filter: brightness(20%);
+}
+.element3 {
+    filter: brightness(200%);
+}
+.element4 {
+    filter: brightness(2); 
+}                                
+                                </pre>
+                                        <p>下图中演示了图片使用明亮度滤镜前后的效果。右图的滤镜效果为<code>filter: brightness(200%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/brightness-filter.jpg" alt="CSS明亮度滤镜的效果" width="700"
+                                                height="430"></p>
+                                    </li>
+                                    <li id="contrast">
+                                        <h6>contrast() - 对比度滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+contrast([&lt;number&gt; | &lt;percentage&gt;])                              
+                                </pre>
+                                        <p><code>contrast()</code>对比度滤镜用于调整图片的对比度。对比度的值为0，图像变为全黑。对比度的值为100%，图像保持不变。</p>
+                                        <p><code>contrast()</code>函数的值可以大于100%。当值大于100%时，图片中的亮处会越亮，暗处会越暗。如果没有指定值，默认的值为100%。</p>
+                                        <p><code>contrast()</code>对比度函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element {
+    filter: contrast(60%);
+}               
+.element2 {
+    filter: contrast(.58);
+}
+.element3 {
+    filter: contrast(0);
+}                             
+                                </pre>
+                                        <p>下图中演示了图片使用对比度滤镜前后的效果。右图的滤镜效果为<code>filter: contrast(300%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/contrast-filter.jpg" alt="CSS contrast()对比度滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+                                    <li id="grayscale">
+                                        <h6>grayscale() - 灰度滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+grayscale([&lt;number&gt; | &lt;percentage&gt;])                              
+                                </pre>
+                                        <p><code>grayscale()</code>灰度滤镜用于将图片转换为灰度图片。<code>grayscale()</code>的值定义转换的比例。值为100%则完全转为灰度图像，值为0%图像无变化。值在0%到100%之间，数值越接近100%，则图像中有更多的部分会被转换为灰度。当数值超过100%时，浏览器会将值设置为100%。如果没有设置值，默认的值为100%。</p>
+                                        <p><code>grayscale()</code>灰度函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: grayscale(); /* 默认值 */
+}
+.element2 {
+    filter: grayscale(1); /* 和100%相同 */
+}
+.element3 {
+    filter: grayscale(56%);
+}
+.element4 {
+    filter: grayscale(0.15);
+}                            
+                                </pre>
+                                        <p>下图中演示了图片使用灰度滤镜前后的效果。右图的滤镜效果为<code>filter: grayscale(100%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/grayscale-filter.jpg" alt="CSS grayscale()灰度滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+                                    <li id="hue-rotate">
+                                        <h6>hue-rotate() - 色相旋转滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+hue-rotate(&lt;angle&gt;);                         
+                                </pre>
+                                        <p><code>hue-rotate()</code>色相旋转滤镜用于给图像应用色相旋转效果。</p>
+                                        <p><a href="http://colorschemedesigner.com/" target="_blank">色环</a>是指将颜色分布在一个圆上，在圆上的某个点代表一种颜色，当你将这个点从当前位置移动沿圆周到下一个位置的时候，颜色会发生相应的变化。</p>
+                                        <p><code>hue-rotate()</code>的参数为一个角度值，色相旋转滤镜会使用这个角度值从色环中提取图像中相应颜色旋转该角度后得到的新的颜色，并将这种颜色应用到图像相应的位置上。</p>
+                                        <p>如果值没有被设置，默认值是0deg。该值虽然没有最大值，超过360deg的值相当于又绕一圈。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: hue-rotate();
+}
+.element2 {
+    filter: hue-rotate(150deg);
+}
+.element3 {
+    filter: hue-rotate(270deg);
+}                          
+                                </pre>
+                                        <p>下图中演示了图片使用色相旋转滤镜前后的效果。右图的滤镜效果为<code>filter: hue-rotate(150deg)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/hue-rotate-filter.jpg" alt="CSS hue-rotate()色相旋转滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+                                    <li id="invert">
+                                        <h6>invert() - 颜色反转滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+invert([&lt;number&gt; | &lt;percentage&gt;])                       
+                                </pre>
+                                        <p><code>invert()</code>颜色反转滤镜用于反转输入图像的颜色。<code>invert()</code>的值定义颜色转化率的比例。值为100%表示颜色完全反转，图像看起来类似照片底片的效果。值为0%则图像无变化。值在0%到100%之间，数值越接近100%，则图像中越多的部分会被反转。</p>
+                                        <p>值可以超过100%，值超过100%时，浏览器会将值设置为100%。如果<code>invert()</code>函数的值没有被设置，默认的值为100%。</p>
+                                        <p><code>invert()</code>颜色反转函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: invert();
+}
+.element2 {
+    filter: invert(50%);
+}
+.element3 {
+    filter: invert(0.5);
+}                         
+                                </pre>
+                                        <p>下图中演示了图片使用颜色反转滤镜前后的效果。右图的滤镜效果为<code>filter: invert(100%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/invert-filter.jpg" alt="CSS invert()颜色反转滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+                                    <li id="opacity">
+                                        <h6>opacity() - 透明度滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+opacity([&lt;number&gt; | &lt;percentage&gt;])                       
+                                </pre>
+                                        <p><code>opacity()</code>透明度滤镜用于转换图像的透明度。透明度函数的值定义转换的比例，值为0%表示图像完全透明，值为100%则图像无变化。值在0%到100%之间，数值越接近0%，则图像中越透明。</p>
+                                        <p>透明度滤镜函数与CSS <code>opacity</code>属性很相似，不同之处在于通过filter，一些浏览器为了提升性能会提供硬件加速。</p>
+                                        <p>值可以超过100%，值超过100%时，浏览器会将值设置为100%。如果<code>opacity()</code>的值没有被设置，默认的值为100%。</p>
+                                        <p><code>opacity()</code>透明度函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: opacity();
+}
+.element2 {
+    filter: opacity(50%);
+}
+.element3 {
+    filter: opacity(.5);
+}                        
+                                </pre>
+                                        <p>下图中演示了图片使用透明度滤镜前后的效果。右图的滤镜效果为<code>filter: opacity(30%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/opacity-filter.jpg" alt="CSS opacity()透明度滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+
+                                    <li id="saturate">
+                                        <h6>saturate() - 饱和度滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+saturate([&lt;number&gt; | &lt;percentage&gt;])                       
+                                </pre>
+                                        <p><code>saturate()</code>饱和度滤镜用于转换图像的饱和度，饱和度越大，图像的颜色越鲜艳丰富。饱和度函数的值定义转换的比例，值为0%表示图像完全不饱和，值为100%则图像无变化。值在0%到100%之间，数值越接近0%，则图像中越不饱和。</p>
+                                        <p>值可以超过100%，值超过100%时，值越大图像的饱和度越大。如果<code>saturate()</code>的值没有被设置，默认的值为100%。</p>
+                                        <p><code>saturate()</code>饱和度函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: saturate();
+}
+.element2 {
+    filter: saturate(150%);
+}
+.element3 {
+    filter: saturate(.5);
+}                 
+                                </pre>
+                                        <p>下图中演示了图片使用饱和度滤镜前后的效果。右图的滤镜效果为<code>filter: saturate(150%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/saturate-filter.jpg" alt="CSS saturate()饱和度滤镜的效果"
+                                                width="700" height="430"></p>
+                                    </li>
+                                    <li id="sepia">
+                                        <h6>sepia() - sepia滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+sepia([&lt;number&gt; | &lt;percentage&gt;])                       
+                                </pre>
+                                        <p><code>sepia()</code>滤镜将图像转换为深褐色效果，制作出类似旧相片的效果。sepia()函数的值定义转换的比例，值为100%则表示将图像转换为完全的深褐色，值为0%则图像无变化。值在0%到100%之间，数值越接近100%，则图像中越多部分被转换为深褐色。</p>
+                                        <p>值可以超过100%，值超过100%时，浏览器会将值设置为100%。如果<code>sepia()</code>的值没有被设置，默认的值为100%。</p>
+                                        <p><code>sepia()</code>函数的值可以使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/number.html">&lt;number&gt;</a>数据类型或
+                                            <a
+                                                href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/percentage.html">&lt;percentage&gt;</a>数据类型。数值不允许为负数。百分比数值也可以使用对应的小数来表示，例如66%可以表示为0.66。</p>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: sepia();
+}
+.element2 {
+    filter: sepia(50%);
+}
+.element3 {
+    filter: sepia(110%); /* 值会被重置为100% */
+}
+.element4 {
+    filter: sepia(.5);
+}                
+                                </pre>
+                                        <p>下图中演示了图片使用sepia滤镜前后的效果。右图的滤镜效果为<code>filter: sepia(100%)</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/sepia-filter.jpg" alt="CSS sepia滤镜的效果" width="700"
+                                                height="430"></p>
+                                    </li>
+                                    <li id="drop-shadow">
+                                        <h6>drop-shadow() - 阴影滤镜</h6>
+                                        <p>语法：</p>
+                                        <pre class="brush:css">
+drop-shadow(&lt;length&gt;{2,3} &lt;color&gt;?)             
+                                </pre>
+                                        <p><code>drop-shadow()</code>滤镜用于给图像设置一个阴影效果。<code>drop-shadow</code>和CSS <a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/box-shadow.html">box-shadow</a>属性不同，它渲染出来的阴影是基于元素的内容来合成阴影效果，而不是将阴影渲染在元素的边框图像下面。下图说明了两种阴影效果的不同之处。
+                                            </p>
+                                        <p><img src="http://img.htmleaf.com/1606/box-vs-drop-shadow.jpg" alt="drop-shadow和CSS box-shadow阴影效果的比较"
+                                                width="700" height="430"></p>
+                                        <p><code>drop-shadow()</code>函数与CSS <a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/box-shadow.html">box-shadow</a>属性很相似，不同之处在于，通过滤镜，一些浏览器为了更好的性能会提供硬件加速。
+                                            </p>
+                                        <p><code>drop-shadow()</code>函数的参数和<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/box-shadow.html">box-shadow</a>属性也基本相同，但是没有<code>inset</code>关键字。Webkit内核浏览器不支持扩展半径（<code>spread-radius</code>）参数。</p>
+                                        <pre class="brush:html">
+drop-shadow(&lt;offset-x&gt; &lt;offset-y&gt; &lt;blur-radius&gt;? &lt;color&gt;?)
+                                </pre>
+                                        <ul>
+                                            <li><b>&lt;offset-x&gt;</b>：<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/length.html">&lt;length&gt;</a>值。设定水平方向阴影偏移量。负值会使阴影出现在元素左边。</li>
+                                            <li><b>&lt;offset-y&gt;</b>：<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/length.html">&lt;length&gt;</a>值。设定垂直方向阴影偏移量。负值会使阴影出现在元素上方。</li>
+                                            <li><b>&lt;blur-radius&gt;</b>：<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/length.html">&lt;length&gt;</a>值。设置阴影的模糊程度。值越大，越模糊。不允许为负值。若未设定，默认值是0
+                                                (则阴影的边界很锐利)。</li>
+                                            <li><b>&lt;color&gt;</b>：使用<a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/color_value.html">&lt;color&gt;</a>来指定阴影的颜色。如果没有指定，阴影颜色由浏览器指定。</li>
+                                        </ul>
+                                        <p>示例代码：</p>
+                                        <pre class="brush:html">
+.element1 {
+    filter: drop-shadow(20px 20px 10px  rgba(0,0,0,0.8));
+}
+.element2 {
+    filter: drop-shadow(10px 10px 5px  #000000);
+}
+.element3 {
+    filter: drop-shadow(0 0 0  rgb(0,0,0));
+}          
+                                </pre>
+                                        <p>下图中演示了图片使用阴影滤镜前后的效果。右图的滤镜效果为<code>filter: drop-shadow(20px 20px 10px  rgba(0,0,0,0.8))</code>。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/drop-shadow-filter.jpg" alt="CSS 阴影滤镜的效果" width="700"
+                                                height="430"></p>
+                                    </li>
+                                    <li id="url">
+                                        <h6>url() - url滤镜</h6>
+                                        <p><code>url()</code>滤镜接收一个XML文件，该文件设置了 一个SVG滤镜，且可以包含一个锚点来指定一个具体的滤镜元素。</p>
+                                        <p>例如为一个元素应用url滤镜的代码如下：</p>
+                                        <pre class="brush:html">
+.element {
+    filter: url(myFilters.xml#effect);
+}
+.element2 {
+    filter: url(#myFilter);
+}              
+                                </pre>
+                                        <p>被引用的SVG滤镜的代码应该类似下面这样：</p>
+                                        <pre class="brush:css">
+&lt;svg height="0" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;filter id="myFilter" x="-5%" y="-5%" width="110%" height="110%"&gt;
+    &lt;feGaussianBlur in="SourceGraphic" stdDeviation="8"/&gt;
+  &lt;/filter&gt;
+&lt;/svg&gt;                                  
+                                </pre>
+                                        <p>上面的SVG滤镜为元素应用高斯模糊效果。下图中演示了图片使用url滤镜前后的效果。</p>
+                                        <p><img src="http://img.htmleaf.com/1606/url-filter.jpg" alt="CSS url滤镜的效果" width="700"
+                                                height="430"></p>
+                                    </li>
+                                </ul>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 示例代码</h5>
+                                <pre class="brush:css">
+img.blur{
+  -webkit-filter: blur(5px);
+  filter: blur(5px);
+}
+
+/* 为元素应用多重滤镜效果 */
+.container{
+  -webkit-filter: brightness(200%) contrast(100%) saturate(100%);
+  filter: brightness(200%) contrast(100%) saturate(100%);
+}
+                            </pre>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 在线演示</h5>
+                                <p><a href="http://www.htmleaf.com/Demo/201606213630.html" target="_blank"><i class="fa fa-eye"></i> 点击链接查看在线演示</a></p>
+                                <p><a href="http://down.htmleaf.com/1606/201606211731.zip"><i class="fa fa-download"></i> 下载DEMO</a></p>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 浏览器支持</h5>
+                                <p>CSS <code>filter</code>属性的浏览器兼容性列表可以查看下图：</p>
+                                <p><a href="http://caniuse.com/#feat=css-filters" target="_blank"><img src="http://img.htmleaf.com/1606/caniuse-css3-filter.jpg" width="800" alt="css filter属性的浏览器兼容列表"></a></p>
+                                <h5><span class="glyphicon glyphicon-paperclip"></span> 相关阅读</h5>
+                                <ul>
+                                    <li><a href="https://dvcs.w3.org/hg/FXTF/raw-file/tip/filters/index.html#FilterProperty"
+                                            target="_blank">CSS Filter Effects Module</a></li>
+                                    <li><a href="http://dev.w3.org/csswg/css-fonts/#font-style-prop" target="_blank">CSS Font Module Level 3</a></li>
+                                    <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS/filter" target="_blank">MDN filter</a></li>
+                                    <li><a href="http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/201603293278.html">CSS属性参考 | background-blend-mode</a></li>
+                                </ul>
+                            </div>
+                            <div class="jq-post-nav">
+                                <div class="jq-post-prev">
+                                    <strong>Previous:</strong><br /> 上一篇：
+                                    <a href='http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/font-synthesis.html'>CSS属性参考 | font-synthesis</a>
+                                </div>
+                                <div class="jq-post-next">
+                                    <strong>Next:</strong><br /> 下一篇：
+                                    <a href='http://www.htmleaf.com/ziliaoku/qianduanjiaocheng/isolation.html'>CSS属性参考 | isolation</a>
+                                </div>
+                                <div class="clr"></div>
+                            </div>
+                        </article>
+                        <div class="clr"></div>
+                    </div>
+
+            </div>
+        </div>
+    </div>
+    <a href="#0" class="cd-top">返回顶部</a>
+</body>
+
+</html>
