@@ -22,6 +22,8 @@ public static void RegisterRoutes(RouteCollection routes)
 ### Content 文件夹
 Content 文件夹用于静态文件，比如样式表（CSS 文件）、图表和图像。Visual Web Developer 会自动向 Content 文件夹添加一个 themes 文件夹。这个 themes 文件夹存放 jQuery 样式和图片。
 
+### fonts
+放置图标字体文件，比如流行的FontAwesome字体等。
 
 ### Controllers 文件夹
 用来放置控制器,Controllers 文件夹包含负责处理用户输入和响应的控制器类。MVC 要求所有控制器文件的名称以 "Controller" 结尾。例如：HomeController.cs
@@ -42,8 +44,15 @@ Models 文件夹包含表示应用程序模型的类。模型存有并操作应�
 ### Views/Web.config 文件
 这个文件里面的配置，可以阻止直接访问这里的页面，必须通过action来呈现
 
+
+### favicon.ico
+浏览器地址栏图标，在HTML的head标签中引用。
 ### Global.asax
 全局应用程序配置，主要用于MVC路由设置
+
+
+### packages.config
+Nuget配置文件
 
 ### 被隐藏的文件夹：bin
 项目编译的程序集及不在GAC目录中引用的程序集
