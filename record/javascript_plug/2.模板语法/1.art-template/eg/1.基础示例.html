@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="template-web.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div id="content">
+
+    </div>
+    <script id="test" type="text/html">
+        <p>姓名：{{name}}</p>
+        <p>年龄：{{age}}</p>
+        <p>性别：{{sex}}</p>
+    </script>
+    <script>
+        var myData={
+            name:"李明",
+            age:23,
+            sex:"男"
+        };
+
+ var html=template("test",myData);
+        document.getElementById("content").innerHTML=html;
+    </script>
+</body>
+</html>
