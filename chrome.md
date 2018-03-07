@@ -1,42 +1,57 @@
-### 经典插件
+### 必备插件
 ---
-#### 1. xmarks  书签管理器
+#### Axure RP
+用来查看Axure的原型图的
+
+#### Vue Devtools
+用来增强chrome调试Vue
+
+#### Kami (formerly Notable PDF)
+用来增强chrome查看PDF的，可以备注并且实时云同步
+
+#### xmarks  书签管理器
 这个的强大之处在于他可以同时更新chrome、Firefox、IE！而且没有被墙
 
-#### 2.chrome下载管理器
+#### AdBlock
+介绍：用来屏蔽牛皮癣广告的
+下载地址：https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
+
+#### Crxmouse 鼠标快捷键
+
+#### chrome下载管理器
 可以管理下载页面上的任何东西，包括css,js
 
-#### 3. Aweb 可以搜索各种前端插件，很强大
+#### search2
+介绍：定义你自己的搜索习惯，很强大
+下载地址：https://chrome.google.com/webstore/detail/search2/godjlopkhiadfppdjhbekbppchinkmpi
+
+#### 扩展程序捕捉网页截图 - FireShot的
+介绍：截取网页局部，全部等，可以生成图片、PDF，
+下载地址：https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
+
+#### 扩展程序有道词典Chrome划词插件
+介绍：可以在页面中划词看到翻译
+下载：https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8chrome%E5%88%92%E8%AF%8D%E6%8F%92%E4%BB%B6/eopjamdnofihpioajgfdikhhbobonhbb
+
+#### infinity
+说明：常用书签管理器，在Chrome商店找不到了
+官网：http://www.infinitynewtab.com/
+
+### 其他
+####  Aweb 可以搜索各种前端插件，很强大
 网址：https://www.awesomes.cn/
 
-#### 4. ChromeSnifferPlus 可以搜索各种前端插件，很强大 
+#### ChromeSnifferPlus 可以搜索各种前端插件，很强大 
 Chrome 探测器，可以探测正在使用的开源软件或者 js 类库，开发者必备
 GitHub地址：https://github.com/justjavac/ChromeSnifferPlus
 中文介绍：https://github.com/justjavac/ChromeSnifferPlus/blob/master/README_zh_CN.md
 
-#### 5.Pesticide
+#### Pesticide
 介绍：前端开发插件，将可视范围根据页面的css进行分块！
 下载地址：https://chrome.google.com/webstore/detail/pesticide-for-chrome/bblbgcheenepgnnajgfpiicnbbdmmooh
 
-#### 6.AdBlock
-介绍：用来屏蔽牛皮癣广告的
-下载地址：https://chrome.google.com/webstore/detail/adblock/gighmmpiobklfepjocnamgkkbiglidom
 
-#### 7.search2
-介绍：定义你自己的搜索习惯，很强大
-下载地址：https://chrome.google.com/webstore/detail/search2/godjlopkhiadfppdjhbekbppchinkmpi
 
-#### 8.扩展程序捕捉网页截图 - FireShot的
-介绍：截取网页局部，全部等，可以生成图片、PDF，
-下载地址：https://chrome.google.com/webstore/detail/take-webpage-screenshots/mcbpblocgmgfnpjjppndjkmgjaogfceg
-
-#### 9.扩展程序有道词典Chrome划词插件
-介绍：可以在页面中划词看到翻译
-下载：https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8chrome%E5%88%92%E8%AF%8D%E6%8F%92%E4%BB%B6/eopjamdnofihpioajgfdikhhbobonhbb
-
-#### 10.infinity
-说明：常用书签管理器，在Chrome商店找不到了
-官网：http://www.infinitynewtab.com/
 
 #### 11.谷歌翻译 - 智能字典 划词翻译词典
 说明：直接搜谷歌翻译就行，同有道词典
