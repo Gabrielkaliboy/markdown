@@ -160,7 +160,7 @@ xdebug.remote_autostart = 1
 markdown文档预览
 
 #### Markdown PDF
-将markdown文档转换成pdf的利器
+将markdown文档转换成npdf的利器
 
 ####  OneDark Pro
 一个用来设置主题的插件，可以让代码具有和atom一样的显示风格。
