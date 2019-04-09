@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="todo-list-example">
+        <form v-on:submit.prevent="addNewTodo">
+            <label for="new-todo">新增一个todo</label>
+            <input v-model="newTodoText" id="new-todo" placeholder="例如：喂猫 ">
+            <button>添加</button>
+        </form>
+        <ul>
+            <li is="todo-item" v-for="(todo,index) in todos" v-bind:key="todo.id" v-bind:title="todo.title" v-on:remove="todos.splice(index,1)"></li>
+        </ul>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component("todo-item",{
+        props:["title"],
+        template:`
+            <li>
+                {{ title }}
+                <button v-on:click="$emit(\'remove')">删除</button>
+            </li>
+        `
+    });
+    var app = new Vue({
+        el:"#todo-list-example",
+        data:{
+            newTodoText:"",
+            todos:[
+                {id:1,title:"洗碗"},
+                {id:2,title:"刷牙"},
+                {id:3,title:"玩游戏"},
+            ],
+            nextTodoId:4
+        },
+        methods: {
+            addNewTodo:function(){
+                this.todos.push(
+                    {
+                        id:this.nextTodoId++,
+                        title:this.newTodoText
+                    }
+                )
+            }
+        },
+    });
+</script>
+</html>

@@ -1,0 +1,98 @@
+1. 
+    v-bind
+        v-bind:title="message"
+        简写： :title="message"
+    v-for
+    v-if
+    v-on
+        v-on:click="reverseMessage"
+        简写: @click:"reverseMessage"
+    v-model
+	v-once：只绑定一次
+	v-html 原始的html
+
+
+2. 
+    计算属性缓存 computed
+    methods方法
+    监听watch()
+
+3. 样式
+     v-bind:class="{ active: isActive, 'text-danger': hasError }"
+     写成对象形式：
+        <div v-bind:class="classObject"></div>
+        data: {
+            classObject: {
+                active: true,
+                'text-danger': false
+            }
+        
+        }
+
+    使用计算属性
+    使用数组
+
+4. 组件
+    4.1 每个组件必须只有一个根元素
+    4.2 组件prop属性最好小写，否则可能报错，解析的时候，大写会变成小写
+    4.3 子组件绑定 $emit()方法来传动作给父组件              <button v-on:click="$emit('enlarge-text')">按钮</button>触发父组件的enlarge-text事件
+    4.4 子组件中$emit(),可以跟两个参数，第一个是要触发的父组件的函数名，第二个是要传递给父组件的值      <button v-on:click="$emit('enlarge-text',0.1)">按钮</button>
+        父组件用的函数中，用$event来接收这个参数    v-on:enlarge-text="postFontSize+=$event"
+
+5. v-if
+    5.1 vue会高效的复用相同的dom，要想不被复用，可以在html中添加key=""
+    5.2 v-show 不支持template，也不支持v-else
+
+6. 由于 JavaScript 的限制，Vue 不能检测以下变动的数组：
+    6.1 当你利用索引直接设置一个项时
+    6.2 当你修改数组的长度时
+        var vm = new Vue({
+            data: {
+                items: ['a', 'b', 'c']
+            }
+        })
+        vm.items[1] = 'x' // 不是响应性的
+        vm.items.length = 2 // 不是响应性的
+
+        为了解决第一类问题，以下两种方式都可以实现和 
+        Vue.set(vm.items, indexOfItem, newValue)
+        vm.items.splice(indexOfItem, 1, newValue)
+        vm.$set(vm.items, indexOfItem, newValue)
+
+        为了解决第二类问题，你可以使用 splice
+        vm.items.splice(newLength)
+
+7. 是由于 JavaScript 的限制，Vue 不能检测对象属性的添加或删除
+    var vm = new Vue({
+    data: {
+        a: 1
+    }
+    })
+    // `vm.a` 现在是响应式的
+
+    vm.b = 2
+    // `vm.b` 不是响应式的
+
+    对于已经创建的实例，Vue 不能动态添加根级别的响应式属性。但是，可以使用 Vue.set(object, key, value) 方法向嵌套对象添加响应式属性。例如，对于：
+    var vm = new Vue({
+        data: {
+            userProfile: {
+            name: 'Anika'
+            }
+        }
+    })
+    vm.$set(vm.userProfile, 'age', 27)
+
+
+    有时你可能需要为已有对象赋予多个新属性，比如使用 Object.assign() 或 _.extend()。在这种情况下，你应该用两个对象的属性创建一个新的对象。所以，如果你想添加新的响应式属性，不要像这样：
+
+    Object.assign(vm.userProfile, {
+        age: 27,
+        favoriteColor: 'Vue Green'
+    })
+
+    应该：
+    Object.assign(vm.userProfile, {
+        age: 27,
+        favoriteColor: 'Vue Green'
+    })

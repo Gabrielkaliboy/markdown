@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app">
+        <h1 v-if="awesome">我是if</h1>
+        <h1 v-else>我是else</h1>
+        <button v-on:click="myClick">点击</button>
+    </div>
+    <div id="app1">
+        <template v-if="awesome">
+            <h1>我是if</h1>
+        </template>
+        <template v-else>
+            <h1>我是else</h1>
+        </template>
+        <button v-on:click="myClick">点击</button>
+    </div>
+    <div id="app2">
+        <template v-if="loginType==='username'">
+            <label for="username"></label>
+            <input type="text" placeholder="请输入你的用户名" value="">
+        </template>
+        <template v-else>
+            <label for="email"></label>
+            <input type="email" placeholder="请输入你email" value="">
+        </template>
+        <button v-on:click="myClick">点击</button>
+    </div>
+    <div id="app3">
+        <template v-if="loginType==='username'">
+            <label for="username">用户名：</label>
+            <input type="text" placeholder="请输入你的用户名" value="" key="usernameInput">
+        </template>
+        <template v-else>
+            <label for="email">邮箱：</label>
+            <input type="email" placeholder="请输入你email" value="" key="emailInput">
+        </template>
+        <button v-on:click="myClick">点击</button>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    // 解决二中的问题，添加key
+    var app3 = new Vue({
+        el: "#app3",
+        data: {
+            loginType: "username"
+        },
+        methods: {
+            myClick: function () {
+                this.loginType === "username" ? this.loginType = "email" : this.loginType = "username";
+            }
+        }
+    });
+
+    // 用户输入的内容会被复用，并未清空，
+    var app2 = new Vue({
+        el: "#app2",
+        data: {
+            loginType: "username"
+        },
+        methods: {
+            myClick: function () {
+                this.loginType === "username" ? this.loginType = "email" : this.loginType = "username";
+                // if(this.loginType === "username"){
+                //     this.loginType="email"
+                // }else{
+                //     this.loginType="username";
+                // }
+            }
+        }
+    });
+    var app1 = new Vue({
+        el: "#app1",
+        data: {
+            awesome: true
+        },
+        methods: {
+            myClick: function () {
+                if (Math.random() > 0.5) {
+                    this.awesome = !this.awesome;
+                }
+            }
+        }
+    });
+    var app = new Vue({
+        el: "#app",
+        data: {
+            awesome: true
+        },
+        methods: {
+            myClick: function () {
+                if (Math.random() > 0.5) {
+                    this.awesome = !this.awesome;
+                }
+            }
+        },
+    });
+</script>
+
+</html>

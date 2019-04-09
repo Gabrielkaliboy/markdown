@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <p>初始的消息是：{{ message }}</p>
+        <p>经过计算反转以后的消息是：{{reverseMessage}}</p>
+
+    </div>
+    <div id="app1">
+        <p> 不使用计算，只使用函数：{{ fullName}}</p>
+    </div>
+    <div id="app2">
+        <p> 使用计算进行监听：{{ fullName}}</p>
+    </div>
+    <div id="app3">
+        <p>计算属性可以添加setter：{{ fullName }}</p>
+        <p>{{lastName}}</p>
+        <p>{{firstName}}</p>
+    </div>
+    <div id="app4">
+        <p>问一个yes或者no的问题</p>
+        <input type="text" v-model="question">
+        <p>{{answer}}</p>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/axios@0.12.0/dist/axios.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/lodash@4.13.1/lodash.min.js"></script>
+<script>
+    let app4 = new Vue({
+        el:"#app4",
+        data:{
+            question:"",
+            answer:"你不问我问题我是无法回答你的"
+        },
+        watch:{
+            // 如果question发生改变，这个函数就会执行
+            question:function (newQuestion,oldQuestion){
+                
+            }
+        }
+    });
+    let app3 = new Vue({
+        el:"#app3",
+        data:{
+            lastName:"bar",
+            firstName:"foo"
+        },
+        computed:{
+            fullName:{
+                get:function(){
+                    return this.firstName+" "+this.lastName;
+                },
+                set:function(newValue){
+                    var names = newValue.split("");
+                    this.firstName=names[0];
+                    this.lastName=names[names.length-1]
+                }
+            }
+        }
+    });
+    let app2 = new Vue({
+        el:"#app2",
+        data:{
+            firstName:"Foo",
+            lastName:"Bar"
+        },
+        computed:{
+            fullName:function(){
+                return this.firstName+" "+this.lastName;
+            }
+        }
+    });
+    let app = new Vue({
+        el:"#app",
+        data:{
+            message:"hello"
+        },
+        computed: {
+            reverseMessage:function(){
+                return this.message.split("").reverse().join("");
+            }
+        },
+    });
+
+    let app1 = new Vue({
+        el:"#app1",
+        data:{
+            firstName:"foo",
+            lastName:"bar",
+            fullName:"foo bar"
+        },
+        watch:{
+            firstName:function(val){
+                this.fullName=val+" "+this.lastName;
+            },
+            lastName:function(val){
+                this.fullName=this.firstName+" "+val;
+            }
+        }
+    });
+</script>
+</html>

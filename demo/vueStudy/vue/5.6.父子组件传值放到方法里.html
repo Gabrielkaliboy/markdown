@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app4">
+        <div :style="{fontSize:postFontSize+'em'}">
+            <blog v-for="post in posts" :myValue="post" :key="post.id" v-on:enlarge-text="onEnlargeText">
+            </blog>
+        </div>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component("blog", {
+        props: ["myvalue"], //这里不能写myValue,会报错
+        template: `
+        <div >
+            <h3>{{myvalue.title}}</h3>
+            <button v-on:click="myclick">按钮</button>
+            <div>{{myvalue.publishAt}}</div>
+            <hr>
+            <p>{{myvalue.content}}</p>
+            <p>{{myvalue.comment}}</p>
+        </div>
+            `,
+        methods:{
+            myclick:function(){
+                // 记得这里要加this
+                this.$emit('enlarge-text',0.1);//第一个参数是调用父组件的函数名，第二个参数为传入的参数
+            }
+        }
+    });
+    var app4 = new Vue({
+        el: "#app4",
+        data: {
+            postFontSize: 1,
+            posts: [{
+                    id: 1,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                },
+                {
+                    id: 2,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                },
+                {
+                    id: 3,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                }
+            ]
+        },
+        methods: {
+            onEnlargeText:function(enlargeAmount){
+                this.postFontSize+=enlargeAmount;
+            }
+        },
+    });
+</script>
+
+</html>

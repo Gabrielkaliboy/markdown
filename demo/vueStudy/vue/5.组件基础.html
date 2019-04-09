@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <button-counter></button-counter>
+    </div>
+
+    <!-- 组件的复用 -->
+    <div id="app1">
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+
+    </div>
+
+    <!-- 通过prop向子组件传递数据 -->
+    <div id="app2">
+        <blog-post title="title"></blog-post>
+        <blog-post title="title"></blog-post>
+        <blog-post title="title"></blog-post>
+        <blog-post title="title"></blog-post>
+    </div>
+    <div id="app3">
+        <blog-post v-for="post in posts" :title="post.title" :key="post.key"></blog-post>
+    </div>
+
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component("button-counter",{
+        // 组件中的data必须为一个函数，否则会影响整个组件
+        data:function(){
+            return {
+                count:0
+            }
+        },
+        template:"<button @click='count++'>你点击了我{{count}}次</button>",
+    });
+
+    // 组件之间传递数据
+    Vue.component("blog-post",{
+        props:["title"],
+        template:'<h3>{{title}}</h3>'
+    });
+
+    
+    // 组件之间传递数据
+    var app3 = new Vue({
+        el:"#app3",
+        data:{
+            posts:[
+                {id:1,title:"dsaf adsf asdf"},
+                {id:2,title:" ni hao "},
+                {id:3,title:"就却依然"}
+            ]
+        }
+    });
+    var app2 = new Vue({
+        el:"#app2",
+
+    });
+    var app = new Vue({
+        el:"#app"
+    });
+    var app1 = new Vue({
+        el:"#app1"
+    });
+</script>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="app4">
+        <blog v-for="post in posts" :myValue="post" :key="post.id" :title="post.title" :content="post.content" :comment="post.comment">
+        </blog>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    Vue.component("blog", {
+        props: ["myValue","title","content","publishAt","comment"],
+        template: `
+        <div >
+            <h3>{{title}}</h3>
+            <div>{{publishAt}}</div>
+            <hr>
+            <p>{{content}}</p>
+            <p>{{comment}}</p>
+            
+
+        </div>
+            `
+    });
+    var app4 = new Vue({
+        el: "#app4",
+        data: {
+            posts: [{
+                    id: 1,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                },
+                {
+                    id: 2,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                },
+                {
+                    id: 3,
+                    title: "你好",
+                    content: "你好你好你好你好你好你好你好你好你好你好",
+                    publishAt: "2019.3.21",
+                    comment: "11111"
+                }
+            ]
+        }
+    });
+</script>
+
+</html>

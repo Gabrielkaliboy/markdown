@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+        .static{
+            background: rgb(0, 47, 255);
+        }
+        .active{
+            background: #0f0;
+        }
+        .error,.text-danger{
+            color:#f00;
+        }
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <div :class='{active:Mactive,error:Merror}'  class="static" id="app" @click="myclick">
+        看我
+    </div>
+    <hr>
+    <div id="app1" class="static" :class='classObject' @click=myclick>
+        点击
+    </div>
+    <hr>
+    <div class="static" id="app2" :class="classObject">
+        点击
+    </div>
+    <hr>
+    <div id="app3" class="static" :class="[activeClass,errorClass]">
+        点击3
+    </div>
+    <div id="app4">
+        <myComponent>
+
+        </myComponent>
+    </div>
+</body>
+<script src="vue.js"></script>
+<script>
+    // 组件
+    Vue.component('myComponent',{
+        template:"<p class='foo bar'>Hi</p>"
+    });
+
+    let app4 = new Vue({
+        el:"#app4",
+        
+    });
+
+    // 数组的语法：
+    let app3 = new Vue({
+        el:"#app3",
+        data:{
+            activeClass:'active',
+            errorClass:'text-danger'
+        }
+    });
+    // 利用计算属性
+    let app2 = new Vue({
+        el:"#app2",
+        data:{
+            active:true,
+            error:null
+        },
+        computed: {
+            classObject:function(){
+                return {
+                    active:this.active && !this.error,
+                    error:false
+                }
+            }
+        },
+    });
+    // 数据对象可以直接放在data里面
+    let app1 = new Vue({
+        el:"#app1",
+        data:{
+            "classObject":{
+                active:false,
+                error:false
+            }
+        },
+        methods:{
+            myclick:function(){
+                this.classObject.active = true;
+                this.classObject.error = true;
+            }
+        }
+    });
+    let app = new Vue({
+        el:"#app",
+        data:{
+            "Mactive":false,
+            "Merror":false
+        },
+        methods: {
+            myclick:function(){
+                this.Mactive=true;
+                this.Merror=true;
+            }
+        },
+    });
+</script>
+</html>
