@@ -49,3 +49,17 @@ vue create hello-world
 ```shell
 vue ui
 ```
+
+## npm其他命令
+
+```shell
+npm install mockjs -D
+```
+
+这个命令会被写入devDependencies里面
+
+```shell
+npm install -d 就是npm install --save-dev
+
+npm insatll -s 就是npm install --save
+```
