@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app1">
+        <blog-post post-title="123"></blog-post>
+    </div>
+    <div id="app2">
+        <blog title="你好">
+        </blog>
+    </div>
+    <div id="app3">
+        <blog-3></blog-3>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script>
+    Vue.component("blog-3",{
+        props:
+    })
+    Vue.component("blog-post",{
+        props:["postTitle"],
+        template:"<h3>{{postTitle}}</h3>"
+    });
+
+    Vue.component("blog",{
+        props:{
+            title:String,
+            likes:Number,
+            isPublished:Boolean,
+            author:Object,
+            callBack:Function,
+            contactsPromise:Promise
+        },
+        template:`
+            <h3>{{title}}</h3>
+        `
+    });
+    var app2 = new Vue({
+        el:"#app2"
+    });
+    var app1 = new Vue({
+        el:"#app1",
+    });
+</script>
+</html>
