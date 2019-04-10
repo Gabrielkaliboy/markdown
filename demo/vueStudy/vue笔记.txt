@@ -39,6 +39,10 @@
     4.4 子组件中$emit(),可以跟两个参数，第一个是要触发的父组件的函数名，第二个是要传递给父组件的值      <button v-on:click="$emit('enlarge-text',0.1)">按钮</button>
         父组件用的函数中，用$event来接收这个参数    v-on:enlarge-text="postFontSize+=$event"
 
+    4.5 对于第二条的补充
+        TML 中的特性名是大小写不敏感的，所以浏览器会把所有大写字符解释为小写字符。这意味着当你使用 DOM 中的模板时，
+        camelCase (驼峰命名法) 的 prop 名需要使用其等价的 kebab-case (短横线分隔命名) 命名
+
 5. v-if
     5.1 vue会高效的复用相同的dom，要想不被复用，可以在html中添加key=""
     5.2 v-show 不支持template，也不支持v-else
@@ -96,3 +100,10 @@
         age: 27,
         favoriteColor: 'Vue Green'
     })
+
+
+8. Router
+9. 自定义事件
+    不同于组件和 prop，事件名不存在任何自动化的大小写转换。
+    不同于组件和 prop，事件名不会被用作一个 JavaScript 变量名或属性名，所以就没有理由使用 camelCase 或 PascalCase 了。
+    并且 v-on 事件监听器在 DOM 模板中会被自动转换为全小写 (因为 HTML 是大小写不敏感的)，所以 v-on:myEvent 将会变成 v-on:myevent——导致 myEvent 不可能被监听到。
