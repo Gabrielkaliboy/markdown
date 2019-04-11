@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .no-name {
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <slot-father>
+            <div slot="father">1</div>
+        </slot-father>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script>
+    Vue.component("slot-son", {
+        template: ` 
+        <div class="slotcontent">
+            <ul>
+                <div slot="son">2</div>
+                <li v-for="item in items">{{item.text}}</li>
+            </ul>
+        </div>
+        `,
+        data:function(){
+            return {
+                items:[
+                    {id:1,text:'第1段'},
+                    {id:2,text:'第2段'},
+                    {id:3,text:'第3段'},
+                ]
+            }
+        }
+    });
+    Vue.component("slot-father",{
+        template:`
+            <div>
+                <h3>3</h3>
+                <slot></slot>
+                <slot-son></slot-son>
+            </div>
+        `
+    });
+
+    var app = new Vue({
+        el:"#app"
+    });
+</script>
+
+</html>

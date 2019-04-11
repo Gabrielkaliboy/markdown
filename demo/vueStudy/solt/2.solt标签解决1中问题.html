@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .no-name{
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="app">
+        <div class="solts">
+            solt 用法
+            <slot-child>
+                <div class="no-name">我是嵌在子组件内不具有属性名的标签，没有使用slot标签，我不会显示在父组件中</div>
+            </slot-child>
+        </div>
+    </div>
+</body>
+<script src="../vue.js"></script>
+<script>
+    Vue.component("slot-child", {
+        template: `
+        <div class="slot-child">
+            <slot></slot>
+            我是slot的子组件，父组件slot-child标签中有别的东西，如果不使用solt,我会将他覆盖
+        </div>
+        `
+    });
+
+    var app = new Vue({
+        el:"#app"
+    });
+</script>
+
+</html>

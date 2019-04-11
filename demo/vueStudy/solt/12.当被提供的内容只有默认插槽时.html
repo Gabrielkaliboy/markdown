@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <div id="app">
+        <my-model v-slot:test="myProps">
+            {{myProps.user.lastName}}
+        </my-model>
+    </div>
+
+</body>
+<script src="../vue.js"></script>
+<script>
+    Vue.component("my-model",{
+        template:   `
+            <span>
+                <slot v-bind:user="user" name='test'>{{user.firstName}}</slot>
+            </span>
+        `,
+        data:function(){
+            return {
+                user:{
+                    firstName:"李",
+                    lastName:"明"
+                }
+            }
+        }
+    });
+
+    var app = new Vue({
+        el:"#app",
+    });
+</script>
+</html>
