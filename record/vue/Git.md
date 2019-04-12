@@ -48,3 +48,17 @@ git push -u origin master
 
 稍等几分钟,
 这样本地代码已经推送到github仓库了，去githubt仓库刷新即可。
+
+### 如果想修改本地与远程仓库的连接
+
+修改GitHub上面的仓库，改为别的
+
+1、修改命令
+
+git remote origin set-url +URL
+
+2、先删后加
+
+git remote rm origin
+
+git remote add origin  +远程仓库地址
