@@ -49,16 +49,108 @@ git push -u origin master
 稍等几分钟,
 这样本地代码已经推送到github仓库了，去githubt仓库刷新即可。
 
-### 如果想修改本地与远程仓库的连接
+### 如果想修改本地与远程仓库的连接(git remote相关)
 
-修改GitHub上面的仓库，改为别的
+#### 直接clone一个仓库
 
-1、修改命令
+```shell
+$: git clone git@search.ued.taobao.net:projects/search.git
+```
 
+#### 另外一种clone方式：
+
+```shell
+# 创建目录初始化本地仓库
+$: mkdir search && cd search
+$: git init
+# 添加远程仓库路径
+$: git remote add github git@github.com:yyfrankyy/search.git
+# 实际上，pull 就是 fetch + merge
+$: git pull github --all --tags
+```
+
+#### 把工作目录迁移到github上面：
+
+```shell
+$: git remote add github git@github.com:yyfrankyy/search.git
+$: git push github --all --tags
+```
+
+#### 查看远程仓库的地址
+
+```shell
+$: git remote -v
+origin    git@search.ued.taobao.net:projects/search.git (fetch)
+origin	  git@search.ued.taobao.net:projects/search.git (push)
+github	  git@github.com:yyfrankyy/search.git (fetch)
+github	  git@github.com:yyfrankyy/search.git (push)
+```
+
+#### 查看远程仓库名字
+
+```shell
+git remote
+origin
+```
+
+#### 重命名远程仓库
+
+把github命名为gh
+
+```shell
+$: git remote rename github gh
+$: git remote
+origin
+gh
+```
+
+#### 修改GitHub上面的仓库，改为别的
+
+```shell
 git remote origin set-url +URL
+```
 
-2、先删后加
+#### 先删后加
 
+```shell
 git remote rm origin
 
 git remote add origin  +远程仓库地址
+```
+
+#### 从远程仓库抓取数据，更新本地仓库：
+
+```shell
+$: git fetch origin
+remote: Counting objects: 58, done.
+remote: Compressing objects: 100% (41/41), done.
+remote: Total 44 (delta 24), reused 1 (delta 0)
+Unpacking objects: 100% (44/44), done.
+From git://search.ued.taobao.net:projects/search.git
+ * [new branch]      product     -> origin/product
+```
+
+#### 查看远程仓库信息，可用于跟踪别人的push
+
+```shell
+$: git remote show origin
+* remote origin
+  Fetch URL: git@search.ued.taobao.net:projects/search.git
+  Push  URL: git@search.ued.taobao.net:projects/search.git
+  HEAD branch: master
+  Remote branches:
+    master  tracked
+    p4popt  tracked
+    prepub  tracked
+    product tracked
+  Local branches configured for 'git pull':
+    master  merges with remote master
+    p4popt  merges with remote p4popt
+    prepub  merges with remote prepub
+    product merges with remote product
+  Local refs configured for 'git push':
+    master  pushes to master  (up to date)
+    p4popt  pushes to p4popt  (up to date)
+    prepub  pushes to prepub  (up to date)
+    product pushes to product (up to date)
+```
