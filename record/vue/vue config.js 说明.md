@@ -1,5 +1,7 @@
 # vue.config.js文件说明
 
+全局 CLI 配置
+
 [vue.config.js说明](https://cli.vuejs.org/zh/config/#vue-config-js)
 
 ```javascript
@@ -35,4 +37,19 @@ module.exports = {
       }
     }
   }
+```
+
+## vue-cli-service
+
+在一个 Vue CLI 项目中，@vue/cli-service 安装了一个名为 vue-cli-service 的命令。
+
+这是你使用默认 preset 的项目的 package.json：
+
+```JSON
+{
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build"
+  }
+}
 ```
