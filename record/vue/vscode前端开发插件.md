@@ -42,6 +42,9 @@ css种拾取颜色
 
 都是用于版本查看
 
+## Path Intellisense
+路径自动补全
+
 ## JavaScript (ES6) code snippets
 
 es6快速输入
