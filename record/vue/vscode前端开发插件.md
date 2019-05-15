@@ -42,6 +42,9 @@ css种拾取颜色
 
 都是用于版本查看
 
+## Settings Sync
+这个插件非常重要！看我写的[使用说明](https://blog.csdn.net/Gabriel_wei/article/details/90236352)
+
 ## Path Intellisense
 路径自动补全
 
