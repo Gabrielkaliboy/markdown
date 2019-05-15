@@ -57,7 +57,7 @@ es6快速输入
 web服务器
 
 ## Live Share
-团队协作用的
+团队协作
 
 ## Markdown All in One
 
