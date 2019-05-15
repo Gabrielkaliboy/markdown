@@ -22,7 +22,7 @@
 
 ## Color Picker
 
-css种拾取颜色
+css种拾取颜色de 
 
 ## Debugger for Chrome
 
