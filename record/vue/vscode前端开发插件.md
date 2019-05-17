@@ -10,7 +10,23 @@
 
 ## Beautify
 
-代码格式化
+代码格式化,用的人巨多
+
+## Prettier - Code formatter
+prettier官方插件，代码格式化。这个很棒
+
+## EditorConfig for VS Code
+EditorConfig帮助开发人员定义和维护一致的编码风格在不同的编辑器和IDE。EditorConfig项目包含一个文件格式定义编码风格和文本编辑器插件的集合。EditorConfig文件易于阅读并且他们与版本控制器很好地合作。
+
+
+## Prettify JSON
+格式化JSON
+
+## Quokka.js
+不需要手动运行，行内显示变量结果,这个对js来说很棒
+
+## Project Manager
+快速切换项目
 
 ## Bracket Pair Colorizer
 
@@ -36,6 +52,9 @@ css种拾取颜色de
 
 检查js
 
+## Code Runner
+运行选中代码段（支持多数语言）
+
 ## Git History
 
 ## GitLens — Git supercharged
@@ -47,6 +66,21 @@ css种拾取颜色de
 
 ## Path Intellisense
 路径自动补全
+
+## Document This
+	注释文档生成
+## Debugger for Chrome
+	调试Chrome
+
+## Color Picker
+	拾色器
+## IntelliSense for css class names
+css class输入提示  可能会引起死机
+## npm Intellisense
+导入模块时，提示已安装模块名称
+
+## npm
+运行npm命令
 
 ## JavaScript (ES6) code snippets
 
